@@ -50,7 +50,7 @@ export default function SeriesDetailPage({ params }: PageProps) {
             {series.plays} lượt làm bài
           </span>
           <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-black/25 text-white text-xs font-bold border border-white/20">
-            8 bài tests (4 Reading • 4 Listening)
+            {series.readingTests.length + series.listeningTests.length} bài tests ({series.readingTests.length} Reading • {series.listeningTests.length} Listening)
           </span>
         </div>
 
@@ -59,7 +59,7 @@ export default function SeriesDetailPage({ params }: PageProps) {
         </h1>
 
         <p className="text-white text-sm sm:text-base leading-relaxed font-semibold max-w-3xl opacity-95">
-          Trọn bộ 8 bài tests chuẩn quốc tế gồm <b>4 đề Reading (12 Passages • 160 câu)</b> và <b>4 đề Listening (16 Parts • 160 câu)</b>. Trải nghiệm thi máy bấm giờ thi thật và giải thích chi tiết 4 bước độc quyền theo <b>Linearthinking</b>.
+          {series.description || `Trọn bộ đề thi chuẩn gồm ${series.readingTests.length} đề Reading và ${series.listeningTests.length} đề Listening. Trải nghiệm thi máy bấm giờ thi thật và giải thích chi tiết 4 bước độc quyền theo Linearthinking.`}
         </p>
 
         <div className="flex flex-wrap items-center gap-3 pt-2 text-xs font-black">

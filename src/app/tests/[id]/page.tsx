@@ -71,14 +71,19 @@ export default function TestRunnerPage() {
       }
     });
 
-    const ratio = correctCount / (allQuestions.length || 1);
-    let band = "4.0";
-    if (ratio >= 0.9) band = "9.0";
-    else if (ratio >= 0.8) band = "8.0";
-    else if (ratio >= 0.7) band = "7.5";
-    else if (ratio >= 0.6) band = "6.5";
-    else if (ratio >= 0.5) band = "5.5";
-    else if (ratio >= 0.4) band = "5.0";
+    // Official IELTS Academic Reading Band Conversion Table (out of 40)
+    let band = "3.5";
+    if (correctCount >= 39) band = "9.0";
+    else if (correctCount >= 37) band = "8.5";
+    else if (correctCount >= 35) band = "8.0";
+    else if (correctCount >= 33) band = "7.5";
+    else if (correctCount >= 30) band = "7.0";
+    else if (correctCount >= 27) band = "6.5";
+    else if (correctCount >= 23) band = "6.0";
+    else if (correctCount >= 19) band = "5.5";
+    else if (correctCount >= 15) band = "5.0";
+    else if (correctCount >= 13) band = "4.5";
+    else if (correctCount >= 10) band = "4.0";
 
     setScore({ correct: correctCount, total: allQuestions.length, band });
     setIsSubmitted(true);
@@ -93,10 +98,16 @@ export default function TestRunnerPage() {
   };
 
   const scrollToQuestion = (qId: number) => {
-    const el = document.getElementById(`question-card-${qId}`);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
+    const pIdx = testData.passages.findIndex(p => p.questions.some(q => q.id === qId));
+    if (pIdx !== -1 && pIdx !== activePassageIdx) {
+      setActivePassageIdx(pIdx);
     }
+    setTimeout(() => {
+      const el = document.getElementById(`question-card-${qId}`);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }, 120);
   };
 
   return (
@@ -197,33 +208,69 @@ export default function TestRunnerPage() {
         </div>
       )}
 
-      {/* Question Navigation Palette */}
-      <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-wrap items-center gap-2">
-        <span className="text-xs font-black text-slate-500 mr-2 uppercase tracking-wider">
-          Bảng câu hỏi ({allQuestions.length} câu):
-        </span>
-        {allQuestions.map(q => {
-          const hasAnswer = !!answers[q.id];
-          const isCorrect = isSubmitted && (answers[q.id] || "").trim().toLowerCase() === q.correct.trim().toLowerCase();
+      {/* Question Navigation Palette grouped by Passage */}
+      <div className="p-4 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-3">
+        <div className="flex items-center justify-between border-b border-slate-100 pb-2.5">
+          <div className="flex items-center gap-2">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#e11b22]" />
+            <span className="text-xs font-black text-slate-800 uppercase tracking-wider">
+              Bảng điều hướng câu hỏi ({allQuestions.length} câu • Chuẩn thi thật 3 Passages)
+            </span>
+          </div>
+          <span className="text-xs text-slate-500 font-bold bg-slate-100 px-2.5 py-1 rounded-full">
+            Đã làm: <b className="text-slate-900">{Object.keys(answers).length}</b> / {allQuestions.length} câu
+          </span>
+        </div>
 
-          return (
-            <button
-              key={q.id}
-              onClick={() => scrollToQuestion(q.id)}
-              className={`w-7 h-7 rounded-lg text-xs font-black transition border flex items-center justify-center ${
-                isSubmitted
-                  ? isCorrect
-                    ? "bg-emerald-500 text-white border-emerald-600"
-                    : "bg-[#e11b22] text-white border-red-700"
-                  : hasAnswer
-                  ? "bg-slate-900 text-white border-slate-900"
-                  : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-200"
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          {testData.passages.map((p, pIdx) => (
+            <div 
+              key={p.id} 
+              className={`p-3 rounded-2xl border transition ${
+                activePassageIdx === pIdx 
+                  ? "bg-red-50/70 border-red-200 ring-2 ring-red-100" 
+                  : "bg-slate-50/50 border-slate-200 hover:border-slate-300"
               }`}
             >
-              {q.id}
-            </button>
-          );
-        })}
+              <div className="flex items-center justify-between mb-2">
+                <button
+                  onClick={() => setActivePassageIdx(pIdx)}
+                  className={`text-xs font-black hover:underline flex items-center gap-1 ${
+                    activePassageIdx === pIdx ? "text-[#e11b22]" : "text-slate-700"
+                  }`}
+                >
+                  Passage {p.passageNumber} ({p.questions[0]?.id}–{p.questions[p.questions.length - 1]?.id})
+                </button>
+                <span className="text-[10px] text-slate-500 font-bold bg-white px-2 py-0.5 rounded-full border border-slate-200">
+                  {p.questions.length} câu
+                </span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {p.questions.map(q => {
+                  const hasAnswer = !!answers[q.id];
+                  const isCorrect = isSubmitted && (answers[q.id] || "").trim().toLowerCase() === q.correct.trim().toLowerCase();
+                  return (
+                    <button
+                      key={q.id}
+                      onClick={() => scrollToQuestion(q.id)}
+                      className={`w-7 h-7 rounded-lg text-xs font-black transition border flex items-center justify-center ${
+                        isSubmitted
+                          ? isCorrect
+                            ? "bg-emerald-500 text-white border-emerald-600 shadow-sm"
+                            : "bg-[#e11b22] text-white border-red-700 shadow-sm"
+                          : hasAnswer
+                          ? "bg-slate-900 text-white border-slate-900"
+                          : "bg-white text-slate-700 border-slate-200 hover:bg-slate-100"
+                      }`}
+                    >
+                      {q.id}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Split Screen Container (IDP / BC Test Interface) */}
@@ -432,6 +479,44 @@ export default function TestRunnerPage() {
                 </div>
               );
             })}
+          </div>
+
+          {/* Bottom Passage Switcher Buttons */}
+          <div className="mt-8 pt-4 border-t border-slate-200 flex items-center justify-between gap-3">
+            {activePassageIdx > 0 ? (
+              <button
+                onClick={() => {
+                  setActivePassageIdx(activePassageIdx - 1);
+                  window.scrollTo({ top: 120, behavior: "smooth" });
+                }}
+                className="px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs sm:text-sm transition flex items-center gap-1.5"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                Về Passage {activePassageIdx}
+              </button>
+            ) : <div />}
+
+            {activePassageIdx < testData.passages.length - 1 ? (
+              <button
+                onClick={() => {
+                  setActivePassageIdx(activePassageIdx + 1);
+                  window.scrollTo({ top: 120, behavior: "smooth" });
+                }}
+                className="px-5 py-2.5 rounded-xl bg-[#e11b22] hover:bg-[#b91c1c] text-white font-black text-xs sm:text-sm transition shadow-sm flex items-center gap-1.5 active:scale-95"
+              >
+                Sang Passage {activePassageIdx + 2}
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            ) : (
+              !isSubmitted && (
+                <button
+                  onClick={handleSubmit}
+                  className="px-6 py-2.5 rounded-xl bg-[#e11b22] hover:bg-[#b91c1c] text-white font-black text-xs sm:text-sm transition shadow-md active:scale-95"
+                >
+                  Nộp Bài Toàn Bộ 40 Câu
+                </button>
+              )
+            )}
           </div>
         </div>
       </div>

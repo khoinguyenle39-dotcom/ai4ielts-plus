@@ -3,25 +3,25 @@ import { BookOpen, Clock, Play, Flame, Layers, Search, Filter } from "lucide-rea
 import SyncStatusHub from "@/components/SyncStatusHub";
 
 const CAM_SERIES = [
-  { id: "cam-21", title: "IELTS CAM Inspired 21", testsCount: 8, plays: "154K", badge: "Mới nhất 2026", link: "/tests/cam-20-reading-1", desc: "Trọn bộ 4 Reading & 4 Listening tests cập nhật theo xu hướng đề mới nhất năm 2026." },
-  { id: "cam-20", title: "IELTS CAM Inspired 20", testsCount: 8, plays: "421K", badge: "Phổ biến nhất", link: "/tests/cam-20-reading-1", desc: "Bộ đề luyện thi quốc dân: Kākāpō parrot, Urban agriculture, Memory retention..." },
-  { id: "cam-19", title: "IELTS CAM Inspired 19", testsCount: 8, plays: "217K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Tennis racket development, History of pirate ships, AI in healthcare." },
-  { id: "cam-18", title: "IELTS CAM Inspired 18", testsCount: 8, plays: "233K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "4 bài test chuẩn độ khó thi thật, đầy đủ giải thích chi tiết 4 bước Linearthinking." },
+  { id: "cam-21", title: "IELTS CAM Inspired 21", testsCount: 8, plays: "154K", badge: "Mới nhất 2026", link: "/tests/cam-21-reading-1", desc: "Passage: The Davies sisters, Why we need silence, The World of Sugar. Chuẩn đề thi 2026." },
+  { id: "cam-20", title: "IELTS CAM Inspired 20", testsCount: 8, plays: "421K", badge: "Phổ biến nhất", link: "/tests/cam-20-reading-1", desc: "Passage: The Kākāpō parrot conservation, To Britain greybeam, How stress affects judgement." },
+  { id: "cam-19", title: "IELTS CAM Inspired 19", testsCount: 8, plays: "217K", badge: "Chuẩn Cambridge", link: "/tests/cam-19-reading-1", desc: "Passage: How tennis rackets have changed, Pirates of the Mediterranean, Misinformation." },
+  { id: "cam-18", title: "IELTS CAM Inspired 18", testsCount: 8, plays: "233K", badge: "Chuẩn Cambridge", link: "/tests/cam-18-reading-1", desc: "Passage: Urban farming aeroponics in Rotterdam, Forest management, Space junk problem." },
   { id: "cam-17", title: "IELTS CAM Inspired 17", testsCount: 8, plays: "271K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Bộ đề kinh điển giúp củng cố toàn diện kỹ năng phân tích True/False/Not Given." },
-  { id: "cam-16", title: "IELTS CAM Inspired 16", testsCount: 8, plays: "330K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Bộ đề luyện tốc độ đọc hiểu và bóc tách cấu trúc câu phức của người ra đề." },
-  { id: "cam-15", title: "IELTS CAM Inspired 15", testsCount: 8, plays: "204K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Giải thích đáp án chi tiết, list từ vựng IELTS cần học trong từng passage." },
-  { id: "cam-14", title: "IELTS CAM Inspired 14", testsCount: 8, plays: "163K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Bộ đề rèn luyện kỹ năng định vị thông tin (Locating) tránh bẫy từ đồng nghĩa." },
+  { id: "cam-16", title: "IELTS CAM Inspired 16", testsCount: 8, plays: "330K", badge: "Chuẩn Cambridge", link: "/tests/cam-19-reading-1", desc: "Bộ đề luyện tốc độ đọc hiểu và bóc tách cấu trúc câu phức của người ra đề." },
+  { id: "cam-15", title: "IELTS CAM Inspired 15", testsCount: 8, plays: "204K", badge: "Chuẩn Cambridge", link: "/tests/cam-18-reading-1", desc: "Giải thích đáp án chi tiết, list từ vựng IELTS cần học trong từng passage." },
+  { id: "cam-14", title: "IELTS CAM Inspired 14", testsCount: 8, plays: "163K", badge: "Chuẩn Cambridge", link: "/tests/cam-21-reading-1", desc: "Bộ đề rèn luyện kỹ năng định vị thông tin (Locating) tránh bẫy từ đồng nghĩa." },
   { id: "cam-13", title: "IELTS CAM Inspired 13", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Đầy đủ audio listening giọng bản xứ và transcript song ngữ đối chiếu." },
-  { id: "cam-12", title: "IELTS CAM Inspired 12", testsCount: 8, plays: "85K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Luyện thi thử IELTS trên máy tính với trải nghiệm bấm giờ thi thật 60 phút." },
-  { id: "cam-11", title: "IELTS CAM Inspired 11", testsCount: 8, plays: "81K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Phù hợp cho học viên giai đoạn nền tảng muốn làm quen với format đề quốc tế." },
-  { id: "cam-10", title: "IELTS CAM Inspired 10", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Kho từ vựng học thuật phong phú, giải thích chi tiết vì sao các đáp án sai." },
+  { id: "cam-12", title: "IELTS CAM Inspired 12", testsCount: 8, plays: "85K", badge: "Chuẩn Cambridge", link: "/tests/cam-19-reading-1", desc: "Luyện thi thử IELTS trên máy tính với trải nghiệm bấm giờ thi thật 60 phút." },
+  { id: "cam-11", title: "IELTS CAM Inspired 11", testsCount: 8, plays: "81K", badge: "Chuẩn Cambridge", link: "/tests/cam-18-reading-1", desc: "Phù hợp cho học viên giai đoạn nền tảng muốn làm quen với format đề quốc tế." },
+  { id: "cam-10", title: "IELTS CAM Inspired 10", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-21-reading-1", desc: "Kho từ vựng học thuật phong phú, giải thích chi tiết vì sao các đáp án sai." },
   { id: "cam-09", title: "IELTS CAM Inspired 09", testsCount: 8, plays: "127K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Bộ đề nền tảng giúp đánh giá mức độ đọc hiểu và phát hiện lỗ hổng ngữ pháp." }
 ];
 
 const REAL_TESTS = [
-  { id: "rt-2026-q2", title: "IELTS Real Test 2026 - Q2", testsCount: 10, plays: "2K", badge: "Đề thi thật Quý 2", link: "/tests/cam-20-reading-1", desc: "Tổng hợp các đề thi thật vừa diễn ra trong Quý 2 năm 2026 tại các hội đồng thi IDP & BC." },
-  { id: "rt-2026-q1", title: "IELTS Real Test 2026 - Q1", testsCount: 10, plays: "655", badge: "Đề thi thật Quý 1", link: "/tests/cam-20-reading-1", desc: "Cập nhật đề thi thật Quý 1 năm 2026: Đầy đủ 4 Section kèm audio giọng chuẩn bản xứ." },
-  { id: "fc-2026-q2", title: "IELTS Forecast Test 2026 - Q2", testsCount: 10, plays: "360", badge: "Dự đoán quý này", link: "/tests/cam-20-reading-1", desc: "Bộ đề dự đoán khả năng cao xuất hiện trong kỳ thi quý tới kèm lời giải chi tiết." }
+  { id: "rt-2026-q2", title: "IELTS Real Test 2026 - Q2", testsCount: 10, plays: "2K", badge: "Đề thi thật Quý 2", link: "/tests/real-test-2026-q1", desc: "Tổng hợp các đề thi thật vừa diễn ra trong Quý 2 năm 2026 tại các hội đồng thi IDP & BC." },
+  { id: "rt-2026-q1", title: "IELTS Real Test 2026 - Q1", testsCount: 10, plays: "655", badge: "Đề thi thật Quý 1", link: "/tests/real-test-2026-q1", desc: "Đề thi thật Quý 1/2026: AI in Modern Healthcare & Remote Diagnostics." },
+  { id: "fc-2026-q2", title: "IELTS Forecast Test 2026 - Q2", testsCount: 10, plays: "360", badge: "Dự đoán quý này", link: "/tests/real-test-2026-q1", desc: "Bộ đề dự đoán khả năng cao xuất hiện trong kỳ thi quý tới kèm lời giải chi tiết." }
 ];
 
 export default function TestsPage() {

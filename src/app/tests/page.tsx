@@ -12,10 +12,10 @@ const CAM_SERIES = [
   { id: "cam-15", title: "IELTS CAM Inspired 15", testsCount: 8, plays: "204K", badge: "Chuẩn Cambridge", link: "/tests/cam-15-reading-1", desc: "Passage: Nutmeg - a valuable spice, Driverless cars, What is exploration." },
   { id: "cam-14", title: "IELTS CAM Inspired 14", testsCount: 8, plays: "163K", badge: "Chuẩn Cambridge", link: "/tests/cam-14-reading-1", desc: "Passage: Importance Of Children's Play, Bike-Sharing Schemes, Motivational Factors." },
   { id: "cam-13", title: "IELTS CAM Inspired 13", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-13-reading-1", desc: "Passage: Tourism New Zealand Website, Why Being Bored Is Stimulating, Artificial Artists." },
-  { id: "cam-12", title: "IELTS CAM Inspired 12", testsCount: 8, plays: "85K", badge: "Chuẩn Cambridge", link: "/tests/cam-19-reading-1", desc: "Luyện thi thử IELTS trên máy tính với trải nghiệm bấm giờ thi thật 60 phút." },
-  { id: "cam-11", title: "IELTS CAM Inspired 11", testsCount: 8, plays: "81K", badge: "Chuẩn Cambridge", link: "/tests/cam-18-reading-1", desc: "Phù hợp cho học viên giai đoạn nền tảng muốn làm quen với format đề quốc tế." },
-  { id: "cam-10", title: "IELTS CAM Inspired 10", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-21-reading-1", desc: "Kho từ vựng học thuật phong phú, giải thích chi tiết vì sao các đáp án sai." },
-  { id: "cam-09", title: "IELTS CAM Inspired 09", testsCount: 8, plays: "127K", badge: "Chuẩn Cambridge", link: "/tests/cam-20-reading-1", desc: "Bộ đề nền tảng giúp đánh giá mức độ đọc hiểu và phát hiện lỗ hổng ngữ pháp." }
+  { id: "cam-12", title: "IELTS CAM Inspired 12", testsCount: 8, plays: "85K", badge: "Chuẩn Cambridge", link: "/tests/cam-12-reading-1", desc: "Passage: Cork, Collecting as a hobby, Purpose of gaining knowledge." },
+  { id: "cam-11", title: "IELTS CAM Inspired 11", testsCount: 8, plays: "81K", badge: "Chuẩn Cambridge", link: "/tests/cam-11-reading-1", desc: "Passage: Crop-growing skyscrapers, The Falkirk Wheel, Reducing climate change." },
+  { id: "cam-10", title: "IELTS CAM Inspired 10", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-10-reading-1", desc: "Passage: Stepwells of India, European transport systems, Psychology of innovation." },
+  { id: "cam-09", title: "IELTS CAM Inspired 09", testsCount: 8, plays: "127K", badge: "Chuẩn Cambridge", link: "/tests/cam-09-reading-1", desc: "Passage: William Henry Perkin, Search for Extra-Terrestrial Intelligence, History of Tortoise." }
 ];
 
 const REAL_TESTS = [

@@ -1,10 +1,12 @@
-// AUTO-GENERATED AUTHENTIC IELTS TESTS (FULL PASSAGES 1, 2, 3 - 40 QUESTIONS EACH)
+// Auto-generated Authentic 40-Question IELTS Tests Library with Linearthinking
+// Source: Cambridge IELTS Authentic Practice Tests via DOL Tự Học System
+// Generated for AI4IELTS+ Platform
+
 export interface QuestionExplanation {
   step1: string;
   step2: string;
   step3: string;
   step4?: string;
-  paraphrase?: { q: string; p: string }[];
   distractor?: string;
 }
 
@@ -65,7 +67,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 1,
-            "prompt": "Family and early life",
+            "prompt": "the grandfather built his wealth on two things: _____ and the carrying of cargo by ship",
             "type": "FILL_IN_BLANK",
             "correct": "timber",
             "explanation": {
@@ -77,7 +79,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 2,
-            "prompt": "the grandfather built his wealth on two things:    and the carrying of cargo by ship",
+            "prompt": "their _____ was arranged so that they would take up interests like art collecting",
             "type": "FILL_IN_BLANK",
             "correct": "schooling",
             "explanation": {
@@ -89,7 +91,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 3,
-            "prompt": "their    was arranged so that they would take up interests like art collecting",
+            "prompt": "while touring galleries, they wrote thorough _____ describing the works on show",
             "type": "FILL_IN_BLANK",
             "correct": "diaries",
             "explanation": {
@@ -101,7 +103,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 4,
-            "prompt": "while touring galleries, they wrote thorough    describing the works on show",
+            "prompt": "although their _____ revealed a preference for Dutch Golden Age works, such pictures were rather costly to acquire",
             "type": "FILL_IN_BLANK",
             "correct": "letters",
             "explanation": {
@@ -113,7 +115,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 5,
-            "prompt": "The sisters as art collectors",
+            "prompt": "the earliest Symbolist works they acquired showed scenes from the _____ region",
             "type": "FILL_IN_BLANK",
             "correct": "Lofoten",
             "explanation": {
@@ -125,7 +127,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 6,
-            "prompt": "although their    revealed a preference for Dutch Golden Age works, such pictures were rather costly to acquire",
+            "prompt": "in wartime the sisters devoted their time to a _____ caring for injured troops in France",
             "type": "FILL_IN_BLANK",
             "correct": "hospital",
             "explanation": {
@@ -137,7 +139,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 7,
-            "prompt": "the earliest Symbolist works they acquired showed scenes from the    region",
+            "prompt": "regarded as unusual collectors – reportedly, they formed no _____ within artistic or gallery circles",
             "type": "FILL_IN_BLANK",
             "correct": "acquaintances",
             "explanation": {
@@ -257,7 +259,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "Why we need silence",
         "subtitle": "What too much noise does to us — and how quietness can help",
         "content": [
-          "Why we need silence"
+          "[A]  Excessive noise has lately been labelled an ‘underestimated threat’ to public health by a leading international health agency, which warns that residents of cities like Delhi, Cairo and São Paulo endure night-time noise well above the 40 decibels it recommends. Widespread and persistent, the problem is by no means confined to such places: one European study estimated that close to a quarter of the continent’s population is regularly subjected to levels reckoned harmful. As Diego Castellano, an acoustics consultant who helped shape several national noise standards, puts it, the brain has no ‘earlids’ with which to shut unwanted sound out, whether we happen to be awake or asleep.",
+          "[B]  There are sound evolutionary reasons why we are so sensitive to sound. Noises carry information that once helped our ancestors find their way and steer clear of threats, and the body is built so that a sudden or loud one is never ignored: on hearing it, we undergo an automatic chemical shift. The heart drives blood pressure upward, the muscles tighten, and hormones pour out to ready us to fight or flee — all of it useful in the moment. Sustained exposure is another matter. Over months and years that same alarm response has been tied to a range of complaints, running from broken sleep to disorders of the heart and circulation.",
+          "[C]  Luka Boone, who researches psychotherapy, accepts that silence does not suit everyone — least of all those already wound up by stress. ‘Someone in that state often cannot settle or unwind in a silent setting,’ he notes, adding that a guide can help such people ease into silence by degrees until its rewards begin to show. All the same, Boone is sure that silence is far easier to come by in ordinary life than most of us assume. For one thing, it need not be total: in a study of his, people who sat outdoors in a quiet garden reported feeling noticeably calmer and less bored than others who were left alone in a room of complete silence. For another, a little goes a long way. ‘Hours of it are not the point,’ he says. ‘Short spells of quiet, taken often, do more good than one long stretch once a week. Simply tracking down the corners of your day where a bit of silence is available can make a real difference.’",
+          "[D]  The neuroscientist Petra Ansell likewise champions silence as a form of treatment. ‘Finding ways to grow quiet calms not merely our surroundings but something within us,’ she says. ‘With that inner stillness we take in more of our situation, and sense what a given moment asks of us, so that our response can be a fitting one.’ Silence, she cautions, does not reward everyone equally, and the decisive factor is desire: the person has to genuinely wish to take part. ‘Studies of animals and of people alike show that willingness and intent matter,’ Ansell observes. ‘Forced on someone who does not want it, silence can be deeply distressing rather than restful.’",
+          "[E]  Scientists are equally keen to pin down which features of silence do us the most good. Among the most closely studied is the flotation tank — a sealed pod of heavily salted water, sound- and light-proof, in which the body floats in deep repose. A few floaters report their senses playing tricks, a faint humming or flickers of light, but these are harmless and take nothing away from the experience, says the clinical neuropsychologist Nadia Dupont. ‘Deprived of input from outside, the mind sets about filling the void it perceives, trying to make sense of the dark, silent space,’ she explains — so vividly that some floaters catch the sound of their own eyelids closing. What ushers people into calm or meditation, though, is the chance to fix their attention on the slow, steady rhythm of the breath.",
+          "[F]  To test the tanks as therapy, Dupont’s group enrolled 50 volunteers troubled by stress and its associated complaints, asking each to complete a survey both shortly before and shortly after a single hour-long float. Once the hour was up, they described less pain, looser muscles and milder symptoms, along with a greater sense of calm and a general lift in their mood. How sensory deprivation acts on the brain itself is harder to say. For a closer look, the team assigned 48 participants to one of two routines — three 90-minute floats, or three 90-minute rests in a reclining chair — and scanned everyone’s brain with functional MRI at the study’s start and finish. Floating, and floating alone, damped down the default mode network, a cluster of regions repeatedly tied to rumination. To Dupont this is a thrilling result, hinting that the tanks may ‘reset’ a nervous system that has drifted out of balance.",
+          "[G]  There is encouraging news, too: a number of cities have set about lowering the volume. Among the earliest was London. Diego Castellano credits a mix of measures — advice on running quieter buses, curbs on traffic noise and tighter limits on aircraft — with making the capital a markedly more peaceful place to live. Elsewhere, authorities have laid noise-absorbing road surfaces and planted belts of greenery to soak up sound; others have gone after particular culprits, from Washington DC’s recent outlawing of petrol leaf blowers to a New York rule that penalises drivers who tinker with their cars to make them louder. ‘Residents can feel the difference these calmer surroundings make,’ Castellano says, ‘and I would expect a good deal more of it in the years ahead.’"
         ],
         "questions": [
           {
@@ -346,7 +354,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 18,
-            "prompt": "A flotation tank blocks ordinary visual and auditory stimulation while a person remains supported by highly saline water. Without normal sensory signals, the brain creates sensations to occupy the  _____ . A group of 50 people answered a  _____  twice, once prior to the treatment and once following it. The treatment also left them feeling better overall, with an improvement in  _____ .",
+            "prompt": "A flotation tank blocks ordinary visual and auditory stimulation while a person remains supported by highly saline water. Without normal sensory signals, the brain creates sensations to occupy the _____ . A group of 50 people answered a [(19) _____] twice, once prior to the treatment and once following it. The treatment also left them feeling better overall, with an improvement in [(20) _____] .",
             "type": "FILL_IN_BLANK",
             "correct": "void",
             "explanation": {
@@ -358,7 +366,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 19,
-            "prompt": "In a later study, 48 people either used the tank or rested in a reclining chair for three 90-minute periods. Scans later showed that only the tank group had reduced activity in neural areas related to  _____ .",
+            "prompt": "A flotation tank blocks ordinary visual and auditory stimulation while a person remains supported by highly saline water. Without normal sensory signals, the brain creates sensations to occupy the [(18) _____] . A group of 50 people answered a _____ twice, once prior to the treatment and once following it. The treatment also left them feeling better overall, with an improvement in [(20) _____] .",
             "type": "FILL_IN_BLANK",
             "correct": "survey",
             "explanation": {
@@ -370,7 +378,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 20,
-            "prompt": "Complete blank for question 20:",
+            "prompt": "A flotation tank blocks ordinary visual and auditory stimulation while a person remains supported by highly saline water. Without normal sensory signals, the brain creates sensations to occupy the [(18) _____] . A group of 50 people answered a [(19) _____] twice, once prior to the treatment and once following it. The treatment also left them feeling better overall, with an improvement in _____ .",
             "type": "FILL_IN_BLANK",
             "correct": "mood",
             "explanation": {
@@ -382,7 +390,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 21,
-            "prompt": "Complete blank for question 21:",
+            "prompt": "In a later study, 48 people either used the tank or rested in a reclining chair for three 90-minute periods. Scans later showed that only the tank group had reduced activity in neural areas related to _____ .",
             "type": "FILL_IN_BLANK",
             "correct": "rumination",
             "explanation": {
@@ -574,7 +582,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 31,
-            "prompt": "Van der Molen’s The Bean and the World draws attention to how alike the growing of coffee has been from one region to the next. Inside the biggest operations in both Ceylon and Brazil, production leaned heavily on  _____ . Across other regions, though — much of Africa and Latin America among them —  _____  carried on as before.",
+            "prompt": "Van der Molen’s The Bean and the World draws attention to how alike the growing of coffee has been from one region to the next. Inside the biggest operations in both Ceylon and Brazil, production leaned heavily on _____ . Across other regions, though — much of Africa and Latin America among them — [(32) _____] carried on as before.",
             "type": "FILL_IN_BLANK",
             "correct": "imported labour",
             "explanation": {
@@ -586,7 +594,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 32,
-            "prompt": "Coffee has also drawn in  _____ , every one of them anxious to guard the markets they had secured. In countries such as Brazil, the trade came to weigh heavily on  _____ . So as to defend the standing of growers,  _____  were brought in, and the upshot was that  _____  were left worse off.",
+            "prompt": "Van der Molen’s The Bean and the World draws attention to how alike the growing of coffee has been from one region to the next. Inside the biggest operations in both Ceylon and Brazil, production leaned heavily on [(31) _____] . Across other regions, though — much of Africa and Latin America among them — _____ carried on as before.",
             "type": "FILL_IN_BLANK",
             "correct": "smallholder farming",
             "explanation": {
@@ -598,7 +606,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 33,
-            "prompt": "Complete blank for question 33:",
+            "prompt": "Coffee has also drawn in _____ , every one of them anxious to guard the markets they had secured. In countries such as Brazil, the trade came to weigh heavily on [(34) _____] . So as to defend the standing of growers, [(35) _____] were brought in, and the upshot was that [(36) _____] were left worse off.",
             "type": "FILL_IN_BLANK",
             "correct": "rich firms and investors",
             "explanation": {
@@ -610,7 +618,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 34,
-            "prompt": "Complete blank for question 34:",
+            "prompt": "Coffee has also drawn in [(33) _____] , every one of them anxious to guard the markets they had secured. In countries such as Brazil, the trade came to weigh heavily on _____ . So as to defend the standing of growers, [(35) _____] were brought in, and the upshot was that [(36) _____] were left worse off.",
             "type": "FILL_IN_BLANK",
             "correct": "state authorities",
             "explanation": {
@@ -622,7 +630,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 35,
-            "prompt": "Complete blank for question 35:",
+            "prompt": "Coffee has also drawn in [(33) _____] , every one of them anxious to guard the markets they had secured. In countries such as Brazil, the trade came to weigh heavily on [(34) _____] . So as to defend the standing of growers, _____ were brought in, and the upshot was that [(36) _____] were left worse off.",
             "type": "FILL_IN_BLANK",
             "correct": "market safeguards",
             "explanation": {
@@ -634,7 +642,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 36,
-            "prompt": "Complete blank for question 36:",
+            "prompt": "Coffee has also drawn in [(33) _____] , every one of them anxious to guard the markets they had secured. In countries such as Brazil, the trade came to weigh heavily on [(34) _____] . So as to defend the standing of growers, [(35) _____] were brought in, and the upshot was that _____ were left worse off.",
             "type": "FILL_IN_BLANK",
             "correct": "low-income producers",
             "explanation": {
@@ -846,7 +854,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 7,
-            "prompt": "A kind of parrot\n• feeds on ferns, on parts taken from trees, and on  _____ \n• lays its eggs inside a  _____",
+            "prompt": "A kind of parrot • feeds on ferns, on parts taken from trees, and on _____ • lays its eggs inside a [(8) _____]",
             "type": "FILL_IN_BLANK",
             "correct": "seeds",
             "explanation": {
@@ -858,7 +866,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 8,
-            "prompt": "The coming of the Rendi settlers\n• the bird's  _____  was turned into clothing",
+            "prompt": "A kind of parrot • feeds on ferns, on parts taken from trees, and on [(7) _____] • lays its eggs inside a _____",
             "type": "FILL_IN_BLANK",
             "correct": "hollow",
             "explanation": {
@@ -870,7 +878,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 9,
-            "prompt": "The coming of mainland colonists\n• one introduced animal, the  _____ , consumed the plants the vaira depended on",
+            "prompt": "The coming of the Rendi settlers • the bird's _____ was turned into clothing",
             "type": "FILL_IN_BLANK",
             "correct": "down",
             "explanation": {
@@ -882,7 +890,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 10,
-            "prompt": "Saving the vaira\n• the naturalist Tobias Ruward made an early attempt to protect the bird\n• the first proof of females living on Vessig Island came in the year  _____ \n• the Recovery Plan led to a sharp rise in  _____ \n• a present-day aim is to keep  _____  taking part in the bird's conservation",
+            "prompt": "The coming of mainland colonists • one introduced animal, the _____ , consumed the plants the vaira depended on",
             "type": "FILL_IN_BLANK",
             "correct": "goats",
             "explanation": {
@@ -894,7 +902,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 11,
-            "prompt": "Complete blank for question 11:",
+            "prompt": "Saving the vaira • the naturalist Tobias Ruward made an early attempt to protect the bird • the first proof of females living on Vessig Island came in the year _____ • the Recovery Plan led to a sharp rise in [(12) _____] • a present-day aim is to keep [(13) _____] taking part in the bird's conservation",
             "type": "FILL_IN_BLANK",
             "correct": "1983",
             "explanation": {
@@ -906,7 +914,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 12,
-            "prompt": "Complete blank for question 12:",
+            "prompt": "Saving the vaira • the naturalist Tobias Ruward made an early attempt to protect the bird • the first proof of females living on Vessig Island came in the year [(11) _____] • the Recovery Plan led to a sharp rise in _____ • a present-day aim is to keep [(13) _____] taking part in the bird's conservation",
             "type": "FILL_IN_BLANK",
             "correct": "staffing",
             "explanation": {
@@ -918,7 +926,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 13,
-            "prompt": "Complete blank for question 13:",
+            "prompt": "Saving the vaira • the naturalist Tobias Ruward made an early attempt to protect the bird • the first proof of females living on Vessig Island came in the year [(11) _____] • the Recovery Plan led to a sharp rise in [(12) _____] • a present-day aim is to keep _____ taking part in the bird's conservation",
             "type": "FILL_IN_BLANK",
             "correct": "communities",
             "explanation": {
@@ -936,7 +944,14 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "To Britain",
         "subtitle": "Elena Marsh looks at efforts to bring the greybeam back to Britain",
         "content": [
-          "To Britain"
+          "[A]  Some 28 million greybeams - nearly 85 percent of all those in Britain - were lost across the 1970s and early 1980s to a fungal disease. Once it had passed, the greybeam, for so long a familiar giant of the countryside, slipped almost from public memory. There are grounds for optimism now that the species might be coaxed back into the woods and fields of central and southern England, though any recovery would begin from almost nothing. \"Unless you saw the countryside as it once was, the scale of what happened is hard to take in,\" says Marek Sobol of the Native Woodland Alliance. \"It's only in old photographs that it really hits you: these were huge, commanding trees, and then they were gone.\"",
+          "[B]  For centuries only beech was ranked above greybeam among the hardwoods British craftsmen preferred, and across much of the country it was the most conspicuous tree of all. Nor was it tied to one habitat: besides forming its own stands, it wove itself into the oak, birch and hazel woods of the lowlands. People had used it since the Bronze Age, when its timber was shaped into simple tools, and it became the favoured wood for shields and early swords. By the eighteenth century it was planted far more deliberately, its timber going into everyday goods such as packing cases and household furniture. Because it withstood repeated blows so well, it was also chosen for anything that had to absorb heavy impact - mining machinery among them, along with the hull of the nineteenth-century clipper the Silver Petrel.",
+          "[C]  What does the damage is a fungus that clogs the greybeam's vascular system - the network carrying water, nutrients and food through the tree - so that its branches dry out and die. An earlier outbreak in the 1930s flared briefly before fading, but a second, far deadlier wave broke out in the 1980s, brought in on consignments of greybeam timber imported from the Baltic. Shipped as logs bound for furniture-making, the wood still carried its bark, and that intact bark made an ideal refuge for the greybeam bark beetle, the insect that ferries the fungus from tree to tree. Far more aggressive than anything before it, the strain the beetles brought this time killed off most of Britain's greybeams.",
+          "[D]  Greybeams have not disappeared from the southern counties, but what remains is mostly stunted specimens tucked into the low hedgerows between fields. \"There are still millions of little greybeams in the hedges, but the beetle finds them the instant they grow past a certain size,\" explains Dr Ingrid Halloran, who helped compile the recent survey The State of the Greybeam. As soon as a trunk thickens to between twelve and eighteen centimetres across, it becomes just the right home for the beetle to breed in and the fungus to take hold. Even so, a scattering of ancient trees, some several centuries old, have been logged in counties such as Shropshire, having somehow escaped the epidemic. The way forward, Halloran maintains, is to find these survivors and work out what set them apart when so many others died - though the effort is held back by how few old trees remain to study. \"Is it avoidance, tolerance, or real resistance?\" she asks. \"We don't yet know how the three balance out. What I cannot accept is that it all comes down to chance.\"",
+          "[E]  Whether the greybeam can ever come back rests heavily on trees that either fight off the disease or tolerate it, so any large-scale reintroduction would lean on existing or new hybrids bred from resistant species, most of them not native. A fresh generation of saplings has been raised and deliberately put to the test: a narrow cut is opened in the bark and a trace of the pathogen slipped inside. \"What strikes you is the sheer speed of it,\" Halloran says. \"Come back after four to six weeks and the resistant trees look untouched, while the vulnerable ones have already dropped their leaves - some have died outright.\"",
+          "[F]  So bound up is the greybeam with British life that it has never wanted for champions. One is Tomas Ashworth, keeper of the National Greybeam Collection in the Norfolk town of Cromer. \"I watched the disease take hold when I was a boy,\" he recalls. \"The greybeam felt like part of the English countryside, and then I stood watching the trees shed their leaves - it never left me.\" Cromer now counts near 12,000 greybeams, and their survival seems to owe much to where they grow: stiff winds off the sea make it hard for the beetle to gain a foothold in this exposed coastal town. The position is far from safe, all the same. \"The beetles could move straight in the moment we drop our guard; the danger is right on our doorstep,\" Ashworth warns.",
+          "[G]  All this, Halloran concedes, raises the question of whether the public will accept it. \"If we put the greybeam back and part of what we plant isn't strictly native, does that trouble us?\" To her mind the ecological case is powerful: the trees would shelter wildlife, which she counts among the gains. Others are less convinced. Marek Sobol sees a snag. \"On the surface it sounds fine,\" he says, \"but you're trading a native tree for a horticultural analogue. In effect, you're cloning.\" He points, too, to the risk of importing new diseases with the fresh stock. Rather than plant afresh, his organisation would sooner safeguard the greybeams that have pulled through on their own. \"Sometimes the wisest thing is to step back and let nature take its time; leave the survivors be, and resistance may come of its own accord,\" he says.",
+          "[H]  * horticultural analogue: a cultivated plant that is genetically very close to a naturally occurring species"
         ],
         "questions": [
           {
@@ -1136,7 +1151,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 24,
-            "prompt": "Over many centuries, the single tree held in higher regard in Britain than greybeam was  _____ . From the Bronze Age onwards its timber was worked into tools, and it likewise served for making weapons. During the eighteenth century it was cultivated to supply wood for storage boxes and  _____ . Because it was so tough, greybeam was a regular choice for equipment used in mines, and the  _____  of the clipper the Silver Petrel was built from it as well.",
+            "prompt": "Over many centuries, the single tree held in higher regard in Britain than greybeam was _____ . From the Bronze Age onwards its timber was worked into tools, and it likewise served for making weapons. During the eighteenth century it was cultivated to supply wood for storage boxes and [(25) _____] . Because it was so tough, greybeam was a regular choice for equipment used in mines, and the [(26) _____] of the clipper the Silver Petrel was built from it as well.",
             "type": "FILL_IN_BLANK",
             "correct": "beech",
             "explanation": {
@@ -1148,7 +1163,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 25,
-            "prompt": "Complete blank for question 25:",
+            "prompt": "Over many centuries, the single tree held in higher regard in Britain than greybeam was [(24) _____] . From the Bronze Age onwards its timber was worked into tools, and it likewise served for making weapons. During the eighteenth century it was cultivated to supply wood for storage boxes and _____ . Because it was so tough, greybeam was a regular choice for equipment used in mines, and the [(26) _____] of the clipper the Silver Petrel was built from it as well.",
             "type": "FILL_IN_BLANK",
             "correct": "furniture",
             "explanation": {
@@ -1160,7 +1175,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 26,
-            "prompt": "Complete blank for question 26:",
+            "prompt": "Over many centuries, the single tree held in higher regard in Britain than greybeam was [(24) _____] . From the Bronze Age onwards its timber was worked into tools, and it likewise served for making weapons. During the eighteenth century it was cultivated to supply wood for storage boxes and [(25) _____] . Because it was so tough, greybeam was a regular choice for equipment used in mines, and the _____ of the clipper the Silver Petrel was built from it as well.",
             "type": "FILL_IN_BLANK",
             "correct": "hull",
             "explanation": {
@@ -1605,7 +1620,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 8,
-            "prompt": "• Marchetti replaced the strings running horizontally with a  _____  type, keeping natural gut in the mains.\n• The Prescott twins altered their frames'  _____  as well as the paint on them.\n• Adjustments to a racket divide into two kinds: work on the string bed and work on the  _____ .\n• Natural gut was taken from the outer  _____  of certain animals' insides.\n• Dominic Vance added several thin pieces of  _____  to his frames to strengthen his serve.\n• Some players have the  _____  from one racket fitted onto another racket's frame.",
+            "prompt": "• Marchetti replaced the strings running horizontally with a _____ type, keeping natural gut in the mains. • The Prescott twins altered their frames' [(9) _____] as well as the paint on them. • Adjustments to a racket divide into two kinds: work on the string bed and work on the [(10) _____] . • Natural gut was taken from the outer [(11) _____] of certain animals' insides. • Dominic Vance added several thin pieces of [(12) _____] to his frames to strengthen his serve. • Some players have the [(13) _____] from one racket fitted onto another racket's frame.",
             "type": "FILL_IN_BLANK",
             "correct": "synthetic",
             "explanation": {
@@ -1617,7 +1632,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 9,
-            "prompt": "Complete blank for question 9:",
+            "prompt": "• Marchetti replaced the strings running horizontally with a [(8) _____] type, keeping natural gut in the mains. • The Prescott twins altered their frames' _____ as well as the paint on them. • Adjustments to a racket divide into two kinds: work on the string bed and work on the [(10) _____] . • Natural gut was taken from the outer [(11) _____] of certain animals' insides. • Dominic Vance added several thin pieces of [(12) _____] to his frames to strengthen his serve. • Some players have the [(13) _____] from one racket fitted onto another racket's frame.",
             "type": "FILL_IN_BLANK",
             "correct": "length",
             "explanation": {
@@ -1629,7 +1644,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 10,
-            "prompt": "Complete blank for question 10:",
+            "prompt": "• Marchetti replaced the strings running horizontally with a [(8) _____] type, keeping natural gut in the mains. • The Prescott twins altered their frames' [(9) _____] as well as the paint on them. • Adjustments to a racket divide into two kinds: work on the string bed and work on the _____ . • Natural gut was taken from the outer [(11) _____] of certain animals' insides. • Dominic Vance added several thin pieces of [(12) _____] to his frames to strengthen his serve. • Some players have the [(13) _____] from one racket fitted onto another racket's frame.",
             "type": "FILL_IN_BLANK",
             "correct": "frame",
             "explanation": {
@@ -1641,7 +1656,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 11,
-            "prompt": "Complete blank for question 11:",
+            "prompt": "• Marchetti replaced the strings running horizontally with a [(8) _____] type, keeping natural gut in the mains. • The Prescott twins altered their frames' [(9) _____] as well as the paint on them. • Adjustments to a racket divide into two kinds: work on the string bed and work on the [(10) _____] . • Natural gut was taken from the outer _____ of certain animals' insides. • Dominic Vance added several thin pieces of [(12) _____] to his frames to strengthen his serve. • Some players have the [(13) _____] from one racket fitted onto another racket's frame.",
             "type": "FILL_IN_BLANK",
             "correct": "lining",
             "explanation": {
@@ -1653,7 +1668,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 12,
-            "prompt": "Complete blank for question 12:",
+            "prompt": "• Marchetti replaced the strings running horizontally with a [(8) _____] type, keeping natural gut in the mains. • The Prescott twins altered their frames' [(9) _____] as well as the paint on them. • Adjustments to a racket divide into two kinds: work on the string bed and work on the [(10) _____] . • Natural gut was taken from the outer [(11) _____] of certain animals' insides. • Dominic Vance added several thin pieces of _____ to his frames to strengthen his serve. • Some players have the [(13) _____] from one racket fitted onto another racket's frame.",
             "type": "FILL_IN_BLANK",
             "correct": "lead",
             "explanation": {
@@ -1665,7 +1680,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 13,
-            "prompt": "Complete blank for question 13:",
+            "prompt": "• Marchetti replaced the strings running horizontally with a [(8) _____] type, keeping natural gut in the mains. • The Prescott twins altered their frames' [(9) _____] as well as the paint on them. • Adjustments to a racket divide into two kinds: work on the string bed and work on the [(10) _____] . • Natural gut was taken from the outer [(11) _____] of certain animals' insides. • Dominic Vance added several thin pieces of [(12) _____] to his frames to strengthen his serve. • Some players have the _____ from one racket fitted onto another racket's frame.",
             "type": "FILL_IN_BLANK",
             "correct": "handle",
             "explanation": {
@@ -1683,7 +1698,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "THE PIRATES OF THE ANCIENT MEDITERRANEAN",
         "subtitle": "Across the first and second millennia BCE, raiders roamed the waters of the Mediterranean, seizing vessels and slipping away from those who pursued them.",
         "content": [
-          "The pirates of the ancient Mediterranean"
+          "[A]  Say 'pirate' and most people picture a crew of rogues and adventurers on a tall masted ship in warm southern waters. Yet long before such adventurers came to terrorise those seas — as far back as the first to the third millennium BCE — raiders were already at work in the Mediterranean, preying on trading vessels and threatening vital trade routes. No ancient state, however mighty, could stop them, and from one century to the next the situation scarcely altered. Only when the raiders began to harm the interests of the Tarnic Republic, the leading power of the later age, was a great fleet at last assembled against them. Command passed to the Tarnic general Corvane Aquila, under whom the Republic scoured the sea clean and renamed it Mare Tarnicum, 'the Sea That Is Ours'.",
+          "[B]  The earliest surviving mention of piracy in the Mediterranean belongs to the kingdom of Amuria, in the reign of King Hadrimel (c 1400–1360 BCE), though it must surely reach back well before that kingdom rose — partly because the sea counted for so much to the surrounding peoples, partly because of the lie of the land. Much of the coast is good farmland, yet parts are broken, steep, in places mountainous, and the communities scratching a living in those harsher spots leaned heavily on whatever the sea could offer, fish and salt included. Almost all owned boats, handled them with skill, and knew the shoreline and its sea-lanes as no outsider could; small wonder that in lean times such men took to raiding. The coast favoured them, too, its many hidden inlets offering places to conceal a boat and strike without warning. No vessel of the day could yet cross open water for any distance — the nimble caravel* lay centuries in the future — so nearly every ship kept to a few familiar lanes along the shore. A slow, cargo-heavy merchantman cornered on one of them could do little but surrender, and by the time a state's warships arrived, the raiders' knowledge of the coast had let them vanish. * caravel: a small, highly manoeuvrable sailing ship, developed in Portugal in the fifteenth century",
+          "[C]  It should be added, too, that rulers of the first and second millennia BCE were by no means above employing pirates themselves, especially in wartime, when a rival could be met with the raiders' numbers and skill. Sent in ahead of the regular navy, a pirate squadron would open an assault and clear the way for the warships behind. And certain coastal districts earned a name for sheltering pirates — an arrangement that repaid them well, for the raiders greatly enriched the local economy.",
+          "[D]  It is under Hadrimel's successor, King Sethuran (c 1360–1340 BCE), that particular bands of pirates are first named, thanks to a store of clay documents called the Halmyra tablets. This correspondence, passing between the king and friendly rulers overseas, took up many pressing concerns, piracy among them. Two crews above all seem to have plagued Sethuran: the Yldari and the Kessoi. Whatever his warships tried, neither could be stopped from doing real harm to the region's trade. In one tablet the ruler of Coryth, an island kingdom, rejected Sethuran's suggestion that his people had any tie to the Yldari — whose base lay far off along the Anthemos coast — and pledged that any subject of his found raiding would be punished without mercy.",
+          "[E]  Piracy wore a different face for the Doran cities than it had for the kings of Amuria. Amurian power rested on the land, whereas the Dorans looked to the sea for nearly everything, trade and warfare alike. Tellingly, the early Doran poet Melanthos, in his epics the Anthedon and the Ereskeia, goes beyond excusing the pirate's life and openly praises it. Nor did later ages think otherwise: the historian Kriton of Halea wrote with plain delight of daring strikes on ships and even whole towns. For the Dorans, piracy was simply part of ordinary life, and not even the highest officers of state kept clear of it. The orator Praxandros relates that in 340 BCE envoys from the city of Thelane broke from their official errand to seize a ship returning from Amuria and keep its riches. Such tolerance was not the same as approval, but with so many pirates abroad, any attempt to rein them in came to little.",
+          "[F]  As Tarnis grew into the foremost power around, its Republic too had to confront the pirates. The matter was grave — and yet the Republic profited from the very thing that troubled it, for the captives the raiders seized supplied the slaves on which Tarnic farming and mining relied. That bargain could last only while the pirates left everything Tarnic untouched. The moment they began taking ships laden with the wheat that fed the Republic's people, furious voices in the Council demanded revenge on those to blame. Tarnis, though, did precisely nothing, which only emboldened the raiders. By the first century BCE they had grown brazen enough to carry off leading Tarnic notables and hold them for a heavy payment; best remembered of these prisoners was the young statesman Lucan Verr, seized in 82 BCE.",
+          "[G]  By now Tarnis was under no illusion: the pirates had become far more a liability than an asset, and the time for concerted action had come. A law of 71 BCE placed vast resources in the hands of Corvane Aquila for ridding the sea of its plague. Taking charge in person, Aquila split the whole Mediterranean into fifteen sectors and set a fleet and a commander over each. Once a sector was swept clear, its fleet moved on to reinforce the next, and so the campaign rolled on until nowhere at sea was left to the raiders. Thousands of pirates fell to Aquila's men, but his more lasting answer was milder: greater numbers still were resettled on fertile land well away from the coast. The menace of the sea was thus turned, by Tarnic design, into farmers who enriched the Republic further."
         ],
         "questions": [
           {
@@ -1890,7 +1911,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 24,
-            "prompt": "For the Tarnic Republic, piracy was both a problem and, in some ways, an advantage. The raiders kept the Republic supplied with the forced labourers its farms and mines could not do without. Trouble arose only when the pirates began preying on ships that were carrying  _____  to Tarnis, which provoked demands in the Council for  _____  against those to blame. Even so, nothing was done and the raiding continued; in time the pirates grew confident enough to seize high-ranking Tarnic figures and release them only in return for a  _____ .",
+            "prompt": "For the Tarnic Republic, piracy was both a problem and, in some ways, an advantage. The raiders kept the Republic supplied with the forced labourers its farms and mines could not do without. Trouble arose only when the pirates began preying on ships that were carrying _____ to Tarnis, which provoked demands in the Council for [(25) _____] against those to blame. Even so, nothing was done and the raiding continued; in time the pirates grew confident enough to seize high-ranking Tarnic figures and release them only in return for a [(26) _____] .",
             "type": "FILL_IN_BLANK",
             "correct": "wheat",
             "explanation": {
@@ -1902,7 +1923,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 25,
-            "prompt": "Complete blank for question 25:",
+            "prompt": "For the Tarnic Republic, piracy was both a problem and, in some ways, an advantage. The raiders kept the Republic supplied with the forced labourers its farms and mines could not do without. Trouble arose only when the pirates began preying on ships that were carrying [(24) _____] to Tarnis, which provoked demands in the Council for _____ against those to blame. Even so, nothing was done and the raiding continued; in time the pirates grew confident enough to seize high-ranking Tarnic figures and release them only in return for a [(26) _____] .",
             "type": "FILL_IN_BLANK",
             "correct": "revenge",
             "explanation": {
@@ -1914,7 +1935,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 26,
-            "prompt": "Complete blank for question 26:",
+            "prompt": "For the Tarnic Republic, piracy was both a problem and, in some ways, an advantage. The raiders kept the Republic supplied with the forced labourers its farms and mines could not do without. Trouble arose only when the pirates began preying on ships that were carrying [(24) _____] to Tarnis, which provoked demands in the Council for [(25) _____] against those to blame. Even so, nothing was done and the raiding continued; in time the pirates grew confident enough to seize high-ranking Tarnic figures and release them only in return for a _____ .",
             "type": "FILL_IN_BLANK",
             "correct": "payment",
             "explanation": {
@@ -2016,7 +2037,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 31,
-            "prompt": "Encountering false claims is, for most people, a matter of  _____ ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward  _____ . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct  _____  is at work across these two stages. More recent studies have offered  _____  for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a  _____ , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy  _____  in the brain.",
+            "prompt": "Encountering false claims is, for most people, a matter of _____ ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward [(32) _____] . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct [(33) _____] is at work across these two stages. More recent studies have offered [(34) _____] for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a [(35) _____] , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy [(36) _____] in the brain.",
             "type": "FILL_IN_BLANK",
             "correct": "regular contact",
             "explanation": {
@@ -2028,7 +2049,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 32,
-            "prompt": "Complete blank for question 32:",
+            "prompt": "Encountering false claims is, for most people, a matter of [(31) _____] ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward _____ . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct [(33) _____] is at work across these two stages. More recent studies have offered [(34) _____] for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a [(35) _____] , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy [(36) _____] in the brain.",
             "type": "FILL_IN_BLANK",
             "correct": "opposing views",
             "explanation": {
@@ -2040,7 +2061,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 33,
-            "prompt": "Complete blank for question 33:",
+            "prompt": "Encountering false claims is, for most people, a matter of [(31) _____] ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward [(32) _____] . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct _____ is at work across these two stages. More recent studies have offered [(34) _____] for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a [(35) _____] , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy [(36) _____] in the brain.",
             "type": "FILL_IN_BLANK",
             "correct": "cognitive step",
             "explanation": {
@@ -2052,7 +2073,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 34,
-            "prompt": "Complete blank for question 34:",
+            "prompt": "Encountering false claims is, for most people, a matter of [(31) _____] ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward [(32) _____] . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct [(33) _____] is at work across these two stages. More recent studies have offered _____ for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a [(35) _____] , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy [(36) _____] in the brain.",
             "type": "FILL_IN_BLANK",
             "correct": "fresh backing",
             "explanation": {
@@ -2064,7 +2085,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 35,
-            "prompt": "Complete blank for question 35:",
+            "prompt": "Encountering false claims is, for most people, a matter of [(31) _____] ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward [(32) _____] . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct [(33) _____] is at work across these two stages. More recent studies have offered [(34) _____] for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a _____ , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy [(36) _____] in the brain.",
             "type": "FILL_IN_BLANK",
             "correct": "fleeting moment",
             "explanation": {
@@ -2076,7 +2097,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 36,
-            "prompt": "Complete blank for question 36:",
+            "prompt": "Encountering false claims is, for most people, a matter of [(31) _____] ; even so, exactly how and when the mind marks something as genuine or false remains disputed. On the question of how individuals deal with incoming information, the philosophers Bettani and Verhelst put forward [(32) _____] . Bettani held that a claim is weighed first and only then accepted or rejected, whereas Verhelst maintained that whatever a person meets — misinformation included — is accepted at once and left unchecked until afterwards. Verhelst also suggested that a distinct [(33) _____] is at work across these two stages. More recent studies have offered [(34) _____] for Verhelst's account: the mind, it seems, registers each new piece of information as correct, though perhaps only for a [(35) _____] , and delays labelling it true or false. This fits the discovery that the resources for doubt and the resources for perception and recording occupy _____ in the brain.",
             "type": "FILL_IN_BLANK",
             "correct": "different areas",
             "explanation": {
@@ -2182,7 +2203,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 1,
-            "prompt": "Complete blank for question 1:",
+            "prompt": "Complete blank for Question 1:",
             "type": "FILL_IN_BLANK",
             "correct": "spinach",
             "explanation": {
@@ -2194,7 +2215,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 2,
-            "prompt": "Complete blank for question 2:",
+            "prompt": "Complete blank for Question 2:",
             "type": "FILL_IN_BLANK",
             "correct": "800 kg",
             "explanation": {
@@ -2206,7 +2227,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 3,
-            "prompt": "Complete blank for question 3:",
+            "prompt": "Complete blank for Question 3:",
             "type": "FILL_IN_BLANK",
             "correct": "demand",
             "explanation": {
@@ -2218,7 +2239,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 4,
-            "prompt": "Complete blank for question 4:",
+            "prompt": "many kinds of _____ applied; methods harm air quality",
             "type": "FILL_IN_BLANK",
             "correct": "chemicals",
             "explanation": {
@@ -2230,7 +2251,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 5,
-            "prompt": "Complete blank for question 5:",
+            "prompt": "poor quality; types picked for their ability to endure lengthy _____",
             "type": "FILL_IN_BLANK",
             "correct": "trips",
             "explanation": {
@@ -2242,7 +2263,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 6,
-            "prompt": "Complete blank for question 6:",
+            "prompt": "only a small share of the total income reaches the _____",
             "type": "FILL_IN_BLANK",
             "correct": "farmers",
             "explanation": {
@@ -2254,7 +2275,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 7,
-            "prompt": "Complete blank for question 7:",
+            "prompt": "crops chosen for their _____",
             "type": "FILL_IN_BLANK",
             "correct": "taste",
             "explanation": {
@@ -2374,7 +2395,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "Forest management in Pennsylvania, USA",
         "subtitle": "How making use of low-grade timber — sometimes called low-use wood — for energy can support the sustainable management of forests",
         "content": [
-          "Forest management in Pennsylvania, USA"
+          "[A]  For a long time, woodland owners in Pennsylvania prized their trees for one thing only: high-grade sawtimber. When a stand was cut, the finest, straightest stems were taken out and the misshapen trees — those least suited to the ground they stood on — were left behind. This habit, called 'high-grading', has handed today's forests a legacy of 'low-use wood'. Foresters sometimes dismiss such trees as 'weed trees', and across the country they are far from scarce. They fetch little in conventional timber markets, crowd better stems as they compete for room, shade out the seedlings meant to replace them and sap a stand's overall vigour, leaving the forest more exposed to storms and disease. Cutting aimed squarely at this low-use wood helps owners tackle these problems, and markets for wood energy give them a reason to do so.",
+          "[B]  Those markets are useful because they will take timber of a lower grade, and price, than any sawmill would consider. In Pennsylvania most wood burned for energy is turned into heat or electricity by combustion: many schools and hospitals run their heating on wood-chip boilers, countless homes rely on wood for warmth, and several power stations blend wood into the peat they burn for electricity. Wood can also be turned into gas for power, or processed into liquid fuels such as ethanol and petrol — the very fuels that drive lorries and cars. Every one of these products draws chiefly on low-use wood, and several cutting methods, each able to improve a forest's long-term quality, are built around supplying it.",
+          "[C]  Just how much any tree is 'worth', though, is far from fixed. It turns on a range of things — species, size, shape, condition, quality, the part it plays in the wood and how easily it can be reached — and on what the owner wants from the forest. The same tree may strike two people quite differently. To a timber merchant, a tall oak with a clean, straight trunk is a valuable saw-log or future furniture; to an owner who cares about wildlife, that trunk's worth lies in the food and shelter it gives animals. Likewise, once fungal decay — a defect foresters call heart-rot — has crept into a stem, its timber value drops sharply, yet the figured wood it yields may be just what a bowl-turner treasures.",
+          "[D]  The first method is the Timber Stand Improvement, or TSI, Cut. Here the poorest trees and plants are felled so that the space, light and other resources they used pass to the best stems still standing; removing invasive plants may be a second aim. Freed from crowding, the trees left behind can thicken, put out more foliage and spread wider crowns, giving better cover to wildlife and a greater chance of regenerating. A TSI Cut can be shaped to fit whatever an owner is trying to do with their land.",
+          "[E]  A Shelterwood Cut is possible only in a mature wood already thinned more than once. Once a new generation of seedlings has taken hold, the mature trees are removed together, letting the forester decide which species come up in their place and leaving a young stand whose trees are all at much the same stage of growth. It can also create a forest of two layers, yielding two harvests and stretching the owner's income across ten years or more.",
+          "[F]  A Salvage Cut, by contrast, tends to produce a great deal of low-use wood. Forests today face all manner of pests and diseases — the European spruce bark beetle, the large pine weevil, the nun moth and the pine-tree lappet moth are only a handful — and those who work among the trees can ease the pressure through well-judged felling. Such cuts thin out the sickened trees and check how far a pest may spread, while sparing the sturdy trees that came through the attack unharmed.",
+          "[G]  Thinning, and the clearing of dense or dead material to lessen the danger of wildfire, likewise yields low-use wood. Yet keeping back a certain amount of what most would write off as low-use wood matters greatly. Stripping it away is partly a way of taking off the fuel that a fire would burn; but when a tree is felled, its top is best left where it falls, so that the minerals locked inside it seep back into the earth. Trunks pitted with hollows are, likewise, priceless as homes for the creatures that prey on insects — woodpeckers, bats and other small mammals — which keep troublesome insect numbers down and make the forest healthier. Nor is every small tree low-use: some, such as the rowan, are a ready source of food for birds and other animals. And any species that is uncommon in a given wood should be left to grow, for it adds to the forest's structural variety."
         ],
         "questions": [
           {
@@ -2535,7 +2562,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 22,
-            "prompt": "Complete blank for question 22:",
+            "prompt": "Complete blank for Question 22:",
             "type": "FILL_IN_BLANK",
             "correct": "fuel",
             "explanation": {
@@ -2547,7 +2574,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 23,
-            "prompt": "Complete blank for question 23:",
+            "prompt": "Complete blank for Question 23:",
             "type": "FILL_IN_BLANK",
             "correct": "minerals",
             "explanation": {
@@ -2559,7 +2586,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 24,
-            "prompt": "Complete blank for question 24:",
+            "prompt": "Complete blank for Question 24:",
             "type": "FILL_IN_BLANK",
             "correct": "hollows",
             "explanation": {
@@ -2571,7 +2598,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 25,
-            "prompt": "Complete blank for question 25:",
+            "prompt": "Complete blank for Question 25:",
             "type": "FILL_IN_BLANK",
             "correct": "rowan",
             "explanation": {
@@ -2583,7 +2610,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 26,
-            "prompt": "Complete blank for question 26:",
+            "prompt": "Complete blank for Question 26:",
             "type": "FILL_IN_BLANK",
             "correct": "uncommon",
             "explanation": {
@@ -2601,7 +2628,12 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "Conquering Earth's space junk problem",
         "subtitle": "Satellites, rocket shards and collision debris are creating major traffic risks in orbit around the planet. Researchers are working to reduce these threats.",
         "content": [
-          "Conquering Earth’s space junk problem"
+          "[A]  In a single year, satellites are now launched at an extraordinary rate: military and civil agencies, private firms and even hobbyists together placed close to 500 in orbit, roughly five times the annual figure of the preceding decade. Should the biggest space firms act on plans to loft huge constellations — hundreds or thousands of satellites apiece — in the coming years, that total may climb far more steeply. Such crowding carries real danger. About a decade ago, a commercial American satellite, Aurora-6, collided with a dead Russian communications craft, Kometa-1408, and the impact scattered thousands of fresh fragments that now menace other spacecraft in low Earth orbit, the band of space reaching up to an altitude of 2,000 kilometres. In all, some 22,000 artificial objects are thought to circle the planet, from functioning satellites down to tiny scraps of rocket casing. Nor can operators dodge every looming collision, since each avoidance manoeuvre eats up time and propellant the satellite would otherwise devote to its actual mission.",
+          "[B]  Worry about orbital debris is nothing new — it dates to the earliest days of spaceflight — yet the population of objects overhead is climbing so fast that scientists are pursuing fresh approaches. One line of work aims to sharpen the techniques used to gauge what is actually up there, letting operators function more effectively in increasingly congested orbits. A number of groups have begun assembling an enormous database meant to hold the most reliable record of where each object sits. Elsewhere, other teams are drawing up classification schemes for debris, measuring characteristics like an object's size and shape so operators can judge how serious an approaching piece really is. To let matters slide, many argue, would be intolerable. A handful of unchecked collisions might throw off enough wreckage to trigger a self-sustaining chain reaction of fragments, leaving the region near Earth impossible to use. 'Carry on this way and we will pass a point from which there is no return,' warns Ingrid Halvorsen, an orbital-dynamics researcher at the Nordvik Institute of Astronautics in Bergen.",
+          "[C]  The number of objects aloft keeps growing even as our means of tracking them improve, and this has pushed firms, governments and other spacefarers into novel forms of cooperation against a shared danger. Bodies operating across borders — the Joint Orbital Debris Advisory Council among them — have put together recommendations aimed at protecting the long-term usability of orbital space. Under these, a satellite that has reached the end of its working life should be shut down, with any pressurised gas or leftover propellant that might trigger a blast vented off first. The same bodies also recommend easing retired craft far enough into the atmosphere for them to burn up within twenty years. Yet barely a third of all missions have honoured that twenty-year target, according to Tomasz Reinholt, who heads the orbital-debris office at the Pan-European Space Directorate in Vienna. Those planning the giant constellations insist they will behave as conscientious custodians of space, but Reinholt fears trouble may grow regardless of good intentions. 'And the ones that fold or go insolvent — what then?' he asks. 'They are hardly going to lay out money to pull their satellites back down.'",
+          "[D]  On paper, space is so vast that operators ought to have ample room to fly every one of these missions safely, never coming close to another object. With that in mind, some researchers are attacking the debris problem from the angle of location, seeking to establish exactly where every fragment lies. Pin that down, and most of the needless dodging now performed to head off possible collisions would no longer be necessary. 'Know precisely where everything is, and you would scarcely ever run into trouble,' says Diego Marchetti, a debris specialist with the Calderon Aerospace Institute in Arizona.",
+          "[E]  This area of work is known as space traffic management, precisely because it echoes the business of directing vehicles on roads or aircraft in the sky. Picture an airport on a hectic day, suggests Priya Anand, an astrodynamicist at Meridian University of Technology: aircraft queue up overhead, touching down and lifting off in close succession according to a tightly orchestrated plan. Controllers on the ground can fix each plane's position to within a single metre. No such precision exists for orbital debris, however. Many objects circling the Earth have never been catalogued at all, and even those that appear in databases are not followed with any consistency.",
+          "[F]  A further difficulty is the absence of any definitive catalogue setting out, with real accuracy, the orbits of every known piece of debris. Anand makes the point through a web-based tool of her own devising, which pulls together several feeds — among them the registries kept by the American and Russian governments — to map where objects sit. Type in the identifier for a given object and the tool traces a purple line marking its orbit. For some objects, though, the method falters: enter the code for one Russian rocket stage, listed as object 4471, and two purple lines appear at once, because the American and Russian feeds record wholly different orbits for that single body. Which of the two is right, Anand notes, is next to impossible to say, short of a third independent source against which the others could be checked. Anand calls herself a space environmentalist. 'My aim is to keep space safe to work in — open and useful for the generations still to come.' Until that goal is met, she contends, the community of spacefarers will keep sliding toward a tragedy in which every operator fouls a resource held in common."
         ],
         "questions": [
           {
@@ -2706,7 +2738,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 32,
-            "prompt": "The council offers guidance on ways of safeguarding the enduring  _____  of orbital space. It recommends that, once a satellite stops working, any surplus  _____  or compressed gas that might set off a  _____  ought to be released. Although those who run large satellite fleets acknowledge their duties as caretakers of space, Tomasz Reinholt points out that operators who become  _____  are not likely to make removing their satellites a priority.",
+            "prompt": "The council offers guidance on ways of safeguarding the enduring _____ of orbital space. It recommends that, once a satellite stops working, any surplus [(33) _____] or compressed gas that might set off a [(34) _____] ought to be released. Although those who run large satellite fleets acknowledge their duties as caretakers of space, Tomasz Reinholt points out that operators who become [(35) _____] are not likely to make removing their satellites a priority.",
             "type": "FILL_IN_BLANK",
             "correct": "usability",
             "explanation": {
@@ -2718,7 +2750,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 33,
-            "prompt": "Complete blank for question 33:",
+            "prompt": "The council offers guidance on ways of safeguarding the enduring [(32) _____] of orbital space. It recommends that, once a satellite stops working, any surplus _____ or compressed gas that might set off a [(34) _____] ought to be released. Although those who run large satellite fleets acknowledge their duties as caretakers of space, Tomasz Reinholt points out that operators who become [(35) _____] are not likely to make removing their satellites a priority.",
             "type": "FILL_IN_BLANK",
             "correct": "propellant",
             "explanation": {
@@ -2730,7 +2762,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 34,
-            "prompt": "Complete blank for question 34:",
+            "prompt": "The council offers guidance on ways of safeguarding the enduring [(32) _____] of orbital space. It recommends that, once a satellite stops working, any surplus [(33) _____] or compressed gas that might set off a _____ ought to be released. Although those who run large satellite fleets acknowledge their duties as caretakers of space, Tomasz Reinholt points out that operators who become [(35) _____] are not likely to make removing their satellites a priority.",
             "type": "FILL_IN_BLANK",
             "correct": "blast",
             "explanation": {
@@ -2742,7 +2774,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 35,
-            "prompt": "Complete blank for question 35:",
+            "prompt": "The council offers guidance on ways of safeguarding the enduring [(32) _____] of orbital space. It recommends that, once a satellite stops working, any surplus [(33) _____] or compressed gas that might set off a [(34) _____] ought to be released. Although those who run large satellite fleets acknowledge their duties as caretakers of space, Tomasz Reinholt points out that operators who become _____ are not likely to make removing their satellites a priority.",
             "type": "FILL_IN_BLANK",
             "correct": "insolvent",
             "explanation": {
@@ -2872,7 +2904,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 1,
-            "prompt": "The problem\n• Between the early 1800s and mid-century, ever more people crowded into Valdheim and its old centre became badly overcrowded\n• The old core's roads were clogged with  _____  drawn by horses",
+            "prompt": "The problem • Between the early 1800s and mid-century, ever more people crowded into Valdheim and its old centre became badly overcrowded • The old core's roads were clogged with _____ drawn by horses",
             "type": "FILL_IN_BLANK",
             "correct": "traffic",
             "explanation": {
@@ -2884,7 +2916,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 2,
-            "prompt": "The proposed solution\n• Emil Sandhåg, a lawyer, put forward the idea of building an underground line\n• Such a railway would allow poorer residents to be moved to better homes on the  _____ \n• Several  _____  supported Sandhåg's proposal\n• At first the company struggled to obtain the  _____  that the project demanded\n• Unfavourable reports about the venture were carried by the  _____",
+            "prompt": "The proposed solution • Emil Sandhåg, a lawyer, put forward the idea of building an underground line • Such a railway would allow poorer residents to be moved to better homes on the _____ • Several [(3) _____] supported Sandhåg's proposal • At first the company struggled to obtain the [(4) _____] that the project demanded • Unfavourable reports about the venture were carried by the [(5) _____]",
             "type": "FILL_IN_BLANK",
             "correct": "outskirts",
             "explanation": {
@@ -2896,7 +2928,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 3,
-            "prompt": "The construction\n• The route that was selected meant few buildings had to be pulled down\n• The tunnels were dug using the 'cut and cover' technique\n• Once the brick arch was finished, a covering of  _____  was placed over the tunnel",
+            "prompt": "The proposed solution • Emil Sandhåg, a lawyer, put forward the idea of building an underground line • Such a railway would allow poorer residents to be moved to better homes on the [(2) _____] • Several _____ supported Sandhåg's proposal • At first the company struggled to obtain the [(4) _____] that the project demanded • Unfavourable reports about the venture were carried by the [(5) _____]",
             "type": "FILL_IN_BLANK",
             "correct": "merchants",
             "explanation": {
@@ -2908,7 +2940,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 4,
-            "prompt": "Complete blank for question 4:",
+            "prompt": "The proposed solution • Emil Sandhåg, a lawyer, put forward the idea of building an underground line • Such a railway would allow poorer residents to be moved to better homes on the [(2) _____] • Several [(3) _____] supported Sandhåg's proposal • At first the company struggled to obtain the _____ that the project demanded • Unfavourable reports about the venture were carried by the [(5) _____]",
             "type": "FILL_IN_BLANK",
             "correct": "money",
             "explanation": {
@@ -2920,7 +2952,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 5,
-            "prompt": "Complete blank for question 5:",
+            "prompt": "The proposed solution • Emil Sandhåg, a lawyer, put forward the idea of building an underground line • Such a railway would allow poorer residents to be moved to better homes on the [(2) _____] • Several [(3) _____] supported Sandhåg's proposal • At first the company struggled to obtain the [(4) _____] that the project demanded • Unfavourable reports about the venture were carried by the _____",
             "type": "FILL_IN_BLANK",
             "correct": "newspapers",
             "explanation": {
@@ -2932,7 +2964,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 6,
-            "prompt": "Complete blank for question 6:",
+            "prompt": "The construction • The route that was selected meant few buildings had to be pulled down • The tunnels were dug using the 'cut and cover' technique • Once the brick arch was finished, a covering of _____ was placed over the tunnel",
             "type": "FILL_IN_BLANK",
             "correct": "earth",
             "explanation": {
@@ -3069,7 +3101,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "Stadiums: past, present and future",
         "subtitle": "",
         "content": [
-          "Stadiums: past, present and future"
+          "[A]  Few types of city building are as ancient as the stadium. Long before medieval cathedrals rose or the grand railway termini of the 1800s and 1900s came to define the urban skyline, huge arenas where crowds gathered to watch sport already stood at the heart of civic life in the Greek and Roman worlds. In our own time, though, the stadium is increasingly viewed with doubt. Building one can cost well over €1 billion, and more than a few arenas raised for showpiece occasions — an Olympic Games, say, or a World Cup — have since been left to decay, unused. Yet nothing makes this inevitable. The past shows that a stadium can spur a city's growth and reshape itself to suit each era, and even now designers are devising fresh uses for the single-purpose sporting venues that came to stand for progress in the twentieth century.",
+          "[B]  Perhaps no structure illustrates the adaptability of the stadium better than the amphitheatre at Aurenca, in south-western France, which once held 22,000 onlookers. Raised by the Romans in 85 AD, it was fortified into a towered citadel some time after the fifth century, and later still its interior filled up with dwellings until a village of roughly 180 houses occupied the site. When the preservation movement gathered pace in the nineteenth century, the building was cleared and given back its earliest role, being brought back into use as a venue for public races. A comparable survivor is the great arena of Malvento in northern Italy. Seating 28,000 and built several decades earlier than the one at Aurenca, it has come through the centuries intact and now ranks among the finest places anywhere to hear concerts, a reputation owed to its remarkable acoustics.",
+          "[C]  At the heart of the Italian town of Castelbruno lies another striking case of an amphitheatre swallowed up by the streets that grew around it. As at Aurenca, buildings gradually encroached on the arena between the Middle Ages and the nineteenth century, the space serving in turn as housing, as a store for grain and even as a prison. This time, however, the ruin was never turned back into an arena; instead the Romantic architect Emilio Vandelli reshaped it into a market square. The remains of the old Roman amphitheatre can still be seen today, folded into the cafés and homes that ring the open piazza.",
+          "[D]  In many respects the stadiums of today resemble the old amphitheatres put up for the games of antiquity. Something was lost, though, in the early twentieth century, when the newly available materials of steel and reinforced concrete, together with floodlights that allowed play after dark, produced arenas that could do only one thing. Built for sport alone, a great many of these were placed on the edges of cities and encircled by car parks — a setting that puts them beyond easy reach of ordinary residents, drives up the energy they consume, and adds to the warming of the surrounding streets.",
+          "[E]  Yet a good number of the boldest architects now working see in the stadium a chance to make the city better, and two approaches in particular are proving their worth: treating the arena as a hub for the wider community, and treating it as a generator of power. It is becoming common to fit stadiums with amenities that have nothing to do with sport — hotels and conference halls, retail units, bars and restaurants, play areas for children and patches of greenery. Bundling such uses together strengthens density and mixed use, squeezes more value from the land, and breathes new life into rundown districts. A stadium of this kind belongs not only to athletes and their fans but to families and the public at large. Britain offers several instances: the mixed-use schemes at Ashcombe and Northgate have set a pattern that stadiums across the globe have since copied.",
+          "[F]  The notion of the stadium as a power station grew out of the realisation that clusters of connected buildings can be linked through a smart grid — an electricity network that relies on digital communications to sense shifts in local demand and respond to them, so that little energy is wasted. Arenas suit this role especially well: the broad canopies over their stands present a wide surface for mounting solar panels, and they stand tall enough — over 45 metres — to carry small wind turbines. The Aldberg Solar Stadium led this new generation of power-producing arenas, and others such as the Rijnstad Arena and the Baihe Stadium have followed. Opened in 2011, the last of these carries 9,200 solar panels that generate as much as 1.2 GWh of electricity each year; in doing so it cuts carbon dioxide emissions by around 690 tonnes and, when no event is being held, feeds up to 75 percent of the power used by the neighbouring district. This shows that an arena can serve its city and make a real dent in CO2 emissions.",
+          "[G]  From the earliest times, arenas have sat at the centre of a city's life and culture. In each age it has taken on fresh meaning — a military stronghold, a place to live, an open public space, a stage for performance and, most recently, a proving ground for advanced engineering. Today's stadium draws all these roles together at once, and so helps cities build towards a sustainable future."
         ],
         "questions": [
           {
@@ -3158,7 +3196,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 18,
-            "prompt": "Europe's Roman arenas have shown remarkable flexibility. At Aurenca, the amphitheatre first became a  _____ , was later filled with housing, and finally returned to its original purpose as a place where the public could watch  _____ . The arena of Malvento, among the earliest to be built, is renowned today for the  _____  staged within it. The amphitheatre at Castelbruno likewise filled many roles across the centuries — among them holding stocks of  _____  — before being made over into an open marketplace, where  _____  and dwellings now stand among the Roman remains.",
+            "prompt": "Europe's Roman arenas have shown remarkable flexibility. At Aurenca, the amphitheatre first became a _____ , was later filled with housing, and finally returned to its original purpose as a place where the public could watch [(19) _____] . The arena of Malvento, among the earliest to be built, is renowned today for the [(20) _____] staged within it. The amphitheatre at Castelbruno likewise filled many roles across the centuries — among them holding stocks of [(21) _____] — before being made over into an open marketplace, where [(22) _____] and dwellings now stand among the Roman remains.",
             "type": "FILL_IN_BLANK",
             "correct": "citadel",
             "explanation": {
@@ -3170,7 +3208,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 19,
-            "prompt": "Complete blank for question 19:",
+            "prompt": "Europe's Roman arenas have shown remarkable flexibility. At Aurenca, the amphitheatre first became a [(18) _____] , was later filled with housing, and finally returned to its original purpose as a place where the public could watch _____ . The arena of Malvento, among the earliest to be built, is renowned today for the [(20) _____] staged within it. The amphitheatre at Castelbruno likewise filled many roles across the centuries — among them holding stocks of [(21) _____] — before being made over into an open marketplace, where [(22) _____] and dwellings now stand among the Roman remains.",
             "type": "FILL_IN_BLANK",
             "correct": "races",
             "explanation": {
@@ -3182,7 +3220,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 20,
-            "prompt": "Complete blank for question 20:",
+            "prompt": "Europe's Roman arenas have shown remarkable flexibility. At Aurenca, the amphitheatre first became a [(18) _____] , was later filled with housing, and finally returned to its original purpose as a place where the public could watch [(19) _____] . The arena of Malvento, among the earliest to be built, is renowned today for the _____ staged within it. The amphitheatre at Castelbruno likewise filled many roles across the centuries — among them holding stocks of [(21) _____] — before being made over into an open marketplace, where [(22) _____] and dwellings now stand among the Roman remains.",
             "type": "FILL_IN_BLANK",
             "correct": "concerts",
             "explanation": {
@@ -3194,7 +3232,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 21,
-            "prompt": "Complete blank for question 21:",
+            "prompt": "Europe's Roman arenas have shown remarkable flexibility. At Aurenca, the amphitheatre first became a [(18) _____] , was later filled with housing, and finally returned to its original purpose as a place where the public could watch [(19) _____] . The arena of Malvento, among the earliest to be built, is renowned today for the [(20) _____] staged within it. The amphitheatre at Castelbruno likewise filled many roles across the centuries — among them holding stocks of _____ — before being made over into an open marketplace, where [(22) _____] and dwellings now stand among the Roman remains.",
             "type": "FILL_IN_BLANK",
             "correct": "grain",
             "explanation": {
@@ -3206,7 +3244,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 22,
-            "prompt": "Complete blank for question 22:",
+            "prompt": "Europe's Roman arenas have shown remarkable flexibility. At Aurenca, the amphitheatre first became a [(18) _____] , was later filled with housing, and finally returned to its original purpose as a place where the public could watch [(19) _____] . The arena of Malvento, among the earliest to be built, is renowned today for the [(20) _____] staged within it. The amphitheatre at Castelbruno likewise filled many roles across the centuries — among them holding stocks of [(21) _____] — before being made over into an open marketplace, where _____ and dwellings now stand among the Roman remains.",
             "type": "FILL_IN_BLANK",
             "correct": "cafés",
             "explanation": {
@@ -3310,7 +3348,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 27,
-            "prompt": "Aldwin's father was put to death by the Estates in 1648. Aldwin then entered into  _____  with the Marchlanders, and to win the crown of the Marches he gave up  _____  his father had died defending. The two armies eventually met outside Haldmere in 1650, an encounter that ended in  _____  for the Estates and left Aldwin running for his life.  _____  was promised to whoever could seize him, but after six weeks in hiding he at last reached  _____  of Valland, across the water.",
+            "prompt": "Aldwin's father was put to death by the Estates in 1648. Aldwin then entered into _____ with the Marchlanders, and to win the crown of the Marches he gave up [(28) _____] his father had died defending. The two armies eventually met outside Haldmere in 1650, an encounter that ended in [(29) _____] for the Estates and left Aldwin running for his life. [(30) _____] was promised to whoever could seize him, but after six weeks in hiding he at last reached [(31) _____] of Valland, across the water.",
             "type": "FILL_IN_BLANK",
             "correct": "a calculated partnership",
             "explanation": {
@@ -3322,7 +3360,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 28,
-            "prompt": "Complete blank for question 28:",
+            "prompt": "Aldwin's father was put to death by the Estates in 1648. Aldwin then entered into [(27) _____] with the Marchlanders, and to win the crown of the Marches he gave up _____ his father had died defending. The two armies eventually met outside Haldmere in 1650, an encounter that ended in [(29) _____] for the Estates and left Aldwin running for his life. [(30) _____] was promised to whoever could seize him, but after six weeks in hiding he at last reached [(31) _____] of Valland, across the water.",
             "type": "FILL_IN_BLANK",
             "correct": "a matter of faith",
             "explanation": {
@@ -3334,7 +3372,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 29,
-            "prompt": "Complete blank for question 29:",
+            "prompt": "Aldwin's father was put to death by the Estates in 1648. Aldwin then entered into [(27) _____] with the Marchlanders, and to win the crown of the Marches he gave up [(28) _____] his father had died defending. The two armies eventually met outside Haldmere in 1650, an encounter that ended in _____ for the Estates and left Aldwin running for his life. [(30) _____] was promised to whoever could seize him, but after six weeks in hiding he at last reached [(31) _____] of Valland, across the water.",
             "type": "FILL_IN_BLANK",
             "correct": "an overwhelming win",
             "explanation": {
@@ -3346,7 +3384,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 30,
-            "prompt": "Complete blank for question 30:",
+            "prompt": "Aldwin's father was put to death by the Estates in 1648. Aldwin then entered into [(27) _____] with the Marchlanders, and to win the crown of the Marches he gave up [(28) _____] his father had died defending. The two armies eventually met outside Haldmere in 1650, an encounter that ended in [(29) _____] for the Estates and left Aldwin running for his life. _____ was promised to whoever could seize him, but after six weeks in hiding he at last reached [(31) _____] of Valland, across the water.",
             "type": "FILL_IN_BLANK",
             "correct": "a substantial bounty",
             "explanation": {
@@ -3358,7 +3396,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 31,
-            "prompt": "Complete blank for question 31:",
+            "prompt": "Aldwin's father was put to death by the Estates in 1648. Aldwin then entered into [(27) _____] with the Marchlanders, and to win the crown of the Marches he gave up [(28) _____] his father had died defending. The two armies eventually met outside Haldmere in 1650, an encounter that ended in [(29) _____] for the Estates and left Aldwin running for his life. [(30) _____] was promised to whoever could seize him, but after six weeks in hiding he at last reached _____ of Valland, across the water.",
             "type": "FILL_IN_BLANK",
             "correct": "comparative security",
             "explanation": {
@@ -3675,7 +3713,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 8,
-            "prompt": "Bears are commonly assumed to lack intelligence and to be  _____ .",
+            "prompt": "Bears are commonly assumed to lack intelligence and to be _____ .",
             "type": "FILL_IN_BLANK",
             "correct": "aggressive",
             "explanation": {
@@ -3687,7 +3725,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 9,
-            "prompt": "• At an Arctic wildlife centre, one bear was seen working a branch into a  _____  in order to reach a  _____  that had been suspended above it.",
+            "prompt": "• At an Arctic wildlife centre, one bear was seen working a branch into a _____ in order to reach a [(10) _____] that had been suspended above it.",
             "type": "FILL_IN_BLANK",
             "correct": "lever",
             "explanation": {
@@ -3699,7 +3737,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 10,
-            "prompt": "• In the wild, a bear devised a way of getting up to a platform on which a  _____  was standing.",
+            "prompt": "• At an Arctic wildlife centre, one bear was seen working a branch into a [(9) _____] in order to reach a _____ that had been suspended above it.",
             "type": "FILL_IN_BLANK",
             "correct": "fish",
             "explanation": {
@@ -3711,7 +3749,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 11,
-            "prompt": "• Bears have been seen deliberately arranging and then toppling things, in play resembling a  _____ .",
+            "prompt": "• In the wild, a bear devised a way of getting up to a platform on which a _____ was standing.",
             "type": "FILL_IN_BLANK",
             "correct": "researcher",
             "explanation": {
@@ -3723,7 +3761,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 12,
-            "prompt": "• After an unsuccessful hunt, a bear may move in a way that seems to express  _____ .",
+            "prompt": "• Bears have been seen deliberately arranging and then toppling things, in play resembling a _____ .",
             "type": "FILL_IN_BLANK",
             "correct": "sport",
             "explanation": {
@@ -3735,7 +3773,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 13,
-            "prompt": "There are also signs that bears feel emotion. For instance:",
+            "prompt": "• After an unsuccessful hunt, a bear may move in a way that seems to express _____ .",
             "type": "FILL_IN_BLANK",
             "correct": "annoyance",
             "explanation": {
@@ -3753,7 +3791,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "The Step Pyramid of Djoser",
         "subtitle": "",
         "content": [
-          "The Step Pyramid of Djoser"
+          "[A]  Among all the surviving monuments of ancient Egypt, none draws visitors so reliably as the pyramids, and their appeal has scarcely faded today. Though peoples as distant as the Maya and the Chinese raised pyramids of their own, it is with Egypt that the form has come to be identified, standing as a lasting memorial to the land's early kings. How the shape first emerged is something scholars have argued over for generations. Yet on one matter there is little doubt: within Egypt the story opens with a single tomb, raised for a single ruler and devised by a single gifted builder — the Step Pyramid of Djoser on the plateau at Nedjeru.",
+          "[B]  The earliest of Egypt's Second Dynasty kings, Djoser was also the first to raise his monuments in stone. Those that had gone before were low rectangular structures of sun-dried mud brick, set over the buried passages in which the dead were laid. Why the notion came to him is not recorded, yet it was Djoser's chief official, a man named Neferkha, who put forward a loftier and more striking resting place, to be achieved by laying stone slabs one upon another and shrinking each in turn until the familiar stepped profile emerged. Most estimates place Djoser's reign at around 24 years, though a number of scholars, pointing to how many monuments he left behind and how large they were, contend that he must have ruled for considerably longer.",
+          "[C]  A century of close study has established that the Step Pyramid reached its final form not at a stroke but through a long succession of stages. The historian Adrien Vaillant makes the same point, remarking: 'A great deal of trial and error went into it, nowhere more plainly than in the structure at the heart of the complex. Several schemes were tested … before it rose as the first step pyramid ever made, five tiers set one above the next … Its sheer mass tested those who built it, and to stop the whole from pulling itself apart they angled the blocks inwards.'",
+          "[D]  Once the work was finished the Step Pyramid stood 58 meters tall, overtopping every other building of its age. In size its surrounding complex rivalled a whole Egyptian town, taking in a temple, open courts, shrines and the quarters where the attendants lived. Spreading across 14 hectares, the enclosure was shut in by a wall roughly 11 meters high. Fourteen false doorways had been cut into that wall, along with just one genuine way in at the south-eastern corner, and around the outside of it ran a moat, 680 meters in length and 33 meters across. Dummy doors and moat alike were meant to keep out the unwanted, since anyone hoping to get inside had first to learn the position of the single real opening. So pleased was Djoser with the achievement that he set aside the old custom of naming only the king, having Neferkha's name inscribed on the monument alongside his own.",
+          "[E]  Well beneath the pyramid's base lay the burial chamber in which the king was interred, encircled by a bewildering web of tunnels off which small rooms opened, the whole arrangement designed to baffle intruders. Among the more puzzling things the pyramid gave up was an immense hoard of stone jars. In storerooms leading off the underground galleries, upwards of 30,000 of them came to light, in every imaginable size and shape. Fashioned from many kinds of stone, they bear the names of rulers from Egypt's earliest dynasties. On why they had been placed in Djoser's tomb, and what they were meant to signify, specialists have never reached agreement. Ludwig Steinmann, who cleared the greater part of the pyramid and its complex, took the view that they had first been kept in storage and were later reburied with due ceremony by Djoser as a tribute to the kings who came before him. A rival explanation, favoured by other scholars, is that the jars were simply tipped down the shafts in one further bid to keep robbers away from the royal chamber.",
+          "[F]  For all the care lavished on the maze below ground, in the end it did nothing to keep the ancient robbers out. Long ago Djoser's burial goods, and the king's own body with them, were carried off, so that the excavators came away with no more than the few treasures the thieves had happened to miss. What still lay scattered through the pyramid and its complex was nonetheless enough to leave those who dug there astonished.",
+          "[G]  The way the Egyptologist Katarzyna Brzeska frames it is this: 'Few structures anywhere hold a place in human history to match the Step Pyramid at Nedjeru … one may say without overstatement that this complex marks a turning point in the growth of monumental stone building, in Egypt and across the world alike.' A bold leap forward in design, the Step Pyramid went on to become the model that every later master of the Egyptian pyramid would look back to."
         ],
         "questions": [
           {
@@ -3919,7 +3963,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 21,
-            "prompt": "Taken together with everything around it, the Step Pyramid's complex has been judged as large as an entire Egyptian  _____  from early times. Beyond the pyramid stood living space set aside for the  _____ , together with numerous other buildings and installations.",
+            "prompt": "Taken together with everything around it, the Step Pyramid's complex has been judged as large as an entire Egyptian _____ from early times. Beyond the pyramid stood living space set aside for the [(22) _____] , together with numerous other buildings and installations.",
             "type": "FILL_IN_BLANK",
             "correct": "town",
             "explanation": {
@@ -3931,7 +3975,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 22,
-            "prompt": "The whole complex was enclosed by a wall into which several deceptive doorways had been set. Running right around that wall, moreover, was a lengthy  _____ . Because of this, nobody who arrived without invitation could get into the grounds without first knowing the  _____  of the one genuine doorway.",
+            "prompt": "Taken together with everything around it, the Step Pyramid's complex has been judged as large as an entire Egyptian [(21) _____] from early times. Beyond the pyramid stood living space set aside for the _____ , together with numerous other buildings and installations.",
             "type": "FILL_IN_BLANK",
             "correct": "attendants",
             "explanation": {
@@ -3943,7 +3987,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 23,
-            "prompt": "Complete blank for question 23:",
+            "prompt": "The whole complex was enclosed by a wall into which several deceptive doorways had been set. Running right around that wall, moreover, was a lengthy _____ . Because of this, nobody who arrived without invitation could get into the grounds without first knowing the [(24) _____] of the one genuine doorway.",
             "type": "FILL_IN_BLANK",
             "correct": "moat",
             "explanation": {
@@ -3955,7 +3999,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 24,
-            "prompt": "Complete blank for question 24:",
+            "prompt": "The whole complex was enclosed by a wall into which several deceptive doorways had been set. Running right around that wall, moreover, was a lengthy [(23) _____] . Because of this, nobody who arrived without invitation could get into the grounds without first knowing the _____ of the one genuine doorway.",
             "type": "FILL_IN_BLANK",
             "correct": "position",
             "explanation": {
@@ -4101,7 +4145,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 31,
-            "prompt": "Dr Ingrid Solberg's work centres on the 'algorithmication' of occupations whose basis is not manufacturing but  _____ . Over the period she spent studying an insurance company, she saw staff place ever more  _____  on the advice the AI gave, until the system increasingly framed how they understood their own work. At the same time, employees were discouraged from trying things out for themselves or drawing on their own  _____ , which shut off the path to new ideas. Researchers hope to prevent situations of the sort Solberg documented by making the way AI reaches its decisions easier to follow, and by building users'  _____  in the systems they rely on.",
+            "prompt": "Dr Ingrid Solberg's work centres on the 'algorithmication' of occupations whose basis is not manufacturing but _____ . Over the period she spent studying an insurance company, she saw staff place ever more [(32) _____] on the advice the AI gave, until the system increasingly framed how they understood their own work. At the same time, employees were discouraged from trying things out for themselves or drawing on their own [(33) _____] , which shut off the path to new ideas. Researchers hope to prevent situations of the sort Solberg documented by making the way AI reaches its decisions easier to follow, and by building users' [(34) _____] in the systems they rely on.",
             "type": "FILL_IN_BLANK",
             "correct": "data",
             "explanation": {
@@ -4113,7 +4157,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 32,
-            "prompt": "Complete blank for question 32:",
+            "prompt": "Dr Ingrid Solberg's work centres on the 'algorithmication' of occupations whose basis is not manufacturing but [(31) _____] . Over the period she spent studying an insurance company, she saw staff place ever more _____ on the advice the AI gave, until the system increasingly framed how they understood their own work. At the same time, employees were discouraged from trying things out for themselves or drawing on their own [(33) _____] , which shut off the path to new ideas. Researchers hope to prevent situations of the sort Solberg documented by making the way AI reaches its decisions easier to follow, and by building users' [(34) _____] in the systems they rely on.",
             "type": "FILL_IN_BLANK",
             "correct": "dependence",
             "explanation": {
@@ -4125,7 +4169,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 33,
-            "prompt": "Complete blank for question 33:",
+            "prompt": "Dr Ingrid Solberg's work centres on the 'algorithmication' of occupations whose basis is not manufacturing but [(31) _____] . Over the period she spent studying an insurance company, she saw staff place ever more [(32) _____] on the advice the AI gave, until the system increasingly framed how they understood their own work. At the same time, employees were discouraged from trying things out for themselves or drawing on their own _____ , which shut off the path to new ideas. Researchers hope to prevent situations of the sort Solberg documented by making the way AI reaches its decisions easier to follow, and by building users' [(34) _____] in the systems they rely on.",
             "type": "FILL_IN_BLANK",
             "correct": "instinct",
             "explanation": {
@@ -4137,7 +4181,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 34,
-            "prompt": "Complete blank for question 34:",
+            "prompt": "Dr Ingrid Solberg's work centres on the 'algorithmication' of occupations whose basis is not manufacturing but [(31) _____] . Over the period she spent studying an insurance company, she saw staff place ever more [(32) _____] on the advice the AI gave, until the system increasingly framed how they understood their own work. At the same time, employees were discouraged from trying things out for themselves or drawing on their own [(33) _____] , which shut off the path to new ideas. Researchers hope to prevent situations of the sort Solberg documented by making the way AI reaches its decisions easier to follow, and by building users' _____ in the systems they rely on.",
             "type": "FILL_IN_BLANK",
             "correct": "assurance",
             "explanation": {
@@ -4278,7 +4322,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 1,
-            "prompt": "- the flowers and the fruit are both pale yellow in colour\n- the tree's leaves come to a  _____  tip\n- a  _____  encloses the fruit and divides in two once it matures\n- the spice nutmeg comes from the tree's dried  _____ \n- a second spice,  _____ , is produced from the delicate red netting inside the fruit",
+            "prompt": "- the flowers and the fruit are both pale yellow in colour - the tree's leaves come to a _____ tip - a [(2) _____] encloses the fruit and divides in two once it matures - the spice nutmeg comes from the tree's dried [(3) _____] - a second spice, [(4) _____] , is produced from the delicate red netting inside the fruit",
             "type": "FILL_IN_BLANK",
             "correct": "pointed",
             "explanation": {
@@ -4290,7 +4334,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 2,
-            "prompt": "Complete blank for question 2:",
+            "prompt": "- the flowers and the fruit are both pale yellow in colour - the tree's leaves come to a [(1) _____] tip - a _____ encloses the fruit and divides in two once it matures - the spice nutmeg comes from the tree's dried [(3) _____] - a second spice, [(4) _____] , is produced from the delicate red netting inside the fruit",
             "type": "FILL_IN_BLANK",
             "correct": "rind",
             "explanation": {
@@ -4302,7 +4346,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 3,
-            "prompt": "Complete blank for question 3:",
+            "prompt": "- the flowers and the fruit are both pale yellow in colour - the tree's leaves come to a [(1) _____] tip - a [(2) _____] encloses the fruit and divides in two once it matures - the spice nutmeg comes from the tree's dried _____ - a second spice, [(4) _____] , is produced from the delicate red netting inside the fruit",
             "type": "FILL_IN_BLANK",
             "correct": "kernel",
             "explanation": {
@@ -4314,7 +4358,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 4,
-            "prompt": "Complete blank for question 4:",
+            "prompt": "- the flowers and the fruit are both pale yellow in colour - the tree's leaves come to a [(1) _____] tip - a [(2) _____] encloses the fruit and divides in two once it matures - the spice nutmeg comes from the tree's dried [(3) _____] - a second spice, _____ , is produced from the delicate red netting inside the fruit",
             "type": "FILL_IN_BLANK",
             "correct": "saval",
             "explanation": {
@@ -4377,7 +4421,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 8,
-            "prompt": "Complete blank for question 8:",
+            "prompt": "16th century",
             "type": "FILL_IN_BLANK",
             "correct": "Kessari",
             "explanation": {
@@ -4389,7 +4433,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 9,
-            "prompt": "Complete blank for question 9:",
+            "prompt": "– Demand rose sharply, as the spice was thought to protect against a dangerous _____ that was spreading through Europe.",
             "type": "FILL_IN_BLANK",
             "correct": "fever",
             "explanation": {
@@ -4401,7 +4445,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 10,
-            "prompt": "Complete blank for question 10:",
+            "prompt": "– seized the islands and limited nutmeg-growing to a few closely watched sites – before it left the islands, each load of nutmeg was covered with _____ , ensuring no fertile seed could take root abroad – after a long quarrel, secured the tiny British-held territory of [(11) _____]",
             "type": "FILL_IN_BLANK",
             "correct": "ash",
             "explanation": {
@@ -4413,7 +4457,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 11,
-            "prompt": "Complete blank for question 11:",
+            "prompt": "– seized the islands and limited nutmeg-growing to a few closely watched sites – before it left the islands, each load of nutmeg was covered with [(10) _____] , ensuring no fertile seed could take root abroad – after a long quarrel, secured the tiny British-held territory of _____",
             "type": "FILL_IN_BLANK",
             "correct": "Sela",
             "explanation": {
@@ -4425,7 +4469,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 12,
-            "prompt": "Complete blank for question 12:",
+            "prompt": "– 1772: young seedlings were smuggled abroad to the island of _____ – 1779: a [(13) _____] ravaged the islands, ruining much of the nutmeg crop",
             "type": "FILL_IN_BLANK",
             "correct": "Verda",
             "explanation": {
@@ -4437,7 +4481,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 13,
-            "prompt": "Complete blank for question 13:",
+            "prompt": "– 1772: young seedlings were smuggled abroad to the island of [(12) _____] – 1779: a _____ ravaged the islands, ruining much of the nutmeg crop",
             "type": "FILL_IN_BLANK",
             "correct": "cyclone",
             "explanation": {
@@ -4455,7 +4499,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "Driverless cars",
         "subtitle": "",
         "content": [
-          "Driverless cars"
+          "[A]  Carmakers are no strangers to automation on the factory floor. From the 1980s onward, handing assembly work to robots cut costs sharply and made the mass production of vehicles both more dependable and more adaptable. Now the industry faces a fresh wave of automation, but this time the change lies not in how cars are built but in the cars themselves. Efforts to automate driving are hardly recent: for over half a century, vehicles with modest self-steering abilities have existed, and much of that early work fed into today's driver-assistance features. What transformed the pace was the 2012 announcement by the software company Meridian Dynamics that it had been running self-driving cars on public roads outside Brisbane, Australia; since then, development has accelerated rapidly.",
+          "[B]  Why is the technology moving so quickly? Safety is the reason most often given. Studies by New Zealand's Centre for Road Safety Analysis found that driver distraction plays a part in the great majority of crashes, and is the leading cause in most of them, something automation could help to curb. A second motivation is reclaiming the hours drivers lose behind the wheel. Once a car can handle part or all of the driving, that time might instead be spent working, keeping in touch with others, or simply unwinding, while the automated systems take charge of getting everyone there safely. There is a further gain, too: people poorly served by today's transport, the elderly, say, or those with disabilities, could suddenly enjoy far more freedom to travel on their own terms.",
+          "[C]  Look past these immediate advantages and broader consequences for transport, for society, and for the way cars are made come into view. Consider that a typical car sits idle, parked, for well over 95 percent of its existence. Automation makes ride-sharing arrangements far more practical, especially across cities, where the demand for travel is heavy. Should a sizeable share of people opt for shared automated cars, the same mobility needs could be satisfied by a far smaller number of vehicles.",
+          "[D]  When the Delft Institute of Urban Mobility modelled automated transport in Helsinki, it concluded that fully automated car-sharing, if adopted, would call for under a quarter of the vehicles on the roads today. That points to a future in which far fewer cars need building to satisfy demand. The total number of journeys, though, would likely climb, in part because empty vehicles must reposition themselves, travelling from one customer to the next with no one aboard. Separate modelling by the Ontario Centre for Transport Studies indicates that automation could shrink the national car fleet by roughly 40 percent, while roughly tripling the distance each remaining car covers in a year. Worked harder in this way, every vehicle would wear out and need replacing sooner, a quicker turnover that means car production need not fall at all.",
+          "[E]  Automation is likely to reshape manufacturing in other ways. Suppose ownership gives way to a model in which people no longer keep one car of their own but instead buy access to a whole range of vehicles through a mobility provider. Drivers could then pick whichever vehicle best fits a given trip, rather than settling on a single car that only ever half-suits any of their needs. Given that, most of the time, most seats in most cars carry no one, this could encourage the building of a leaner, more efficient line-up of vehicles matched to what individuals actually require. For the unusual trip, loading up for a family camping holiday, or moving a son or daughter into university accommodation, specialised vehicles could be booked as needed.",
+          "[F]  Getting automated cars onto our roads means clearing several obstacles. One is technical: the vehicle has to perform dependably across the endless variety of traffic, weather and road conditions it may meet. Another is regulatory: working out how questions of liability and enforcement shift once a driver is no longer necessary to operate the car. A third is social: whole communities will need to come to trust automated vehicles and accept them as a worthwhile part of how people get around.",
+          "[G]  Plainly, the challenges are many, yet with well-directed, rigorous research most can probably be settled inside the coming decade. Because mobility stands to change so profoundly, and alongside so many parallel advances such as virtual reality and telepresence, firm predictions about what lies ahead are difficult to make. One thing, however, is beyond doubt: change is on its way, and for anyone building the vehicles that will carry us in future, the ability to adapt to it will be essential."
         ],
         "questions": [
           {
@@ -4565,7 +4615,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 19,
-            "prompt": "Research by New Zealand's Centre for Road Safety Analysis suggests that a large share of crashes can be traced partly to driver  _____ , which is why driverless vehicles ought to make the roads safer. Automation should bring further gains as well. The pooling of cars through  _____  becomes realistic on a far wider scale in urban centres, reducing how many cars are needed. Work by the Ontario Centre for Transport Studies estimates that the country's car  _____  could contract by about 40 percent; even so, the average annual  _____  that every vehicle covers would treble. This speeds up replacement, so output from manufacturers need not drop.",
+            "prompt": "Research by New Zealand's Centre for Road Safety Analysis suggests that a large share of crashes can be traced partly to driver _____ , which is why driverless vehicles ought to make the roads safer. Automation should bring further gains as well. The pooling of cars through [(20) _____] becomes realistic on a far wider scale in urban centres, reducing how many cars are needed. Work by the Ontario Centre for Transport Studies estimates that the country's car [(21) _____] could contract by about 40 percent; even so, the average annual [(22) _____] that every vehicle covers would treble. This speeds up replacement, so output from manufacturers need not drop.",
             "type": "FILL_IN_BLANK",
             "correct": "distraction",
             "explanation": {
@@ -4577,7 +4627,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 20,
-            "prompt": "Complete blank for question 20:",
+            "prompt": "Research by New Zealand's Centre for Road Safety Analysis suggests that a large share of crashes can be traced partly to driver [(19) _____] , which is why driverless vehicles ought to make the roads safer. Automation should bring further gains as well. The pooling of cars through _____ becomes realistic on a far wider scale in urban centres, reducing how many cars are needed. Work by the Ontario Centre for Transport Studies estimates that the country's car [(21) _____] could contract by about 40 percent; even so, the average annual [(22) _____] that every vehicle covers would treble. This speeds up replacement, so output from manufacturers need not drop.",
             "type": "FILL_IN_BLANK",
             "correct": "ride-sharing",
             "explanation": {
@@ -4589,7 +4639,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 21,
-            "prompt": "Complete blank for question 21:",
+            "prompt": "Research by New Zealand's Centre for Road Safety Analysis suggests that a large share of crashes can be traced partly to driver [(19) _____] , which is why driverless vehicles ought to make the roads safer. Automation should bring further gains as well. The pooling of cars through [(20) _____] becomes realistic on a far wider scale in urban centres, reducing how many cars are needed. Work by the Ontario Centre for Transport Studies estimates that the country's car _____ could contract by about 40 percent; even so, the average annual [(22) _____] that every vehicle covers would treble. This speeds up replacement, so output from manufacturers need not drop.",
             "type": "FILL_IN_BLANK",
             "correct": "fleet",
             "explanation": {
@@ -4601,7 +4651,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 22,
-            "prompt": "Complete blank for question 22:",
+            "prompt": "Research by New Zealand's Centre for Road Safety Analysis suggests that a large share of crashes can be traced partly to driver [(19) _____] , which is why driverless vehicles ought to make the roads safer. Automation should bring further gains as well. The pooling of cars through [(20) _____] becomes realistic on a far wider scale in urban centres, reducing how many cars are needed. Work by the Ontario Centre for Transport Studies estimates that the country's car [(21) _____] could contract by about 40 percent; even so, the average annual _____ that every vehicle covers would treble. This speeds up replacement, so output from manufacturers need not drop.",
             "type": "FILL_IN_BLANK",
             "correct": "distance",
             "explanation": {
@@ -4909,7 +4959,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 38,
-            "prompt": "The writer has undertaken a considerable number of  _____  over the course of his career, none identical to another. On a couple of occasions he was the very first outsider a group had ever met — until his arrival those communities had been  _____ . In his view, the broad shape of the planet's land  _____  has already been mapped, and what remains for present-day researchers are narrower questions such as how a herd of yak chooses where to feed.",
+            "prompt": "The writer has undertaken a considerable number of _____ over the course of his career, none identical to another. On a couple of occasions he was the very first outsider a group had ever met — until his arrival those communities had been [(39) _____] . In his view, the broad shape of the planet's land [(40) _____] has already been mapped, and what remains for present-day researchers are narrower questions such as how a herd of yak chooses where to feed.",
             "type": "FILL_IN_BLANK",
             "correct": "journeys",
             "explanation": {
@@ -4921,7 +4971,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 39,
-            "prompt": "Complete blank for question 39:",
+            "prompt": "The writer has undertaken a considerable number of [(38) _____] over the course of his career, none identical to another. On a couple of occasions he was the very first outsider a group had ever met — until his arrival those communities had been _____ . In his view, the broad shape of the planet's land [(40) _____] has already been mapped, and what remains for present-day researchers are narrower questions such as how a herd of yak chooses where to feed.",
             "type": "FILL_IN_BLANK",
             "correct": "unvisited",
             "explanation": {
@@ -4933,7 +4983,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 40,
-            "prompt": "Complete blank for question 40:",
+            "prompt": "The writer has undertaken a considerable number of [(38) _____] over the course of his career, none identical to another. On a couple of occasions he was the very first outsider a group had ever met — until his arrival those communities had been [(39) _____] . In his view, the broad shape of the planet's land _____ has already been mapped, and what remains for present-day researchers are narrower questions such as how a herd of yak chooses where to feed.",
             "type": "FILL_IN_BLANK",
             "correct": "terrain",
             "explanation": {
@@ -4981,7 +5031,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 1,
-            "prompt": "What play does for children",
+            "prompt": "building a pretend castle can nurture a child's _____",
             "type": "FILL_IN_BLANK",
             "correct": "imagination",
             "explanation": {
@@ -4993,7 +5043,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 2,
-            "prompt": "building a pretend castle can nurture a child's",
+            "prompt": "card games help children practise _____ and waiting for their turn",
             "type": "FILL_IN_BLANK",
             "correct": "sharing",
             "explanation": {
@@ -5005,7 +5055,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 3,
-            "prompt": "card games help children practise    and waiting for their turn",
+            "prompt": "rising numbers of children now live in crowded urban _____",
             "type": "FILL_IN_BLANK",
             "correct": "flats",
             "explanation": {
@@ -5017,7 +5067,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 4,
-            "prompt": "Why play is in decline",
+            "prompt": "worry about _____ on the roads",
             "type": "FILL_IN_BLANK",
             "correct": "vehicles",
             "explanation": {
@@ -5029,7 +5079,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 5,
-            "prompt": "rising numbers of children now live in crowded urban",
+            "prompt": "worry about _____",
             "type": "FILL_IN_BLANK",
             "correct": "strangers",
             "explanation": {
@@ -5041,7 +5091,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 6,
-            "prompt": "chances for unsupervised play are reduced by",
+            "prompt": "mounting academic _____ at school",
             "type": "FILL_IN_BLANK",
             "correct": "pressure",
             "explanation": {
@@ -5053,7 +5103,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 7,
-            "prompt": "worry about    on the roads",
+            "prompt": "the _____ needed to justify these policies is difficult to come by",
             "type": "FILL_IN_BLANK",
             "correct": "data",
             "explanation": {
@@ -5065,7 +5115,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 8,
-            "prompt": "worry about",
+            "prompt": "studies still need to trace how play affects the remainder of a child's _____",
             "type": "FILL_IN_BLANK",
             "correct": "future",
             "explanation": {
@@ -5168,7 +5218,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "The growth of bike-sharing schemes around the world",
         "subtitle": "How Swedish engineer Ragnar Eklöf helped to devise urban bike-sharing schemes",
         "content": [
-          "The Growth Of Bike-Sharing Schemes Around The World"
+          "[A]  It was on a summer's day in Stockholm, in 1966, that the idea of a city-wide bike-sharing scheme first took shape. Behind it stood Frihjul, a collective of Swedish activists bent on transforming society. To their minds, the plan — which they called the Gula Cykeln, or Yellow Bicycle, scheme — answered two dangers they saw looming: air pollution and rampant consumerism. A handful of second-hand bikes were painted yellow and set out in the heart of the city. Leaflets went out too, warning of the harm cars caused and urging residents to take up the yellow bikes. Left unlocked at spots around Stockholm, the bikes were free for anyone who needed to get somewhere.",
+          "[B]  One of those closely involved in the first scheme was Ragnar Eklöf, a Swedish industrial engineer who still lives in Stockholm and gets around by bike. As he tells it, the scheme drew plenty of notice — above all as a way of broadcasting what Frihjul stood for — yet never really managed to establish itself. Frihjul's efforts met hostility from the police, who cleared the yellow bikes off the streets almost the moment they appeared. For Eklöf, though, and for bike-sharing more broadly, this was merely the start. 'That first Yellow Bicycle plan was purely symbolic,' he says. 'We painted a handful of bikes yellow, and that was that. Things grew more serious only when I joined the Stockholm city council, two years on.'",
+          "[C]  Now on the council, Eklöf seized his chance to put a far more detailed Yellow Bicycle plan before its members. 'My proposal was for Stockholm to spread 8,000 yellow bikes across the streets, free for anybody to ride,' he explains. 'I worked the figures out carefully, and it emerged that, per person and per kilometre, a yellow bicycle would cost the city only a tenth of what it was already paying to subsidise public transport.' The council, even so, threw the plan out without a single vote in its favour. 'Their view was that the bicycle belonged to a bygone age, and the car to the future,' Eklöf recalls. Yet none of this dampened his resolve.",
+          "[D]  Eklöf's faith in bike-sharing never wavered, and midway through the 1990s two Finns approached him for help in getting a scheme going in Helsinki. What came of it was the first large-scale bike-share programme anywhere in the world. The system ran on a deposit: a coin slotted into the bike was handed back once the bike was returned. Having built the Finnish system, Eklöf resolved to have another go on home ground — and on this occasion he managed to catch the attention of Sweden's Ministry of Transport. 'The times were different by then,' he remembers. 'Environmental awareness had grown, and Helsinki had shown that bike-sharing could actually work.' So it was that a fresh Yellow Bicycle plan opened in Stockholm in 1998. Riding the bikes, however, no longer came free: each trip now cost one krona, paid for using a chip card that the Swedish bank Nordgiro had developed. The bikes Eklöf drew up for it were bright and solidly built, held in purpose-made racks that the chip card unlocked; at the outset there were 250 of them, shared across five stations.",
+          "[E]  Working at Eklöf's side on the project was its system designer, Kjell Norberg. 'While we were still trying out the racks, he came out with the news that he'd already drawn up a better design. Naturally, we had to make do with the racks we already had.' Theft and vandalism, though, dogged the system. 'Come Monday, there were nearly always one or two bikes gone,' says Norberg. 'What became of them I couldn't say — after all, a yellow bike was recognisable in an instant.' The heaviest blow, however, fell when Nordgiro chose to scrap the chip card, having found it unprofitable. 'The whole system hinged on that chip card,' Norberg says. 'Carrying on would have meant building an alternative from scratch, and by then our commercial partner had lost all enthusiasm.'",
+          "[F]  Eklöf took the setback hard — true to form — but not for long. In 2002 a telephone call reached him from Vialux, a French outdoor-advertising firm keen to roll out his model in Zurich. 'It went splendidly. Zurich led to a system in Milan, and then, in 2008, came Rome — a turning point in the whole history of bike-sharing.' Rome's programme proved a runaway success nobody had foreseen, and today, with upwards of 20,000 bicycles in service, it prompted cities the world over to launch schemes of their own, every one patterned after Eklöf's. 'That it all came about is marvellous,' he says. 'The trouble is, I saw hardly any money myself, having never taken out a patent.'",
+          "[G]  These days bikes account for 41% of every journey made in Stockholm, and the city ranks — alongside Helsinki — as one of the two most cycle-friendly capitals in northern Europe; yet a second Yellow Bicycle plan never materialised. To Norberg's mind, the reason may simply be that everyone in Stockholm owns a bike already. Eklöf, for his part, cannot see why that should lessen the city's need for such a scheme. 'Somebody riding the metro doesn't carry a bicycle around, yet often needs some further means of transport to reach where they're finally headed.' Odd though he finds it that such a city lacks a thriving scheme, he stays hopeful. 'Back in the sixties we had no hope: people would have given their lives to keep cars in the city. That outlook has since turned completely around. Nowadays everyone yearns for cities no longer ruled by the car.'"
         ],
         "questions": [
           {
@@ -5354,7 +5410,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 23,
-            "prompt": "The very first urban bike-sharing scheme was dreamed up by a Swedish group who called themselves Frihjul. The group was made up of  _____  intent on reshaping  _____ . Alarmed by the damage being done to the environment, and by people's endless appetite for goods, they believed that placing shared bikes around the city would draw notice to such concerns. Besides colouring a number of the bikes  _____ , they handed round printed notices denouncing the car. At first, though, the scheme achieved very little: no sooner had the group set the bikes out than the  _____  carted them off again. The plan, Eklöf explains, was meant to be symbolic — a means of prompting people to reflect on the issues.",
+            "prompt": "The very first urban bike-sharing scheme was dreamed up by a Swedish group who called themselves Frihjul. The group was made up of _____ intent on reshaping [(24) _____] . Alarmed by the damage being done to the environment, and by people's endless appetite for goods, they believed that placing shared bikes around the city would draw notice to such concerns. Besides colouring a number of the bikes [(25) _____] , they handed round printed notices denouncing the car. At first, though, the scheme achieved very little: no sooner had the group set the bikes out than the [(26) _____] carted them off again. The plan, Eklöf explains, was meant to be symbolic — a means of prompting people to reflect on the issues.",
             "type": "FILL_IN_BLANK",
             "correct": "activists",
             "explanation": {
@@ -5366,7 +5422,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 24,
-            "prompt": "Complete blank for question 24:",
+            "prompt": "The very first urban bike-sharing scheme was dreamed up by a Swedish group who called themselves Frihjul. The group was made up of [(23) _____] intent on reshaping _____ . Alarmed by the damage being done to the environment, and by people's endless appetite for goods, they believed that placing shared bikes around the city would draw notice to such concerns. Besides colouring a number of the bikes [(25) _____] , they handed round printed notices denouncing the car. At first, though, the scheme achieved very little: no sooner had the group set the bikes out than the [(26) _____] carted them off again. The plan, Eklöf explains, was meant to be symbolic — a means of prompting people to reflect on the issues.",
             "type": "FILL_IN_BLANK",
             "correct": "society",
             "explanation": {
@@ -5378,7 +5434,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 25,
-            "prompt": "Complete blank for question 25:",
+            "prompt": "The very first urban bike-sharing scheme was dreamed up by a Swedish group who called themselves Frihjul. The group was made up of [(23) _____] intent on reshaping [(24) _____] . Alarmed by the damage being done to the environment, and by people's endless appetite for goods, they believed that placing shared bikes around the city would draw notice to such concerns. Besides colouring a number of the bikes _____ , they handed round printed notices denouncing the car. At first, though, the scheme achieved very little: no sooner had the group set the bikes out than the [(26) _____] carted them off again. The plan, Eklöf explains, was meant to be symbolic — a means of prompting people to reflect on the issues.",
             "type": "FILL_IN_BLANK",
             "correct": "yellow",
             "explanation": {
@@ -5390,7 +5446,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 26,
-            "prompt": "Complete blank for question 26:",
+            "prompt": "The very first urban bike-sharing scheme was dreamed up by a Swedish group who called themselves Frihjul. The group was made up of [(23) _____] intent on reshaping [(24) _____] . Alarmed by the damage being done to the environment, and by people's endless appetite for goods, they believed that placing shared bikes around the city would draw notice to such concerns. Besides colouring a number of the bikes [(25) _____] , they handed round printed notices denouncing the car. At first, though, the scheme achieved very little: no sooner had the group set the bikes out than the _____ carted them off again. The plan, Eklöf explains, was meant to be symbolic — a means of prompting people to reflect on the issues.",
             "type": "FILL_IN_BLANK",
             "correct": "police",
             "explanation": {
@@ -5592,7 +5648,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 36,
-            "prompt": "Okonkwo, Vance and Ruiz looked into the employees of a themed  _____  business operating across the United States. Their research showed that activities created to be enjoyable improved workers'  _____ , and that backing from management for such activities brought about a drop in staff  _____ . They concluded, moreover, that the activities needed to fit both the company's  _____  and the  _____  of its staff. A balance had to be found between allowing staff some freedom and preserving the quality of their work.",
+            "prompt": "Okonkwo, Vance and Ruiz looked into the employees of a themed _____ business operating across the United States. Their research showed that activities created to be enjoyable improved workers' [(37) _____] , and that backing from management for such activities brought about a drop in staff [(38) _____] . They concluded, moreover, that the activities needed to fit both the company's [(39) _____] and the [(40) _____] of its staff. A balance had to be found between allowing staff some freedom and preserving the quality of their work.",
             "type": "FILL_IN_BLANK",
             "correct": "cafés",
             "explanation": {
@@ -5604,7 +5660,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 37,
-            "prompt": "Complete blank for question 37:",
+            "prompt": "Okonkwo, Vance and Ruiz looked into the employees of a themed [(36) _____] business operating across the United States. Their research showed that activities created to be enjoyable improved workers' _____ , and that backing from management for such activities brought about a drop in staff [(38) _____] . They concluded, moreover, that the activities needed to fit both the company's [(39) _____] and the [(40) _____] of its staff. A balance had to be found between allowing staff some freedom and preserving the quality of their work.",
             "type": "FILL_IN_BLANK",
             "correct": "productivity",
             "explanation": {
@@ -5616,7 +5672,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 38,
-            "prompt": "Complete blank for question 38:",
+            "prompt": "Okonkwo, Vance and Ruiz looked into the employees of a themed [(36) _____] business operating across the United States. Their research showed that activities created to be enjoyable improved workers' [(37) _____] , and that backing from management for such activities brought about a drop in staff _____ . They concluded, moreover, that the activities needed to fit both the company's [(39) _____] and the [(40) _____] of its staff. A balance had to be found between allowing staff some freedom and preserving the quality of their work.",
             "type": "FILL_IN_BLANK",
             "correct": "turnover",
             "explanation": {
@@ -5628,7 +5684,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 39,
-            "prompt": "Complete blank for question 39:",
+            "prompt": "Okonkwo, Vance and Ruiz looked into the employees of a themed [(36) _____] business operating across the United States. Their research showed that activities created to be enjoyable improved workers' [(37) _____] , and that backing from management for such activities brought about a drop in staff [(38) _____] . They concluded, moreover, that the activities needed to fit both the company's _____ and the [(40) _____] of its staff. A balance had to be found between allowing staff some freedom and preserving the quality of their work.",
             "type": "FILL_IN_BLANK",
             "correct": "aims",
             "explanation": {
@@ -5640,7 +5696,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 40,
-            "prompt": "Complete blank for question 40:",
+            "prompt": "Okonkwo, Vance and Ruiz looked into the employees of a themed [(36) _____] business operating across the United States. Their research showed that activities created to be enjoyable improved workers' [(37) _____] , and that backing from management for such activities brought about a drop in staff [(38) _____] . They concluded, moreover, that the activities needed to fit both the company's [(39) _____] and the _____ of its staff. A balance had to be found between allowing staff some freedom and preserving the quality of their work.",
             "type": "FILL_IN_BLANK",
             "correct": "personalities",
             "explanation": {
@@ -5679,7 +5735,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "questions": [
           {
             "id": 1,
-            "prompt": "Complete blank for question 1:",
+            "prompt": "• businesses could be added to the directory simply by filling in a _____ • every listed operator was independently checked against a set of national [(2) _____] , and its effect on the natural world was taken into account",
             "type": "FILL_IN_BLANK",
             "correct": "form",
             "explanation": {
@@ -5691,7 +5747,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 2,
-            "prompt": "Complete blank for question 2:",
+            "prompt": "• businesses could be added to the directory simply by filling in a [(1) _____] • every listed operator was independently checked against a set of national _____ , and its effect on the natural world was taken into account",
             "type": "FILL_IN_BLANK",
             "correct": "standards",
             "explanation": {
@@ -5703,7 +5759,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 3,
-            "prompt": "Complete blank for question 3:",
+            "prompt": "• e.g. a filmed conversation with a retired rugby _____ , and a clickable tour of the [(4) _____] where major films had been shot",
             "type": "FILL_IN_BLANK",
             "correct": "coach",
             "explanation": {
@@ -5715,7 +5771,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 4,
-            "prompt": "Complete blank for question 4:",
+            "prompt": "• e.g. a filmed conversation with a retired rugby [(3) _____] , and a clickable tour of the _____ where major films had been shot",
             "type": "FILL_IN_BLANK",
             "correct": "locations",
             "explanation": {
@@ -5727,7 +5783,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 5,
-            "prompt": "Complete blank for question 5:",
+            "prompt": "• the driving routes it suggested varied with the kind of _____ a motorist preferred",
             "type": "FILL_IN_BLANK",
             "correct": "terrain",
             "explanation": {
@@ -5739,7 +5795,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 6,
-            "prompt": "Complete blank for question 6:",
+            "prompt": "• the attractions a user had bookmarked could all be displayed together on a single _____ , along with public-transport details and nearby places to stay",
             "type": "FILL_IN_BLANK",
             "correct": "map",
             "explanation": {
@@ -5751,7 +5807,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 7,
-            "prompt": "Complete blank for question 7:",
+            "prompt": "• travellers were invited to send in an _____ describing their trip",
             "type": "FILL_IN_BLANK",
             "correct": "account",
             "explanation": {
@@ -5871,7 +5927,12 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
         "title": "Why being bored is stimulating – and useful, too",
         "subtitle": "This most ordinary of feelings is proving far richer than anyone had expected",
         "content": [
-          "Why Being Bored Is Stimulating – And Useful, Too"
+          "[A]  Everyone recognises the sensation: your thoughts refuse to settle, the minutes seem to drag, and nothing on offer looks likely to lift your mood. Pinning the feeling down precisely enough to examine it in a laboratory, however, has turned out to be surprisingly awkward. Part of the trouble is that boredom shades into so many neighbouring states — irritation, listlessness, gloom and plain indifference among them. Researchers cannot even agree on whether it is invariably a dull, low-energy condition, or whether the jittery, can't-sit-still version deserves the same name. Anneli Virtanen, a psychologist at the University of Tampere in Finland, likens it in her book The Restless Mind to nausea — a response whose task is to keep us clear of particular circumstances. 'Where nausea steers us away from food that might poison us,' she writes, 'boredom may steer us away from company and settings that offer us nothing.'",
+          "[B]  Working from interviews about how people actually experience being bored, Lukas Brandt and his colleagues at the University of Graz in Austria have lately mapped out five separate varieties, which they label vacant, drifting, seeking, agitated and resigned. Each can be located on a simple grid: one axis stretches from low to high arousal, the other from pleasant to unpleasant feeling. What Brandt finds striking is that, although most of us pass through every variety at one time or another, we each tend to lean heavily towards a single one. The version to be most wary of is the agitated kind, in which high arousal collides with thoroughly negative feeling. The kindest is the vacant sort, where a person, though absorbed in nothing rewarding, stays calm and untroubled. Whether particular personalities are drawn towards particular types of boredom is a question that has yet to be settled.",
+          "[C]  Rosa Feldmann, a psychologist at Ghent University in Belgium, takes the case still further. Every emotion, she maintains, exists for some purpose, and boredom is no exception. Her own work suggests that a bored mind is a more inventive one. 'People dread boredom,' she notes, 'yet it can be the doorway to all sorts of remarkable ideas.' In a study she published last year, volunteers who had first been made thoroughly bored — by spending a quarter of an hour transcribing entries from a dictionary — went on to devise far more imaginative uses for an ordinary plastic spoon than a comparison group did. A dull, undemanding task suits creativity precisely because it lets the mind roam, Feldmann argues; indeed, she recommends that we deliberately build more boredom into our days.",
+          "[D]  Not everyone is persuaded. Daniel Voss, a psychologist at Radboud University in the Netherlands, objects that once your mind is wandering freely, you are no longer bored — to his thinking, boredom is by definition a state we do not want. This is not to deny that it may be adaptive. Physical pain is adaptive too, he points out: without it we would come to serious harm, yet no one would argue that we should go looking for pain, and boredom, however useful evolution has made it, can turn poisonous when left to fester. What lies at the very heart of boredom, for Voss, is the mind's failure to shift its 'attention system' into gear, and the result is an inability to concentrate on anything at all, so that time appears to crawl. Worse still, the harder you struggle to put things right, the more wretched you may feel. 'People reach out to the world, and when they fail to connect, the frustration and irritation set in,' he says. Most troubling of all, in Voss's view, is that a repeated failure to marshal one's attention can tip a person into a state of no longer knowing what to do — and no longer caring.",
+          "[E]  Why the attention system should break down in the first place is what Voss's group is now investigating. The research is at an early stage, but they suspect that personality accounts for at least part of it. A proneness to boredom has been tied to a range of traits. Those whose behaviour is driven chiefly by the pursuit of reward appear to suffer worst of all, whereas a quality such as inquisitiveness seems to lift a person's threshold for it. Further signs that boredom does real damage come from comparing people who are easily bored with those who are not: the former tend to fare worse in their schooling, their working lives and their fortunes generally. Boredom, admittedly, does not kill anyone directly — the danger lies in what we do to relieve it. So how might it be eased before matters reach that point? Brandt's team offers one answer. In work with adolescents, they found that youngsters who 'approach' a tedious situation — recognising it as dull and throwing themselves into it regardless — reported less boredom than those who reached instead for snacks, television or their social-media feeds.",
+          "[F]  There may even be a fresh source of boredom in the way we now live, suggests the psychologist Mira Lindqvist. 'Modern life bombards us with stimulation, and yet people still struggle to find meaning in it,' she observes. The remedy she proposes is not more mental stimulation but less: rather than reaching once more for our phones, we might let boredom do its work and prompt us to engage with the world around us in some more meaningful fashion."
         ],
         "questions": [
           {
@@ -6084,7 +6145,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 24,
-            "prompt": "In Daniel Voss's account, what chiefly marks out boredom is that sufferers are unable to  _____ , which he traces to a breakdown in the 'attention system', leaving them frustrated and irritable. According to his team, individuals who make the chasing of  _____  their main goal in life are likely to find boredom hard to handle, while those blessed with a degree of  _____  tend to manage it without much trouble.",
+            "prompt": "In Daniel Voss's account, what chiefly marks out boredom is that sufferers are unable to _____ , which he traces to a breakdown in the 'attention system', leaving them frustrated and irritable. According to his team, individuals who make the chasing of [(25) _____] their main goal in life are likely to find boredom hard to handle, while those blessed with a degree of [(26) _____] tend to manage it without much trouble.",
             "type": "FILL_IN_BLANK",
             "correct": "concentrate",
             "explanation": {
@@ -6096,7 +6157,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 25,
-            "prompt": "Complete blank for question 25:",
+            "prompt": "In Daniel Voss's account, what chiefly marks out boredom is that sufferers are unable to [(24) _____] , which he traces to a breakdown in the 'attention system', leaving them frustrated and irritable. According to his team, individuals who make the chasing of _____ their main goal in life are likely to find boredom hard to handle, while those blessed with a degree of [(26) _____] tend to manage it without much trouble.",
             "type": "FILL_IN_BLANK",
             "correct": "reward",
             "explanation": {
@@ -6108,7 +6169,7 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
           },
           {
             "id": 26,
-            "prompt": "Complete blank for question 26:",
+            "prompt": "In Daniel Voss's account, what chiefly marks out boredom is that sufferers are unable to [(24) _____] , which he traces to a breakdown in the 'attention system', leaving them frustrated and irritable. According to his team, individuals who make the chasing of [(25) _____] their main goal in life are likely to find boredom hard to handle, while those blessed with a degree of _____ tend to manage it without much trouble.",
             "type": "FILL_IN_BLANK",
             "correct": "inquisitiveness",
             "explanation": {
@@ -6406,6 +6467,2788 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
       }
     ]
   },
+  "cam-12-reading-1": {
+    "id": "cam-12-reading-1",
+    "title": "IELTS CAM Inspired 12 - Reading Test 1",
+    "series": "Cambridge 12",
+    "testNumber": 1,
+    "type": "Reading",
+    "durationMinutes": 60,
+    "passages": [
+      {
+        "id": "cam-12-reading-1-p1",
+        "passageNumber": 1,
+        "title": "Cork",
+        "subtitle": "",
+        "content": [
+          "The material we call cork is simply the thick outer bark of the cork oak, Quercus velaris. Light and springy, it repels water, resists heat and flame, and serves an enormous variety of uses. People have relied on it for thousands of years: Phoenician traders pressed slabs of it into their storage jars to keep the contents dry, while later Mediterranean peoples shaped it into everything from net floats to shoe soles.",
+          "The tree that yields it is no less extraordinary. A cork oak's bark can reach thirty centimetres in depth, and, wrapping the trunk and branches like a heavy coat, it holds the interior at a steady eighteen degrees Celsius whatever the season. This protective layer most likely evolved to shield the tree from forest fires, and it owes its qualities to an unusual cellular make-up – close to sixty million tiny cells in every cubic centimetre – that no laboratory has so far managed to reproduce. Each of those cells is packed with gas rather than liquid, which lets cork float so readily. The same structure lends it a springiness: crush a piece, release it, and it recovers its original shape at once.",
+          "A scattering of warm-climate countries is home to the cork oak – among them Algeria, Tunisia, Sardinia, southern France and parts of Anatolia. What the tree asks for is a mild, sunny setting whose yearly rainfall runs to at least five hundred millimetres yet stays below nine hundred. Poor ground suits it well; much as grape vines do, it drives its roots deep in the hunt for water and nourishment. Because every one of these conditions is met in the Sendra highlands of southern Sardinia, that district had become the world's foremost source of cork by the 1920s, and even now supplies close to forty-five percent of the global total.",
+          "The cork forests tend to stay in family hands, and a good many of these enterprises – like a good many of the trees – have stood for well over a century and a half. If anything is learned from cork-growing, it is patience. Thirty years will pass before a newly planted sapling gives its first harvest, and, once a tree is in production, no fewer than nine years must separate one stripping from the next. Cork of the very highest grade asks longer still – another two decades or so. Even the choice of day matters: should the bark be taken when the weather has turned cold, or when the air hangs damp, the tree is left the worse for it.",
+          "Harvesting is skilled work of a very particular sort. Because no machine has ever been devised for stripping the bark, the task falls to teams of seasoned labourers. Small, sharp axes in hand, they cut downward through the bark and then prise it off in the largest pieces they can lift; the ablest of them can free a single curved slab that runs the whole length of the trunk, from close to the ground up to the lowest branches. For roughly six months the bark is left to dry in the open, after which it travels to the factories to be boiled – a step that kills off any insects still lodged within. Around seventy percent of what emerges becomes the familiar bottle stopper, while most of the rest is claimed by the building trade, serving as board and tiles that deaden heat and noise, or granules stirred into concrete.",
+          "Cork's near-total grip on the bottle-stopper market has slipped in recent times, the worry being what it can do to whatever a bottle holds. Behind the trouble lies a compound the trade calls trichlorocresyl ether, which appears when plant phenols, chlorine and mould react with one another. Quantities almost too small to picture – no more than five parts in a trillion – are already enough to ruin the flavour of the drink inside. Little by little, then, producers have shifted first to plastic stoppers and, more lately, to aluminium screw caps. Alternatives of this kind are inexpensive to manufacture, and a screw cap, at least, is a good deal simpler for the buyer to use.",
+          "For all that, a great deal can still be said for the classic cork stopper. Its familiar look sits easily alongside the reputation of the premium products it has long been tied to. More telling still, cork is a renewable material, one that can be reused without the slightest trouble. The forests, besides, are an asset in themselves: they sustain the local wildlife and hold erosion in check across the districts where they grow. And so, with public attention now fixed firmly on the environment, the prospects for this age-old material look bright once more."
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "In ancient times, cork was used to protect stored goods from damp.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "In ancient times , cork was used to protect stored goods from damp . Ý câu hỏi: Cần kiểm tra cork có được dùng từ thời xa xưa để giữ đồ cất trữ không bị ẩm hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý dùng cork với đồ được cất giữ. Ở đoạn 1, chi tiết bình chứa đồ (“storage jars”) là điểm để bắt đầu đọc kĩ. Đoạn 1 — storage jars",
+              "step3": "Đoạn 1: People have relied on it for thousands of years : Phoenician traders pressed slabs of it into their storage jars to keep the contents dry , while later Mediterranean peoples shaped it into everything from net floats to shoe soles .",
+              "step4": "Câu hỏi nói: cork được dùng từ thời xa xưa để bảo vệ đồ cất giữ khỏi ẩm (“stored goods from damp”). Bài đọc nói: con người đã dùng cork hàng nghìn năm (“for thousands of years”); thương nhân Phoenician đặt nó vào bình chứa để giữ đồ bên trong khô (“to keep the contents dry”). Hai ý khớp cả thời điểm lẫn mục đích sử dụng . Đáp án đúng: TRUE Đối chiếu paraphrasing: In ancient times for thousands of years stored goods the contents + storage jars from damp keep the contents dry FALSE Sai vì bài xác nhận mục đích giữ đồ bên trong khô (“to keep the contents dry”), không phủ nhận nó. Chỉ chọn FALSE nếu bài nói cork không được dùng để giữ đồ cất trữ khô ráo. NOT GIVEN Nếu skim/scan tìm đúng từ chỉ sự ẩm ướt (“damp”) mà không thấy, sẽ dễ tưởng thông tin bị thiếu Nhưng ý giữ khô đã được nói rõ. Chỉ chọn NOT GIVEN nếu bài không cho biết cork có từng được dùng để giữ đồ cất trữ khô ráo hay không."
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Scientists have produced a man-made material that copies the way cork's cells are arranged.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "Scientists have produced a man-made material that copies the way cork's cells are arranged . Ý câu hỏi: Các nhà khoa học đã tạo ra vật liệu nhân tạo sao chép cấu trúc tế bào của cork.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp thông tin về cấu trúc tế bào của cork. Ở đoạn 2, cụm “an unusual cellular make-up” cho thấy đây là vùng liên quan. Đoạn 2 — an unusual cellular make-up",
+              "step3": "Đoạn 2: This protective layer most likely evolved to shield the tree from forest fires , and it owes its qualities to an unusual cellular make-up – close to sixty million tiny cells in every cubic centimetre – that no laboratory has so far managed to reproduce .",
+              "step4": "Câu hỏi nói: Các nhà khoa học đã tạo ra vật liệu sao chép cách tế bào cork được sắp xếp (“have produced”, “copies”). Bài đọc nói: Chưa phòng thí nghiệm nào tái tạo được cấu trúc tế bào ấy (“no laboratory has so far managed to reproduce”). Hai ý mâu thuẫn nhau. Đáp án đúng: FALSE Đối chiếu paraphrasing: the way cork's cells are arranged an unusual cellular make up have produced + copies no laboratory + so far + reproduce Đáp án TRUE Nếu skim/scan thấy “managed to reproduce”, sẽ dễ chọn TRUE Nhưng “no laboratory” phủ định việc tái tạo thành công. Chỉ chọn TRUE nếu bài nói các nhà khoa học đã tái tạo được cấu trúc ấy. NOT GIVEN Nếu chỉ tìm cụm vật liệu nhân tạo, sẽ dễ tưởng bài không đề cập việc tạo ra nó Nhưng bài đã phủ định khả năng tái tạo cấu trúc tế bào. Chỉ chọn NOT GIVEN nếu bài chỉ mô tả các tế bào mà không nói chúng đã được tái tạo hay chưa."
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Cork oaks require more rainfall than vines do.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Cork oaks require more rainfall than vines do . Ý câu hỏi: Ta cần kiểm tra lượng mưa hai loài cần , chứ không chỉ tìm một câu có nhắc đến grape vines.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp thông tin về lượng mưa hằng năm (“yearly rainfall”) ở đoạn 3 => bắt đầu đọc kỹ tại đây. Đoạn 3 — yearly rainfall",
+              "step3": "Đoạn 3: A scattering of warm-climate countries is home to the cork oak – among them Algeria, Tunisia, Sardinia, southern France and parts of Anatolia . What the tree asks for is a mild, sunny setting whose yearly rainfall runs to at least five hundred millimetres yet stays below nine hundred . Poor ground suits it well ; much as grape vines do , it drives its roots deep in the hunt for water and nourishment . Câu (1)–(2): xác định cork oak và nêu lượng mưa nó cần . Câu (3): nhắc đến grape vines nhưng chỉ so sánh cách rễ mọc .",
+              "step4": "Câu hỏi nói: cork oak cần nhiều mưa hơn grape vines (“more rainfall than vines do”). Bài đọc nói: cork oak cần mức mưa từ ít nhất 500 mm đến dưới 900 mm (“at least five hundred millimetres yet stays below nine hundred”). Bài cũng nói hai loài đâm rễ sâu tương tự nhau, nhưng không cho biết grape vines cần bao nhiêu mưa . ⇒ Không đủ thông tin để xác nhận hay bác bỏ phép so sánh về lượng mưa. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: require asks for more rainfall than vines do không có trong bài; câu (3) chỉ so sánh cách rễ mọc. Đáp án TRUE Nếu skim/scan thấy mức mưa (“at least five hundred millimetres”) rồi thấy grape vines (“grape vines do”), sẽ dễ chọn TRUE Nhưng bài không nêu mức mưa grape vines cần. Chỉ chọn TRUE nếu bài nói grape vines cần ít mưa hơn cork oak. FALSE Sai vì việc hai loài cùng đâm rễ sâu không chứng minh cork oak cần ít mưa hơn hoặc bằng grape vines. Chỉ chọn FALSE nếu bài nói cork oak cần lượng mưa bằng hoặc ít hơn grape vines."
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Bark should be removed from the tree only in dry weather.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "Bark should be removed from the tree only in dry weather . Ý câu hỏi: Chỉ nên bóc vỏ khi trời khô; câu này không khẳng định cứ trời khô là có thể bóc vỏ.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý chọn ngày bóc vỏ (“choice of day”) ở đoạn 4 => đây là vùng cần đọc kĩ. Đoạn 4 — choice of day",
+              "step3": "Đoạn 4: Even the choice of day matters : should the bark be taken when the weather has turned cold, or when the air hangs damp , the tree is left the worse for it . Lưu ý từ khó: Trong câu (5), “should the bark be taken” có nghĩa là *nếu vỏ cây bị bóc*, không phải lời khuyên nên bóc.",
+              "step4": "Câu hỏi nói: Chỉ nên bóc vỏ khi trời khô (“only in dry weather”). Bài đọc nói: Nếu bóc vỏ khi không khí ẩm (“when the air hangs damp”), cây sẽ bị hại (“the tree is left the worse for it”). ⇒ Hai ý phù hợp: phải tránh bóc vỏ lúc ẩm . Bài còn cảnh báo về trời lạnh, nên không được hiểu rằng trời khô là điều kiện *đủ* để bóc vỏ. Đáp án đúng: TRUE Đối chiếu paraphrasing: only in dry weather when the air hangs damp + the tree is left the worse for it cần tránh bóc vỏ lúc ẩm. FALSE Nếu skim/scan thấy trời lạnh (“the weather has turned cold”), dễ tưởng câu hỏi bỏ sót một điều kiện Nhưng “only” nêu điều kiện cần, không nói trời khô là đủ. Chỉ chọn FALSE nếu bài nói bóc vỏ lúc ẩm vẫn không gây hại. NOT GIVEN Sai vì câu (5) nêu rõ tác hại khi bóc vỏ lúc ẩm. Chỉ chọn NOT GIVEN nếu bài không cho biết việc bóc vỏ lúc ẩm ảnh hưởng đến cây ra sao."
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "The bark of cork oaks is now stripped by machine.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "The bark of cork oaks is now stripped by machine . Ý câu hỏi: Cần kiểm tra liệu vỏ cây cork oaks hiện nay có được bóc bằng máy hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm thông tin về việc bóc vỏ cây. Ở đoạn 5, cụm “stripping the bark” => bắt đầu đọc kĩ tại đây. Đoạn 5 — stripping the bark",
+              "step3": "Đoạn 5: Because no machine has ever been devised for stripping the bark , the task falls to teams of seasoned labourers .",
+              "step4": "Câu hỏi nói: Vỏ cây hiện được bóc bằng máy (“is now stripped by machine”). Bài đọc nói: Chưa từng có máy nào được chế tạo để bóc vỏ cây (“ no machine has ever been devised for stripping the bark ”); công việc do người lao động đảm nhiệm. Từ “ever” bao gồm cả hiện nay, nên hai ý mâu thuẫn . Đáp án đúng: FALSE Đối chiếu paraphrasing: is now stripped by machine no machine has ever been devised for stripping the bark Đáp án TRUE Nếu skim/scan thấy “machine” và “stripping the bark”, sẽ dễ chọn TRUE Nhưng “no machine” phủ định việc có máy làm công việc này. Chỉ chọn TRUE nếu bài nói máy hiện được dùng để bóc vỏ cây. NOT GIVEN Nếu chỉ tìm đúng chữ “now” trong bài, sẽ dễ chọn NOT GIVEN Nhưng “has ever been devised” cho biết đến nay chưa có máy như vậy. Chỉ chọn NOT GIVEN nếu bài không cho biết công việc này có được thực hiện bằng máy hay không."
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Advantages of aluminium screw caps • leave the _____ of the bottled drink unchanged • are [(7) _____] to manufacture • are [(8) _____] for the user to handle",
+            "type": "FILL_IN_BLANK",
+            "correct": "flavour",
+            "explanation": {
+              "step1": "Advantages of aluminium screw caps - leave the 6. ___ of the bottled drink unchanged Dự đoán: Sau “the” và trước “of the bottled drink”, ô trống cần một danh từ chỉ đặc tính của đồ uống . Cụm “leave … unchanged” cho biết đặc tính đó không bị thay đổi.",
+              "step2": "Dựa vào cụm kỹ thuật khó paraphrase là nắp vặn nhôm (“aluminium screw caps”) => tìm đến đoạn 6 để đọc phần nói về tác động lên đồ uống. Đoạn 6 — aluminium screw caps",
+              "step3": "Đoạn 6: Quantities almost too small to picture – no more than five parts in a trillion – are already enough to ruin the flavour of the drink inside .",
+              "step4": "Đáp án phù hợp nhất: flavour Câu hoàn chỉnh: leave the flavour of the bottled drink unchanged (giữ nguyên hương vị của đồ uống đóng chai). => Đúng dự đoán về danh từ chỉ đặc tính của đồ uống: bài đọc nói hương vị có thể bị làm hỏng (“ruin the flavour”); đáp án gồm 1 từ. Đối chiếu paraphrasing: the 6. ___ of the bottled drink the flavour of the drink unchanged ruin drink đồ uống: Từ này đứng ngay sau “flavour” trong bài, nhưng đề đã có “of the bottled drink”; cần điền đặc tính của đồ uống, không phải chính đồ uống. compound hợp chất: Đoạn 6 nhắc đến một hợp chất (“a compound”), nhưng đó là tác nhân gây ảnh hưởng, không phải đặc tính cần điền."
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Advantages of aluminium screw caps • leave the [(6) _____] of the bottled drink unchanged • are _____ to manufacture • are [(8) _____] for the user to handle",
+            "type": "FILL_IN_BLANK",
+            "correct": "inexpensive",
+            "explanation": {
+              "step1": "Advantages of aluminium screw caps - are 7. ___ to manufacture Sau “are”, ô trống cần một tính từ nêu ưu điểm liên quan đến việc sản xuất, chẳng hạn chi phí hoặc mức độ dễ làm. Chưa cần chọn từ cụ thể.",
+              "step2": "Dựa vào cụm khó thay thế “aluminium screw caps” trong tiêu đề => bắt đầu đọc ở câu (4), đoạn 6. Đoạn 6 — aluminium screw caps",
+              "step3": "Đoạn 6: Little by little, then, producers have shifted first to plastic stoppers and, more lately, to aluminium screw caps . Alternatives of this kind are inexpensive to manufacture , and a screw cap , at least, is a good deal simpler for the buyer to use . Câu (4): giới thiệu nắp vặn nhôm như một lựa chọn thay thế. Câu (5): các lựa chọn này không tốn kém để sản xuất ; câu còn nêu riêng việc nắp vặn dễ sử dụng hơn.",
+              "step4": "Đáp án phù hợp nhất: inexpensive Câu hoàn chỉnh: Aluminium screw caps are inexpensive to manufacture. ( Nắp vặn nhôm không tốn kém để sản xuất. ) => Khớp dự đoán về tính từ chỉ ưu điểm sản xuất; đáp án gồm 1 từ . Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: aluminium screw caps giữ nguyên; ở câu (5), cụm chỉ các lựa chọn này (“Alternatives of this kind”) bao gồm nắp vặn nhôm. to manufacture giữ nguyên; từ cần điền nằm ngay trước cụm này. simpler dễ hơn: Cùng câu (5), nhưng từ này nói về việc sử dụng (“to use”), không phải sản xuất. plastic “ nhựa ”: Câu (4) có nhắc nút nhựa (“plastic stoppers”), nhưng đó là một loại nút, không phải ưu điểm về chi phí sản xuất."
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Advantages of aluminium screw caps • leave the [(6) _____] of the bottled drink unchanged • are [(7) _____] to manufacture • are _____ for the user to handle",
+            "type": "FILL_IN_BLANK",
+            "correct": "simpler",
+            "explanation": {
+              "step1": "Mục cần điền: Advantages of aluminium screw caps",
+              "step2": "Dựa vào cụm chỉ loại nắp “aluminium screw caps” => ta tìm đến đoạn 6 và đọc phần nói về ưu điểm của loại nắp này. Đoạn 6 — aluminium screw caps",
+              "step3": "Đoạn 6: Alternatives of this kind are inexpensive to manufacture , and a screw cap , at least, is a good deal simpler for the buyer to use .",
+              "step4": "Đáp án phù hợp nhất: simpler Câu hoàn chỉnh: Aluminium screw caps are simpler for the user to handle. (Nắp vặn bằng nhôm dễ thao tác hơn đối với người dùng .) => Khớp với dự đoán về tính từ chỉ cách sử dụng; simpler là một từ và đề không nêu giới hạn số từ. Đối chiếu paraphrasing: for the buyer to use for the user to handle inexpensive không tốn kém: Cũng nằm ở câu (5), nhưng nói về sản xuất (“to manufacture”), không phải thao tác của người dùng. Đáp án use sử dụng: Có liên quan đến thao tác, nhưng là động từ trong “for the buyer to use”; chỗ trống sau “are” cần một tính từ."
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Advantages of cork bottle stoppers • suit the _____ of high-quality products • made from a [(10) _____] material • can be [(11) _____] with ease • cork forests support local [(12) _____] • cork forests help prevent [(13) _____]",
+            "type": "FILL_IN_BLANK",
+            "correct": "reputation",
+            "explanation": {
+              "step1": "Ở mục ưu điểm của nút bần (“Advantages of cork bottle stoppers”), ta chỉ xét chỗ trống số 9: - suit the 9. ___ of high-quality products Sau “the” cần một danh từ . Về nghĩa, đó phải là một đặc điểm của sản phẩm chất lượng cao mà nút bần có thể phù hợp với.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt. Ta tìm phần nói về ưu điểm của nút bần; ở đoạn 7, câu (1) nhắc đến nút bần truyền thống (“the classic cork stopper”) => bắt đầu đọc từ đây. Đoạn 7 — the classic cork stopper",
+              "step3": "Đoạn 7: For all that, a great deal can still be said for the classic cork stopper . Its familiar look sits easily alongside the reputation of the premium products it has long been tied to . Câu (1): chuyển sang nói về ưu điểm của nút bần. Câu (2): vẻ ngoài của nút bần phù hợp với danh tiếng của sản phẩm cao cấp.",
+              "step4": "Đáp án phù hợp nhất: reputation Câu hoàn chỉnh: suit the reputation of high-quality products (phù hợp với danh tiếng của các sản phẩm chất lượng cao ). => Khớp với dự đoán về một danh từ chỉ đặc điểm của sản phẩm; bài đọc dùng đúng từ * reputation *. Đối chiếu paraphrasing: suit sits easily alongside high quality products premium products Đáp án look “ — vẻ ngoài ”: câu (2) nhắc đến vẻ ngoài của nút bần (“Its familiar look”). Nhưng chỗ trống hỏi đặc điểm của sản phẩm chất lượng cao, không phải của nút bần. premium “ — cao cấp ”: Từ này tương ứng với “high-quality”, nhưng là từ bổ nghĩa cho “products”; chỗ trống cần một danh từ."
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Advantages of cork bottle stoppers • suit the [(9) _____] of high-quality products • made from a _____ material • can be [(11) _____] with ease • cork forests support local [(12) _____] • cork forests help prevent [(13) _____]",
+            "type": "FILL_IN_BLANK",
+            "correct": "renewable",
+            "explanation": {
+              "step1": "Ở mục *Advantages of cork bottle stoppers*, câu 10 hỏi về chất liệu làm nút chai: Ô trống đứng trước *material*, nên cần một tính từ chỉ đặc tính có lợi của chất liệu. Chưa thể xác định đó là đặc tính gì nếu chưa đọc bài.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến đoạn 7, nơi bài trở lại nói về nút chai cork (“classic cork stopper”) => bắt đầu tìm ưu điểm về chất liệu tại đây. Đoạn 7 — classic cork stopper",
+              "step3": "Đoạn 7: More telling still, cork is a renewable material , one that can be reused without the slightest trouble .",
+              "step4": "Đáp án phù hợp nhất: renewable Câu hoàn chỉnh: made from a renewable material (được làm từ một chất liệu có thể tái tạo ). => Khớp với dự đoán: *renewable* là tính từ chỉ đặc tính của chất liệu; đáp án gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: made from a 10. ___ material cork is a renewable material reused được tái sử dụng: Từ này nằm ngay sau đáp án, nhưng diễn tả khả năng tái sử dụng của cork (“can be reused”), không phải đặc tính cần điền ở câu 10. premium cao cấp: Trong đoạn 7, từ này bổ nghĩa cho sản phẩm (“premium products”), không mô tả chất liệu làm nút chai."
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Advantages of cork bottle stoppers • suit the [(9) _____] of high-quality products • made from a [(10) _____] material • can be _____ with ease • cork forests support local [(12) _____] • cork forests help prevent [(13) _____]",
+            "type": "FILL_IN_BLANK",
+            "correct": "reused",
+            "explanation": {
+              "step1": "Ở mục ưu điểm của nút chai cork, câu 11 hỏi việc gì có thể được thực hiện dễ dàng: - can be 11. ___ with ease Sau `can be`, ô trống cần động từ dạng quá khứ phân từ . Ta dự đoán một hành động có thể làm với cork mà không gặp khó khăn.",
+              "step2": "Dựa vào cụm chỉ nút chai cork (“classic cork stopper”) => tìm đến đoạn 7, nơi bài đọc nêu các ưu điểm của nó. Đoạn 7 — classic cork stopper",
+              "step3": "Đoạn 7: More telling still, cork is a renewable material , one that can be reused without the slightest trouble .",
+              "step4": "Đáp án phù hợp nhất: reused Câu hoàn chỉnh: • can be reused with ease (Có thể được tái sử dụng dễ dàng.) => `reused` đúng dạng sau `can be`; bài đọc cũng xác nhận việc này không gặp trở ngại. Đáp án gồm 1 từ; đề không nêu giới hạn số từ. Đối chiếu paraphrasing: with ease without the slightest trouble renewable — có thể tái tạo: Từ này đứng ngay trước đáp án nhưng là tính từ mô tả vật liệu, không phải hành động cần điền sau `can be`. trouble — trở ngại: Từ này giúp xác nhận ý “dễ dàng”, nhưng là danh từ, không phải hành động có thể làm với cork."
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "Advantages of cork bottle stoppers • suit the [(9) _____] of high-quality products • made from a [(10) _____] material • can be [(11) _____] with ease • cork forests support local _____ • cork forests help prevent [(13) _____]",
+            "type": "FILL_IN_BLANK",
+            "correct": "wildlife",
+            "explanation": {
+              "step1": "Trong mục ưu điểm của nút chai bằng bần, câu 12 hỏi: - cork forests support local 12. ___ Sau *local* cần một danh từ chỉ thứ được rừng hỗ trợ. Ta dự đoán đó có thể là một nhóm sinh vật sống trong khu vực.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt. Ta tìm ý nói về lợi ích của rừng cork; đến đoạn 7, cụm chỉ các khu rừng (“The forests”) cho biết đây là vùng cần đọc. Đoạn 7 — The forests",
+              "step3": "Đoạn 7: The forests , besides, are an asset in themselves : they sustain the local wildlife and hold erosion in check across the districts where they grow .",
+              "step4": "Đáp án phù hợp nhất: wildlife Câu hoàn chỉnh: cork forests support local wildlife (Các khu rừng bần hỗ trợ động vật hoang dã địa phương .) => Khớp với dự đoán về một nhóm sinh vật: rừng *nuôi dưỡng* (“sustain”) động vật hoang dã địa phương; đáp án gồm 1 từ, đề không nêu giới hạn số từ. Đối chiếu paraphrasing: support sustain erosion sự xói mòn: Từ này nằm ngay sau wildlife, nhưng rừng ngăn xói mòn (“hold erosion in check”), không phải hỗ trợ nó. Đây là thông tin cho câu 13. forests các khu rừng: Sai vì đây là chủ thể đã có sẵn trong câu hỏi, không phải thứ đứng sau local."
+            }
+          },
+          {
+            "id": 13,
+            "prompt": "Advantages of cork bottle stoppers • suit the [(9) _____] of high-quality products • made from a [(10) _____] material • can be [(11) _____] with ease • cork forests support local [(12) _____] • cork forests help prevent _____",
+            "type": "FILL_IN_BLANK",
+            "correct": "erosion",
+            "explanation": {
+              "step1": "Ô trống cần một danh từ chỉ điều mà rừng giúp ngăn chặn, có thể là một vấn đề về môi trường.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến đoạn nói về lợi ích của rừng cây cork. Ở đoạn 7, cụm “The forests” là điểm bắt đầu đọc. Đoạn 7 — The forests",
+              "step3": "Đoạn 7: The forests , besides, are an asset in themselves : they sustain the local wildlife and hold erosion in check across the districts where they grow . Cụm “hold erosion in check” nghĩa là kiềm chế xói mòn , khớp với ý rừng giúp ngăn chặn một điều gì đó.",
+              "step4": "Đáp án phù hợp nhất: erosion Câu hoàn chỉnh: cork forests help prevent erosion (rừng cây cork giúp ngăn chặn xói mòn ). => Khớp với dự đoán về một danh từ chỉ vấn đề môi trường và thông tin trong bài; đáp án gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: help prevent hold erosion in check wildlife — động vật hoang dã: Từ này nằm ngay trước đáp án nên dễ chọn nếu chỉ đọc lướt Nhưng rừng duy trì wildlife (“sustain the local wildlife”), không phải ngăn chặn chúng. renewable — có thể tái tạo: Đây là đặc tính của vật liệu cork (“a renewable material”), không phải điều mà rừng giúp ngăn chặn; từ này cũng không phải danh từ cần điền."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-12-reading-1-p2",
+        "passageNumber": 2,
+        "title": "COLLECTING AS A HOBBY",
+        "subtitle": "",
+        "content": [
+          "Few human pursuits are as diverse as collecting, and few so fascinate those of us who study the mind. A surprising number have acquired their own technical label: the numismatist gathers coins, the phillumenist saves matchbox labels, and the tegestologist accumulates beer mats. Building up hundreds, even thousands, of such objects — old keys, bus tickets, whatever they are — consumes time, energy and money that could, on the face of it, be far better spent. Yet collectors number in the millions worldwide. What lies behind the habit?",
+          "For some, the point of collecting is profit, a motivation we might call instrumental — the collection is a means towards an end rather than an end in itself. Such collectors hunt out, say, pieces of furniture that can be picked up cheaply and later resold at a healthy margin. Yet a psychological factor is often present too, since paying little and selling for much can give the collector a genuine feeling of pride. Because online marketplaces have made selling so straightforward, the ranks of these collectors keep swelling.",
+          "Others take up collecting largely for the sociable side of it, going along to gatherings of fellow enthusiasts where they swap knowledge about particular items. In much the same way that signing up for a choir or a sports club does, this puts them in regular companionship with people who share their enthusiasm.",
+          "A further driving force is the wish to find something out of the ordinary — a specific treasure such as a first edition of a particular novel. For some, the whole of a lifetime may be devoted to a single quest of this kind. In psychological terms, chasing it can lend purpose to an existence that would otherwise strike the person as meaningless. The risk, though, is that should they finally find the very thing chased for so long, the moment brings not elation but a strange hollowness, the driving goal having suddenly vanished.",
+          "Take the collecting of coins: a further motive for it — or possibly a consequence — lies in how instructive it can be. A coin cabinet is a doorway onto foreign lands, and onto the rulers, emblems and creatures depicted on the currency of each. In a comparable way, nineteenth-century naturalists gathered shells, insects and minerals from every corner of the world, and the collections they assembled yielded an enormous store of understanding about the natural world. Strip those away and our understanding today would be far poorer.",
+          "One pastime hugely popular in earlier decades, and still practised today if less widely, is planespotting, which has always drawn men and boys in particular. The planespotter sets out to observe every aircraft of a given type, working from published registers that list each one and marking it off the moment it is spotted. Sightings are traded among enthusiasts, nowadays usually through a phone app, so they can plan where to catch a particular machine. One side effect is that many end up remarkably well informed about airline operations and the technical details separating one model of aircraft from another.",
+          "In much the same fashion, those who collect model soldiers often move past the mere expansion of their collection to become intrigued by how such figures are manufactured, and from what. The materials have shifted over time: the carved wood of early modern Europe gave way to the tin and lead of subsequent centuries, and these in turn to the moulded plastics from which today's figures are made. Some collectors are drawn, too, into examining what these miniatures reveal about the things children were thought to enjoy, or were supposed to enjoy.",
+          "Learning from the hobby is not, though, every collector's aim, which points to what we might term a psychological driver: the craving for a sense of control, quite possibly a means of managing one's own insecurity. Coin collectors, for instance, lay out their pieces in trays with great care, ordering them by familiar conventions — by country of issue, say, or by what each design portrays, whether monarchs, birds or landmarks.",
+          "A further reason, whether the collector is aware of it or not, has to do with asserting one's individuality. A person who settles on something as improbable as barbed wire may in effect be signalling a conviction that they themselves are out of the ordinary. However unlikely it sounds, at least one museum devoted entirely to barbed wire exists, and it began as a single enthusiast's private hoard.",
+          "Every hobby, naturally, brings enjoyment, but what sets collecting apart is usually passion — to call it mere pleasure would understate it considerably. Collecting can absorb a person more completely than almost any other pastime, and it can deliver a powerful sense of personal fulfilment. Those who do not collect may regard it as odd, though quite harmless; seen in the right light, however, it has much to recommend it."
+        ],
+        "questions": [
+          {
+            "id": 14,
+            "prompt": "Complete blank for Question 14:",
+            "type": "FILL_IN_BLANK",
+            "correct": "furniture",
+            "explanation": {
+              "step1": "According to the writer, 1. ___ is one type of item that people collect in order to sell on at a profit . Ý câu hỏi: Cần tìm một loại đồ vật được sưu tầm để bán lại kiếm lời . Dự đoán ô trống: Một danh từ chỉ đồ vật, làm chủ ngữ đứng trước “is”.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý bán lại có lãi (“resold at a healthy margin”) ở đoạn 2 => đây là chỗ bắt đầu đọc kĩ. Đoạn 2 — resold at a healthy margin",
+              "step3": "Đoạn 2: Such collectors hunt out , say, pieces of furniture that can be picked up cheaply and later resold at a healthy margin .",
+              "step4": "Đáp án phù hợp nhất: furniture Câu hoàn chỉnh: According to the writer, furniture is one type of item that people collect in order to sell on at a profit. (Theo tác giả, đồ nội thất là một loại đồ vật mà người ta sưu tầm để bán lại kiếm lời.) => Khớp với dự đoán về danh từ chỉ đồ vật và thông tin mua rẻ, bán lại có lãi trong bài; đáp án gồm 1 từ, còn đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: one type of item pieces of furniture sell on at a profit resold at a healthy margin coins — đồng xu: Đoạn 1 có nhắc “coins” như đồ vật được sưu tầm, nhưng bằng chứng về việc mua rẻ rồi bán lại có lãi ở câu (2) nói đến furniture. pride — niềm tự hào: Đoạn 2 có nhắc “pride”, nhưng đó là cảm giác khi mua rẻ bán đắt, không phải loại đồ vật cần điền."
+            }
+          },
+          {
+            "id": 15,
+            "prompt": "Complete blank for Question 15:",
+            "type": "FILL_IN_BLANK",
+            "correct": "pride",
+            "explanation": {
+              "step1": "Someone who buys low and sells high may feel a degree of 2. ___ as a result . Câu hỏi nói: Sau khi mua rẻ, bán đắt, người đó có thể cảm thấy điều gì ? Dự đoán: Chỗ trống cần một danh từ chỉ cảm xúc , đứng sau “a degree of”.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý tương đương với mua rẻ, bán đắt (“buys low and sells high”). Ở đoạn 2, cụm mua với giá thấp rồi bán với giá cao (“paying little and selling for much”) => đây là vùng liên quan. Đoạn 2 — paying little and selling for much",
+              "step3": "Đoạn 2: Yet a psychological factor is often present too , since paying little and selling for much can give the collector a genuine feeling of pride .",
+              "step4": "Đáp án phù hợp nhất: pride Câu hoàn chỉnh: Someone who buys low and sells high may feel a degree of pride as a result. (Người mua rẻ rồi bán đắt có thể cảm thấy tự hào vì điều đó.) => Khớp với dự đoán là danh từ chỉ cảm xúc và với bằng chứng trong bài; đáp án gồm 1 từ, đề không nêu giới hạn số từ. Đối chiếu paraphrasing: buys low and sells high paying little and selling for much feel feeling of profit — lợi nhuận: Nếu chỉ nhìn việc mua rẻ, bán đắt, ta dễ nghĩ đến lợi nhuận (“profit”) Nhưng ô trống hỏi cảm xúc của người mua bán, không hỏi thứ họ kiếm được. feeling — cảm giác: Từ này xuất hiện ngay trước đáp án trong bài, nhưng chỉ nói chung rằng người đó có một cảm giác; “pride” mới cho biết đó là cảm giác gì."
+            }
+          },
+          {
+            "id": 16,
+            "prompt": "Complete blank for Question 16:",
+            "type": "FILL_IN_BLANK",
+            "correct": "knowledge",
+            "explanation": {
+              "step1": "Clubs give members the chance to pass on 3. ___ concerning the items they collect . Sau “pass on”, chỗ trống cần một danh từ chỉ thứ các thành viên chia sẻ về món đồ sưu tầm, chẳng hạn thông tin hoặc hiểu biết .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý tương đương với câu lạc bộ và việc chia sẻ. Cụm chỉ những buổi gặp người cùng sở thích (“gatherings of fellow enthusiasts”) ở đoạn 3 là điểm bắt đầu đọc. Đoạn 3 — gatherings of fellow enthusiasts",
+              "step3": "Đoạn 3: Others take up collecting largely for the sociable side of it , going along to gatherings of fellow enthusiasts where they swap knowledge about particular items .",
+              "step4": "Đáp án phù hợp nhất: knowledge Câu hoàn chỉnh: Clubs give members the chance to pass on knowledge concerning the items they collect. (Câu lạc bộ cho thành viên cơ hội chia sẻ kiến thức về những món đồ họ sưu tầm.) => Khớp với dự đoán về danh từ chỉ thứ được chia sẻ; đây là 1 từ , đúng với đáp án trong bài. Đối chiếu paraphrasing: Clubs gatherings of fellow enthusiasts pass on swap companionship — sự đồng hành: Đoạn 3 có nhắc đến việc được ở bên người cùng sở thích (“regular companionship”), nhưng đó không phải thứ họ trao đổi về các món đồ. items — các món đồ: Đây là chủ đề của cuộc trao đổi (“about particular items”); thứ được trao đổi là knowledge."
+            }
+          },
+          {
+            "id": 17,
+            "prompt": "Complete blank for Question 17:",
+            "type": "FILL_IN_BLANK",
+            "correct": "companionship",
+            "explanation": {
+              "step1": "A club can supply the collector with 4. ___ , linking them to others of like mind . Ý câu hỏi: Câu lạc bộ đem lại điều gì, qua đó giúp người sưu tầm kết nối với người cùng sở thích? Dự đoán ô trống: Sau “with” cần một danh từ chỉ điều người sưu tầm nhận được, liên quan đến sự giao lưu hoặc gắn kết.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến ý gặp gỡ người cùng sở thích (“gatherings of fellow enthusiasts”) ở đoạn 3 => bắt đầu đọc từ đây. Đoạn 3 — gatherings of fellow enthusiasts",
+              "step3": "Đoạn 3: Others take up collecting largely for the sociable side of it , going along to gatherings of fellow enthusiasts where they swap knowledge about particular items . In much the same way that signing up for a choir or a sports club does , this puts them in regular companionship with people who share their enthusiasm . Câu (1): Người sưu tầm gặp gỡ những người cùng sở thích. Câu (2): Giống như tham gia câu lạc bộ, việc đó đem lại sự đồng hành (“companionship”).",
+              "step4": "Đáp án phù hợp nhất: companionship Câu hoàn chỉnh: A club can supply the collector with companionship, linking them to others of like mind. (Câu lạc bộ có thể đem lại cho người sưu tầm sự đồng hành, giúp họ kết nối với những người cùng sở thích.) => Khớp với dự đoán về danh từ chỉ sự gắn kết và với từ trong bài; đáp án gồm 1 từ, đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: supply the collector with puts them in regular companionship others of like mind people who share their enthusiasm knowledge kiến thức: Dễ chọn khi thấy họ trao đổi kiến thức (“swap knowledge”) ở câu (1) Nhưng ô số 4 hỏi điều việc gặp gỡ đem lại, không phải thứ họ trao đổi. enthusiasm niềm yêu thích: Sai vì đây là điều những người ấy có chung (“share their enthusiasm”), không phải lợi ích họ nhận được. fellow enthusiasts những người cùng sở thích: Sai vì đây là người họ gặp, còn chỗ trống cần điều họ nhận được."
+            }
+          },
+          {
+            "id": 18,
+            "prompt": "Complete blank for Question 18:",
+            "type": "FILL_IN_BLANK",
+            "correct": "quest",
+            "explanation": {
+              "step1": "For some people, hunting for a single special object turns into the 5. ___ of an entire life . Câu hỏi nói: Với một số người, việc tìm một vật đặc biệt trở thành điều họ theo đuổi suốt đời. Sau “the” và trước “of an entire life”, ô trống cần một danh từ chỉ việc theo đuổi mục tiêu , chưa cần đoán chính xác từ nào.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến khi gặp ý tương đương với việc tìm một vật đặc biệt (“hunting for a single special object”). Ở đoạn 4, bài bắt đầu nói đến mong muốn tìm kiếm (“the wish to find”) => đây là vùng liên quan. Đoạn 4 — the wish to find",
+              "step3": "Đoạn 4: A further driving force is the wish to find something out of the ordinary — a specific treasure such as a first edition of a particular novel . For some, the whole of a lifetime may be devoted to a single quest of this kind . Câu (1): nêu mong muốn tìm một báu vật cụ thể. Câu (2): gọi việc tìm kiếm ấy là cuộc kiếm tìm (“quest”) mà một người có thể dành cả đời để theo đuổi.",
+              "step4": "Đáp án phù hợp nhất: quest Câu hoàn chỉnh: For some people, hunting for a single special object turns into the quest of an entire life. (Với một số người, việc tìm một vật đặc biệt trở thành cuộc kiếm tìm kéo dài cả đời .) => Khớp với dự đoán về danh từ chỉ việc theo đuổi mục tiêu; *quest* là 1 từ. Đề không nêu giới hạn số từ. Đối chiếu paraphrasing: hunting for the wish to find a single special object a specific treasure an entire life a lifetime treasure — báu vật: Đây là vật được tìm, không phải tên của cuộc tìm kiếm kéo dài cả đời. lifetime — cả đời: Từ này ứng với khoảng thời gian (“an entire life”) đã có trong câu hỏi, không phải việc được dành cả đời để theo đuổi. purpose — mục đích, ý nghĩa: Câu 3 đoạn 4 nói việc theo đuổi có thể mang lại ý nghĩa (“lend purpose”); câu (2) mới trực tiếp gọi việc ấy là “quest”."
+            }
+          },
+          {
+            "id": 19,
+            "prompt": "Complete blank for Question 19:",
+            "type": "FILL_IN_BLANK",
+            "correct": "meaningless",
+            "explanation": {
+              "step1": "Pursuing a specific object can stop a person's life from seeming utterly 6. ___ to them . Ô số 6 đứng sau “seeming utterly”, nên cần một tính từ mô tả cuộc sống. Cấu trúc “can stop ... from” gợi ý rằng việc theo đuổi vật đó giúp người ấy tránh một cảm nhận tiêu cực, chẳng hạn thấy cuộc sống thiếu ý nghĩa .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý theo đuổi một vật cụ thể. Ở đoạn 4, ý muốn tìm một vật (“the wish to find”) => đây là vùng thông tin liên quan. Đoạn 4 — the wish to find",
+              "step3": "Đoạn 4: A further driving force is the wish to find something out of the ordinary — a specific treasure such as a first edition of a particular novel . In psychological terms, chasing it can lend purpose to an existence that would otherwise strike the person as meaningless . Câu (1): Nêu mong muốn tìm một vật cụ thể. Câu (3): Theo đuổi vật ấy đem lại mục đích; nếu không , người đó sẽ thấy cuộc sống vô nghĩa .",
+              "step4": "Đáp án phù hợp nhất: meaningless Câu hoàn chỉnh: Pursuing a specific object can stop a person's life from seeming utterly meaningless to them. (Theo đuổi một vật cụ thể có thể giúp người ấy không cảm thấy cuộc sống hoàn toàn vô nghĩa .) => Khớp với dự đoán về một tính từ chỉ cảm nhận tiêu cực; đáp án là một từ lấy nguyên văn từ bài . Đối chiếu paraphrasing: Pursuing chasing; a specific object a specific treasure can stop a person's life from seeming can lend purpose to an existence + otherwise nếu không có mục đích ấy, cuộc sống sẽ bị xem là vô nghĩa. purpose — mục đích: Từ này xuất hiện ở câu (3), nhưng là điều việc theo đuổi đem lại. Nó cũng là danh từ, không điền được sau “seeming utterly”. quest — cuộc tìm kiếm: Câu 2 đoạn 4 dùng từ này để chỉ việc tìm kiếm, không phải để mô tả cuộc sống; đây cũng là danh từ. hollowness — cảm giác trống rỗng: Câu 4 đoạn 4 nói đến cảm giác sau khi tìm thấy vật, không phải cảm nhận về cuộc sống nếu thiếu mục đích. Từ này cũng là danh từ."
+            }
+          },
+          {
+            "id": 20,
+            "prompt": "Complete blank for Question 20:",
+            "type": "FILL_IN_BLANK",
+            "correct": "instructive",
+            "explanation": {
+              "step1": "Because it teaches people about various nations , collecting coins can be 7. ___ . Dự đoán ô trống: Sau “can be” cần một tính từ mô tả việc sưu tầm tiền xu. Lý do đứng đầu câu gợi ý tính từ ấy liên quan đến việc giúp người ta học hỏi.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý sưu tầm tiền xu (“collecting coins”). Đoạn 5 dùng cụm gần tương đương (“collecting of coins”) => bắt đầu đọc tại đây. Đoạn 5 — collecting of coins",
+              "step3": "Đoạn 5: Take the collecting of coins : a further motive for it — or possibly a consequence — lies in how instructive it can be . A coin cabinet is a doorway onto foreign lands , and onto the rulers, emblems and creatures depicted on the currency of each . Câu (1)–(2): Việc sưu tầm tiền xu giúp học hỏi ; câu sau làm rõ điều đó qua việc tìm hiểu những vùng đất khác.",
+              "step4": "Đáp án phù hợp nhất: instructive Câu hoàn chỉnh: Because it teaches people about various nations, collecting coins can be instructive. (Vì giúp người ta tìm hiểu về nhiều quốc gia, việc sưu tầm tiền xu có thể giúp họ học hỏi .) => Khớp với dự đoán về một tính từ chỉ việc giúp học hỏi và với từ được dùng trực tiếp ở câu (1); đáp án gồm 1 từ. Đối chiếu paraphrasing: teaches people about various nations a doorway onto foreign lands collecting coins giữ nguyên foreign lands những vùng đất khác: Đây là điều người sưu tầm có thể tìm hiểu, không phải tính từ đi sau “can be”. knowledge kiến thức: Đoạn 3 nhắc đến việc trao đổi kiến thức (“swap knowledge”), nhưng từ này là danh từ, không mô tả tính chất của việc sưu tầm tiền xu."
+            }
+          },
+          {
+            "id": 21,
+            "prompt": "Complete blank for Question 21:",
+            "type": "FILL_IN_BLANK",
+            "correct": "Planespotting",
+            "explanation": {
+              "step1": "8. ___ is a pursuit followed mainly by males . Dự đoán ô trống: Cần một danh từ chỉ thú vui hoặc hoạt động, làm chủ ngữ trước “is”. Dấu hiệu quyết định là hoạt động ấy chủ yếu thu hút nam giới .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý tương đương với việc nam giới được nhắc đến đặc biệt (“men and boys in particular”). Cụm này xuất hiện ở đoạn 6 => đây là vùng liên quan. Đoạn 6 — men and boys in particular",
+              "step3": "Đoạn 6: One pastime hugely popular in earlier decades, and still practised today if less widely, is planespotting , which has always drawn men and boys in particular .",
+              "step4": "Đáp án phù hợp nhất: Planespotting Câu hoàn chỉnh: Planespotting is a pursuit followed mainly by males . (Planespotting là thú vui chủ yếu được nam giới theo đuổi .) => Khớp với dự đoán về một hoạt động thu hút nam giới; đáp án gồm một từ. Đề không nêu giới hạn số từ. Đối chiếu paraphrasing: a pursuit One pastime mainly by males men and boys in particular collecting coins sưu tầm tiền xu: Đoạn 5 nói đến việc học hỏi từ thú vui này, không nói người tham gia chủ yếu là nam giới. model soldiers mô hình lính: Đoạn 7 nhắc đến món đồ được sưu tầm, nhưng không cung cấp thông tin về giới tính của người sưu tầm."
+            }
+          },
+          {
+            "id": 22,
+            "prompt": "The earliest European model soldiers were typically made from metal.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "The earliest European model soldiers were typically made from metal . Ý câu hỏi: Lính mô hình ở Europe thời kỳ sớm nhất thường được làm từ kim loại .",
+              "step2": "Dựa vào cụm chỉ đối tượng là lính mô hình (“model soldiers”) => ta tìm đến câu 1 đoạn 7, nơi tác giả nói đến việc chúng được làm từ gì (“from what”). Đoạn 7 — from what",
+              "step3": "Đoạn 7: In much the same fashion, those who collect model soldiers often move past the mere expansion of their collection to become intrigued by how such figures are manufactured , and from what . The materials have shifted over time: the carved wood of early modern Europe gave way to the tin and lead of subsequent centuries , and these in turn to the moulded plastics from which today's figures are made . Câu (1): xác định lính mô hình là đối tượng đang xét và dẫn vào câu hỏi về vật liệu. Câu (2): gỗ ở Europe có trước => thiếc thuộc các thế kỷ sau .",
+              "step4": "Câu hỏi nói: Lính mô hình ở Europe thời kỳ sớm nhất thường làm từ kim loại (“metal”). Bài đọc nói: Gỗ (“wood”) thuộc giai đoạn ở Europe đầu thời cận đại (“early modern Europe”); sau đó mới đến thiếc (“tin”) ở các thế kỷ sau (“subsequent centuries”). Câu hỏi đã đặt kim loại vào sai giai đoạn . Đáp án đúng: FALSE Đối chiếu paraphrasing: metal wood ở early modern Europe; tin thuộc subsequent centuries. Đáp án TRUE Nếu skim/scan thấy thiếc (“tin”), sẽ dễ chọn TRUE vì thiếc là kim loại Nhưng bài đặt thiếc ở các thế kỷ sau, không phải giai đoạn đầu ở Europe. Chỉ chọn TRUE nếu bài nói lính mô hình ở Europe thời kỳ đầu thường làm từ kim loại. NOT GIVEN Nếu không thấy nguyên văn từ “earliest” hay “typically” trong bài, sẽ dễ chọn NOT GIVEN Nhưng câu (2) đã nêu vật liệu và trình tự gỗ trước, thiếc sau. Chỉ chọn NOT GIVEN nếu bài không cho biết vật liệu hoặc trình tự của các giai đoạn này."
+            }
+          },
+          {
+            "id": 23,
+            "prompt": "The materials used for model soldiers were more expensive in the past than they are now.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The materials used for model soldiers were more expensive in the past than they are now . Cần kiểm tra giá vật liệu trước đây và hiện nay, không chỉ kiểm tra vật liệu đã thay đổi ra sao.",
+              "step2": "Tìm cụm lính mô hình (“model soldiers”) ở đoạn 7 => bắt đầu đọc từ đó để kiểm tra bài có so sánh giá vật liệu hay không. Đoạn 7 — model soldiers",
+              "step3": "Đoạn 7: The materials have shifted over time : the carved wood of early modern Europe gave way to the tin and lead of subsequent centuries , and these in turn to the moulded plastics from which today's figures are made .",
+              "step4": "Câu hỏi nói: Vật liệu làm lính mô hình trước đây đắt hơn vật liệu hiện nay (“ more expensive ”). Bài đọc nói: Vật liệu thay đổi theo thời gian (“have shifted over time”): từ gỗ đến thiếc và chì, rồi đến nhựa. Bài không cho biết giá của chúng. Vì vậy, không thể xác nhận cũng không thể bác bỏ nhận định về giá. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: more expensive không có trong bài. Đáp án TRUE Nếu skim/scan thấy vật liệu cũ chuyển thành nhựa (“plastics”), dễ tự suy ra vật liệu cũ đắt hơn Nhưng bài không so sánh giá. Chỉ chọn TRUE nếu bài xác nhận vật liệu trước đây đắt hơn vật liệu hiện nay. FALSE Sai vì không thấy thông tin về giá không có nghĩa là bài khẳng định điều ngược lại. Chỉ chọn FALSE nếu bài cho biết vật liệu trước đây rẻ hơn hoặc không đắt hơn vật liệu hiện nay."
+            }
+          },
+          {
+            "id": 24,
+            "prompt": "For some people, keeping a collection in careful order helps them cope with feelings of insecurity.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "For some people , keeping a collection in careful order helps them cope with feelings of insecurity . Ý câu hỏi: Việc sắp xếp bộ sưu tập cẩn thận giúp một số người đối phó với cảm giác bất an.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý về cảm giác bất an (“insecurity”) ở đoạn 8 => bắt đầu đọc kỹ tại đây. Đoạn 8 — insecurity",
+              "step3": "Đoạn 8: Learning from the hobby is not , though, every collector's aim , which points to what we might term a psychological driver: the craving for a sense of control , quite possibly a means of managing one's own insecurity . Coin collectors , for instance , lay out their pieces in trays with great care , ordering them by familiar conventions — by country of issue, say, or by what each design portrays, whether monarchs, birds or landmarks . Câu (1): Nhu cầu có cảm giác kiểm soát rất có thể giúp quản lý sự bất an . Câu (2): Người sưu tầm tiền xu xếp hiện vật cẩn thận , được nêu làm ví dụ cho động lực ấy.",
+              "step4": "Câu hỏi nói: Với một số người, việc xếp bộ sưu tập cẩn thận giúp họ đối phó với cảm giác bất an (“ cope with feelings of insecurity ”). Bài đọc nói: Nhu cầu có cảm giác kiểm soát rất có thể là cách quản lý sự bất an (“quite possibly a means of managing one's own insecurity ”); việc xếp hiện vật cẩn thận (“ with great care ”) được nêu làm ví dụ. => Hai ý phù hợp với nhau . Bài đọc diễn đạt mối liên hệ một cách dè dặt, chứ không khẳng định điều đó đúng với mọi người sưu tầm. Đáp án đúng: TRUE Đối chiếu paraphrasing: keeping a collection in careful order ordering them by familiar conventions + with great care cope with feelings of insecurity a means of managing one's own insecurity FALSE Nếu skim/scan thấy từ phủ định (“is not”), sẽ dễ chọn FALSE Nhưng bài chỉ phủ định việc học hỏi là mục đích của mọi người, không phủ định mối liên hệ với cảm giác bất an. Chỉ chọn FALSE nếu bài nói việc sắp xếp không giúp họ quản lý cảm giác bất an. NOT GIVEN Cụm diễn đạt dè dặt (“quite possibly”) dễ khiến ta tưởng bài chưa đề cập đến mối liên hệ này Nhưng bài đã nêu trực tiếp khả năng quản lý sự bất an và đưa việc sắp xếp cẩn thận làm ví dụ. Chỉ chọn NOT GIVEN nếu bài chỉ kể cách sắp xếp mà không đề cập mối liên hệ với cảm giác bất an."
+            }
+          },
+          {
+            "id": 25,
+            "prompt": "A person who collects strange objects may want to be regarded as unusual themselves.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "A person who collects strange objects may want to be regarded as unusual themselves . Ý câu hỏi: Một người chọn sưu tầm đồ vật khác thường *có thể* muốn người khác nhìn nhận chính mình là khác thường; câu hỏi không nói ai sưu tầm cũng vậy.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý thể hiện nét riêng của bản thân (“asserting one's individuality”) ở đoạn 9 => đây là vùng liên quan. Đoạn 9 — asserting one's individuality",
+              "step3": "Đoạn 9: A person who settles on something as improbable as barbed wire may in effect be signalling a conviction that they themselves are out of the ordinary .",
+              "step4": "Câu hỏi nói: Người chọn đồ vật khác thường có thể muốn được nhìn nhận là người khác thường (“be regarded as unusual themselves”). Bài đọc nói: Người chọn một thứ khó ngờ như dây thép gai (“something as improbable as barbed wire”) có thể đang thể hiện (“may”, “be signalling”) rằng chính họ khác thường (“they themselves are out of the ordinary”). Việc thể hiện ý này ra ngoài phù hợp với mong muốn được người khác nhìn nhận như vậy. ⇒ Hai ý cùng hướng. Đáp án đúng: TRUE Đối chiếu paraphrasing: strange objects something as improbable as barbed wire may want to be regarded may in effect be signalling unusual themselves they themselves are out of the ordinary FALSE Sai vì bài nói người ấy có thể thể hiện mình khác thường, không phủ nhận điều đó. Chỉ chọn FALSE nếu bài nói họ không muốn thể hiện mình khác thường. NOT GIVEN Nếu chỉ tìm đúng chữ muốn được nhìn nhận, ta dễ tưởng bài không đề cập Nhưng bài đã nêu hành vi thể hiện ra ngoài (“be signalling”) và điều được thể hiện; chỉ chọn NOT GIVEN nếu bài không nối việc chọn đồ vật lạ với hình ảnh của chính người sưu tầm."
+            }
+          },
+          {
+            "id": 26,
+            "prompt": "For most collectors, the strongest feeling involved is simply enjoyment.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "For most collectors, the strongest feeling involved is simply enjoyment . Cần kiểm tra không chỉ việc sưu tầm có đem lại niềm vui hay không, mà liệu niềm vui đơn thuần có phải cảm xúc nổi bật nhất hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý nói về niềm vui trong các sở thích. Cụ thể, câu đầu đoạn 10 nhắc đến việc mang lại niềm vui (“brings enjoyment”) => đây là vùng cần đọc kĩ. Đoạn 10 — brings enjoyment",
+              "step3": "Đoạn 10: Every hobby , naturally, brings enjoyment , but what sets collecting apart is usually passion — to call it mere pleasure would understate it considerably .",
+              "step4": "Câu hỏi nói: Với phần lớn người sưu tầm, cảm xúc mạnh nhất chỉ là niềm vui (“simply enjoyment”). Bài đọc nói: Sưu tầm có đem lại niềm vui (“brings enjoyment”), nhưng điều thường khiến nó khác biệt là đam mê (“usually passion”). Vậy nhận định đã hạ đam mê xuống thành niềm vui đơn thuần, trái với bài đọc . Đáp án đúng: FALSE Đối chiếu paraphrasing: simply enjoyment usually passion Đáp án TRUE Nếu chỉ thấy việc sưu tầm mang lại niềm vui (“brings enjoyment”), sẽ dễ chọn TRUE Nhưng vế sau từ “but” cho biết cảm xúc thường nổi bật là đam mê. Chỉ chọn TRUE nếu bài nói niềm vui đơn thuần thường là cảm xúc nổi bật nhất. NOT GIVEN Có thể tưởng rằng thiếu số liệu riêng về phần lớn người sưu tầm thì phải chọn NOT GIVEN Nhưng “usually passion” đã trực tiếp nói cảm xúc nào thường nổi bật. Chỉ chọn NOT GIVEN nếu bài không cho biết cảm xúc nào thường nổi bật hơn."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-12-reading-1-p3",
+        "passageNumber": 3,
+        "title": "What's the purpose of gaining knowledge?",
+        "subtitle": "",
+        "content": [
+          "[A]  'Let this college open its doors to anyone who wishes to study whatever subject they choose.' Those words, attributed to Bartholomew Vance, founder of Aldermoor College, could just as easily describe the very different American university where I now teach philosophy. Here a young person can train for a career in hotel management, civil engineering, landscape design, bookkeeping, jazz performance, policing — the list goes on. And yet what would Vance, or my own institution's founders, have made of a class we genuinely offer, listed in the catalogue as 'Hacking for Profit'? Undergraduates who meet the entry requirements are free to enrol in it through our degree in cybersecurity.",
+          "[B]  The class is meant, of course, for would-be security analysts, who master every trick of the trade so as to work out whether a network was breached on purpose, pin down who did it, and build the chain of proof a court needs before it can hand down a conviction. Yet wouldn't the same class suit an aspiring criminal hacker just as well? I say this not to attack degree programmes in cybersecurity, which I regard as thoroughly welcome — a sign that this occupation, like many others, is steadily becoming more professional. Even so, the very person paid to defend a system is sometimes the one who attacks it. Dishonesty and crime, aided rather than hindered by a university education, can work their way into every corner of public and commercial life.",
+          "[C]  This came home to me again when a colleague asked me to address her marketing students — marketing being yet another of the degrees on offer here — because, as a philosopher, I could offer the ethical angle she valued. I might have tackled the invitation in any number of ways, but the course's own name, 'Principles of Marketing', gave me my opening, and I put a question to the room: is marketing actually principled? A discipline, after all, can be governed by principles in the narrow sense — a settled body of rules, as chess or football is — while being nothing of the sort in the moral sense. To most of the students the answer looked self-evident, and it was no: one need only consider the shameless ways in which every product imaginable gets sold to see that marketing is hardly conducted on ethical lines.",
+          "[D]  But is it really so self-evident? I floated a proposal that, in light of all the evidence, may sound faintly absurd: that marketing is, by definition, principled. It came from the philosopher Viktor Halstrom, who held that every branch of knowledge is made up of two things — an end, meaning its purpose, and a means of reaching it.",
+          "[E]  Take those two ideas, means and end, and hold them up against marketing. Students enrol on the course so as to learn to market well — but with what purpose in view? Two broad answers tend to surface. The first treats the matter as plain: marketing exists to sell goods and to generate money. The second shrugs the question off as immaterial, on the grounds that everyone arrives with private aims of their own, aims that may have nothing to do with marketing expertise in itself. My own view — and, I suspect, Halstrom's — is that both answers miss just how tightly the end bears on the means. Any discipline, any professional calling, is constituted by its means together with its end, so that the two alike call for examination. It is not enough for students to learn how to bring about some goal X; they must also ask what X is.",
+          "[F]  Here is where 'Hacking for Profit' comes fully into its own. The course, on the face of it, deals only in means — the techniques for uncovering and prosecuting wrongdoing — and the end is simply presumed to be good, ethically speaking. Whenever I press cybersecurity students to spell out that end, the purpose behind their field, they arrive sooner or later at some phrase like 'keeping society safe and secure', which seems fair enough. And yet, as we have seen, an identical command of the means can be turned to a far less honourable end — private gain won through damaging, dangerous, reckless acts. That we decline to call security work; we keep a different word for it: cracking. In the same way, to deploy the 'principles of marketing' without principle is not to be marketing at all; here too a separate word waits: fraud. Halstrom offers the case of a healer and a poisoner who draw on one and the same knowledge to opposite ends: the first, we say, practises medicine; the second, murder."
+        ],
+        "questions": [
+          {
+            "id": 27,
+            "prompt": "Choose the correct heading for Section A:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Programmes that demand serious dedication",
+              "Separate words for contrasting results",
+              "A course name that can be read two ways",
+              "How a course might draw unsuitable applicants",
+              "An unexpected name for a course",
+              "Why two elements matter equally",
+              "Using an idea in a surprising setting",
+              "How study can pay off financially"
+            ],
+            "correct": "An unexpected name for a course",
+            "explanation": {
+              "step1": "Đoạn A: 'Let this college open its doors to anyone who wishes to study whatever subject they choose .' Those words, attributed to Bartholomew Vance , founder of Aldermoor College , could just as easily describe the very different American university where I now teach philosophy . Here a young person can train for a career in hotel management , civil engineering, landscape design, bookkeeping, jazz performance, policing — the list goes on . And yet what would Vance , or my own institution's founders, have made of a class we genuinely offer , listed in the catalogue as ' Hacking for Profit ' ? Undergraduates who meet the entry requirements are free to enrol in it through our degree in cybersecurity . Câu (1)–(3): đặt nền về tinh thần giáo dục rộng mở và nhiều lựa chọn đào tạo. Câu (4): chuyển hướng bằng từ nối tương phản (“And yet”), nhấn vào tên lớp học gây bất ngờ . Câu (5): xác nhận đây là lớp học sinh viên thực sự có thể đăng ký. Đoạn A — And yet",
+              "step2": "Giữa nhiều lựa chọn đào tạo, tác giả bày tỏ sự ngạc nhiên trước tên một khóa học có thật : Hacking for Profit. Đáp án đúng: An unexpected name for a course (Một tên khóa học gây bất ngờ ). Đối chiếu paraphrasing: unexpected And yet + câu hỏi tu từ về phản ứng của Vance ở câu (4). name for a course a class + listed in the catalogue as. A course name that can be read two ways “ — Tên khóa học có hai cách hiểu ”: Tên Hacking for Profit dễ gợi nhiều liên tưởng Nhưng đoạn A không phân tích hai cách hiểu; trọng tâm là sự bất ngờ trước tên khóa học. How a course might draw unsuitable applicants “ — Một khóa học có thể thu hút người đăng ký không phù hợp ”: Nếu chỉ thấy được tự do đăng ký (“are free to enrol”), ta dễ nghĩ đến đối tượng học Nhưng đoạn A chưa bàn về người học không phù hợp; ý đó xuất hiện ở đoạn B với người muốn trở thành kẻ tấn công mạng phạm pháp (“aspiring criminal hacker”). How study can pay off financially “ — Việc học có thể mang lại lợi ích tài chính ”: Từ chỉ lợi nhuận (“Profit”) dễ kéo ta sang ý kiếm tiền Nhưng nó nằm trong tên khóa học; đoạn không giải thích việc học giúp tăng thu nhập như thế nào.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: An unexpected name for a course"
+            }
+          },
+          {
+            "id": 28,
+            "prompt": "Choose the correct heading for Section B:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Programmes that demand serious dedication",
+              "Separate words for contrasting results",
+              "A course name that can be read two ways",
+              "How a course might draw unsuitable applicants",
+              "An unexpected name for a course",
+              "Why two elements matter equally",
+              "Using an idea in a surprising setting",
+              "How study can pay off financially"
+            ],
+            "correct": "How a course might draw unsuitable applicants",
+            "explanation": {
+              "step1": "Đoạn B: The class is meant , of course, for would-be security analysts , who master every trick of the trade so as to work out whether a network was breached on purpose, pin down who did it, and build the chain of proof a court needs before it can hand down a conviction . Yet wouldn't the same class suit an aspiring criminal hacker just as well ? Ngụ ý: Câu hỏi tu từ ngầm trả lời là có: khóa học cũng có thể phù hợp với người muốn phạm tội , chứ không khẳng định họ đã đăng ký. I say this not to attack degree programmes in cybersecurity , which I regard as thoroughly welcome — a sign that this occupation, like many others, is steadily becoming more professional . Even so, the very person paid to defend a system is sometimes the one who attacks it . Dishonesty and crime , aided rather than hindered by a university education , can work their way into every corner of public and commercial life . Câu (1)–(2): khóa học dành cho chuyên viên bảo mật >< cũng phù hợp với người muốn phạm tội . Câu (3): đính chính rằng tác giả không công kích chương trình đào tạo. Câu (4)–(5): củng cố cảnh báo: người bảo vệ có thể thành người tấn công; giáo dục có thể hỗ trợ hành vi sai trái . Đoạn B — the same class",
+              "step2": "Khóa học vốn đào tạo chuyên viên bảo mật cũng có thể thu hút người có mục đích phạm tội . Đáp án đúng: How a course might draw unsuitable applicants (Một khóa học có thể thu hút những người không phù hợp như thế nào). Đối chiếu paraphrasing: a course the same class unsuitable applicants an aspiring criminal hacker Tên khóa học có thể được hiểu theo hai cách “ (“A course name that can be read two ways”) ”: cùng khóa học phục vụ được cả người bảo vệ lẫn người tấn công. Nhưng đoạn nói về hai nhóm người sử dụng kiến thức, không phải hai nghĩa của tên khóa học. Một tên khóa học gây bất ngờ “ (“An unexpected name for a course”) ”: Tên “Hacking for Profit” ở đoạn A dễ gây chú ý Nhưng đoạn B chuyển sang nguy cơ khóa học cũng phù hợp với người muốn phạm tội, không còn tập trung vào sự bất ngờ của cái tên. Việc học có thể đem lại lợi ích tài chính như thế nào “ (“How study can pay off financially”) ”: Từ “Profit” trong tên khóa học ở đoạn A dễ gợi chuyện tiền bạc Nhưng đoạn B cảnh báo về việc lạm dụng kiến thức, không trình bày lợi ích tài chính của việc học.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: How a course might draw unsuitable applicants"
+            }
+          },
+          {
+            "id": 29,
+            "prompt": "Choose the correct heading for Section C:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Programmes that demand serious dedication",
+              "Separate words for contrasting results",
+              "A course name that can be read two ways",
+              "How a course might draw unsuitable applicants",
+              "An unexpected name for a course",
+              "Why two elements matter equally",
+              "Using an idea in a surprising setting",
+              "How study can pay off financially"
+            ],
+            "correct": "A course name that can be read two ways",
+            "explanation": {
+              "step1": "Đoạn C: This came home to me again when a colleague asked me to address her marketing students — marketing being yet another of the degrees on offer here — because , as a philosopher, I could offer the ethical angle she valued . I might have tackled the invitation in any number of ways , but the course's own name, ' Principles of Marketing ', gave me my opening , and I put a question to the room : is marketing actually principled ? A discipline , after all, can be governed by principles in the narrow sense — a settled body of rules , as chess or football is — while being nothing of the sort in the moral sense . To most of the students the answer looked self-evident , and it was no : one need only consider the shameless ways in which every product imaginable gets sold to see that marketing is hardly conducted on ethical lines . Câu (1)–(2): đặt bối cảnh lời mời, rồi dùng tên “Principles of Marketing” để hỏi marketing có nguyên tắc hay không. Câu (3): phân biệt có hệ thống quy tắc >< có nguyên tắc đạo đức . Câu (4): đa số sinh viên trả lời “không” theo cách hiểu về đạo đức. Đoạn C — Principles of Marketing",
+              "step2": "Tên “Principles of Marketing” gợi ra hai cách hiểu về nguyên tắc : quy tắc của một ngành và chuẩn mực đạo đức . Đáp án đúng: A course name that can be read two ways ( Một tên môn học có thể được hiểu theo hai cách ). Đối chiếu paraphrasing: can be read two ways a settled body of rules in the moral sense An unexpected name for a course “ (Một tên môn học gây bất ngờ) ”: Nếu chỉ chú ý đến tên môn học ở câu (2), ta dễ chọn heading này Nhưng đoạn phân tích hai cách hiểu, không nhấn mạnh tên gọi bất thường; tên gây bất ngờ “Hacking for Profit” xuất hiện ở đoạn A. Separate words for contrasting results “ (Những từ riêng cho các kết quả đối lập) ”: Câu (3) có sự tương phản nên dễ gây nhầm Nhưng đoạn đang phân biệt hai nghĩa của cùng một cách gọi, không đưa ra những từ riêng để gọi các kết quả khác nhau.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: A course name that can be read two ways"
+            }
+          },
+          {
+            "id": 30,
+            "prompt": "Choose the correct heading for Section D:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Programmes that demand serious dedication",
+              "Separate words for contrasting results",
+              "A course name that can be read two ways",
+              "How a course might draw unsuitable applicants",
+              "An unexpected name for a course",
+              "Why two elements matter equally",
+              "Using an idea in a surprising setting",
+              "How study can pay off financially"
+            ],
+            "correct": "Using an idea in a surprising setting",
+            "explanation": {
+              "step1": "Đoạn D: But is it really so self-evident? I floated a proposal that , in light of all the evidence, may sound faintly absurd : that marketing is, by definition, principled . It came from the philosopher Viktor Halstrom , who held that every branch of knowledge is made up of two things — an end, meaning its purpose , and a means of reaching it . Câu (1)–(2): chất vấn nhận định trước đó, rồi đưa ra đề xuất trái kỳ vọng : marketing vốn có nguyên tắc đạo đức . Câu (3): nêu quan niệm khái quát của Halstrom về mục đích và phương tiện, làm cơ sở cho đề xuất ấy. Đoạn D — floated a proposal",
+              "step2": "Tác giả vận dụng một ý tưởng khái quát vào marketing để đưa ra nhận định gây bất ngờ . Đáp án đúng: Using an idea in a surprising setting (Vận dụng một ý tưởng vào một bối cảnh bất ngờ). Đối chiếu paraphrasing: Using an idea I floated a proposal + came from + who held that. in a surprising setting may sound faintly absurd + marketing is, by definition, principled. Why two elements matter equally “ (Vì sao hai yếu tố quan trọng ngang nhau) ”: nếu chỉ chú ý mục đích và phương tiện ở câu (3). Nhưng đoạn này mới giới thiệu ý tưởng gồm hai thành phần, chưa lập luận rằng chúng quan trọng ngang nhau. A course name that can be read two ways “ (Tên môn học có thể được hiểu theo hai cách) ”: Dễ bị kéo theo tên môn học (“Principles of Marketing”) ở đoạn C Nhưng đoạn D chuyển sang một đề xuất trái kỳ vọng và cơ sở lý thuyết của nó, không phân tích hai cách hiểu tên môn học. An unexpected name for a course “ (Một tên môn học bất ngờ) ”: Cảm giác vô lý (“absurd”) có thể khiến ta chọn heading này Nhưng điều bất ngờ là nhận định về marketing, không phải tên môn học.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Using an idea in a surprising setting"
+            }
+          },
+          {
+            "id": 31,
+            "prompt": "Choose the correct heading for Section E:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Programmes that demand serious dedication",
+              "Separate words for contrasting results",
+              "A course name that can be read two ways",
+              "How a course might draw unsuitable applicants",
+              "An unexpected name for a course",
+              "Why two elements matter equally",
+              "Using an idea in a surprising setting",
+              "How study can pay off financially"
+            ],
+            "correct": "Why two elements matter equally",
+            "explanation": {
+              "step1": "Đoạn E: Take those two ideas , means and end , and hold them up against marketing . Students enrol on the course so as to learn to market well — but with what purpose in view? Two broad answers tend to surface . The first treats the matter as plain : marketing exists to sell goods and to generate money . The second shrugs the question off as immaterial , on the grounds that everyone arrives with private aims of their own , aims that may have nothing to do with marketing expertise in itself . My own view — and, I suspect, Halstrom's — is that both answers miss just how tightly the end bears on the means . Any discipline , any professional calling, is constituted by its means together with its end , so that the two alike call for examination . It is not enough for students to learn how to bring about some goal X ; they must also ask what X is . Câu (1)–(2): áp dụng phương tiện và mục đích vào marketing; đối chiếu học cách làm với câu hỏi làm để làm gì. Câu (3)–(5): nêu hai cách trả lời về mục đích — bán hàng, hoặc coi câu hỏi không quan trọng vì mỗi người có mục tiêu riêng. Câu (6): tác giả phản bác cả hai vì chúng bỏ qua quan hệ chặt chẽ giữa mục đích và phương tiện. Câu (7)–(8): hai yếu tố cùng cấu thành một lĩnh vực nên đều cần được xem xét ; chỉ học cách đạt mục tiêu là chưa đủ. Đoạn E — means and end",
+              "step2": "Phương tiện và mục đích gắn chặt với nhau, nên không được xem nhẹ yếu tố nào . Đáp án đúng: Why two elements matter equally (Vì sao hai yếu tố đều quan trọng như nhau ). Đối chiếu paraphrasing: two elements its means together with its end matter equally the two alike call for examination How study can pay off financially “ — Việc học có thể mang lại lợi ích tài chính như thế nào ”: Nếu chỉ nhìn ý kiếm tiền (“generate money”) ở câu (4), dễ nhầm đây là trọng tâm Nhưng đó chỉ là một cách trả lời bị tác giả phản bác, không phải kết luận về lợi ích tài chính của việc học. Using an idea in a surprising setting “ — Áp dụng một ý tưởng vào bối cảnh bất ngờ ”: Câu (1) áp dụng hai ý tưởng vào marketing nên dễ khiến ta chọn theo phần mở đoạn Nhưng trọng tâm là vì sao phải xét cả hai yếu tố, không phải sự bất ngờ của bối cảnh. A course name that can be read two ways “ — Tên khóa học có thể được hiểu theo hai cách ”: Hai câu trả lời (“Two broad answers”) ở câu (3) dễ gợi liên tưởng đến hai cách hiểu Nhưng đây là hai cách trả lời về mục đích, không phải hai nghĩa của tên khóa học.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Why two elements matter equally"
+            }
+          },
+          {
+            "id": 32,
+            "prompt": "Choose the correct heading for Section F:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Programmes that demand serious dedication",
+              "Separate words for contrasting results",
+              "A course name that can be read two ways",
+              "How a course might draw unsuitable applicants",
+              "An unexpected name for a course",
+              "Why two elements matter equally",
+              "Using an idea in a surprising setting",
+              "How study can pay off financially"
+            ],
+            "correct": "Separate words for contrasting results",
+            "explanation": {
+              "step1": "Đoạn F: Here is where 'Hacking for Profit' comes fully into its own . The course , on the face of it , deals only in means — the techniques for uncovering and prosecuting wrongdoing — and the end is simply presumed to be good , ethically speaking . Whenever I press cybersecurity students to spell out that end , the purpose behind their field , they arrive sooner or later at some phrase like 'keeping society safe and secure ' , which seems fair enough . And yet , as we have seen, an identical command of the means can be turned to a far less honourable end — private gain won through damaging, dangerous, reckless acts . That we decline to call security work ; we keep a different word for it: cracking . In the same way, to deploy the 'principles of marketing' without principle is not to be marketing at all; here too a separate word waits: fraud. Gợi ý: Dấu hiệu tương tự (“In the same way”) báo thêm một ví dụ cùng kiểu với việc phân biệt security work và cracking ở câu (5), nên có thể bỏ qua chi tiết. Halstrom offers the case of a healer and a poisoner who draw on one and the same knowledge to opposite ends : the first , we say, practises medicine ; the second , murder . Câu (1)–(3): đưa khóa học trở lại làm ví dụ; kỹ thuật được gắn với mục đích tốt là giữ xã hội an toàn. Câu (4)–(5): cùng kỹ thuật có thể phục vụ mục đích kém chính đáng => hành vi được gọi là cracking, không phải security work . Câu (6)–(7): mở rộng cùng kiểu phân biệt sang lĩnh vực khác, củng cố ý mục đích trái ngược => tên gọi khác nhau . Đoạn F — In the same way",
+              "step2": "Cùng kiến thức hoặc kỹ thuật nhưng được dùng cho mục đích trái ngược thì hành vi được gọi bằng những tên khác nhau . Đáp án đúng: Heading thứ 2 — Separate words for contrasting results ( Những tên gọi riêng cho các kết quả đối lập ). Đối chiếu paraphrasing: Separate words a different word contrasting results good less honourable Heading 6. “ Vì sao hai yếu tố đều quan trọng ”: Nếu skim/scan thấy phương tiện và mục đích (“means”, “end”), em dễ chọn heading này Nhưng đoạn F dùng hai yếu tố đó để giải thích sự khác biệt về tên gọi; việc cả hai đều cần được xem xét mới là trọng tâm đoạn E. Heading 8. “ Việc học có thể đem lại lợi ích tài chính như thế nào ”: Tên khóa học có từ lợi nhuận (“Profit”), còn câu (4) có lợi ích cá nhân (“private gain”), nên dễ gây nhầm Nhưng lợi ích ấy nằm ở phía mục đích kém chính đáng, không phải lời giải thích cách học tập đem lại thu nhập. Heading 4. “ Một khóa học có thể thu hút người đăng ký không phù hợp ra sao ”: Việc kỹ thuật bị dùng sai có thể khiến em liên tưởng đến người học có ý đồ xấu Nhưng đoạn F phân biệt hành vi và tên gọi theo mục đích; chuyện người đăng ký không phù hợp được đặt ra ở đoạn B qua người muốn trở thành hacker phạm tội (“an aspiring criminal hacker”).",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Separate words for contrasting results"
+            }
+          },
+          {
+            "id": 33,
+            "prompt": "This course is aimed at undergraduates whose field of study is _____ . Those who take it are expected to go on to work as [(34) _____] dealing with network attacks. It trains them to recognise when hacking has occurred and to track down [(35) _____] that a crime was intended, paving the way for a [(36) _____] once the case reaches court.",
+            "type": "FILL_IN_BLANK",
+            "correct": "cybersecurity",
+            "explanation": {
+              "step1": "The 'Hacking for Profit' course This course is aimed at undergraduates whose field of study is 7. ___ . Ý câu hỏi: Khóa học này dành cho sinh viên đang theo học ngành nào? Dự đoán ô trống: - Loại từ: danh từ hoặc cụm danh từ, đứng sau động từ “is”. - Loại thông tin: tên ngành học , không phải tên khóa học hay nghề nghiệp tương lai.",
+              "step2": "Dựa vào tên khóa học Hacking for Profit, ta định vị đoạn A rồi tìm câu nói về sinh viên đại học (“Undergraduates”). Đoạn A — Undergraduates",
+              "step3": "Đoạn A: Undergraduates who meet the entry requirements are free to enrol in it through our degree in cybersecurity .",
+              "step4": "Đáp án phù hợp nhất: cybersecurity Câu hoàn chỉnh: This course is aimed at undergraduates whose field of study is cybersecurity . (Khóa học này dành cho sinh viên đại học theo học ngành cybersecurity .) => Khớp với dự đoán tên ngành học và thông tin về chương trình đào tạo trong bài; đáp án gồm 1 từ, đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: field of study degree in Hacking for Profit “ — tên khóa học ”: đây là tên nổi bật ngay trong tiêu đề. Nhưng câu 7 hỏi ngành học; bài xác định ngành qua cụm chương trình đào tạo (“degree in cybersecurity”). philosophy “ — môn người viết giảng dạy ”: từ này cũng xuất hiện ở đoạn A. Nhưng đó là môn người viết dạy, không phải ngành học của nhóm sinh viên được hỏi."
+            }
+          },
+          {
+            "id": 34,
+            "prompt": "This course is aimed at undergraduates whose field of study is [(33) _____] . Those who take it are expected to go on to work as _____ dealing with network attacks. It trains them to recognise when hacking has occurred and to track down [(35) _____] that a crime was intended, paving the way for a [(36) _____] once the case reaches court.",
+            "type": "FILL_IN_BLANK",
+            "correct": "analysts / security analysts",
+            "explanation": {
+              "step1": "Those who take it are expected to go on to work as 8. ___ dealing with network attacks . Ý câu hỏi: Người học được kỳ vọng sẽ làm nghề gì sau khóa học, với công việc liên quan đến xử lý các cuộc tấn công mạng? Dự đoán ô trống: - Loại từ: danh từ/cụm danh từ chỉ nghề nghiệp, đứng sau làm nghề (“work as”). - Nghĩa: nhóm người làm công việc xử lý tấn công mạng . Chủ ngữ chỉ nhiều người và trước ô trống không có mạo từ => dự đoán danh từ số nhiều.",
+              "step2": "Dựa vào tên khóa học 'Hacking for Profit', ta tìm được phần giới thiệu ở đoạn A. Đọc tiếp sang đầu đoạn B để tìm nghề nghiệp mà khóa học hướng tới. Đoạn B",
+              "step3": "Đoạn B: The class is meant , of course, for would-be security analysts , who master every trick of the trade so as to work out whether a network was breached on purpose, pin down who did it, and build the chain of proof a court needs before it can hand down a conviction .",
+              "step4": "Đáp án phù hợp nhất: security analysts Câu hoàn chỉnh: Those who take it are expected to go on to work as security analysts dealing with network attacks. (Những người học khóa này được kỳ vọng sau đó sẽ làm chuyên viên phân tích an ninh , xử lý các cuộc tấn công mạng.) => Khớp dự đoán danh từ số nhiều chỉ nghề nghiệp và đúng đối tượng mà khóa học hướng tới; đáp án gồm 2 từ, cũng chấp nhận analysts gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: are expected to go on to work as would be criminal hacker “ hacker phạm tội ”: Câu 2 đoạn B nhắc tới người muốn làm hacker phạm tội (“aspiring criminal hacker”), nên dễ chọn nhầm Nhưng đó là khả năng lạm dụng khóa học, không phải nghề mà khóa học được thiết kế để đào tạo. Undergraduates “ sinh viên đại học ”: Nếu scan đoạn A thấy từ này, dễ lấy nhầm đối tượng theo học Nhưng ô trống hỏi nghề làm sau khóa học, không hỏi tư cách người học."
+            }
+          },
+          {
+            "id": 35,
+            "prompt": "This course is aimed at undergraduates whose field of study is [(33) _____] . Those who take it are expected to go on to work as [(34) _____] dealing with network attacks. It trains them to recognise when hacking has occurred and to track down _____ that a crime was intended, paving the way for a [(36) _____] once the case reaches court.",
+            "type": "FILL_IN_BLANK",
+            "correct": "proof",
+            "explanation": {
+              "step1": "It trains them to recognise when hacking has occurred and to track down 9. ___ that a crime was intended Ý câu hỏi: Khóa học đào tạo sinh viên nhận biết việc xâm nhập mạng và tìm ra thứ cho thấy hành vi phạm tội là có chủ ý . Dự đoán ô trống: - Loại từ: danh từ hoặc cụm danh từ làm tân ngữ sau tìm ra (“track down”). Không có mạo từ trước ô trống nên có thể là danh từ không đếm được hoặc danh từ số nhiều. - Nghĩa: thứ giúp xác lập rằng hành vi phạm tội là có chủ ý , không phải người thực hiện hành vi.",
+              "step2": "Dựa vào tên khóa học Hacking for Profit, ta tìm được phần giới thiệu ở đoạn A. Đầu đoạn B tiếp tục giải thích các kỹ năng mà người học được đào tạo => bắt đầu đọc tại đây. Đoạn B",
+              "step3": "Đoạn B: The class is meant , of course, for would-be security analysts , who master every trick of the trade so as to work out whether a network was breached on purpose , pin down who did it, and build the chain of proof a court needs before it can hand down a conviction .",
+              "step4": "Đáp án phù hợp nhất: proof Câu hoàn chỉnh: It trains them to recognise when hacking has occurred and to track down proof that a crime was intended. (Khóa học đào tạo sinh viên nhận biết khi việc xâm nhập mạng đã xảy ra và tìm ra bằng chứng cho thấy hành vi phạm tội là có chủ ý .) => Khớp với dự đoán: danh từ không đếm được chỉ bằng chứng giúp xác lập ý định phạm tội ; đáp án gồm 1 từ. Phần đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: track down build the chain of proof trong ngữ cảnh thu thập và tạo lập bằng chứng. a crime was intended on purpose. chain “ chuỗi ”: đứng ngay trước bằng chứng (“proof”). Nhưng đây là chuỗi liên kết các bằng chứng, không phải bản thân bằng chứng; danh từ đếm được số ít này cũng cần mạo từ sau “track down”. trick “ kỹ thuật ”: Sai vì đây là thứ người học phải nắm vững, không phải thứ chứng minh hành vi phạm tội có chủ ý."
+            }
+          },
+          {
+            "id": 36,
+            "prompt": "This course is aimed at undergraduates whose field of study is [(33) _____] . Those who take it are expected to go on to work as [(34) _____] dealing with network attacks. It trains them to recognise when hacking has occurred and to track down [(35) _____] that a crime was intended, paving the way for a _____ once the case reaches court.",
+            "type": "FILL_IN_BLANK",
+            "correct": "conviction",
+            "explanation": {
+              "step1": "paving the way for a 10. ___ once the case reaches court . Ý câu hỏi: Những việc được nêu trước đó tạo tiền đề cho một kết quả xảy ra khi vụ việc ra tòa. Dự đoán ô trống: - Loại từ: sau “a” cần một danh từ đếm được số ít . - Nghĩa: một kết quả hoặc sự kiện pháp lý . Cụm tạo tiền đề (“paving the way for”) không khẳng định kết quả chắc chắn xảy ra.",
+              "step2": "Dựa vào tên khóa học Hacking for Profit, ta tìm được phần giới thiệu ở cuối đoạn A. Đọc tiếp sang đầu đoạn B, gặp thông tin về tòa án (“a court”) => đây là vùng cần đọc kỹ. Đoạn B — a court",
+              "step3": "Đoạn B: The class is meant , of course, for would-be security analysts , who master every trick of the trade so as to work out whether a network was breached on purpose, pin down who did it, and build the chain of proof a court needs before it can hand down a conviction . Giải thích thêm: Tòa cần chứng cứ trước khi có thể kết tội (“before it can hand down a conviction”). Đây chính là quan hệ tạo tiền đề mà câu hỏi diễn đạt, không phải sự bảo đảm rằng tòa sẽ kết tội .",
+              "step4": "Đáp án phù hợp nhất: conviction Câu hoàn chỉnh: paving the way for a conviction once the case reaches court. (tạo tiền đề cho việc kết tội khi vụ việc ra tòa.) => Khớp dự đoán danh từ số ít chỉ kết quả pháp lý và thông tin tòa có thể đưa ra kết luận kết tội ; đáp án gồm 1 từ. Đối chiếu paraphrasing: paving the way for needs before + can hand down a conviction court “ tòa án ”: câu hỏi nhắc việc ra tòa. Nhưng đây là cơ quan đưa ra quyết định, không phải kết quả pháp lý cần điền. crime “ hành vi phạm tội ”: Dễ bị hút bởi cụm nói về hành vi phạm tội (“a crime”) ngay trước phần đang giải Nhưng hành vi phạm tội là việc được điều tra, không phải kết quả mà chứng cứ tạo tiền đề để tòa đưa ra."
+            }
+          },
+          {
+            "id": 37,
+            "prompt": "The writer approves of the way fields such as cybersecurity are maturing into recognised professions.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "YES",
+            "explanation": {
+              "step1": "The writer approves of the way fields such as cybersecurity are maturing into recognised professions . Ý câu hỏi: tác giả có tán thành việc những lĩnh vực như cybersecurity đang phát triển thành các nghề được công nhận hay không?",
+              "step2": "Dựa vào từ khoá đặc biệt `cybersecurity` => ta định vị được đoạn B, tại câu bắt đầu bằng lời giải thích rằng tác giả không có ý công kích các chương trình đào tạo (“I say this not to attack”). Đoạn B — I say this not to attack",
+              "step3": "Đoạn B: I say this not to attack degree programmes in cybersecurity , which I regard as thoroughly welcome — a sign that this occupation , like many others, is steadily becoming more professional .",
+              "step4": "Câu hỏi nói: tác giả tán thành việc các lĩnh vực như cybersecurity đang phát triển thành những nghề được công nhận . Bài đọc nói: tác giả xem các chương trình cybersecurity là đáng hoan nghênh (“ welcome ”); đây là dấu hiệu nghề này đang trở nên chuyên nghiệp hơn (“ becoming more professional ”). Lập trường tích cực của tác giả phù hợp với nhận định. Đối chiếu paraphrasing: approves of welcome maturing into recognised professions becoming more professional Đáp án đúng: YES Đáp án NO Nếu skim/scan thấy đối tượng hacker muốn phạm pháp (“aspiring criminal hacker”) ở đoạn B, sẽ dễ nhầm tác giả phản đối sự chuyên nghiệp hóa Nhưng tác giả nêu rõ thái độ hoan nghênh, không phải phản đối. Chỉ chọn NO nếu tác giả phản đối việc cybersecurity trở nên chuyên nghiệp hơn. NOT GIVEN Sai vì tác giả đã trực tiếp nêu đánh giá tích cực qua từ đáng hoan nghênh (“welcome”), chứ không chỉ mô tả một xu hướng. Chỉ chọn NOT GIVEN nếu bài nhắc đến sự chuyên nghiệp hóa nhưng không cho biết tác giả tán thành hay phản đối."
+            }
+          },
+          {
+            "id": 38,
+            "prompt": "A person hoping to carry out illegal intrusions would gain nothing useful from the course.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NO",
+            "explanation": {
+              "step1": "A person hoping to carry out illegal intrusions would gain nothing useful from the course . Ý câu hỏi: tác giả có cho rằng người muốn xâm nhập trái phép sẽ không học được gì hữu ích từ khóa học hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý tương đương với người muốn xâm nhập trái phép. Ở đoạn B, tác giả nhắc đến người muốn trở thành hacker phạm pháp (“an aspiring criminal hacker”) => đây là vùng liên quan. Đoạn B — an aspiring criminal hacker",
+              "step3": "Đoạn B: The class is meant , of course, for would-be security analysts , who master every trick of the trade so as to work out whether a network was breached on purpose, pin down who did it, and build the chain of proof a court needs before it can hand down a conviction . Yet wouldn't the same class suit an aspiring criminal hacker just as well ? Câu (1): nêu đối tượng đào tạo chính thức là chuyên viên phân tích an ninh. Câu (2): chuyển sang mục đích sử dụng trái ngược; khóa học cũng hữu ích cho hacker phạm pháp .",
+              "step4": "Câu hỏi nói: người muốn xâm nhập trái phép không thu được gì hữu ích (“ no thing useful”) từ khóa học. Bài đọc nói: tác giả dùng câu hỏi tu từ để khẳng định khóa học cũng phù hợp không kém với hacker phạm pháp (“ suit an aspiring criminal hacker just as well ”). Ở đây, câu hỏi tu từ có từ phủ định (“wouldn't”) hướng người đọc tới câu trả lời có , không phải phủ định lợi ích của khóa học. Quan điểm của tác giả trái với statement => chọn NO . Đối chiếu paraphrasing: A person hoping to carry out illegal intrusions an aspiring criminal hacker would gain nothing useful suit an aspiring criminal hacker just as well Đáp án đúng: NO Đáp án YES khóa học dành cho chuyên viên an ninh với việc chỉ họ mới hưởng lợi. Nhưng câu (2) cho thấy hacker phạm pháp cũng hưởng lợi. Chỉ chọn YES nếu tác giả nói người muốn xâm nhập trái phép không học được gì hữu ích. NOT GIVEN nếu coi câu (2) là câu hỏi chưa được trả lời. Nhưng câu hỏi tu từ này đã thể hiện rõ quan điểm của tác giả: khóa học cũng phù hợp với hacker phạm pháp. Chỉ chọn NOT GIVEN nếu tác giả không thể hiện quan điểm về tính hữu ích của khóa học đối với nhóm này."
+            }
+          },
+          {
+            "id": 39,
+            "prompt": "The writer believes that philosophy ought to be a compulsory component of every degree.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The writer believes that philosophy ought to be a compulsory component of every degree . Ý câu hỏi: tác giả có cho rằng triết học phải là phần bắt buộc trong mọi chương trình cấp bằng hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm quan điểm của tác giả về việc sinh viên cần học gì. Đoạn E có yêu cầu sinh viên phải đặt câu hỏi về mục tiêu (“must also ask”) => đây là điểm bắt đầu đọc. Đoạn E — must also ask",
+              "step3": "Đoạn E: It is not enough for students to learn how to bring about some goal X ; they must also ask what X is .",
+              "step4": "Câu hỏi nói: tác giả ủng hộ việc đưa triết học thành phần bắt buộc trong mọi chương trình cấp bằng . Bài đọc nói: sinh viên không chỉ cần học cách đạt mục tiêu mà còn phải hỏi mục tiêu đó là gì (“what X is”). Tuy nhiên, toàn bài không nêu lập trường về việc bắt buộc học triết học trong mọi chương trình cấp bằng. Yêu cầu suy xét mục tiêu không đồng nghĩa với yêu cầu đưa một môn học vào chương trình bắt buộc. Đối chiếu paraphrasing: a compulsory component of every degree không có trong bài. Đáp án đúng: NOT GIVEN Đáp án YES Nếu skim/scan thấy yêu cầu phải đặt câu hỏi (“must also ask”), sẽ dễ chọn YES Nhưng tác giả yêu cầu suy xét mục tiêu, không khẳng định phải học triết học bắt buộc. Chỉ chọn YES nếu tác giả ủng hộ việc đưa triết học thành phần bắt buộc trong mọi chương trình cấp bằng. Đáp án NO Sai vì không thấy tác giả ủng hộ không có nghĩa là tác giả phản đối; bài không đưa ra quan điểm trái với nhận định. Chỉ chọn NO nếu tác giả nói triết học không nên là phần bắt buộc trong mọi chương trình cấp bằng."
+            }
+          },
+          {
+            "id": 40,
+            "prompt": "When asked, the students gave a precise and detailed account of what their field is ultimately for.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NO",
+            "explanation": {
+              "step1": "When asked , the students gave a precise and detailed account of what their field is ultimately for . Ý câu hỏi: Khi được hỏi, sinh viên có giải thích chính xác và chi tiết về mục đích cuối cùng của lĩnh vực mình học không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý sinh viên được yêu cầu giải thích mục đích lĩnh vực mình học. Ở đoạn F, tác giả yêu cầu sinh viên cybersecurity nói rõ điều này (“press cybersecurity students to spell out”) => đây là điểm bắt đầu đọc. Đoạn F — press cybersecurity students to spell out",
+              "step3": "Đoạn F: Whenever I press cybersecurity students to spell out that end, the purpose behind their field , they arrive sooner or later at some phrase like 'keeping society safe and secure ' , which seems fair enough .",
+              "step4": "Câu hỏi nói: Sinh viên đưa ra lời giải thích chính xác và chi tiết (“a precise and detailed account ”). Bài đọc nói: Theo mô tả của tác giả, sinh viên đi đến một cách nói khái quát (“ some phrase like ”), chẳng hạn giữ xã hội an toàn (“keeping society safe”). Đây không phải bản giải thích cụ thể, chi tiết như statement khẳng định . Đối chiếu paraphrasing: what their field is ultimately for the purpose behind their field a precise and detailed account some phrase like + keeping society safe Đáp án đúng: NO — statement trái với cách tác giả mô tả câu trả lời của sinh viên. Đáp án YES sinh viên có nêu mục đích và tác giả thấy mục đích ấy hợp lý (“fair enough”) Nhưng mục đích hợp lý không đồng nghĩa với lời giải thích chính xác và chi tiết. Chỉ chọn YES nếu tác giả mô tả sinh viên giải thích mục đích rõ ràng, cụ thể và chi tiết. NOT GIVEN bài không nói thẳng rằng câu trả lời thiếu chi tiết Nhưng tác giả đã mô tả cách trả lời qua một cách nói chung (“some phrase like”) và ví dụ đi kèm, đủ để đối chiếu với statement. Chỉ chọn NOT GIVEN nếu tác giả chỉ nói sinh viên được hỏi mà không mô tả đủ cách họ trả lời để đánh giá mức độ cụ thể."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cam-11-reading-1": {
+    "id": "cam-11-reading-1",
+    "title": "IELTS CAM Inspired 11 - Reading Test 1",
+    "series": "Cambridge 11",
+    "testNumber": 1,
+    "type": "Reading",
+    "durationMinutes": 60,
+    "passages": [
+      {
+        "id": "cam-11-reading-1-p1",
+        "passageNumber": 1,
+        "title": "Crop-growing skyscrapers",
+        "subtitle": "",
+        "content": [
+          "By 2050, close to 80% of the world's inhabitants are expected to live in urban areas. Even on the most cautious reading of today's demographic trends, the global population will have grown by roughly three billion over the same span. Should farming carry on as it is practised now, feeding them all would demand about a billion hectares of new land - a territory some 20% larger than Brazil. The trouble is that, worldwide, upwards of 80% of the soil well suited to crops is already under cultivation, and careless management has ruined perhaps 15% of it over time. What, then, can be done to secure enough food for everyone on the planet?",
+          "Growing food indoors is hardly a fresh idea - glasshouses have been turning out cucumbers and similar crops for many years. What has changed is the sudden pressure to expand the method far enough to feed an extra three billion mouths. Meeting that demand, many argue, will take a completely rethought form of indoor cultivation, built on the latest technology. The 'Vertical Farm' is one such scheme. Picture a tall, many-floored building whose interior is kept under tight environmental control and given over to crops. Sitting right inside cities, such buildings would slash the distances food must be carried before reaching the people who eat it. A vertical farm would have to be productive, cheap to put up and safe to run. Get it right, its backers argue, and the payoff is considerable: districts renewed, a steady and varied supply of wholesome food produced in every season, and, in time, the healing of the natural systems that ordinary field agriculture has worn away.",
+          "Learning to cultivate most of the crops we now regard as commonplace took our species something like 10,000 years. In the process, much of the ground we farmed was spoiled, and lush natural landscapes were often reduced to near-desert. Over the same stretch we became a city-based species: today around 60% of all people are stacked up in urban housing. So while most of us enjoy a roof over our heads, the plants that feed us are left at the mercy of the open air, and all we can do is trust that the weather holds. More and more often, though, a fast-shifting climate ensures it does not. Each year great floods, prolonged dry spells, hurricanes and fierce monsoons exact their price, wiping out crops by the millions of tonnes.",
+          "Those who back vertical farming point to a whole range of possible benefits. Harvests, for one, could come the whole year through, since the plants would sit in precisely regulated conditions tuned for ideal growth. Nothing would be lost to the weather - no ruined crops from drought, flood or pests. Because everything could be raised organically, there would be no call for herbicides, pesticides or fertilisers of any kind. Many of the infectious illnesses people pick up where farming and humans meet would become far less common. And though running it would draw a certain amount of power, the farm could feed electricity back into the grid, generating methane from the composting of plant and animal parts that no one eats. The need for tractors, ploughs and long shipping routes would vanish too, cutting the use of diesel dramatically.",
+          "One serious weakness, though, is the crops' dependence on electric light. Deprived of it, the plants closest to the windows would catch more of the sun and shoot up faster than the rest, so the whole operation would lose efficiency. A single-storey greenhouse at least enjoys daylight falling straight from overhead, yet plenty of them still call for lamps to top it up.",
+          "In a building of many floors, where no daylight reaches from overhead, the demand climbs far higher still. Producing that much light could prove ruinously costly, at least until cheap renewable power becomes available - and for now that looks more like a distant hope than anything we can expect soon.",
+          "One version already worked out sets the plants on stacked shelves running along rails, so that shifting the shelves brings each plant enough sunlight. In a single-storey greenhouse lit from above, the arrangement is up and running and performs well; whether it could work at all without that overhead daylight, however, remains an open question.",
+          "What vertical farming represents is a bid to tackle the very real difficulty of feeding a population that keeps growing. For now, though, much more work is needed before its environmental cost - above all its hunger for energy - can be brought to an acceptable level. Our food may well be grown inside skyscrapers one day, yet most specialists hold at present that we are far likelier simply to use the roofs that city buildings already offer."
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Complete blank for Question 1:",
+            "type": "FILL_IN_BLANK",
+            "correct": "cucumbers",
+            "explanation": {
+              "step1": "Certain crops , such as 1. ___ , have long been raised under cover . Ô trống nằm sau “such as”, nên cần một danh từ chỉ cây trồng được nêu làm ví dụ. Ta sẽ tìm loại cây đã được trồng dưới mái che từ lâu, chưa cần đoán tên cây.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý trồng cây trong nhà (“Growing food indoors”) ở đoạn 2 => đây là vùng liên quan. Đoạn 2 — Growing food indoors",
+              "step3": "Đoạn 2: Growing food indoors is hardly a fresh idea - glasshouses have been turning out cucumbers and similar crops for many years . Câu này nêu đích danh cucumbers là cây được trồng trong nhà kính suốt nhiều năm.",
+              "step4": "Đáp án phù hợp nhất: cucumbers Câu hoàn chỉnh: Certain crops, such as cucumbers , have long been raised under cover. (Một số cây trồng, chẳng hạn như cucumbers , đã được trồng dưới mái che từ lâu.) => Khớp với dự đoán về danh từ chỉ cây trồng; đáp án gồm 1 từ, và đề không nêu giới hạn số từ. Đối chiếu paraphrasing: under cover glasshouses long for many years glasshouses nhà kính: Đây là nơi trồng cây, không phải tên cây cần điền. similar crops những cây trồng tương tự: Cụm này không gọi tên một loại cây cụ thể; ví dụ được nêu rõ là cucumbers."
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Complete blank for Question 2:",
+            "type": "FILL_IN_BLANK",
+            "correct": "cities",
+            "explanation": {
+              "step1": "Placed within 2. ___ themselves , vertical farms would shorten the journeys food makes to reach buyers . Ô trống cần một danh từ chỉ địa điểm : trang trại được đặt ngay trong nơi đó , nhờ vậy thực phẩm đi quãng đường ngắn hơn đến người mua.",
+              "step2": "Dựa vào tên mô hình “Vertical Farm” ở đoạn 2 => bắt đầu đọc phần mô tả vị trí đặt trang trại. Đoạn 2 — Vertical Farm",
+              "step3": "Đoạn 2: Sitting right inside cities , such buildings would slash the distances food must be carried before reaching the people who eat it .",
+              "step4": "Đáp án phù hợp nhất: cities Câu hoàn chỉnh: Placed within cities themselves, vertical farms would shorten the journeys food makes to reach buyers. (Được đặt ngay trong các thành phố, các trang trại thẳng đứng sẽ rút ngắn quãng đường thực phẩm đi tới người mua.) => Khớp với dự đoán về địa điểm và thông tin trong bài; đáp án gồm 1 từ lấy nguyên văn từ bài đọc. Đối chiếu paraphrasing: cities giữ nguyên shorten the journeys slash the distances urban areas “ khu vực đô thị ”: Đoạn 1 có cụm “urban areas”, nhưng câu đó nói nơi người dân sinh sống, không phải nơi đặt trang trại. buildings “ các tòa nhà ”: Câu (6) có “such buildings”, nhưng đây là các trang trại được đặt tại địa điểm cần điền, không phải địa điểm đó."
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Complete blank for Question 3:",
+            "type": "FILL_IN_BLANK",
+            "correct": "electricity",
+            "explanation": {
+              "step1": "Waste matter from crops and livestock could be converted into methane , enabling a vertical farm to produce 3. ___ . Sau *produce*, ô trống cần một danh từ chỉ thứ trang trại tạo ra nhờ quá trình tạo methane. Chưa cần đoán chính xác đó là gì.",
+              "step2": "Dựa vào từ khoá đặc biệt là *methane* => tìm đến đoạn 4, nơi bài đọc nhắc đến việc tạo methane (“generating methane”). Đoạn 4 — generating methane",
+              "step3": "Đoạn 4: And though running it would draw a certain amount of power , the farm could feed electricity back into the grid , generating methane from the composting of plant and animal parts that no one eats .",
+              "step4": "Đáp án phù hợp nhất: electricity Câu hoàn chỉnh: Waste matter from crops and livestock could be converted into methane, enabling a vertical farm to produce electricity . (Chất thải từ cây trồng và vật nuôi có thể được chuyển thành methane, giúp trang trại thẳng đứng tạo ra điện .) => Khớp với dự đoán về thứ trang trại tạo ra: bài đọc nói trang trại có thể đưa điện trở lại lưới điện . *Electricity* là một từ nguyên văn trong bài; đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: Waste matter from crops and livestock plant and animal parts that no one eats converted into methane generating methane from the composting methane — khí methane: Đây là thứ được tạo từ chất thải và đã có sẵn trong câu hỏi, không phải thứ cần điền sau produce. power — điện năng: Dễ chọn vì nằm cùng câu chứng cứ Nhưng “draw … power” nói trang trại tiêu thụ điện; vế nói thứ nó cung cấp dùng từ “electricity”. Đáp án grid — lưới điện: Đây là nơi nhận điện, không phải thứ trang trại tạo ra."
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Complete blank for Question 4:",
+            "type": "FILL_IN_BLANK",
+            "correct": "diesel",
+            "explanation": {
+              "step1": "With farm machinery no longer needed , much less 4. ___ would be burned . Ý câu hỏi: Khi không còn cần máy móc nông nghiệp, thứ gì sẽ bị đốt ít hơn nhiều? Dự đoán ô trống: Cần một danh từ chỉ chất có thể bị đốt, có thể là nhiên liệu.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý tương đương với việc không còn cần máy móc nông nghiệp. Ở đoạn 4, “tractors” đi cùng “would vanish” => đây là vùng liên quan. Đoạn 4 — tractors",
+              "step3": "Đoạn 4: The need for tractors , ploughs and long shipping routes would vanish too , cutting the use of diesel dramatically .",
+              "step4": "Đáp án phù hợp nhất: diesel Câu hoàn chỉnh: With farm machinery no longer needed, much less diesel would be burned. (Khi không còn cần máy móc nông nghiệp, lượng diesel bị đốt sẽ ít hơn nhiều. ) => Khớp với dự đoán về một loại nhiên liệu: bài đọc nói nhu cầu dùng máy kéo không còn, khiến lượng diesel sử dụng giảm mạnh ; đáp án gồm 1 từ. Đối chiếu paraphrasing: farm machinery tractors no longer needed would vanish much less cutting the use of diesel dramatically tractors máy kéo: Đây là máy móc không còn cần dùng, không phải chất sẽ bị đốt ít đi. electricity điện: Câu trước ở đoạn 4 nói trang trại có thể đưa điện vào lưới (“feed electricity back into the grid”) Nhưng câu (7) xác định thứ được dùng ít đi là diesel."
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Complete blank for Question 5:",
+            "type": "FILL_IN_BLANK",
+            "correct": "electric",
+            "explanation": {
+              "step1": "One drawback is that the plants cannot do without 5. ___ light . Dự đoán: Ô trống đứng trước *light*, nên cần một tính từ chỉ loại ánh sáng mà cây trồng không thể thiếu. Chưa cần đoán cụ thể đó là loại nào.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý tương đương với nhược điểm (“One drawback”). Đoạn 5 mở đầu bằng một điểm yếu (“One serious weakness”) => bắt đầu đọc tại đây. Đoạn 5 — One serious weakness",
+              "step3": "Đoạn 5: One serious weakness , though, is the crops' dependence on electric light .",
+              "step4": "Đáp án phù hợp nhất: electric Câu hoàn chỉnh: One drawback is that the plants cannot do without electric light . (Một nhược điểm là cây trồng không thể thiếu ánh sáng điện .) => Khớp với dự đoán: *electric* là tính từ chỉ loại ánh sáng; đáp án gồm 1 từ, và đề không nêu giới hạn số từ. Đối chiếu paraphrasing: One drawback One serious weakness cannot do without dependence on electricity “ điện năng ”: Đoạn 4 có nhắc đến điện năng (“electricity”), nhưng đây là danh từ, không phải tính từ cần đặt trước light. Đáp án sun “ mặt trời ”: Đoạn 5 cũng nhắc đến ánh nắng (“more of the sun”), nhưng câu (1) xác định rõ cây trồng phụ thuộc vào ánh sáng điện (“electric light”)."
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Complete blank for Question 6:",
+            "type": "FILL_IN_BLANK",
+            "correct": "shelves",
+            "explanation": {
+              "step1": "In one approach, crops are set out on movable 6. ___ . Ô trống đứng sau *movable* và chỉ vật mà cây được đặt lên. Ta dự đoán một danh từ chỉ vật có thể di chuyển , nhiều khả năng ở dạng số nhiều.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý cây được đặt lên một vật (“are set out on movable”). Ở đoạn 7, cụm “sets the plants on” => đây là vùng liên quan. Đoạn 7 — sets the plants on",
+              "step3": "Đoạn 7: One version already worked out sets the plants on stacked shelves running along rails , so that shifting the shelves brings each plant enough sunlight . Cây được đặt trên *shelves*; việc dịch chuyển các kệ xác nhận chúng có thể di chuyển.",
+              "step4": "Đáp án phù hợp nhất: shelves Câu hoàn chỉnh: In one approach, crops are set out on movable shelves. (Trong một phương án, cây trồng được đặt trên những chiếc kệ có thể di chuyển.) => Khớp với dự đoán về vật đặt cây và đặc điểm có thể di chuyển ; *shelves* là 1 từ, còn đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: crops are set out on sets the plants on movable shifting the shelves rails đường ray: Cụm “running along rails” dễ gây nhầm, nhưng kệ chạy dọc đường ray; cây được đặt trên kệ, không phải trên đường ray. sunlight ánh sáng mặt trời: Cây nhận ánh sáng khi kệ dịch chuyển; ánh sáng không phải vật để đặt cây lên."
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Complete blank for Question 7:",
+            "type": "FILL_IN_BLANK",
+            "correct": "roofs",
+            "explanation": {
+              "step1": "The likeliest outcome , many think , is that crops will be raised on the 7. ___ of urban buildings . Ô trống cần một danh từ chỉ vị trí trên tòa nhà có thể dùng để trồng cây. Ta cần tìm phương án được đánh giá là *khả dĩ nhất*, không chỉ một phương án có thể xảy ra.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý tương đương với kết quả khả dĩ nhất (“The likeliest outcome”). Ở đoạn 8, cụm chỉ khả năng cao hơn nhiều (“far likelier”) => đây là vùng liên quan. Đoạn 8 — far likelier",
+              "step3": "Đoạn 8: Our food may well be grown inside skyscrapers one day , yet most specialists hold at present that we are far likelier simply to use the roofs that city buildings already offer . Từ nối tương phản “yet” chuyển từ khả năng trồng *trong* tòa nhà chọc trời sang phương án được đánh giá là khả dĩ hơn nhiều : sử dụng mái nhà .",
+              "step4": "Đáp án phù hợp nhất: roofs Câu hoàn chỉnh: The likeliest outcome, many think, is that crops will be raised on the roofs of urban buildings. (Theo nhiều người, khả năng lớn nhất là cây trồng sẽ được trồng trên mái của các tòa nhà đô thị .) => Khớp với dự đoán về vị trí trên tòa nhà và đúng từ trong bài đọc; roofs gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: The likeliest outcome far likelier urban buildings city buildings skyscrapers các tòa nhà chọc trời: Dễ chọn vì câu (3) nhắc đến việc trồng cây bên trong chúng (“inside skyscrapers”) Nhưng sau “yet”, phương án khả dĩ hơn là dùng mái nhà, không phải điền tên tòa nhà. shelves các kệ: Đoạn 7 có “stacked shelves”, nhưng đó là cách sắp xếp cây trồng, không phải vị trí trên tòa nhà. cities các thành phố: Đoạn 2 có “inside cities”, chỉ nơi đặt trang trại, không phải bộ phận của tòa nhà đứng sau “on the”."
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "If today's farming methods were kept up, the extra land needed to feed everyone would exceed the area of Brazil.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "If today's farming methods were kept up , the extra land needed to feed everyone would exceed the area of Brazil . Ý câu hỏi: Nếu tiếp tục canh tác như hiện nay , đất cần thêm để nuôi sống mọi người sẽ có diện tích lớn hơn Brazil .",
+              "step2": "Dựa vào từ khoá đặc biệt là địa danh Brazil => ta tìm đến câu (3) ở đoạn 1 để đọc kỹ phép so sánh diện tích. Đoạn 1",
+              "step3": "Đoạn 1: Should farming carry on as it is practised now , feeding them all would demand about a billion hectares of new land - a territory some 20% larger than Brazil .",
+              "step4": "Câu hỏi nói: Nếu giữ cách canh tác hiện nay , đất cần thêm sẽ lớn hơn diện tích Brazil (“ would exceed the area of Brazil ”). Bài đọc nói: Nếu tiếp tục canh tác như hiện nay, việc nuôi sống mọi người sẽ cần đất mới, với diện tích lớn hơn Brazil (“ larger than Brazil ”). Hai ý trùng khớp. Đáp án đúng: TRUE Đối chiếu paraphrasing: If today's farming methods were kept up Should farming carry on as it is practised now the extra land needed to feed everyone feeding them all would demand + new land would exceed the area of Brazil larger than Brazil FALSE Sai vì bài nói diện tích đất cần thêm lớn hơn Brazil (“larger than Brazil”), không phải bằng hoặc nhỏ hơn. Chỉ chọn FALSE nếu bài nói diện tích ấy bằng hoặc nhỏ hơn Brazil. NOT GIVEN Nếu scan không thấy nguyên văn “would exceed”, có thể tưởng bài không nêu phép so sánh Nhưng “larger than Brazil” đã nói rõ điều đó. Chỉ chọn NOT GIVEN nếu bài không cho biết diện tích đất cần thêm lớn hơn, bằng hay nhỏ hơn Brazil."
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "At the moment, under half of the land fit for growing crops is being farmed.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "At the moment, under half of the land fit for growing crops is being farmed . Cần kiểm tra: hiện nay, tỉ lệ đất phù hợp đang được canh tác có thật sự dưới một nửa không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý đất phù hợp để trồng cây (“soil well suited to crops”) => bắt đầu đọc kĩ ở câu (4), đoạn 1. Đoạn 1 — soil well suited to crops",
+              "step3": "Đoạn 1: The trouble is that , worldwide, upwards of 80% of the soil well suited to crops is already under cultivation , and careless management has ruined perhaps 15% of it over time .",
+              "step4": "Câu hỏi nói: dưới một nửa (“ under half ”) diện tích đất phù hợp đang được canh tác (“ is being farmed ”). Bài đọc nói: trên 80% (“ upwards of 80% ”) diện tích đất phù hợp hiện đã được canh tác (“ is already under cultivation ”). Hai tỉ lệ mâu thuẫn trực tiếp : trên 80% không thể là dưới 50% . Đáp án đúng: FALSE Đối chiếu paraphrasing: land fit for growing crops soil well suited to crops is being farmed is already under cultivation under half upwards of 80% Đáp án TRUE Nếu skim/scan thấy cùng nhắc đến đất phù hợp để trồng cây (“soil well suited to crops”), sẽ dễ chọn TRUE Nhưng bài nói trên 80%, không phải dưới một nửa. Chỉ chọn TRUE nếu bài nói dưới một nửa diện tích đất phù hợp đang được canh tác. NOT GIVEN Nếu chỉ chú ý đến khoảng 15% đất bị hủy hoại (“perhaps 15% of it”), sẽ dễ tưởng bài không cho tỉ lệ cần tìm Nhưng tỉ lệ trên 80% đã được nêu trực tiếp. Chỉ chọn NOT GIVEN nếu bài không cho biết tỉ lệ đất phù hợp đang được canh tác."
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Of all these forms of extreme weather, drought is the one that ruins the most crops.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Of all these forms of extreme weather, drought is the one that ruins the most crops . Ý câu hỏi: Cần kiểm tra liệu bài đọc có khẳng định hạn hán gây mất mùa nhiều nhất so với các kiểu thời tiết còn lại hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp cách diễn đạt tương đương với hạn hán (“prolonged dry spells”). Cụm này xuất hiện trong danh sách các hiện tượng thời tiết ở đoạn 3 => đây là vùng cần đọc kỹ. Đoạn 3 — prolonged dry spells",
+              "step3": "Đoạn 3: Each year great floods, prolonged dry spells , hurricanes and fierce monsoons exact their price , wiping out crops by the millions of tonnes .",
+              "step4": "Câu hỏi nói: Hạn hán gây mất mùa nhiều nhất (“the most crops”) trong các kiểu thời tiết được nêu. Bài đọc nói: Nhiều kiểu thời tiết, trong đó có các đợt khô hạn kéo dài (“prolonged dry spells”), phá hủy mùa màng (“wiping out crops”). Bài không xếp hạng mức thiệt hại của từng kiểu. Vì thiếu thông tin so sánh quyết định , ta không thể xác nhận hay bác bỏ nhận định. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: drought prolonged dry spells the most không có trong bài. Đáp án TRUE Nếu skim/scan thấy khô hạn kéo dài (“prolonged dry spells”) và mùa màng bị phá hủy (“wiping out crops”), sẽ dễ chọn TRUE Nhưng bài không nói hạn hán gây thiệt hại nhiều nhất. Chỉ chọn TRUE nếu bài nói hạn hán gây mất mùa nhiều hơn mọi kiểu thời tiết còn lại. FALSE Nếu thấy lũ lụt (“floods”) và gió mùa (“monsoons”) cũng được liệt kê, sẽ dễ chọn FALSE Nhưng sự xuất hiện của các kiểu thời tiết khác không chứng minh chúng gây thiệt hại nhiều hơn hạn hán. Chỉ chọn FALSE nếu bài nói một kiểu thời tiết khác gây mất mùa nhiều hơn hạn hán."
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Even in vertical farms, pests would go on causing losses among the crops.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "Even in vertical farms, pests would go on causing losses among the crops . Câu hỏi khẳng định sâu hại vẫn gây thiệt hại cho cây trồng ngay cả trong trang trại thẳng đứng.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý cây trồng bị hư hại (“ruined crops”), rồi kiểm tra tác nhân gây ra thiệt hại. Đoạn 4 — ruined crops",
+              "step3": "Đoạn 4: Nothing would be lost to the weather - no ruined crops from drought , flood or pests .",
+              "step4": "Câu hỏi nói: sâu hại sẽ tiếp tục gây thiệt hại (“go on causing losses”) cho cây trồng. Bài đọc nói: không có cây trồng bị hư hại (“no ruined crops”) do các tác nhân được liệt kê, trong đó có sâu hại (“pests”). Hai ý mâu thuẫn nhau. Đáp án đúng: FALSE Đối chiếu paraphrasing: go on causing losses no ruined crops pests giữ nguyên Đáp án TRUE Nếu chỉ thấy từ sâu hại (“pests”) xuất hiện trong bài, sẽ dễ chọn TRUE Nhưng bài phủ định thiệt hại do sâu hại. Chỉ chọn TRUE nếu bài nói sâu hại vẫn gây thiệt hại cho cây trồng. NOT GIVEN Nếu chỉ đọc vế nói về thời tiết, sẽ dễ nghĩ bài không đề cập sâu hại Nhưng vế sau nêu rõ sâu hại (“pests”) và phủ định thiệt hại. Chỉ chọn NOT GIVEN nếu bài không cho biết sâu hại có gây thiệt hại cho cây trồng hay không."
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "Crops standing nearest the windows would take in more sunlight than the others.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "Crops standing nearest the windows would take in more sunlight than the others . Ý câu hỏi: Cần kiểm tra vị trí của cây và phép so sánh về lượng ánh nắng , không phải tốc độ phát triển.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý cây ở gần cửa sổ. Cụ thể, cụm “the plants closest to the windows” ở đoạn 5 là nơi bắt đầu đọc kĩ. Đoạn 5 — the plants closest to the windows",
+              "step3": "Đoạn 5: Deprived of it, the plants closest to the windows would catch more of the sun and shoot up faster than the rest , so the whole operation would lose efficiency .",
+              "step4": "Câu hỏi nói: Cây gần cửa sổ nhất nhận nhiều ánh nắng hơn những cây khác (“ more sunlight than the others ”). Bài đọc nói: Cây gần cửa sổ nhất (“ closest to the windows ”) nhận nhiều ánh nắng hơn (“ more of the sun ”) những cây còn lại (“ than the rest ”). ⇒ Hai ý cùng chiều so sánh . Đáp án đúng: TRUE Đối chiếu paraphrasing: Crops standing nearest the windows the plants closest to the windows more sunlight more of the sun than the others than the rest FALSE Sai vì bài đọc nói cây gần cửa sổ nhận nhiều hơn, không phải ít ánh nắng hơn. Chỉ chọn FALSE nếu bài nói chúng nhận ít ánh nắng hơn những cây khác. NOT GIVEN Nếu chỉ tìm đúng chữ “take in”, sẽ dễ tưởng bài không cho biết lượng ánh nắng Nhưng “would catch more of the sun” đã nêu rõ phép so sánh. Chỉ chọn NOT GIVEN nếu bài không cho biết nhóm cây nào nhận nhiều ánh nắng hơn."
+            }
+          },
+          {
+            "id": 13,
+            "prompt": "Vertical farms would get by on less water than farms out in the fields.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Vertical farms would get by on less water than farms out in the fields . Ý câu hỏi: Cần kiểm tra liệu bài đọc có so sánh lượng nước sử dụng của hai cách trồng hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt để định vị trực tiếp; ta đọc nhanh để tìm thông tin liên quan đến nước. Câu (3) đoạn 4 nhắc đến hạn hán (“drought”) => đây là chỗ cần đọc kỹ. Đoạn 4 — drought",
+              "step3": "Đoạn 4: Nothing would be lost to the weather - no ruined crops from drought , flood or pests .",
+              "step4": "Câu hỏi nói: Vertical farms sẽ dùng ít nước hơn trang trại ngoài đồng (“less water than farms out in the fields”). Bài đọc nói: Cây trồng sẽ không hỏng vì hạn hán (“no ruined crops from drought”). Câu này nói về thiệt hại mùa màng , không phải lượng nước sử dụng ; toàn bài không đưa ra phép so sánh lượng nước giữa hai cách trồng . Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: no ruined crops from drought less water than farms out in the fields không có phép so sánh lượng nước tương ứng trong bài. Đáp án TRUE Nếu skim/scan thấy không mất mùa vì hạn hán (“no ruined crops from drought”), sẽ dễ chọn TRUE Nhưng điều đó không chứng minh trang trại dùng ít nước hơn. Chỉ chọn TRUE nếu bài nói rõ lượng nước sử dụng thấp hơn trang trại ngoài đồng. FALSE Sai vì bài cũng không nói vertical farms dùng lượng nước bằng hoặc nhiều hơn trang trại ngoài đồng. Chỉ chọn FALSE nếu bài đưa ra thông tin phủ định phép so sánh trong câu hỏi."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-11-reading-1-p2",
+        "passageNumber": 2,
+        "title": "The Falkirk Wheel",
+        "subtitle": "A unique engineering achievement",
+        "content": [
+          "Scotland's Falkirk Wheel is the only rotating boat lift anywhere in the world. Since its opening in 2004, it has served as the centrepiece of the £79.2m Waterway Revival scheme, an ambitious effort to make the country navigable once more by joining two long-separated waterways, the Kinnaird Canal and the Strathavon Canal.",
+          "What made the undertaking so difficult was the gap in height between the two: the Kinnaird Canal lies some 32 metres beneath the Strathavon. In earlier times a chain of nine locks — walled stretches of canal whose water level can be raised or lowered — had carried vessels between them, descending over 1.8 km near the town of Falkirk. Once these were taken out of service in 1928, the link between the waterways was lost. On launching the scheme in 1996, the waterway authority was determined to produce a bold modern landmark, one that would at once mark the new century and stand as a lasting emblem of the region's economic renewal.",
+          "Proposals of every kind poured in, from tilting basins and rolling drums to enormous seesaws and monorails suspended overhead. What finally won out was the design for the colossal revolving steel lift now known as the Falkirk Wheel. Those behind it have traced its distinctive form to a blend of natural and manufactured origins — a Celtic brooch above all, though also the curved blade of a scythe and the slowly unfurling frond of a fern.",
+          "Every component of the Wheel was fabricated and test-fitted, much like the pieces of an enormous construction kit, at Rennox Engineering's yard in Lanarkshire, roughly 350 km from the site. Workers there brought together some 1,400 tonnes of steel, aligning each part to within 8 mm so that the finished structure would fit flawlessly. It was then taken apart in the summer of 2003 and carried to Falkirk on forty lorries, where it was put back together on the ground and, in six large sections, hoisted into place by crane. Because the Wheel has to cope with huge and constantly shifting loads as it turns, its sections were fastened with bolts rather than welds; more than 50,000 holes were matched to their bolts, each one tightened by hand.",
+          "Rising from a fixed central spine are two opposing pairs of axe-shaped arms, set roughly 22 metres apart, and slung between their tips are two water-filled 'gondolas', each holding 300,000 litres. Whether loaded or empty, a gondola weighs exactly the same — a result of Archimedes' principle, under which a floating body pushes aside a volume of water equal to its own weight. The instant a boat floats in, the water forced out of the gondola matches that boat in weight. Kept in this way in perfect balance, the Wheel's great bulk swings through 180° in about six minutes on strikingly little power: one rotation uses roughly 1.2 kilowatt-hours, no more than is needed to boil six household kettles.",
+          "To be raised, a boat first moves into the basin, which sits at the level of the Kinnaird Canal, and floats on into the Wheel's lower gondola. Two hydraulic steel seals then rise to shut the gondola off from the basin water, after which whatever is trapped between them is drained away by pump. Holding the arms motionless during docking is a hydraulic brake; once this is let off, the Wheel is free to swing. The turning is driven from the central machine room, where ten hydraulic motors set the main shaft in motion and, through it, the outer arms, which come round at a tenth of a revolution each minute. To stop the gondolas from tipping as all this happens, a simple arrangement of gears is used: a set of large gears circles a fixed central gear of equal size, with smaller gears between them spinning the other way, so each gondola stays level throughout. The boat, on reaching the top, glides straight off onto an aqueduct perched 22 metres above the basin.",
+          "The final 10 metres up to the Strathavon Canal are managed by a pair of locks, since the Wheel itself could not be built to bridge the whole 32-metre difference. What stood in the way was the Callendar earthworks, which dated from the Iron Age and had to be left undisturbed. Boats accordingly pass beneath them through a tunnel, climb the locks, and come out at last on the upper canal."
+        ],
+        "questions": [
+          {
+            "id": 14,
+            "prompt": "The two waterways had been linked to each other at some point before the Wheel existed.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "The Falkirk Wheel has linked the Forth & Clyde Canal with the Union Canal for the first time in their history . Ý câu hỏi: The Falkirk Wheel nối hai kênh lần đầu tiên trong lịch sử . Ta cần kiểm tra trước đó chúng đã từng được nối với nhau chưa.",
+              "step2": "Dựa vào hai tên riêng Forth & Clyde Canal và Union Canal, ta tìm đến câu (1) đoạn 2, nơi cả hai kênh được nêu tên. Đoạn 2",
+              "step3": "Đoạn 2: The major challenge of the project lays in the fact that the Forth & Clyde Canal is situated 35 metres below the level of the Union Canal . Historically, the two canals had been joined near the town of Falkirk by a sequence of 11 locks - enclosed sections of canal in which the water level could be raised or lowered - that stepped down across a distance of 1.5 km . Câu (1): nêu tên hai kênh, giúp xác định “the two canals” ở câu sau. Câu (2): cho biết hai kênh đã từng được nối với nhau trong quá khứ.",
+              "step4": "Câu hỏi nói: The Falkirk Wheel nối hai kênh lần đầu tiên (“ for the first time ”). Bài đọc nói: Hai kênh đã từng được nối (“ had been joined ”). Hai ý mâu thuẫn ở chữ lần đầu tiên . Đáp án đúng: FALSE Đối chiếu paraphrasing: for the first time Historically, the two canals had been joined Đáp án TRUE Nếu chỉ đọc việc khôi phục đường thủy ở đoạn 1 (“restore navigability”), ta có thể tưởng đây là lần nối đầu tiên Nhưng câu (2) nói hai kênh đã từng được nối. Chỉ chọn TRUE nếu bài nói trước đó chúng chưa từng được nối. NOT GIVEN Nếu chỉ đọc về dự án hiện tại, ta có thể tưởng bài không nói đến lịch sử hai kênh Nhưng câu (2) mở đầu bằng “Historically” và xác nhận chúng đã từng được nối. Chỉ chọn NOT GIVEN nếu bài không cho biết trước đó hai kênh đã từng được nối hay chưa."
+            }
+          },
+          {
+            "id": 15,
+            "prompt": "Only a handful of proposals were put forward for reconnecting the canals.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "There was some opposition to the design of the Falkirk Wheel at first . Ý câu hỏi: Ban đầu đã có người phản đối thiết kế của Falkirk Wheel.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp thông tin về các phương án thiết kế. Cụm nhiều ý tưởng (“Numerous ideas”) ở đoạn 3 => đây là vùng liên quan. Đoạn 3 — Numerous ideas",
+              "step3": "Đoạn 3: Numerous ideas were submitted for the project , including concepts ranging from rolling eggs to tilting tanks, from giant seesaws to overhead monorails . The eventual winner was a plan for the huge rotating steel boat lift which was to become The Falkirk Wheel . Câu (1)–(2): Có nhiều phương án được đề xuất, rồi một phương án được chọn làm Falkirk Wheel. Đây là quá trình chọn thiết kế , không phải thông tin về phản ứng đối với thiết kế .",
+              "step4": "Câu hỏi nói: Ban đầu có người phản đối thiết kế (“ some opposition ”, “ at first ”). Bài đọc nói: Có nhiều ý tưởng được đề xuất (“Numerous ideas”) và một phương án được chọn (“The eventual winner”). Bài không cho biết ban đầu có ai phản đối thiết kế hay không . ⇒ Không thể xác nhận cũng không thể phủ định khẳng định trong câu hỏi. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: the design a plan giúp xác định đúng chủ đề, không cho biết thái độ đối với thiết kế. some opposition không có trong bài. at first không có thông tin về sự phản đối vào thời điểm này. Đáp án TRUE Nếu skim/scan thấy nhiều ý tưởng (“Numerous ideas”), sẽ dễ tưởng đã có người phản đối Nhưng đề xuất nhiều phương án không có nghĩa là phản đối. Chỉ chọn TRUE nếu bài xác nhận ban đầu có người phản đối thiết kế. FALSE Nếu thấy phương án thắng cuộc (“The eventual winner”), sẽ dễ nghĩ thiết kế không bị phản đối Nhưng được chọn không có nghĩa là không ai phản đối. Chỉ chọn FALSE nếu bài xác nhận ban đầu không có sự phản đối."
+            }
+          },
+          {
+            "id": 16,
+            "prompt": "The steel used in the Wheel was produced specially for this project.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The Falkirk Wheel was initially put together at the location where its components were manufactured . Cần kiểm tra: nơi lắp ráp ban đầu có phải cũng là nơi chế tạo các bộ phận không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến khi gặp ý tương đương với việc lắp ráp và chế tạo các bộ phận. Đoạn 4 có cụm “constructed and assembled” => đây là vùng cần đọc kĩ. Đoạn 4 — constructed and assembled",
+              "step3": "Đoạn 4: The various parts of The Falkirk Wheel were all constructed and assembled , like one giant toy building set, at Butterley Engineering's Steelworks in Derbyshire, some 400 km from Falkirk .",
+              "step4": "Câu hỏi nói: The Falkirk Wheel được lắp ráp ban đầu tại nơi chế tạo các bộ phận (“initially put together”, “where its components were manufactured”). Bài đọc nói: các bộ phận được chế tạo và lắp ráp tại cùng một xưởng (“constructed and assembled”, “at Butterley Engineering's Steelworks”). ⇒ Hai ý khớp nhau. Đáp án đúng: TRUE Đối chiếu paraphrasing: initially put together assembled were manufactured constructed at the location at Butterley Engineering's Steelworks FALSE Nếu skim/scan thấy đoạn 4 nhắc việc được lắp lại (“bolted back together again”) ở Falkirk, sẽ dễ nhầm đó là lần lắp ráp đầu Nhưng câu (1) đã nói các bộ phận được chế tạo và lắp ráp tại cùng một xưởng. Chỉ chọn FALSE nếu bài nói lần lắp ráp đầu diễn ra ở nơi khác nơi chế tạo. NOT GIVEN Nếu chỉ thấy việc chế tạo (“constructed”), sẽ dễ tưởng bài không cho biết nơi lắp ráp Nhưng bài nêu cả việc lắp ráp (“assembled”) tại cùng địa điểm. Chỉ chọn NOT GIVEN nếu bài không cho biết nơi lắp ráp ban đầu."
+            }
+          },
+          {
+            "id": 17,
+            "prompt": "The sections of the Wheel were welded together to give it greater strength.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "The Falkirk Wheel is the only boat lift in the world which has steel sections bolted together by hand . Cần kiểm tra liệu cách bắt bu-lông bằng tay có phải là đặc điểm chỉ riêng The Falkirk Wheel mới có hay không.",
+              "step2": "Dựa vào tên riêng The Falkirk Wheel và từ khóa kỹ thuật “bolted” => ta bắt đầu ở đoạn 1 để kiểm tra bài nói *duy nhất về điều gì*, rồi tìm thông tin về cách ghép thép ở đoạn 4. Đoạn 1 — bolted",
+              "step3": "Đoạn 1: The Falkirk Wheel in Scotland is the world's first and only rotating boat lift . Đoạn 4: The Wheel would need to withstand immense and constantly changing stresses as it rotated , so to make the structure more robust, the steel sections were bolted rather than welded together . Over 45,000 bolt holes were matched with their bolts , and each bolt was hand-tightened . Câu (1): Câu (1), đoạn 1: The Falkirk Wheel duy nhất ở đặc điểm quay . Câu (4): Câu (4)–(5), đoạn 4: các phần thép được bắt bu-lông và từng bu-lông được siết bằng tay ; bài không so sánh cách ghép này với thiết bị nâng thuyền khác.",
+              "step4": "Câu hỏi nói: The Falkirk Wheel là thiết bị nâng thuyền duy nhất trên thế giới có các phần thép được bắt bu-lông bằng tay (“only boat lift in the world”; “by hand”). Bài đọc nói: The Falkirk Wheel duy nhất ở đặc điểm quay (“only rotating boat lift”). Bài xác nhận các phần thép được bắt bu-lông (“the steel sections were bolted”) và từng bu-lông được siết bằng tay (“each bolt was hand-tightened”), nhưng không cho biết thiết bị nâng thuyền khác có được ghép theo cách ấy hay không. ⇒ Có bằng chứng về cách ghép , nhưng thiếu bằng chứng về tính duy nhất của cách ghép . Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: by hand hand tightened only boat lift in the world không có trong bài đối với cách bắt bu-lông bằng tay; bài chỉ nêu only rotating boat lift . Đáp án TRUE Nếu skim/scan thấy “only rotating boat lift” và “hand-tightened”, sẽ dễ ghép hai ý thành tính duy nhất của cách lắp ghép Nhưng “only” chỉ áp dụng cho thiết bị nâng thuyền quay. Chỉ chọn TRUE nếu bài nói không thiết bị nâng thuyền nào khác có phần thép được bắt bu-lông bằng tay. FALSE Sai vì bài không phủ định cách ghép của The Falkirk Wheel, cũng không nêu thiết bị khác có cùng cách ghép. Chỉ chọn FALSE nếu bài nói có một thiết bị nâng thuyền khác cũng được ghép thép bằng bu-lông siết bằng tay."
+            }
+          },
+          {
+            "id": 18,
+            "prompt": "A gondola's weight is unaffected by whether or not it is carrying a boat.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "The weight of the gondolas varies according to the size of boat being carried . Cần kiểm tra: trọng lượng gondola có thay đổi theo kích thước thuyền được chở không?",
+              "step2": "Dựa vào thuật ngữ *gondolas* trong câu hỏi => tìm đến đoạn 5, nơi bài mô tả các gondola và trọng lượng của chúng. Đoạn 5",
+              "step3": "Đoạn 5: These gondolas always weigh the same , whether or not they are carrying boats .",
+              "step4": "Câu hỏi nói: trọng lượng gondola thay đổi (“varies”) theo kích thước thuyền được chở (“size of boat”). Bài đọc nói: chúng luôn có cùng trọng lượng (“always weigh the same”), dù có chở thuyền hay không (“whether or not they are carrying boats”). Hai ý mâu thuẫn: nếu trọng lượng luôn như nhau thì nó không thay đổi theo kích thước thuyền. Đáp án đúng: FALSE Đối chiếu paraphrasing: varies always weigh the same Đáp án TRUE Nếu chỉ thấy bài nhắc đến việc chở thuyền (“carrying boats”), sẽ dễ chọn TRUE Nhưng bài nói trọng lượng luôn như nhau. Chỉ chọn TRUE nếu bài nói trọng lượng gondola thay đổi theo kích thước thuyền. NOT GIVEN Nếu tìm đúng chữ size trong bằng chứng mà không thấy, sẽ dễ chọn NOT GIVEN Nhưng ý luôn như nhau đã phủ định việc trọng lượng thay đổi theo kích thước thuyền. Chỉ chọn NOT GIVEN nếu bài không cho biết trọng lượng gondola có thay đổi hay không."
+            }
+          },
+          {
+            "id": 19,
+            "prompt": "The Wheel turns more slowly today than it did when it first opened.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The construction of the Falkirk Wheel site took into account the presence of a nearby ancient monument . Ý câu hỏi: Việc xây dựng Falkirk Wheel có tính đến một di tích cổ ở gần hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý về việc xây dựng (“construction”). Ở đoạn 7, cụm không thể được xây để nâng thuyền theo cách dự định (“could not be constructed”) => đây là vùng cần đọc kĩ. Đoạn 7 — could not be constructed",
+              "step3": "Đoạn 7: The Wheel could not be constructed to elevate boats over the full 35-metre difference between the two canals , owing to the presence of the historically important Antonine Wall , which was built by the Romans in the second century AD .",
+              "step4": "Câu hỏi nói: Việc xây dựng có tính đến (“took into account”) một di tích cổ gần đó (“nearby ancient monument”). Bài đọc nói: Wheel không thể được xây để nâng thuyền hết độ chênh 35 mét (“could not be constructed to elevate boats over the full 35-metre difference”) vì sự hiện diện của (“owing to the presence of”) Antonine Wall . Bức tường này có từ thế kỷ II sau Công nguyên (“ second century AD ”). ⇒ Sự hiện diện của di tích đã ảnh hưởng đến cách xây dựng công trình , đúng với ý có tính đến trong câu hỏi. Đáp án đúng: TRUE Đối chiếu paraphrasing: took into account could not be constructed + owing to the presence of nearby ancient monument Antonine Wall + second century AD FALSE Nếu skim/scan thấy “could not be constructed”, sẽ dễ tưởng việc xây dựng không diễn ra Nhưng phủ định chỉ nói Wheel không thể nâng thuyền hết độ chênh 35 mét vì Antonine Wall. Chỉ chọn FALSE nếu bài nói Antonine Wall không ảnh hưởng đến việc xây dựng. NOT GIVEN Nếu chỉ tìm đúng từ “monument” mà không thấy, sẽ dễ chọn NOT GIVEN Nhưng bài đã nêu Antonine Wall và tác động của nó đến việc xây dựng. Chỉ chọn NOT GIVEN nếu bài không cho biết sự hiện diện của Antonine Wall có ảnh hưởng đến việc xây dựng hay không."
+            }
+          },
+          {
+            "id": 20,
+            "prompt": "Complete blank for Question 20:",
+            "type": "FILL_IN_BLANK",
+            "correct": "seals",
+            "explanation": {
+              "step1": "A pair of 7. ___ are lifted in order to shut out water from canal basin . Dự đoán: Sau “a pair of”, ô trống cần một danh từ số nhiều , chỉ vật được nâng lên để ngăn nước.",
+              "step2": "Dựa vào thuật ngữ bể kênh (“canal basin”) => tìm đến đoạn 6 và bắt đầu đọc từ chỗ nhắc đến bể kênh. Đoạn 6 — canal basin",
+              "step3": "Đoạn 6: Two hydraulic steel gates are raised , so as to seal the gondola off from the water in the canal basin .",
+              "step4": "Đáp án phù hợp nhất: gates Câu hoàn chỉnh: A pair of gates are lifted in order to shut out water from canal basin. (Một cặp cổng chắn được nâng lên để ngăn nước từ bể kênh.) => Khớp dự đoán về danh từ số nhiều và đúng hành động, mục đích trong bài; đáp án gồm 1 từ, đề không nêu giới hạn số từ. Đối chiếu paraphrasing: A pair of Two are lifted are raised shut out water seal the gondola off from the water clamp (kẹp): Đoạn 6 có nhắc đến clamp, nhưng nó được tháo ra (“is removed”), không phải được nâng lên. locks (âu thuyền): Đoạn 7 có một cặp âu thuyền (“a pair of locks”), nhưng chúng dùng để nâng thuyền lên đoạn đường còn lại, không phải để ngăn nước khỏi khoang thuyền."
+            }
+          },
+          {
+            "id": 21,
+            "prompt": "Complete blank for Question 21:",
+            "type": "FILL_IN_BLANK",
+            "correct": "brake",
+            "explanation": {
+              "step1": "A 8. ___ is taken out , enabling Wheel to rotate Ô trống đứng sau “A”, nên cần một danh từ số ít . Ta tìm một bộ phận được lấy ra , nhờ đó Wheel có thể quay.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý tương đương với được lấy ra (“is taken out”). Ở đoạn 6, cụm “is removed” là điểm bắt đầu đọc kỹ. Đoạn 6 — is removed",
+              "step3": "Đoạn 6: A hydraulic clamp , which prevents the arms of the Wheel moving while the gondola is docked, is removed , allowing the Wheel to turn .",
+              "step4": "Đáp án phù hợp nhất: clamp Câu hoàn chỉnh: A clamp is taken out , enabling Wheel to rotate ( Một cái kẹp được tháo ra , nhờ đó Wheel có thể quay.) => Khớp với dự đoán về một bộ phận được tháo ra để Wheel quay ; đáp án gồm 1 từ . Đối chiếu paraphrasing: is taken out is removed enabling Wheel to rotate allowing the Wheel to turn gates “ các cửa chắn ”: câu 2 đoạn 6 cũng nói về bộ phận được nâng lên (“are raised”). Nhưng đề hỏi vật được tháo ra, và “A” cần danh từ số ít. Đáp án axle “ trục quay ”: Câu 5 đoạn 6 nhắc đến “central axle” khi mô tả chuyển động quay Nhưng vật được tháo ra ở câu (4) là clamp, không phải axle. hydraulic “ thuộc hệ thủy lực ”: Từ này đứng ngay trước đáp án trong “hydraulic clamp”, nhưng là tính từ, không thể đứng một mình sau “A”."
+            }
+          },
+          {
+            "id": 22,
+            "prompt": "Complete blank for Question 22:",
+            "type": "FILL_IN_BLANK",
+            "correct": "shaft",
+            "explanation": {
+              "step1": "Hydraulic motors drive 9. ___ Chỗ trống là danh từ chỉ bộ phận được động cơ thủy lực dẫn động . Chỉ từ câu hỏi, ta chưa xác định được đó là bộ phận nào.",
+              "step2": "Dựa vào thuật ngữ *hydraulic motors* => tìm đến đoạn 6, nơi bài đọc mô tả các động cơ thủy lực vận hành The Falkirk Wheel. Đoạn 6",
+              "step3": "Đoạn 6: In the central machine room an array of ten hydraulic motors then begins to rotate the central axle .",
+              "step4": "Đáp án phù hợp nhất: axle Câu hoàn chỉnh: Hydraulic motors drive axle (Các động cơ thủy lực dẫn động trục.) => Khớp với dự đoán: *axle* là bộ phận mà động cơ làm quay ; đáp án gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: drive begins to rotate 9. ___ axle motors động cơ: Sai vì đây là bộ phận làm quay, không phải bộ phận được làm quay. clamp bộ phận kẹp: Dễ nhầm vì xuất hiện ở bước ngay trước đó, nhưng clamp được tháo ra để Wheel có thể quay, không phải thứ động cơ dẫn động. Đáp án cogs các bánh răng: Xuất hiện ở bước sau, liên quan đến việc giữ các gondola thẳng đứng; câu (5) nêu trực tiếp bộ phận được động cơ làm quay là axle."
+            }
+          },
+          {
+            "id": 23,
+            "prompt": "Complete blank for Question 23:",
+            "type": "FILL_IN_BLANK",
+            "correct": "gears",
+            "explanation": {
+              "step1": "A range of different-sized 10. ___ ensures boat keeps upright Dự đoán: Ô trống cần một danh từ số nhiều chỉ các bộ phận có kích thước khác nhau, giúp thuyền giữ thẳng. Ta chưa cần đoán tên bộ phận.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý giữ thẳng (“keeps upright”). Ở đoạn 6, bài đọc nhắc đến việc các khoang chở thuyền được giữ thẳng (“kept in the upright position”) => đây là vùng liên quan. Đoạn 6 — kept in the upright position",
+              "step3": "Đoạn 6: Two eight-metre-wide cogs orbit a fixed inner cog of the same width , connected by two smaller cogs travelling in the opposite direction to the outer cogs - so ensuring that the gondolas always remain level . Từ cogs gọi tên bộ phận; “smaller cogs” cho thấy có các bánh răng khác kích thước . Kết quả là khoang chở thuyền luôn cân bằng, đúng chức năng câu hỏi mô tả.",
+              "step4": "Đáp án phù hợp nhất: cogs Câu hoàn chỉnh: A range of different-sized cogs ensures boat keeps upright (Một nhóm bánh răng có kích thước khác nhau giúp thuyền giữ thẳng.) => Khớp dự đoán về danh từ số nhiều chỉ bộ phận giữ thăng bằng; cogs là một từ lấy nguyên từ bài. Đối chiếu paraphrasing: different sized smaller boat keeps upright the gondolas always remain level gearing system hệ thống bánh răng: Đoạn 6 dùng cụm này để gọi cả cơ chế, không phải các bộ phận số nhiều có kích thước khác nhau cần điền. Đáp án axle trục quay: Đây là bộ phận được động cơ làm quay, không phải các bánh răng giữ khoang thăng bằng. gondolas các khoang chở thuyền: Đây là thứ được giữ cân bằng (“the gondolas always remain level”), không phải bộ phận tạo ra kết quả đó."
+            }
+          },
+          {
+            "id": 24,
+            "prompt": "Complete blank for Question 24:",
+            "type": "FILL_IN_BLANK",
+            "correct": "aqueduct",
+            "explanation": {
+              "step1": "Boat reaches top Wheel , then moves directly onto 11. ___ Ô trống cần một danh từ chỉ nơi hoặc công trình mà thuyền đi thẳng lên sau khi tới đỉnh Wheel. Từ *then* cho biết đây là bước tiếp theo của hành trình.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến đoạn mô tả thuyền lên tới đỉnh. Cụm “reaches the top” ở đoạn 6 => bắt đầu đọc tại câu (9). Đoạn 6 — reaches the top",
+              "step3": "Đoạn 6: When the gondola reaches the top , the boat passes straight onto the aqueduct situated 24 metres above the canal basin . Thuyền đi thẳng lên cầu dẫn nước (“passes straight onto the aqueduct”); phần chỉ độ cao và vị trí không cần để xác định nơi đến.",
+              "step4": "Đáp án phù hợp nhất: aqueduct Câu hoàn chỉnh: Boat reaches top Wheel, then moves directly onto aqueduct (Thuyền tới đỉnh Wheel, sau đó đi thẳng lên cầu dẫn nước .) => Khớp với dự đoán về nơi thuyền đi lên; đáp án gồm 1 từ. Đề được cung cấp không ghi giới hạn số từ. Đối chiếu paraphrasing: moves directly onto passes straight onto reaches top Wheel the gondola reaches the top canal basin — bể nước của kênh: Dễ chọn vì xuất hiện cùng câu, nhưng cụm này chỉ vị trí của aqueduct, không phải nơi thuyền đi thẳng lên. gondola — khoang chở thuyền: Gondola lên tới đỉnh; sau đó thuyền rời khoang để đi lên aqueduct, không đi lên gondola."
+            }
+          },
+          {
+            "id": 25,
+            "prompt": "Complete blank for Question 25:",
+            "type": "FILL_IN_BLANK",
+            "correct": "earthworks",
+            "explanation": {
+              "step1": "Boat travels through tunnel beneath Roman 12. ___ Ô trống đứng sau “Roman”, nên cần một danh từ chỉ vật thể hoặc công trình mà đường hầm đi bên dưới.",
+              "step2": "Dựa vào từ khoá đặc biệt “Roman” trong câu hỏi => tìm đến đoạn 7, nơi bài đọc nhắc tới “Romans”. Đoạn 7 — Romans",
+              "step3": "Đoạn 7: The Wheel could not be constructed to elevate boats over the full 35-metre difference between the two canals , owing to the presence of the historically important Antonine Wall , which was built by the Romans in the second century AD . Boats travel under this wall via a tunnel , then through the locks, and finally on to the Union Canal . Câu (2): xác định Antonine Wall do Romans xây . Câu (3): “this wall” chỉ lại Antonine Wall; thuyền đi dưới bức tường, qua đường hầm .",
+              "step4": "Đáp án phù hợp nhất: wall Câu hoàn chỉnh: Boat travels through tunnel beneath Roman wall (Thuyền đi qua đường hầm bên dưới bức tường do Romans xây.) => Khớp với dự đoán về một danh từ chỉ công trình: “this wall” ở câu (3) chính là bức tường được xác định ở câu (2) . Đáp án gồm một từ; đề không nêu giới hạn số từ. Đối chiếu paraphrasing: beneath under through tunnel via a tunnel Roman built by the Romans tunnel “ đường hầm ”: Đây là lối thuyền đi qua, đã có sẵn trong câu hỏi; ô trống hỏi vật thể nằm phía trên đường hầm. locks “ các âu tàu ”: Câu (3) nhắc đến “the locks”, nhưng thuyền đi qua chúng sau đường hầm, không phải đi bên dưới chúng."
+            }
+          },
+          {
+            "id": 26,
+            "prompt": "Complete blank for Question 26:",
+            "type": "FILL_IN_BLANK",
+            "correct": "locks",
+            "explanation": {
+              "step1": "13. ___ raise boat 11m to level of Union Canal Ô trống làm chủ ngữ của “raise”, nên cần một danh từ số nhiều chỉ bộ phận nâng thuyền thêm 11m để tới Union Canal.",
+              "step2": "Dựa vào tên riêng Union Canal và số đo 11m => tìm phần nói về quãng nâng còn lại ở đoạn 7. Đoạn 7",
+              "step3": "Đoạn 7: The remaining 11 metres of lift needed to reach the Union Canal is achieved by means of a pair of locks .",
+              "step4": "Đáp án phù hợp nhất: locks Câu hoàn chỉnh: 13. locks raise boat 11m to level of Union Canal (Các âu thuyền nâng thuyền thêm 11m để tới mực nước của Union Canal.) => Khớp với dự đoán về danh từ số nhiều: bài đọc nói việc nâng thêm 11 mét được thực hiện nhờ một cặp locks ; đáp án gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: raise boat 11m remaining 11 metres of lift to level of Union Canal to reach the Union Canal gates — các cổng chắn nước: Đoạn 6 có cổng thép thủy lực (“hydraulic steel gates”), nhưng chúng được nâng lên để ngăn nước, không phải để nâng thuyền thêm 11m. aqueduct — cầu dẫn nước: Thuyền đi lên aqueduct trước đó; câu (1) xác định phần nâng 11 mét còn lại là nhờ locks."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-11-reading-1-p3",
+        "passageNumber": 3,
+        "title": "Reducing the Effects of Climate Change",
+        "subtitle": "Daniel Frost reports on the increasingly ambitious geo-engineering projects being explored by scientists",
+        "content": [
+          "[A]  Because the world leans so heavily on fossil fuels, and because so much carbon dioxide has already entered the atmosphere, a large number of specialists now treat serious global warming as unavoidable. Holding it to a manageable level is, in their view, the most that can realistically be achieved, and for the moment the one credible way of doing so is to reduce the carbon we emit. Yet only a handful of nations are advancing quickly here; for most, merely slowing the rate at which emissions climb — never mind cutting them back — is proving hard. That difficulty explains why a growing body of researchers has turned to geo-engineering, the deliberate reshaping of the environment on a vast scale. Its supporters liken it to a standby generator: should Plan A, weaning ourselves off fossil fuels, break down, a Plan B is needed — large-scale interventions designed to slow global warming or turn it back.",
+          "[B]  On a small, local scale, geo-engineering has already proved its worth. Over many decades the state parades held in Verkhov have gone ahead beneath cloudless skies, after aircraft seeded the clouds above with dry ice, silver iodide and cement powder to break them up. A good many of the schemes now on the table aim at the reverse effect — cutting the quantity of sunlight that reaches the planet. Boldest of them all is the proposal of Professor Viktor Halloran of the University of Ashford, who would launch as many as sixteen trillion tiny craft, each no heavier than a gram, into an orbit 1.5 million kilometres out, where together they would act as a transparent, light-bending screen. By Halloran's calculation, such a device could trim the light arriving at the Earth by two per cent.",
+          "[C]  Most of the geo-engineering trials undertaken up to now — among them the planting of forests across deserts, and the scattering of nutrients over the sea to trigger blooms of plankton — have aimed at cooling the Earth as a whole. A handful, though, are directed specifically at halting the thaw at the poles, the Arctic above all. Their logic runs like this: build the ice sheets and frozen seas of the far north back up, and a greater share of the sunlight will be thrown back into space, which in turn eases the warming of both ocean and air.",
+          "[D]  Several researchers have floated the notion of spraying aerosols into the stratosphere over the Arctic. Sulphur or hydrogen-sulphide aerosols would be used, the resulting sulphur dioxide forming a reflective haze that dims the incoming light worldwide. Nature supplies the model: great volcanic eruptions, Mount Pinatubo in the Philippines in 1991 among them, cooled the globe briefly by half a degree Celsius. A different line of enquiry has examined whether Greenland's ice sheets might be held in place by strong reinforced chains, so that icebergs are stopped from slipping out to sea. In the Russian Arctic, meanwhile, one plan calls for millions of birch trees to be planted. The evergreen pines native to the area shade the snow and soak up radiation; birches, by contrast, drop their leaves once winter comes, and the bare canopy lets the snow throw the radiation back. Diverting the great northern waterways to push more cold water toward the places where ice forms is another option some climate scientists put forward.",
+          "[E]  But are such schemes ever likely to be put into practice? As a rule, the people most wary of geo-engineering are the very researchers conducting the work. Halloran insists that his own project is 'no replacement for building up renewable energy, which is the only lasting answer'. Dr Simone Vance, of the Coastal Atmospheric Laboratory, is just as reserved about what geo-engineering can offer: 'I think we would all accept that if we switched geo-engineering off one day, the planet would slide back to the state it was in beforehand very quickly — most likely inside ten to twenty years. That is genuinely a cause for concern.'",
+          "[F]  Researchers at the National Institute for Climate Modelling have already warned that injecting sulphur into the atmosphere could disturb rainfall across the tropics and the Southern Ocean. 'Schemes that put aerosols into the stratosphere, or that seed clouds, would indeed cool the planet and widen the reach of the sea ice,' Vance notes, 'but every model we run points to some change in how precipitation is distributed.'",
+          "[G]  According to Dr Theo Brandt of the University of Kelmore's School of Earth Systems, who has modelled how the screen and aerosol proposals would each affect the climate, another danger is that a project may 'overshoot'. 'You might well pull global temperatures back down to pre-industrial figures, and yet the poles could stay warmer than they ought to be while the tropics end up cooler than they were before industrialisation.' Steering clear of that outcome, Brandt explains, would mean running Halloran's screen at only half its capacity — which for him simply underlines the argument that the wiser course is to remove the need for geo-engineering in the first place.",
+          "[H]  What draws so much of the scientific community to geo-engineering is, above all, a lack of confidence that politicians will ever agree on the carbon cuts that are required — and then actually enact them. Even prominent conservation bodies acknowledge that the potential of geo-engineering is worth looking into. As Dr Anya Sorensen, climate-change adviser to the Global Wildlife Trust's Polar Programme, puts it, 'Climate change driven by human activity has left us at a point where it would be wrong to rule out thinking this subject, and everything it might offer, right through.'"
+        ],
+        "questions": [
+          {
+            "id": 27,
+            "prompt": "Which section contains the following information: \"an explanation of how rebuilding polar ice could lower the temperature of the oceans\"?",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "correct": "C",
+            "explanation": {
+              "step1": "an explanation of how rebuilding polar ice could lower the temperature of the oceans 👍 NÊN tìm: đoạn giải thích cơ chế từ khôi phục băng vùng cực đến giảm nhiệt độ đại dương. 👎 ĐỪNG tìm: đoạn chỉ liệt kê cách bảo vệ băng, hoặc giải thích việc giảm nhiệt bằng một biện pháp khác.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý khôi phục băng vùng cực. Đoạn C có ý xây dựng lại các lớp băng (“ build the ice sheets ”) => đây là vùng liên quan. Đoạn C: Their logic runs like this: build the ice sheets and frozen seas of the far north back up , and a greater share of the sunlight will be thrown back into space , which in turn eases the warming of both ocean and air . Đoạn C — build the ice sheets",
+              "step3": "Đối chiếu paraphrasing: rebuilding polar ice build the ice sheets + of the far north + back up. an explanation of how a greater share of the sunlight + will be thrown back into space nêu rõ cơ chế phản xạ ánh sáng. lower the temperature of the oceans eases the warming of both ocean and air. Chuỗi tác động khớp đủ yêu cầu: khôi phục băng vùng cực => phản xạ nhiều ánh sáng hơn => giảm sự ấm lên của đại dương . Đáp án đúng: Paragraph C. Paragraph D Nếu skim/scan thấy cách giữ băng bằng dây xích (“reinforced chains”), ta dễ chọn D Nhưng đoạn này liệt kê các biện pháp, không giải thích cơ chế băng được khôi phục làm đại dương bớt nóng. Paragraph B Đoạn B có màn chắn bẻ hướng ánh sáng (“light-bending screen”), nên dễ nhầm với cơ chế phản xạ ánh sáng ở C Nhưng biện pháp ở B dùng màn chắn trên quỹ đạo, không phải khôi phục băng vùng cực. Paragraph F Thấy ý làm hành tinh mát đi (“cool the planet”) cùng với băng biển (“sea ice”) dễ khiến ta chọn F Nhưng chiều tác động khác: các biện pháp làm mát giúp băng biển mở rộng, không phải băng được khôi phục khiến đại dương giảm nhiệt.",
+              "step4": "Đáp án chính xác: C"
+            }
+          },
+          {
+            "id": 28,
+            "prompt": "Which section contains the following information: \"a claim that one proposed method could change where rain falls\"?",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "correct": "F",
+            "explanation": {
+              "step1": "a claim that one proposed method could change where rain falls 👍 NÊN tìm: một nhận định rằng một biện pháp được đề xuất có thể làm thay đổi nơi mưa rơi , tức phân bố mưa . 👎 ĐỪNG tìm: đoạn chỉ giới thiệu biện pháp, kể việc phá mây hoặc dự báo thay đổi nhiệt độ mà không nói đến phân bố mưa.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý thay đổi nơi mưa rơi . Đoạn F nhắc đến cách mưa được phân bố (“how precipitation is distributed”) => đây là vùng liên quan. Đoạn F: ' Schemes that put aerosols into the stratosphere, or that seed clouds , would indeed cool the planet and widen the reach of the sea ice ,' Vance notes , ' but every model we run points to some change in how precipitation is distributed .' Đoạn F — how precipitation is distributed",
+              "step3": "Đối chiếu paraphrasing: a claim Vance notes one proposed method seed clouds đây là một biện pháp cụ thể được nêu. could change points to some change where rain falls how precipitation is distributed Đáp án đúng: Paragraph F — đoạn này nêu nhận định rằng biện pháp gieo mây có thể thay đổi phân bố mưa . Paragraph B Nếu skim/scan thấy việc gieo mây (“seeded the clouds”), em dễ chọn B Nhưng đoạn này kể việc phá mây để có trời quang, không dự báo thay đổi phân bố mưa. Paragraph D đoạn D cũng nêu việc phun aerosols (“spraying aerosols”). Nhưng đây là phần mô tả biện pháp và cơ chế tác động lên ánh sáng hoặc băng, không nói đến nơi mưa rơi. Paragraph G Đoạn G dự báo tác động khác nhau ở hai vùng (“poles” và “tropics”), nên dễ nhầm với thay đổi phân bố theo nơi chốn Nhưng đối tượng thay đổi ở đây là nhiệt độ, không phải phân bố mưa.",
+              "step4": "Đáp án chính xác: F"
+            }
+          },
+          {
+            "id": 29,
+            "prompt": "Which section contains the following information: \"an account of several separate techniques suggested for a single polar region\"?",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "correct": "D",
+            "explanation": {
+              "step1": "an account of several separate techniques suggested for a single polar region 👍 NÊN tìm: phần trình bày ít nhất hai biện pháp khác nhau được đề xuất cho cùng một vùng cực . 👎 ĐỪNG tìm: đoạn chỉ giải thích một biện pháp, hoặc nêu nhiều biện pháp cho toàn cầu mà không gắn chúng với cùng một vùng cực.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm đoạn nêu nhiều biện pháp cho cùng một vùng cực. Đoạn D có các đề xuất gắn trực tiếp với Arctic => đây là vùng liên quan. Đoạn D: Several researchers have floated the notion of spraying aerosols into the stratosphere over the Arctic . In the Russian Arctic , meanwhile, one plan calls for millions of birch trees to be planted . Câu (1): nêu đề xuất phun aerosols ở Arctic. Câu (5): bổ sung biện pháp trồng cây ở Russian Arctic, vẫn thuộc cùng vùng Arctic . Đoạn D",
+              "step3": "Đối chiếu paraphrasing: an account đoạn D trực tiếp trình bày các kế hoạch cụ thể. several separate techniques spraying aerosols + trees to be planted. suggested have floated the notion of + one plan calls for. a single polar region over the Arctic + In the Russian Arctic cả hai địa điểm đều thuộc Arctic . Hai câu đã đủ chứng minh các biện pháp khác nhau được đề xuất cho cùng một vùng cực . Đáp án đúng: Paragraph D. Đáp án C Nếu skim/scan thấy các vùng cực (“at the poles”) và Arctic được ưu tiên (“the Arctic above all”), em dễ chọn C Nhưng các kỹ thuật ở đầu đoạn nhằm làm mát toàn cầu; phần nói về Arctic chỉ giải thích mục tiêu và cơ chế khôi phục băng. Đáp án F Đoạn này nhắc aerosols, việc gieo chất vào mây (“seed clouds”) và băng biển (“sea ice”), nên dễ tưởng đủ nhiều kỹ thuật cho một vùng cực Nhưng F không xác định chúng dành cho cùng một vùng cực; trọng tâm là tác động đến phân bố mưa. Đáp án B Đoạn này có nhiều phương án (“schemes”), nên dễ khớp với yêu cầu nhiều biện pháp Nhưng các phương án không cùng hướng đến một vùng cực: đoạn chuyển từ ứng dụng địa phương sang giảm ánh sáng tới toàn hành tinh.",
+              "step4": "Đáp án chính xác: D"
+            }
+          },
+          {
+            "id": 30,
+            "prompt": "to form a _____ that cuts how much light gets to the Earth",
+            "type": "FILL_IN_BLANK",
+            "correct": "screen",
+            "explanation": {
+              "step1": "to form a 4. ___ that cuts how much light gets to the Earth Ý câu hỏi: Tạo thành một thứ có tác dụng giảm lượng ánh sáng tới Earth. Dự đoán ô trống: - Loại từ: danh từ đếm được số ít , vì đứng sau mạo từ “a”. - Nghĩa: một vật hoặc cấu trúc được tạo thành để giảm ánh sáng tới Earth.",
+              "step2": "Dựa vào cách thực hiện ở cùng hàng: phóng các craft rất nhỏ (“very small craft”) vào quỹ đạo xa (“a distant orbit”). Đọc nhanh đoạn B, ta gặp hành động phóng (“would launch”) các craft nhỏ (“tiny craft”) => bắt đầu đọc từ câu 4 đoạn B. Đoạn B",
+              "step3": "Đoạn B: Boldest of them all is the proposal of Professor Viktor Halloran of the University of Ashford , who would launch as many as sixteen trillion tiny craft , each no heavier than a gram, into an orbit 1.5 million kilometres out , where together they would act as a transparent, light-bending screen . By Halloran's calculation, such a device could trim the light arriving at the Earth by two per cent . Câu (4): phóng các craft vào quỹ đạo để chúng đóng vai trò một màn chắn . Câu (5): màn chắn này giảm lượng ánh sáng tới Earth , đúng chức năng được hỏi.",
+              "step4": "Đáp án phù hợp nhất: screen Câu hoàn chỉnh: to form a screen that cuts how much light gets to the Earth (để tạo thành một màn chắn làm giảm lượng ánh sáng tới Earth) => Khớp dự đoán danh từ số ít chỉ vật được tạo thành và thông tin về tác dụng giảm ánh sáng; đáp án gồm 1 từ. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: to form would act as cuts how much light gets to the Earth could trim the light arriving at the Earth craft “ các craft được phóng ”: xuất hiện ngay trong quy trình. Nhưng đây là các thành phần được phóng lên, không phải thứ chúng hợp thành. orbit “ quỹ đạo ”: nằm gần đáp án trong câu (4). Nhưng quỹ đạo là nơi các craft được đưa tới, không phải vật được tạo thành để giảm ánh sáng. device “ thiết bị ”: Câu (5) dùng cách gọi khái quát này để nhắc lại màn chắn. Danh từ trực tiếp gọi tên thứ các craft đóng vai trò ở câu (4) là màn chắn (“screen”)."
+            }
+          },
+          {
+            "id": 31,
+            "prompt": "add _____ to the ocean",
+            "type": "FILL_IN_BLANK",
+            "correct": "nutrients",
+            "explanation": {
+              "step1": "add 5. ___ to the ocean Ý câu hỏi: Cần tìm thứ được thêm vào đại dương . Dự đoán ô trống: - Loại từ: danh từ/cụm danh từ làm tân ngữ của động từ thêm (“add”). Không có mạo từ phía trước nên có thể là danh từ không đếm được hoặc danh từ số nhiều. - Nghĩa: một thứ được đưa vào đại dương, không phải thứ phát triển sau đó.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý thêm một thứ vào đại dương. Đầu đoạn C có thao tác rải (“scattering”) trên biển (“over the sea”) => đây là điểm bắt đầu đọc. Đoạn C — scattering",
+              "step3": "Đoạn C: Most of the geo-engineering trials undertaken up to now — among them the planting of forests across deserts, and the scattering of nutrients over the sea to trigger blooms of plankton — have aimed at cooling the Earth as a whole .",
+              "step4": "Đáp án phù hợp nhất: nutrients Câu hoàn chỉnh: add nutrients to the ocean (Thêm chất dinh dưỡng vào đại dương.) => Khớp với dự đoán danh từ chỉ thứ được thêm vào đại dương: bài nói rõ việc rải chất dinh dưỡng trên biển . Đáp án gồm 1 từ; phần đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: add the scattering of to the ocean over the sea forests “ rừng ”: Nếu đọc lướt, dễ lấy từ này vì cũng nằm trong một ví dụ về geo-engineering Nhưng đó là việc trồng rừng (“planting of forests”), không phải thứ được rải xuống biển. deserts “ sa mạc ”: Sai vì đây là địa điểm của ví dụ trồng rừng, không phải thứ được thêm vào đại dương."
+            }
+          },
+          {
+            "id": 32,
+            "prompt": "so that _____ will develop",
+            "type": "FILL_IN_BLANK",
+            "correct": "plankton",
+            "explanation": {
+              "step1": "so that 6. ___ will develop Ý câu hỏi: Thêm một chất vào đại dương để thứ gì đó phát triển. Dự đoán ô trống: - Loại từ: danh từ/cụm danh từ làm chủ ngữ trước động từ sẽ phát triển (“will develop”). - Nghĩa: thứ được thúc đẩy phát triển trong đại dương , không phải chất được thêm vào.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý thêm chất vào đại dương. Đoạn C có cụm rải chất dinh dưỡng xuống biển (“the scattering of nutrients over the sea”) => đây là điểm bắt đầu đọc. Đoạn C — the scattering of nutrients over the sea",
+              "step3": "Đoạn C: Most of the geo-engineering trials undertaken up to now — among them the planting of forests across deserts, and the scattering of nutrients over the sea to trigger blooms of plankton — have aimed at cooling the Earth as a whole .",
+              "step4": "Đáp án phù hợp nhất: plankton Câu hoàn chỉnh: so that plankton will develop (để plankton phát triển) => Khớp với dự đoán danh từ chỉ thứ được thúc đẩy phát triển trong đại dương ; đáp án gồm 1 từ. Đề gửi kèm không nêu giới hạn từ. Đối chiếu paraphrasing: will develop trigger blooms to the ocean over the sea blooms “ sự phát triển mạnh ”: sát đáp án và mang ý phát triển. Nhưng cụm sự phát triển mạnh của plankton (“blooms of plankton”) cho biết plankton mới là thứ phát triển. forests “ rừng ”: cùng câu có hoạt động trồng rừng (“planting of forests”). Nhưng đó là dự án ở sa mạc, không phải dự án thêm chất vào đại dương."
+            }
+          },
+          {
+            "id": 33,
+            "prompt": "to produce a _____ that blocks some of the incoming light",
+            "type": "FILL_IN_BLANK",
+            "correct": "haze",
+            "explanation": {
+              "step1": "to produce a 7. ___ that blocks some of the incoming light Ý câu hỏi: Phun aerosols lên tầng bình lưu để tạo ra một thứ có tác dụng chặn bớt ánh sáng đi vào . Dự đoán ô trống: - Loại từ: danh từ số ít hoặc cụm danh từ số ít, vì đứng sau mạo từ (“a”). - Nghĩa: thứ được tạo ra và có tác dụng giảm ánh sáng, không phải thứ được đem đi phun.",
+              "step2": "Dựa vào các thuật ngữ khí dung (“aerosols”) và tầng bình lưu (“stratosphere”) trong ô Procedure, ta định vị được đoạn D, nơi nhắc đến việc phun khí dung vào tầng bình lưu (“spraying aerosols into the stratosphere”). Đây là điểm bắt đầu đọc. Đoạn D — spraying aerosols into the stratosphere",
+              "step3": "Đoạn D: Sulphur or hydrogen-sulphide aerosols would be used , the resulting sulphur dioxide forming a reflective haze that dims the incoming light worldwide .",
+              "step4": "Đáp án phù hợp nhất: haze Câu hoàn chỉnh: to produce a haze that blocks some of the incoming light (để tạo ra một lớp màn mờ chặn bớt ánh sáng đi vào ) => Khớp với dự đoán danh từ chỉ thứ được tạo ra và tác dụng giảm ánh sáng trong bài; đáp án gồm 1 từ lấy nguyên văn từ bài. Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: produce forming blocks some of the incoming light dims the incoming light aerosols “ Các hạt khí dung ”: Nếu chỉ scan từ trùng với ô Procedure, em dễ chọn từ này Nhưng đây là thứ được sử dụng, không phải thứ được tạo ra; dạng số nhiều cũng không phù hợp sau mạo từ (“a”). sulphur dioxide đứng ngay trước từ chỉ sự tạo thành (“forming”). Nhưng sulphur dioxide tạo thành lớp màn mờ; danh từ cần điền nằm sau cụm tạo thành một thứ (“forming a”). reflective “ Có tính phản xạ ”: đứng sát đáp án, Nhưng đây là tính từ bổ nghĩa cho lớp màn mờ, không thể đứng một mình ở vị trí danh từ cần điền."
+            }
+          },
+          {
+            "id": 34,
+            "prompt": "attach powerful _____ to the ice sheets of Greenland",
+            "type": "FILL_IN_BLANK",
+            "correct": "chains",
+            "explanation": {
+              "step1": "attach powerful 8. ___ to the ice sheets of Greenland Ý câu hỏi: Gắn một vật chắc vào các dải băng của Greenland. Mục đích ở cùng hàng là ngăn các tảng băng trôi ra biển. Dự đoán ô trống: - Loại từ: danh từ , đứng sau tính từ chỉ độ chắc (“powerful”). Danh từ đếm được số nhiều là một khả năng phù hợp vì phía trước không có mạo từ. - Nghĩa: một vật hoặc phương tiện dùng để giữ băng tại chỗ .",
+              "step2": "Dựa vào từ khoá đặc biệt là địa danh Greenland , ta định vị được câu 4 đoạn D, nơi nhắc đến các dải băng của Greenland (“Greenland's ice sheets”). Đoạn D",
+              "step3": "Đoạn D: A different line of enquiry has examined whether Greenland's ice sheets might be held in place by strong reinforced chains , so that icebergs are stopped from slipping out to sea .",
+              "step4": "Đáp án phù hợp nhất: chains Câu hoàn chỉnh: attach powerful chains to the ice sheets of Greenland (Gắn dây xích chắc vào các dải băng của Greenland.) => Khớp với dự đoán danh từ chỉ phương tiện giữ băng và thông tin trong bài; đáp án gồm 1 từ lấy nguyên văn từ bài. Phần đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: powerful strong drifting out to sea slipping out to sea strong / reinforced “ chắc, được gia cố ”: Hai từ này nằm ngay trước đáp án nên dễ bị lấy nhầm Nhưng chúng là tính từ bổ nghĩa cho dây xích, không phải danh từ cần điền sau tính từ đã có sẵn (“powerful”). icebergs “ các tảng băng trôi ”: Nếu chỉ scan theo mục đích ngăn băng trôi, em dễ chọn từ này Nhưng đây là đối tượng bị ngăn trôi, không phải phương tiện được gắn vào các dải băng."
+            }
+          },
+          {
+            "id": 35,
+            "prompt": "so the _____ can bounce radiation back",
+            "type": "FILL_IN_BLANK",
+            "correct": "snow",
+            "explanation": {
+              "step1": "so the 9. ___ can bounce radiation back Ngữ cảnh cùng hàng: trồng cây tại Russian Arctic có khả năng rụng lá vào mùa lạnh. Dự đoán ô trống: - Loại từ: danh từ/cụm danh từ làm chủ ngữ, vì đứng sau *the* và trước *can*. - Nghĩa: thứ có thể phản xạ bức xạ trở lại nhờ cây rụng lá; không nhất thiết là tên cây.",
+              "step2": "Dựa vào địa danh Russian Arctic trong cùng hàng, ta định vị được đoạn D, ở phần nói về kế hoạch trồng cây. Đoạn D",
+              "step3": "Đoạn D: The evergreen pines native to the area shade the snow and soak up radiation ; birches , by contrast , drop their leaves once winter comes , and the bare canopy lets the snow throw the radiation back .",
+              "step4": "Đáp án phù hợp nhất: snow Câu hoàn chỉnh: so the snow can bounce radiation back (nhờ đó tuyết có thể phản xạ bức xạ trở lại ). => Khớp với dự đoán danh từ chỉ thứ phản xạ bức xạ: cây rụng lá tạo điều kiện cho tuyết thực hiện việc này. Đáp án gồm 1 từ lấy nguyên văn từ bài; đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: bounce radiation back throw the radiation back shed their leaves in the cold season drop their leaves once winter comes birches Nếu chỉ tìm loại cây rụng lá, em dễ chọn birches Nhưng câu hỏi cần thứ phản xạ bức xạ, không phải cây tạo điều kiện cho việc đó. canopy “ tán cây ”: tán cây là chủ ngữ của động từ cho phép (“lets”). Nhưng cấu trúc này nói tán cây cho phép tuyết phản xạ, không phải tán cây tự phản xạ. radiation “ bức xạ ”: Sai vì đây là thứ được phản xạ, không phải thứ thực hiện việc phản xạ."
+            }
+          },
+          {
+            "id": 36,
+            "prompt": "redirect the course of the _____",
+            "type": "FILL_IN_BLANK",
+            "correct": "waterways",
+            "explanation": {
+              "step1": "redirect the course of the 10. ___ Ý câu hỏi: Chuyển hướng dòng chảy của một đối tượng nào đó. Ngữ cảnh cùng hàng: Mục đích là đưa thêm nước lạnh đến những nơi băng hình thành. Dự đoán ô trống: - Loại từ: danh từ hoặc cụm danh từ , vì đứng sau “the”; chưa thể xác định số ít hay số nhiều. - Nghĩa: đối tượng có dòng chảy có thể được chuyển hướng để đưa nước lạnh đến nơi cần thiết.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý chuyển hướng dòng chảy (“redirect the course of”), kết hợp với mục đích đưa thêm nước lạnh (“send extra cold water”). Ở cuối đoạn D, từ chỉ hành động chuyển hướng (“Diverting”) cho thấy đây là điểm bắt đầu đọc. Đoạn D — Diverting",
+              "step3": "Đoạn D: Diverting the great northern waterways to push more cold water toward the places where ice forms is another option some climate scientists put forward .",
+              "step4": "Đáp án phù hợp nhất: waterways Câu hoàn chỉnh: redirect the course of the waterways (chuyển hướng dòng chảy của các đường dẫn nước ) => Khớp với dự đoán danh từ chỉ đối tượng có dòng chảy và mục đích đưa thêm nước lạnh trong bài. Đáp án gồm 1 từ; đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: redirect the course of Diverting to send extra cold water to push more cold water places where ice forms giữ nguyên water “ Nước ”: Nếu chỉ scan ý nước lạnh (“cold water”), em dễ lấy nhầm từ này Nhưng nước là thứ được đưa đến nơi băng hình thành; đối tượng được chuyển hướng là waterways. Đáp án ice “ Băng ”: Nếu chỉ scan từ lặp lại trong đề và bài, em dễ chọn từ này Nhưng băng hình thành ở đích đến, không phải đối tượng có dòng chảy được chuyển hướng."
+            }
+          },
+          {
+            "id": 37,
+            "prompt": "Match the statement with the correct person/feature: \"The gains from geo-engineering could prove short-lived.\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Theo Brandt",
+              "Viktor Halloran",
+              "Anya Sorensen",
+              "Simone Vance"
+            ],
+            "correct": "Simone Vance",
+            "explanation": {
+              "step1": "Tên đang xử lý: Simone Vance Tên đầy đủ xuất hiện ở đoạn E; họ Vance được nhắc lại ở đoạn F.",
+              "step2": "Dr Simone Vance , of the Coastal Atmospheric Laboratory, is just as reserved about what geo-engineering can offer : ' I think we would all accept that if we switched geo-engineering off one day , the planet would slide back to the state it was in beforehand very quickly — most likely inside ten to twenty years . Câu (4): Câu (4), đoạn E: nếu ngừng geo-engineering => hành tinh nhanh chóng trở lại trạng thái cũ => lợi ích có thể không kéo dài . 🔎 Khớp với statement 11: The gains from geo-engineering could prove short-lived . Đối chiếu paraphrasing: could prove short lived if we switched geo engineering off + slide back to the state it was in beforehand + very quickly",
+              "step3": "Với tên Simone Vance ở đoạn E, ta chọn được: câu 11. Viktor Halloran Nếu skim/scan thấy ý về giải pháp lâu dài (“only lasting answer”) ở đoạn E, em dễ chọn nhầm Nhưng cụm này nói về năng lượng tái tạo; nhận định về việc nhanh chóng mất lợi ích sau khi ngừng geo-engineering ở câu (4) đoạn E thuộc về Simone Vance.",
+              "step4": "' Schemes that put aerosols into the stratosphere, or that seed clouds, would indeed cool the planet and widen the reach of the sea ice ,' Vance notes , ' but every model we run points to some change in how precipitation is distributed .' Câu (2): Câu (2), đoạn F: lợi ích làm mát hành tinh >< tác dụng phụ làm thay đổi phân bố lượng mưa."
+            }
+          },
+          {
+            "id": 38,
+            "prompt": "Match the statement with the correct person/feature: \"The subject is one that deserves serious study.\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Theo Brandt",
+              "Viktor Halloran",
+              "Anya Sorensen",
+              "Simone Vance"
+            ],
+            "correct": "Anya Sorensen",
+            "explanation": {
+              "step1": "Tên đang xử lý: Anya Sorensen Bài nhắc đến Anya Sorensen ở đoạn H.",
+              "step2": "As Dr Anya Sorensen , climate-change adviser to the Global Wildlife Trust's Polar Programme, puts it , ' Climate change driven by human activity has left us at a point where it would be wrong to rule out thinking this subject , and everything it might offer, right through .' Anya Sorensen cho rằng gạt bỏ việc xem xét là sai, nên geo-engineering đáng được nghiên cứu kỹ . 🔎 Khớp với statement 12: The subject is one that deserves serious study . Đối chiếu paraphrasing: deserves serious study wrong to rule out thinking this subject + right through",
+              "step3": "Với tên Anya Sorensen ở đoạn H, ta chọn được: câu 12. Theo Brandt Nếu thấy ông đã mô phỏng tác động khí hậu (“has modelled”) ở đoạn G, dễ ghép với ý nghiên cứu Nhưng đó là việc ông đã làm, không phải quan điểm rằng chủ đề đáng được nghiên cứu kỹ. Simone Vance Sai vì điều đáng lo (“cause for concern”) ở đoạn E là hành tinh nhanh chóng trở lại trạng thái cũ khi ngừng geo-engineering, không phải lời khuyên xem xét kỹ chủ đề.",
+              "step4": "Đáp án chính xác: Anya Sorensen"
+            }
+          },
+          {
+            "id": 39,
+            "prompt": "Match the statement with the correct person/feature: \"Certain projects might have to be run below full power.\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Theo Brandt",
+              "Viktor Halloran",
+              "Anya Sorensen",
+              "Simone Vance"
+            ],
+            "correct": "Theo Brandt",
+            "explanation": {
+              "step1": "Tên đang xét: Theo Brandt . Bài nhắc đến Theo Brandt ở đoạn G.",
+              "step2": "Steering clear of that outcome , Brandt explains , would mean running Halloran's screen at only half its capacity — which for him simply underlines the argument that the wiser course is to remove the need for geo-engineering in the first place . 🔎 Khớp với statement 13: Certain projects might have to be run below full power . Đối chiếu paraphrasing: might have to be run would mean running below full power at only half its capacity",
+              "step3": "Với tên Theo Brandt ở đoạn G, ta chọn được: câu 13. Viktor Halloran Nếu chỉ nhìn thấy tấm chắn của Halloran (“Halloran's screen”), ta dễ chọn nhầm người sở hữu dự án Nhưng người đưa ra nhận định về việc chạy ở nửa công suất là Brandt (“Brandt explains”), không phải Halloran.",
+              "step4": "Đáp án chính xác: Theo Brandt"
+            }
+          },
+          {
+            "id": 40,
+            "prompt": "Match the statement with the correct person/feature: \"Geo-engineering cannot take the place of efforts to develop clean energy.\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Theo Brandt",
+              "Viktor Halloran",
+              "Anya Sorensen",
+              "Simone Vance"
+            ],
+            "correct": "Viktor Halloran",
+            "explanation": {
+              "step1": "Tên đang xử lý: Viktor Halloran . Bài nhắc đến Halloran ở đoạn B, E và G.",
+              "step2": "Boldest of them all is the proposal of Professor Viktor Halloran of the University of Ashford , who would launch as many as sixteen trillion tiny craft , each no heavier than a gram, into an orbit 1.5 million kilometres out , where together they would act as a transparent, light-bending screen .",
+              "step3": "Với tên Viktor Halloran ở đoạn B, ta không chọn được câu nào: đoạn này không giúp chọn câu hỏi nào.",
+              "step4": "Halloran insists that his own project is ' no replacement for building up renewable energy , which is the only lasting answer ' . 🔎 Khớp với statement 14: Geo-engineering cannot take the place of efforts to develop clean energy . Đối chiếu paraphrasing: cannot take the place of no replacement for efforts to develop clean energy building up renewable energy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cam-10-reading-1": {
+    "id": "cam-10-reading-1",
+    "title": "IELTS CAM Inspired 10 - Reading Test 1",
+    "series": "Cambridge 10",
+    "testNumber": 1,
+    "type": "Reading",
+    "durationMinutes": 60,
+    "passages": [
+      {
+        "id": "cam-10-reading-1-p1",
+        "passageNumber": 1,
+        "title": "Stepwells",
+        "subtitle": "In the arid heart of India a thousand years ago, life would have been almost impossible without the stepwell. Many were left to decay, yet recent repair work has restored much of their splendour. To record these relics of a vanished age, Adrian Mowbray travelled to the country's north-west.",
+        "content": [
+          "It was in the sixth and seventh centuries that people in what are now Gujarat and Rajasthan first worked out how to reach clean underground water once the rains had gone — water they needed for drinking, washing, their livestock and their fields. Yet to see the stepwell merely as a practical device is to miss much of what made it important.",
+          "Found nowhere else in the world, these structures could be highly elaborate and differed greatly in scale and form. At the height of their use they doubled as social hubs — spots for meeting, resting and prayer, open to villagers of every rank except the very lowest castes. The desert districts of Gujarat, where the wells are called vav, and Rajasthan, where they are known as baori, hold most surviving examples, though a handful remain in Delhi. Some stood within or close to settlements to serve local people; others stood beside routes as resting spots for travellers.",
+          "The name itself hints at the design: from the surface, flights of stone steps drop away towards the water — usually an aquifer below ground — which sinks lower as the wet season passes. A visitor arriving when the water stood high had only a short way to go down, but in drier months a whole succession of levels had to be descended before the surface could be reached.",
+          "A number of the wells are enormous open pits, their sloping walls faced with hundreds of steps arranged in tiers, while others are subtler affairs in which long stepped corridors lead down through storey after storey to the water. All were raised in stone and held up by pillars, and many had shaded canopies where visitors could escape the merciless sun. Their finest touch, though, lies in the delicate carvings that cover so many of them, portraying everything from combat and dance to the small routines of daily life, such as combing hair or grinding grain.",
+          "Over the following centuries the north-west acquired thousands of such wells, yet most have since been abandoned; many now stand ruined and waterless, their aquifers drained off to feed industry so that the steps no longer reach any water. Matters have been made worse by the repeated failure of the monsoon in recent years, which left much of the region parched.",
+          "Even so, several major wells in Gujarat have lately been given careful repairs, and its state authorities have declared their intention to bring the region's stepwells as a whole back to good order.",
+          "The old Gujarati capital of Kharoda holds what may be the most beautiful of all the wells still standing, Rani Amba Vav, or the Queen's Stepwell. Commissioned by Queen Sunayana early in the twelfth century, it was choked with silt after a flood two hundred years later, and recovered only when the Archaeological Survey of India restored it so thoroughly that it now looks almost new. The monument runs to sixty metres long, eighteen across and twenty-four deep, and set into recesses along its walls are some four hundred carvings of deities such as Shiva and Lakshmi. Remarkably, when a powerful cyclone tore across the area in 2001, the centuries-old structure came through unharmed.",
+          "Further north in Gujarat, beside a temple to the sun in the town of Velapur, stands the Aditya Kund, raised by King Devraj in 1032 as an offering to the sun. Strictly speaking it is a kund (an open pool rather than a true well) but it wears all the marks of stepwell design, its steps dropping to the floor in a sequence of terraces that form a striking geometric pattern. Between these flights sit ninety-six shrines, each finely carved.",
+          "Rajasthan, too, is rich in such structures. Some 200 kilometres south of Jaipur lies the old city of Sohal, long admired for its buildings, the stepwells among them. A particularly large one, Rajni Ki Baori, was put up in 1710 by the local queen, Vasundhara; forty-two metres deep, twenty-two wide and thirty-eight long, this finely worked monument was one of eighteen baoris she ordered built around Sohal.",
+          "Roughly 95 kilometres east of Jaipur, in the crumbling town of Amroli, is Chandra Baori, among the most ancient and deepest wells in India and, to the eye, perhaps the most striking. It was raised around 800 AD beside the temple of Ambika Mata; hundreds of steps zigzag down three of its walls, plunging through fourteen storeys and, from a distance, making a bold geometric shape. Along the remaining wall, roofed balconies on richly decorated pillars look out across the steps.",
+          "One well people still use stands a little way off the Jaipur–Delhi highway: Neelkanth Ki Baori. Built around 1720, it goes down nine storeys, of which the two lowest remain permanently submerged. Ninety-two colonnaded openings ring it at ground level, and from there a flight of a hundred and sixty steps takes the visitor to the lowest water.",
+          "After long years of neglect, many of these feats of medieval building have been rescued by the Archaeological Survey of India, which sees their upkeep as part of safeguarding the nation's heritage. To the remotest corners of the north-west, sightseers now travel to marvel at architecture put up a thousand years ago — structures that testify both to the cleverness and craft of early societies and to how precious water has always been to human life."
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Stepwells gave people a way to obtain water in the driest months of the year.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "Stepwells gave people a way to obtain water in the driest months of the year . Cần kiểm tra: khi trời khô hạn, các bậc thang có còn giúp người ta tới được nước không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý về cách tiếp cận nước. Ở đoạn 3, cụm các dãy bậc đá (“flights of stone steps”) => bắt đầu đọc kĩ từ câu (1). Đoạn 3 — flights of stone steps",
+              "step3": "Đoạn 3: The name itself hints at the design: from the surface, flights of stone steps drop away towards the water — usually an aquifer below ground — which sinks lower as the wet season passes . A visitor arriving when the water stood high had only a short way to go down , but in drier months a whole succession of levels had to be descended before the surface could be reached . Câu (1): bậc thang dẫn xuống phía nước. Câu (2): lúc nước cao chỉ cần xuống một đoạn ngắn >< những tháng khô hơn vẫn tới được mặt nước , dù phải xuống nhiều tầng.",
+              "step4": "Câu hỏi nói: stepwells giúp người ta lấy nước vào những tháng khô nhất (“obtain water”, “the driest months of the year”). Bài đọc nói: vào những tháng khô hơn (“in drier months ”), người ta phải xuống nhiều tầng nhưng vẫn tới được mặt nước (“ the surface could be reached ”). Hai ý phù hợp: xuống sâu hơn không có nghĩa là không lấy được nước. Đáp án đúng: TRUE Đối chiếu paraphrasing: a way to obtain water flights of stone steps drop away towards the water + the surface could be reached driest months drier months bài diễn tả thời kỳ khô qua sự đối chiếu với lúc mực nước cao. FALSE Nếu thấy phải xuống nhiều tầng (“a whole succession of levels”), dễ nghĩ không còn lấy được nước Nhưng bài nói vẫn tới được mặt nước (“the surface could be reached”). Chỉ chọn FALSE nếu bài nói tháng khô không thể tới nước. NOT GIVEN Nếu chỉ tìm đúng cụm “driest months”, dễ tưởng bài không đề cập thời điểm này Nhưng bài đã nói đến những tháng khô hơn (“in drier months”) và khả năng tới mặt nước. Chỉ chọn NOT GIVEN nếu bài không cho biết vào thời kỳ khô có thể tới nước hay không."
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Stepwells of this kind were built in many different parts of the world.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "Stepwells of this kind were built in many different parts of the world . Ý câu hỏi: Loại giếng bậc thang này được xây ở nhiều nơi trên thế giới .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm thông tin về phạm vi phân bố của stepwells. Đầu đoạn 2 có cụm chỉ phạm vi (“Found nowhere else in the world”) => đây là chỗ cần đọc kĩ. Đoạn 2 — Found nowhere else in the world",
+              "step3": "Đoạn 2: Found nowhere else in the world , these structures could be highly elaborate and differed greatly in scale and form .",
+              "step4": "Câu hỏi nói: Stepwells loại này được xây ở nhiều nơi trên thế giới (“ many different parts of the world ”). Bài đọc nói: Những công trình này không được tìm thấy ở nơi nào khác trên thế giới (“ Found nowhere else in the world ”). Hai ý mâu thuẫn về phạm vi phân bố. Đáp án đúng: FALSE Đối chiếu paraphrasing: many different parts of the world nowhere else in the world Đáp án TRUE Nếu skim/scan thấy các giếng khác nhau về quy mô và hình dạng (“scale and form”), sẽ dễ chọn TRUE Nhưng đó không phải sự khác biệt về nơi xây dựng. Chỉ chọn TRUE nếu bài nói loại giếng này được xây ở nhiều nơi trên thế giới. NOT GIVEN Nếu thấy bài dùng từ “Found” còn câu hỏi dùng “were built”, sẽ dễ tưởng bài chưa trả lời Nhưng câu (1) đã phủ định việc loại công trình này xuất hiện ở nơi khác. Chỉ chọn NOT GIVEN nếu bài không cho biết chúng có ở nơi khác trên thế giới hay không."
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "In some seasons a visitor had much further to climb down to the water than in others.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "In some seasons a visitor had much further to climb down to the water than in others . Câu hỏi yêu cầu so sánh quãng đường đi xuống tới nước giữa các mùa .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý về việc đi xuống tới nước vào những thời điểm khác nhau. Cụm chỉ thời điểm các tháng khô hơn (“in drier months”) đưa ta đến câu (2), đoạn 3. Đoạn 3 — in drier months",
+              "step3": "Đoạn 3: A visitor arriving when the water stood high had only a short way to go down , but in drier months a whole succession of levels had to be descended before the surface could be reached .",
+              "step4": "Câu hỏi nói: Có mùa du khách phải đi xuống xa hơn nhiều để tới nước so với mùa khác (“much further to climb down to the water”). Bài đọc nói: Khi mực nước cao , họ chỉ phải xuống một quãng ngắn (“only a short way”); nhưng trong các tháng khô hơn, họ phải xuống qua nhiều tầng (“a succession of levels”) mới tới mặt nước. ⇒ Bài đọc xác nhận sự chênh lệch mà câu hỏi nêu. Đáp án đúng: TRUE Đối chiếu paraphrasing: In some seasons in drier months; than in others when the water stood high much further to climb down a succession of levels had to be descended only a short way to go down FALSE Sai vì bài nêu rõ quãng đường ngắn khi nước cao, nhưng phải xuống qua nhiều tầng trong tháng khô. Chỉ chọn FALSE nếu bài nói quãng đường không thay đổi hoặc thay đổi theo hướng ngược lại. NOT GIVEN Nếu chỉ tìm đúng chữ “seasons” hay “climb”, sẽ dễ chọn NOT GIVEN Nhưng hai vế của câu (2) đã so sánh rõ quãng đường đi xuống. Chỉ chọn NOT GIVEN nếu bài không cho biết quãng đường ấy thay đổi thế nào giữa các thời điểm."
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "The stepwells were constructed without the support of pillars.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "The stepwells were constructed without the support of pillars . Ý câu hỏi: Từ phủ định không có (“without”) là điểm cần kiểm tra: các giếng bậc thang có được cột chống đỡ hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến phần mô tả cấu tạo giếng. Ở câu 2 đoạn 4, từ “pillars” cho biết đây là câu cần đọc kỹ. Đoạn 4 — pillars",
+              "step3": "Đoạn 4: All were raised in stone and held up by pillars , and many had shaded canopies where visitors could escape the merciless sun .",
+              "step4": "Câu hỏi nói: các giếng được xây mà không có cột chống đỡ (“ without the support of pillars ”). Bài đọc nói: tất cả các giếng được cột chống đỡ (“All”, “held up by pillars”). Hai ý trái ngược nhau. Đáp án đúng: FALSE Đối chiếu paraphrasing: without the support of pillars held up by pillars Đáp án TRUE Nếu chỉ thấy “pillars” ở cả câu hỏi và bài đọc, sẽ dễ chọn TRUE Nhưng câu hỏi nói không có, còn bài đọc nói có cột chống đỡ. Chỉ chọn TRUE nếu bài nói các giếng không được cột chống đỡ. NOT GIVEN Nếu tìm đúng cụm “constructed without” mà không thấy trong bài, sẽ dễ chọn NOT GIVEN Nhưng “held up by pillars” đã cho biết điều ngược lại. Chỉ chọn NOT GIVEN nếu bài không cho biết cột có chống đỡ các giếng hay không."
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Repairing a stepwell has become more expensive in recent years.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Repairing a stepwell has become more expensive in recent years . Cần kiểm tra chi phí sửa chữa có tăng trong những năm gần đây hay không, chứ không chỉ kiểm tra xem có việc sửa chữa hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý sửa chữa gần đây (“recent repair work”) => đây là vùng liên quan. Đoạn 4 — recent repair work",
+              "step3": "Đoạn mở đầu: Many were left to decay , yet recent repair work has restored much of their splendour .",
+              "step4": "Câu hỏi nói: Việc sửa giếng bậc thang đã trở nên đắt hơn (“has become more expensive”) trong những năm gần đây. Bài đọc nói: Có việc sửa chữa gần đây (“recent repair work”), nhưng toàn bài không cho biết chi phí sửa chữa hoặc chi phí ấy thay đổi ra sao. ⇒ Có sửa chữa gần đây không đồng nghĩa với sửa chữa đắt hơn trước. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: Repairing a stepwell repair work in recent years recent has become more expensive không có trong bài. Đáp án TRUE Nếu skim/scan thấy việc sửa chữa gần đây (“recent repair work”), sẽ dễ chọn TRUE Nhưng bài không nói chi phí tăng. Chỉ chọn TRUE nếu bài nói chi phí sửa chữa gần đây cao hơn trước. FALSE Sai vì không thấy nói chi phí tăng không có nghĩa là bài nói chi phí không tăng. Chỉ chọn FALSE nếu bài nói chi phí sửa chữa giữ nguyên hoặc giảm."
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Which part of a stepwell gave people shelter from the strong sun?",
+            "type": "FILL_IN_BLANK",
+            "correct": "canopies",
+            "explanation": {
+              "step1": "Which part of a stepwell gave people shelter from the strong sun ? Cần tìm tên một bộ phận giúp người đến giếng tránh nắng. Dự đoán đáp án là danh từ; dù câu hỏi dùng “part” ở số ít, từ trong bài có thể ở dạng số nhiều.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta dò ý tránh nắng và bắt đầu đọc ở đoạn 4 khi gặp từ chỉ mặt trời (“sun”). Đoạn 4 — sun",
+              "step3": "Đoạn 4: All were raised in stone and held up by pillars , and many had shaded canopies where visitors could escape the merciless sun .",
+              "step4": "Đáp án phù hợp nhất: canopies Câu hoàn chỉnh: Shaded canopies gave people shelter from the strong sun. (Những mái che tạo bóng râm giúp mọi người tránh nắng gắt .) => Khớp với dự đoán về một bộ phận che nắng: bài nêu canopies và nói khách có thể tránh nắng ở đó; đáp án gồm 1 từ. Đối chiếu paraphrasing: gave people shelter visitors could escape strong sun merciless sun pillars “ các cột trụ ”: Nếu đọc lướt câu (2), dễ chọn từ này vì nó đứng gần đáp án Nhưng các cột trụ nâng đỡ kết cấu (“held up by pillars”); phần giúp khách tránh nắng là canopies. steps “ các bậc thang ”: Đây cũng là một bộ phận của giếng, nhưng câu 1 đoạn 4 nói đến các bậc thang (“hundreds of steps”), không nói chúng che nắng."
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Which yearly rains, by failing again and again, are said to have made the wells' condition worse?",
+            "type": "FILL_IN_BLANK",
+            "correct": "monsoon",
+            "explanation": {
+              "step1": "Which yearly rains , by failing again and again , are said to have made the wells' condition worse ? Câu hỏi cần tên một loại mưa. Ta dự đoán đáp án là danh từ chỉ loại mưa ; dấu hiệu cần tìm trong bài là việc mưa nhiều lần không đến khiến tình trạng các giếng xấu đi.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý tình trạng xấu đi vì mưa liên tiếp không đến. Đoạn 5 có cụm tình trạng trở nên tệ hơn (“made worse”) => đây là vùng liên quan. Đoạn 5 — made worse",
+              "step3": "Đoạn 5: Matters have been made worse by the repeated failure of the monsoon in recent years , which left much of the region parched .",
+              "step4": "Đáp án phù hợp nhất: monsoon Câu hoàn chỉnh: The monsoon, by failing again and again, is said to have made the wells' condition worse. ( Mưa monsoon , do liên tiếp không đến, được cho là đã khiến tình trạng các giếng tệ hơn.) => Khớp với dự đoán về loại mưa và nguyên nhân tình trạng xấu đi trong bài; đáp án gồm 1 từ, còn đề không nêu giới hạn số từ. Đối chiếu paraphrasing: yearly rains the monsoon failing again and again repeated failure made the wells' condition worse Matters have been made worse aquifers “ tầng chứa nước ”: Nếu skim/scan đoạn 5, từ này dễ gây nhầm vì cũng liên quan đến nước Nhưng aquifers không phải loại mưa liên tiếp không đến. canopies “ mái che ”: Đoạn 4 nhắc đến bộ phận che nắng này, nhưng đó là đáp án cho câu hỏi khác trong nhóm, không phải loại mưa."
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Who visits stepwells frequently at the present time?",
+            "type": "FILL_IN_BLANK",
+            "correct": "sightseers",
+            "explanation": {
+              "step1": "Who visits stepwells frequently at the present time ? Câu hỏi cần một danh từ chỉ người hoặc nhóm người đến thăm stepwells hiện nay. Khi đọc, cần kiểm tra riêng liệu bài có xác nhận tần suất “frequently” hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp từ mang ý hiện nay (“at the present time”). Cụ thể, “now” ở đoạn 12 => đây là vùng liên quan. Đoạn 12 — at the present time",
+              "step3": "Đoạn 12: To the remotest corners of the north-west, sightseers now travel to marvel at architecture put up a thousand years ago — structures that testify both to the cleverness and craft of early societies and to how precious water has always been to human life . Bài xác nhận ai đến xem hiện nay qua “sightseers now travel”, nhưng không nêu họ đi thường xuyên đến mức nào.",
+              "step4": "Đáp án phù hợp nhất: sightseers Câu hoàn chỉnh: Sightseers visit stepwells at the present time. (Người tham quan đến thăm các giếng bậc thang hiện nay.) => Khớp với dự đoán về nhóm người và thông tin “now” trong bài; đáp án gồm 1 từ. Không đưa “frequently” vào câu hoàn chỉnh vì bài không xác nhận tần suất này. Đối chiếu paraphrasing: at the present time now visits stepwells travel to marvel at architecture travellers — người đi đường: Đoạn 2 nhắc các giếng là chỗ nghỉ cho họ (“resting spots for travellers”), không phải nhóm được nêu là đến xem hiện nay. Archaeological Survey of India Đây là tổ chức cứu hộ các công trình ở câu 1 đoạn 12, không phải nhóm người đến tham quan được hỏi."
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Restored by the ASI; still in fine condition despite the _____ of 2001",
+            "type": "FILL_IN_BLANK",
+            "correct": "cyclone",
+            "explanation": {
+              "step1": "Ở hàng Rani Amba Vav , ô số 9 nằm trong ghi chú: Restored by the ASI ; still in fine condition despite the 9. ___ of 2001 Sau “the” và trước “of 2001”, cần một danh từ chỉ sự kiện . Vì công trình *vẫn trong tình trạng tốt bất chấp* sự kiện ấy, ta dự đoán đó là một biến cố có thể gây hư hại .",
+              "step2": "Dựa vào tên riêng Rani Amba Vav => bắt đầu đọc ở câu 1, đoạn 7. Đoạn 7",
+              "step3": "Đoạn 7: The old Gujarati capital of Kharoda holds what may be the most beautiful of all the wells still standing, Rani Amba Vav , or the Queen's Stepwell . Remarkably, when a powerful cyclone tore across the area in 2001 , the centuries-old structure came through unharmed . Câu (1): xác định công trình đang hỏi là Rani Amba Vav. Câu (4): công trình không hư hại khi trận cyclone đi qua năm 2001 .",
+              "step4": "Đáp án phù hợp nhất: cyclone Câu hoàn chỉnh: Restored by the ASI; still in fine condition despite the cyclone of 2001 (Được ASI trùng tu; vẫn trong tình trạng tốt bất chấp trận bão năm 2001.) => Khớp với dự đoán về một biến cố có thể gây hư hại: bài đọc nói công trình vẫn nguyên vẹn sau trận bão; đáp án gồm 1 từ. Đối chiếu paraphrasing: still in fine condition came through unharmed of 2001 in 2001 flood “ trận lụt ”: Nếu skim/scan, em dễ chọn từ này vì đoạn 7 cũng nhắc đến một trận lụt (“after a flood”) Nhưng đó là sự kiện xảy ra khoảng hai trăm năm sau khi giếng được xây, không phải biến cố năm 2001. Đáp án silt “ bùn lắng ”: Sai vì “choked with silt” mô tả tình trạng từng khiến công trình cần được phục hồi, không phải sự kiện năm 2001 mà công trình vượt qua nguyên vẹn."
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Its steps form _____ that create a geometrical layout",
+            "type": "FILL_IN_BLANK",
+            "correct": "terraces",
+            "explanation": {
+              "step1": "Ở hàng Aditya Kund , cột Features: Its steps form 10. ___ that create a geometrical layout Ô trống cần một danh từ số nhiều chỉ thứ các bậc thang tạo thành: động từ “create” theo sau cho thấy thứ đó gồm nhiều phần.",
+              "step2": "Dựa vào tên riêng Aditya Kund => ta định vị được câu (1) ở đoạn 8, nơi công trình này được giới thiệu. Đoạn 8",
+              "step3": "Đoạn 8: Further north in Gujarat, beside a temple to the sun in the town of Velapur , stands the Aditya Kund , raised by King Devraj in 1032 as an offering to the sun . Strictly speaking it is a kund (an open pool rather than a true well) but it wears all the marks of stepwell design , its steps dropping to the floor in a sequence of terraces that form a striking geometric pattern . Câu (1): giới thiệu Aditya Kund để xác định công trình đang được nói tới. Câu (2): các bậc thang hạ xuống theo dãy terraces ; dãy này tạo nên hình dạng hình học.",
+              "step4": "Đáp án phù hợp nhất: terraces Câu hoàn chỉnh: Its steps form terraces that create a geometrical layout (Các bậc thang của Aditya Kund tạo thành những tầng bậc xếp theo bố cục hình học.) => Khớp với dự đoán về danh từ số nhiều; terraces được lấy nguyên văn từ bài đọc và gồm một từ. Đối chiếu paraphrasing: Its steps form its steps dropping + a sequence of terraces create a geometrical layout form a striking geometric pattern sequence “ một chuỗi ”: từ này đứng ngay trước terraces (“a sequence of terraces”). Nhưng “a sequence” là số ít, không khớp với “that create”. pattern “ hình dạng ”: có ý hình học (“geometric pattern”). Nhưng đây là hình dạng do các terraces tạo nên, không phải thứ cần điền sau “steps form”. floor “ đáy ”: Bài nói các bậc thang đi xuống đáy (“to the floor”), chứ không nói đáy tạo thành bố cục hình học."
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Has carved shrines; closer to a _____ than to a well",
+            "type": "FILL_IN_BLANK",
+            "correct": "pool",
+            "explanation": {
+              "step1": "Ở dòng Aditya Kund , cần hoàn thành vế: closer to a 11. ___ than to a well Sau “a” cần một danh từ số ít . Cụm so sánh cho biết phải tìm Aditya Kund gần với loại công trình nào hơn giếng .",
+              "step2": "Dựa vào tên riêng Aditya Kund => ta tìm đến đoạn 8, nơi công trình này được giới thiệu. Đoạn 8",
+              "step3": "Đoạn 8: Further north in Gujarat , beside a temple to the sun in the town of Velapur, stands the Aditya Kund , raised by King Devraj in 1032 as an offering to the sun . Strictly speaking it is a kund ( an open pool rather than a true well ) but it wears all the marks of stepwell design , its steps dropping to the floor in a sequence of terraces that form a striking geometric pattern . Câu (1)–(2): giới thiệu Aditya Kund rồi xác định nó là hồ nước lộ thiên, không phải giếng thực sự , dù mang thiết kế giếng bậc thang.",
+              "step4": "Đáp án phù hợp nhất: pool Câu hoàn chỉnh: Has carved shrines; closer to a pool than to a well (Có các điện thờ được chạm khắc; gần với dạng hồ nước hơn là giếng.) => Khớp dự đoán về danh từ số ít và định nghĩa trong bài; pool là 1 từ, đề không nêu giới hạn riêng. Đối chiếu paraphrasing: than to a well rather than a true well Đáp án kund — loại kund: Đây là tên loại công trình được giải thích trong ngoặc, còn từ cần điền là pool. terraces — các tầng bậc: Câu (2) có nhắc đến các tầng bậc, nhưng đó là đặc điểm của các bậc thang, không phải loại công trình được so với giếng. Đáp án well — giếng: Đây là vế bị loại trong so sánh, vì bài viết nói “rather than a true well”."
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "Old, deep and very dramatic; has _____ that give a view over the steps",
+            "type": "FILL_IN_BLANK",
+            "correct": "balconies",
+            "explanation": {
+              "step1": "Ở hàng Chandra Baori, mục ghi chú viết: Old, deep and very dramatic; has 12. ___ that give a view over the steps Dự đoán: Sau *has* cần một danh từ số nhiều chỉ bộ phận của công trình; bộ phận ấy cho phép nhìn ra các bậc thang.",
+              "step2": "Dựa vào tên riêng Chandra Baori => tìm đến đoạn 10 và bắt đầu đọc từ câu nhắc đến công trình này. Đoạn 10",
+              "step3": "Đoạn 10: Along the remaining wall, roofed balconies on richly decorated pillars look out across the steps .",
+              "step4": "Đáp án phù hợp nhất: balconies Câu hoàn chỉnh: Old, deep and very dramatic; has balconies that give a view over the steps (Cổ, sâu và rất ấn tượng; có các ban công nhìn ra các bậc thang.) => Khớp dự đoán về danh từ số nhiều: chính các ban công nhìn ra bậc thang; đáp án gồm 1 từ. Đối chiếu paraphrasing: give a view over the steps look out across the steps pillars “ các cột ”: cũng là danh từ số nhiều trong câu. Nhưng cột chỉ đỡ ban công (“on richly decorated pillars”); ban công mới nhìn ra bậc thang. steps “ các bậc thang ”: Sai vì đây là thứ được nhìn thấy, không phải bộ phận cho phép nhìn ra ngoài."
+            }
+          },
+          {
+            "id": 13,
+            "prompt": "Has two _____ levels",
+            "type": "FILL_IN_BLANK",
+            "correct": "submerged",
+            "explanation": {
+              "step1": "Ở dòng Neelkanth Ki Baori, ô trống nằm trong phần đặc điểm: Has two 13. ___ levels Chỗ trống đứng trước *levels*, nên cần một tính từ hoặc phân từ mô tả hai tầng . Chưa thể biết đó là đặc điểm gì nếu chỉ nhìn câu hỏi.",
+              "step2": "Dựa vào tên riêng Neelkanth Ki Baori => ta tìm đến đoạn 11 và bắt đầu đọc từ câu giới thiệu giếng này. Đoạn 11",
+              "step3": "Đoạn 11: One well people still use stands a little way off the Jaipur–Delhi highway : Neelkanth Ki Baori . Built around 1720, it goes down nine storeys , of which the two lowest remain permanently submerged . Câu (1): xác định giếng Neelkanth Ki Baori. Câu (2): giếng có chín tầng; hai tầng thấp nhất bị ngập nước .",
+              "step4": "Đáp án phù hợp nhất: submerged Câu hoàn chỉnh: Has two submerged levels (Có hai tầng bị ngập nước.) => Khớp với dự đoán: *submerged* mô tả tình trạng của hai tầng; đáp án gồm 1 từ. Đối chiếu paraphrasing: levels storeys lowest “ thấp nhất ”: Từ này chỉ hai tầng nào, không nói tình trạng bị ngập mà ô trống cần điền. permanently “ vĩnh viễn ”: Từ này bổ nghĩa cho submerged; đứng một mình trước levels thì không đúng ngữ pháp. Đáp án nine “ chín ”: Đây là tổng số tầng của giếng, không phải đặc điểm của hai tầng được hỏi."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-10-reading-1-p2",
+        "passageNumber": 2,
+        "title": "EUROPEAN TRANSPORT SYSTEMS 1990–2010",
+        "subtitle": "What have been the trends and what are the prospects for European transport systems?",
+        "content": [
+          "[A]  Strong economic expansion is hard to imagine without transport that works efficiently. Today's information technologies, by enabling teleworking and online services, can trim the need to move people and goods physically; even so, demand for transport keeps climbing. Two forces drive this. For passengers, what matters most is the extraordinary rise in private car use: across the roads of the European Union (EU), the fleet grew by close to four million vehicles a year between 1990 and 2010, and a further sizeable rise is expected over the coming decade.",
+          "[B]  When it comes to freight, much of the increase traces to shifts in Europe's economy and in the way goods are produced. Over the past two decades the removal of internal borders has carried the EU from a 'stock' model towards a 'flow' one. Reinforcing this, certain industries — labour-intensive ones above all — have moved production elsewhere in search of lower costs, often leaving the manufacturing site hundreds, sometimes thousands, of kilometres from where final assembly happens or from the people who will use the product.",
+          "[C]  Robust growth is also forecast in the states now applying to join the EU, adding further to transport flows, road freight most of all. By 1996 several were already exporting almost three times their 1990 volumes, while their imports had climbed beyond six times the 1990 figure. Many applicant states inherited networks built around the railways, yet since the early 1990s the split between modes has swung heavily towards the road. Road haulage grew by 22.6 per cent between 1990 and 1996, whereas rail freight fell by 39.8 per cent, though rail there still runs, on average, well above the levels seen in current member states.",
+          "[D]  A fresh priority — sustainable development — now opens the way to reshaping the EU's common transport policy. Endorsed at the Aveiro European Council, the aim is to be reached by weaving environmental thinking into Community policy, with altering the balance among transport modes at its centre. Full delivery of so ambitious an aim will not be possible before 2025; even so, the proposed measures mark a necessary first move toward a sustainable transport system that ought, a generation from now — by 2045 — to be running.",
+          "[E]  Back in 1996 the energy burned in transport was responsible for 31 per cent of emissions of CO2, the foremost greenhouse gas. Recent projections suggest that, if the upward trend in traffic goes unchecked, transport's CO2 output will swell by roughly 45 per cent, reaching 1,038 billion tonnes by 2025 against the 716 billion tonnes logged in 1990. Here again the chief offender is road transport, generating on its own 86 per cent of the CO2 that transport releases. Turning to alternative fuels and raising energy efficiency is therefore at once an environmental obligation and a technological challenge.",
+          "[F]  Why the transport balance must be corrected. \n\nAlongside this, much more must be done to bring about a shift between modes. No such change can happen from one day to the next, least of all after more than fifty years in which the balance has slid steadily the way of the road. Matters have gone so far that rail freight is now pushed to the margins, holding a mere 9 per cent of the market, while cross-border goods trains crawl at an average of just 16 kilometres an hour. From this, three broad options have taken shape.",
+          "[G]  Under the first option, road transport alone would be tackled, purely through pricing, with nothing done in parallel to strengthen the other modes. For a while this might hold back road traffic's rise, since dearer transport tends to raise how fully lorries are loaded and how many passengers each car carries. The problem is that, without any accompanying effort to revive the other modes, the more sustainable alternatives would have no way to step in and take over.",
+          "[H]  The second option likewise leans on charging for road use, but this time alongside steps to make the other modes work better — through improved service quality, smarter logistics and new technology. What it omits is any spending on fresh infrastructure, and it gives no assurance of stronger cohesion between regions. It could loosen the tie between road growth and economic growth rather more than the first, yet the road would still hold the largest share of traffic and keep clustering along overloaded routes, for all that it pollutes more than any other mode. On its own, then, it cannot secure the change of balance needed.",
+          "[I]  The third option is not a novelty. It brings together a whole range of measures, from pricing at one end to reviving the alternative modes and channelling investment into the trans-European network of railways and waterways at the other. Integrated in this way, it would let the other modes recover the market shares they held in 1996 and so tip the balance back. Given fifty years of built-in bias toward the road, it is far bolder than it looks; even so, it would sharply break the link between growth in road traffic and economic growth, without curbing the freedom of people and goods to move."
+        ],
+        "questions": [
+          {
+            "id": 14,
+            "prompt": "Choose the correct heading for Section A:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "The surge in privately owned vehicles",
+            "explanation": {
+              "step1": "Đoạn A: Strong economic expansion is hard to imagine without transport that works efficiently . Today's information technologies , by enabling teleworking and online services, can trim the need to move people and goods physically ; even so , demand for transport keeps climbing . Two forces drive this . For passengers , what matters most is the extraordinary rise in private car use : across the roads of the European Union (EU), the fleet grew by close to four million vehicles a year between 1990 and 2010 , and a further sizeable rise is expected over the coming decade . Câu (1)–(2): đặt nền về vai trò và nhu cầu vận tải; công nghệ có thể giảm nhu cầu di chuyển, nhưng nhu cầu vận tải vẫn tăng. Câu (3)–(4): chuyển sang nguyên nhân, rồi tập trung triển khai việc dùng xe cá nhân tăng mạnh , với dự báo còn tăng tiếp. Đoạn A — extraordinary rise",
+              "step2": "Việc sử dụng xe cá nhân tăng mạnh và được dự báo sẽ tiếp tục tăng. Đáp án đúng: The surge in privately owned vehicles ( Sự tăng mạnh về xe cá nhân ). Đối chiếu paraphrasing: The surge extraordinary rise privately owned vehicles private car use Heading thứ 6. “ Đề xuất xây dựng các hệ thống đường bộ mới quy mô lớn ”: Nếu scan thấy cụm về đường bộ (“across the roads”) ở câu (4), dễ tưởng đoạn bàn về xây đường Nhưng nội dung là xe cá nhân tăng, không phải đề xuất xây dựng đường mới. Heading thứ 5. “ Một mục tiêu mới quan trọng cho những năm tới ”: thông tin được dự báo (“is expected”) ở câu (4) với mục tiêu tương lai. Nhưng đây là dự báo về xu hướng, không phải mục tiêu cần đạt. Heading thứ 10. “ Những thay đổi trong sản xuất đã làm thay đổi việc vận chuyển hàng hóa như thế nào ”: Nếu scan thấy hàng hóa (“goods”) ở câu (2), dễ chọn heading này Nhưng đó chỉ là phần dẫn; đoạn A triển khai việc dùng xe cá nhân tăng, không giải thích thay đổi trong sản xuất.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: The surge in privately owned vehicles"
+            }
+          },
+          {
+            "id": 15,
+            "prompt": "Choose the correct heading for Section B:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "Relying on pricing alone to limit road transport",
+            "explanation": {
+              "step1": "Đoạn B: When it comes to freight , much of the increase traces to shifts in Europe's economy and in the way goods are produced . Over the past two decades the removal of internal borders has carried the EU from a 'stock' model towards a 'flow' one . Reinforcing this , certain industries — labour-intensive ones above all — have moved production elsewhere in search of lower costs , often leaving the manufacturing site hundreds , sometimes thousands, of kilometres from where final assembly happens or from the people who will use the product . Câu (1): nêu nguyên nhân khái quát — vận chuyển hàng hóa tăng do thay đổi cách sản xuất . Câu (2)–(3): cụ thể hóa — chuyển mô hình từ trữ hàng sang luân chuyển ; đồng thời chuyển nơi sản xuất đi xa người sử dụng . Đoạn B — freight",
+              "step2": "Những thay đổi trong cách tổ chức và địa điểm sản xuất làm thay đổi nhu cầu vận chuyển hàng hóa . Đáp án đúng: How production changes have altered the movement of freight ( Những thay đổi trong sản xuất đã làm thay đổi việc vận chuyển hàng hóa như thế nào ). Đối chiếu paraphrasing: production changes the way goods are produced + have moved production elsewhere have altered the movement of freight the increase traces to shifts Đáp án 3. “ Chi phí vận chuyển hàng hóa bằng đường sắt ngày càng tăng ”: Nếu skim/scan thấy chi phí thấp hơn (“lower costs”) ở câu (3), em có thể liên tưởng đến chi phí vận tải Nhưng đây là động cơ chuyển nơi sản xuất, không phải chi phí vận chuyển bằng đường sắt đang tăng. Đáp án 7. “ Các mô hình vận tải ở những nước đang muốn gia nhập Union ”: Nếu skim/scan thấy EU và biên giới nội bộ (“internal borders”) ở câu (2), em dễ liên tưởng đến việc gia nhập Nhưng đoạn đang giải thích thay đổi trong sản xuất và vận chuyển hàng hóa, không mô tả các nước xin gia nhập.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Relying on pricing alone to limit road transport"
+            }
+          },
+          {
+            "id": 16,
+            "prompt": "Choose the correct heading for Section C:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "The pollution caused by traffic on roads",
+            "explanation": {
+              "step1": "Paragraph C Đoạn C: Robust growth is also forecast in the states now applying to join the EU , adding further to transport flows , road freight most of all . By 1996 several were already exporting almost three times their 1990 volumes , while their imports had climbed beyond six times the 1990 figure . Many applicant states inherited networks built around the railways , yet since the early 1990s the split between modes has swung heavily towards the road . Road haulage grew by 22.6 per cent between 1990 and 1996 , whereas rail freight fell by 39.8 per cent , though rail there still runs , on average, well above the levels seen in current member states . Câu (1)–(2): xác định nhóm các nước đang xin gia nhập EU ; dự báo luồng vận tải tăng, đồng thời nêu mức tăng xuất nhập khẩu. Câu (3)–(4): từ nền tảng mạng lưới đường sắt chuyển sang đường bộ => đường bộ tăng, đường sắt giảm , dù đường sắt vẫn cao hơn mức ở các nước thành viên hiện tại. Đoạn C — applying to join the EU",
+              "step2": "Đoạn mô tả xu hướng vận tải tại các nước đang xin gia nhập EU , nổi bật là tăng trưởng và chuyển dịch sang đường bộ . Đáp án đúng: Transport patterns in states hoping to join the Union ( Các xu hướng vận tải ở những nước mong muốn gia nhập EU ). Đối chiếu paraphrasing: Transport patterns Road haulage grew + rail freight fell states hoping to join the Union states now applying to join the EU The surge in privately owned vehicles Heading này nói về xe cá nhân tăng mạnh, nên dễ chọn nhầm nếu chỉ thấy đường bộ tăng (“Road haulage grew”) Nhưng câu (4) nói về vận tải hàng hóa, không phải số xe cá nhân. The rising expense of moving goods by rail cùng nhắc tới vận tải đường sắt (“rail freight”). Nhưng heading nói chi phí tăng, còn câu (4) chỉ cho biết lượng vận tải đường sắt giảm (“fell”).",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: The pollution caused by traffic on roads"
+            }
+          },
+          {
+            "id": 17,
+            "prompt": "Choose the correct heading for Section D:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "Proposals for building large new road systems",
+            "explanation": {
+              "step1": "Đoạn D: A fresh priority — sustainable development — now opens the way to reshaping the EU's common transport policy . Endorsed at the Aveiro European Council, the aim is to be reached by weaving environmental thinking into Community policy , with altering the balance among transport modes at its centre . Full delivery of so ambitious an aim will not be possible before 2025 ; even so, the proposed measures mark a necessary first move toward a sustainable transport system that ought, a generation from now — by 2045 — to be running . Câu (1): giới thiệu ưu tiên mới là phát triển bền vững, mở hướng thay đổi chính sách vận tải EU. Câu (2): tiếp nối mục tiêu đó và giải thích cách thực hiện: đưa tư duy môi trường vào chính sách. Câu (3): cho thấy mục tiêu cần thời gian dài để hoàn thành ; dù vậy, các biện pháp đề xuất vẫn là bước đầu cần thiết. Đoạn D — A fresh priority",
+              "step2": "Đoạn giới thiệu một mục tiêu mới, quan trọng và dài hạn : hướng tới hệ thống vận tải EU bền vững. Đáp án đúng: An important new aim for the years ahead ( Một mục tiêu mới quan trọng cho những năm tới ). Đối chiếu paraphrasing: An important new aim A fresh priority for the years ahead will not be possible before 2025 Adopting every measure needed to redirect transport “ — Áp dụng mọi biện pháp cần thiết để chuyển hướng vận tải ”: khi thấy các biện pháp được đề xuất (“the proposed measures”). Nhưng trọng tâm đoạn D là mục tiêu mới và dài hạn, không phải việc áp dụng đầy đủ mọi nhóm biện pháp. Proposals for building large new road systems “ — Đề xuất xây dựng các hệ thống đường bộ lớn mới ”: cụm hệ thống vận tải bền vững (“a sustainable transport system”) với xây dựng đường bộ. Nhưng đoạn nói về định hướng chính sách vận tải, không nêu việc xây các hệ thống đường bộ lớn. The pollution caused by traffic on roads “ — Ô nhiễm do giao thông đường bộ ”: Dễ liên tưởng từ tư duy môi trường (“environmental thinking”) sang ô nhiễm Nhưng đây là cách thực hiện mục tiêu phát triển bền vững; đoạn D không tập trung mô tả ô nhiễm do đường bộ.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Proposals for building large new road systems"
+            }
+          },
+          {
+            "id": 18,
+            "prompt": "Choose the correct heading for Section E:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "Adopting every measure needed to redirect transport",
+            "explanation": {
+              "step1": "Đoạn E: Back in 1996 the energy burned in transport was responsible for 31 per cent of emissions of CO2 , the foremost greenhouse gas . Recent projections suggest that , if the upward trend in traffic goes unchecked , transport's CO2 output will swell by roughly 45 per cent , reaching 1,038 billion tonnes by 2025 against the 716 billion tonnes logged in 1990 . Here again the chief offender is road transport , generating on its own 86 per cent of the CO2 that transport releases . Turning to alternative fuels and raising energy efficiency is therefore at once an environmental obligation and a technological challenge . Câu (1)–(2): nêu khí thải từ vận tải và dự báo khí thải tăng nếu giao thông tiếp tục gia tăng mà không được kiểm soát. Câu (3): xác định vận tải đường bộ là thủ phạm chính của vấn đề khí thải . Câu (4): từ đó kết luận cần chuyển sang nhiên liệu thay thế vì trách nhiệm môi trường. Đoạn E — emissions of CO2",
+              "step2": "Đoạn tập trung vào ô nhiễm do giao thông đường bộ gây ra ; giải pháp cuối đoạn là hướng ứng phó với vấn đề này. Đáp án đúng: The pollution caused by traffic on roads (Ô nhiễm do giao thông đường bộ gây ra). Đối chiếu paraphrasing: pollution emissions of CO2 traffic on roads road transport Một mục tiêu mới quan trọng cho những năm tới “ (“An important new aim for the years ahead”) ”: câu (2) đưa ra dự báo tương lai. Nhưng đây là dự báo khí thải tăng, không phải giới thiệu một mục tiêu mới. Áp dụng mọi biện pháp cần thiết để chuyển hướng vận tải “ (“Adopting every measure needed to redirect transport”) ”: câu (4) nhắc nhiên liệu thay thế và hiệu quả năng lượng. Nhưng đó chỉ là kết luận ứng phó với ô nhiễm, không phải một gói biện pháp toàn diện để chuyển dịch cơ cấu vận tải. Sự gia tăng mạnh của xe thuộc sở hữu tư nhân “ (“The surge in privately owned vehicles”) ”: nếu chỉ chú ý xu hướng giao thông tăng (“the upward trend in traffic”) ở câu (2). Nhưng sự gia tăng ấy là điều kiện khiến khí thải tăng; trọng tâm đoạn là ô nhiễm, không phải số lượng xe cá nhân.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Adopting every measure needed to redirect transport"
+            }
+          },
+          {
+            "id": 19,
+            "prompt": "Choose the correct heading for Section F:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "An important new aim for the years ahead",
+            "explanation": {
+              "step1": "Đoạn G: Under the first option, road transport alone would be tackled, purely through pricing , with nothing done in parallel to strengthen the other modes . For a while this might hold back road traffic's rise , since dearer transport tends to raise how fully lorries are loaded and how many passengers each car carries . The problem is that , without any accompanying effort to revive the other modes , the more sustainable alternatives would have no way to step in and take over . Câu (1): giới thiệu phương án chỉ dùng giá để tác động đến vận tải đường bộ, không hỗ trợ các phương thức khác . Câu (2): nêu tác dụng có thể có trong thời gian ngắn, rồi giải thích cơ chế qua số hành khách mỗi xe chở. Câu (3): chỉ ra hạn chế: thiếu hỗ trợ thì các phương thức thay thế không thể tiếp quản. Đoạn G — road transport alone",
+              "step2": "Phương án chỉ dựa vào giá để hạn chế vận tải đường bộ , không đồng thời hỗ trợ các phương thức thay thế. Đáp án đúng: Relying on pricing alone to limit road transport (Chỉ dựa vào giá để hạn chế vận tải đường bộ ). Đối chiếu paraphrasing: Relying on pricing alone purely through pricing to limit road transport hold back road traffic's rise Combining road charges with better alternative services “ — Kết hợp phí đường bộ với dịch vụ thay thế tốt hơn ”: Nếu chỉ thấy yếu tố giá và các phương thức khác, dễ tưởng đoạn nói về sự kết hợp Nhưng câu (1) nhấn mạnh không có hành động hỗ trợ các phương thức khác (“with nothing done”). Adopting every measure needed to redirect transport “ — Áp dụng mọi biện pháp cần thiết để chuyển hướng vận tải ”: Sai vì câu (1) giới hạn công cụ ở việc điều chỉnh giá (“purely through pricing”), chứ không phải áp dụng đầy đủ các biện pháp. The rising expense of moving goods by rail “ — Chi phí vận chuyển hàng hóa bằng đường sắt tăng ”: Dễ bị hút bởi ý vận tải đắt hơn (“dearer transport”) ở câu (2) Nhưng đây là cơ chế của biện pháp giá đối với đường bộ, không phải xu hướng tăng chi phí vận chuyển bằng đường sắt.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: An important new aim for the years ahead"
+            }
+          },
+          {
+            "id": 20,
+            "prompt": "Choose the correct heading for Section G:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "Relying on pricing alone to limit road transport",
+            "explanation": {
+              "step1": "Đoạn H: The second option likewise leans on charging for road use , but this time alongside steps to make the other modes work better — through improved service quality, smarter logistics and new technology . What it omits is any spending on fresh infrastructure , and it gives no assurance of stronger cohesion between regions . It could loosen the tie between road growth and economic growth rather more than the first , yet the road would still hold the largest share of traffic and keep clustering along overloaded routes , for all that it pollutes more than any other mode . On its own, then, it cannot secure the change of balance needed . Câu (1): giới thiệu phương án thu phí đường bộ + cải thiện các phương thức khác . Câu (2): nêu phần còn thiếu: đầu tư hạ tầng mới và bảo đảm gắn kết vùng. Câu (3)–(4): đánh giá hiệu quả có giới hạn: đường bộ vẫn chiếm ưu thế => phương án này đứng riêng chưa đủ để chuyển dịch cân bằng . Đoạn H — charging for road use",
+              "step2": "Phương án thứ hai kết hợp thu phí đường bộ với cải thiện các phương thức vận tải khác , nhưng vẫn còn hạn chế. Đáp án đúng: Combining road charges with better alternative services (Kết hợp thu phí đường bộ với dịch vụ vận tải thay thế tốt hơn ). Đối chiếu paraphrasing: road charges charging for road use Combining alongside better alternative services make the other modes work better Chỉ dựa vào giá “ để hạn chế vận tải đường bộ ”: câu (1) có thu phí sử dụng đường bộ (“charging for road use”). Nhưng câu này còn nêu việc kết hợp (“alongside”) với cải thiện các phương thức khác, nên không phải chỉ dựa vào giá (“pricing alone”). Áp dụng mọi biện pháp cần thiết “ để chuyển hướng vận tải ”: phương án kết hợp nhiều biện pháp. Nhưng câu (2) chỉ ra phần còn thiếu, và câu (4) kết luận phương án đứng riêng vẫn không bảo đảm được sự thay đổi cần thiết (“cannot secure”). Ô nhiễm do giao thông đường bộ câu (3) nói đường bộ gây ô nhiễm nhiều hơn (“pollutes more than any other mode”). Nhưng đây chỉ là chi tiết trong phần đánh giá; trọng tâm đoạn là phương án kết hợp thu phí với cải thiện các phương thức khác.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Relying on pricing alone to limit road transport"
+            }
+          },
+          {
+            "id": 21,
+            "prompt": "Choose the correct heading for Section H:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Relying on pricing alone to limit road transport",
+              "The surge in privately owned vehicles",
+              "The rising expense of moving goods by rail",
+              "Combining road charges with better alternative services",
+              "An important new aim for the years ahead",
+              "Proposals for building large new road systems",
+              "Transport patterns in states hoping to join the Union",
+              "The pollution caused by traffic on roads",
+              "Adopting every measure needed to redirect transport",
+              "How production changes have altered the movement of freight"
+            ],
+            "correct": "An important new aim for the years ahead",
+            "explanation": {
+              "step1": "Đoạn I: The third option is not a novelty . It brings together a whole range of measures , from pricing at one end to reviving the alternative modes and channelling investment into the trans-European network of railways and waterways at the other . Integrated in this way , it would let the other modes recover the market shares they held in 1996 and so tip the balance back . Given fifty years of built-in bias toward the road , it is far bolder than it looks ; even so , it would sharply break the link between growth in road traffic and economic growth , without curbing the freedom of people and goods to move . Câu (1): giới thiệu phương án thứ ba, vốn không phải ý tưởng mới. Câu (2): nêu cách phối hợp nhiều biện pháp — định giá + phục hồi phương thức thay thế + đầu tư vào đường sắt. Câu (3)–(4): nêu tác dụng — tái cân bằng vận tải , giảm sự gắn kết giữa tăng trưởng giao thông đường bộ và tăng trưởng kinh tế mà không hạn chế di chuyển. Đoạn I — whole range of measures",
+              "step2": "Kết hợp một gói biện pháp toàn diện để chuyển dịch cán cân vận tải sang các phương thức thay thế đường bộ. Đáp án đúng: Heading 9. Adopting every measure needed to redirect transport (Áp dụng mọi biện pháp cần thiết để chuyển hướng vận tải). Đối chiếu paraphrasing: Adopting every measure needed brings together a whole range of measures redirect transport tip the balance back Đáp án 4. “ Kết hợp thu phí đường bộ với dịch vụ thay thế tốt hơn ”: câu (2) vừa có định giá (“pricing”), vừa có khôi phục phương thức thay thế (“reviving the alternative modes”). Nhưng đoạn còn nêu đầu tư vào mạng lưới, nên heading này chưa bao quát toàn bộ gói biện pháp. Đáp án 1. “ Chỉ dựa vào định giá để hạn chế vận tải đường bộ ”: Nếu chỉ scan thấy định giá (“pricing”) sẽ dễ chọn nhầm Nhưng câu (2) nhấn mạnh kết hợp nhiều biện pháp, trái với việc chỉ dùng định giá (“pricing alone”). Đáp án 6. “ Đề xuất xây dựng các hệ thống đường bộ mới quy mô lớn ”: câu (2) đề cập việc rót vốn (“channelling investment”). Nhưng đối tượng đầu tư là đường sắt (“railways”), không phải đường bộ mới.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: An important new aim for the years ahead"
+            }
+          },
+          {
+            "id": 22,
+            "prompt": "The number of cars on EU roads is expected to drop over the next ten years.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "The number of cars on EU roads is expected to drop over the next ten years . Ý câu hỏi: Số ô tô trên đường EU được dự báo giảm trong mười năm tới .",
+              "step2": "Dựa vào từ khoá đặc biệt EU, ta định vị được câu 4 đoạn A, nơi nói về việc sử dụng ô tô cá nhân (“private car use”). Đoạn A",
+              "step3": "Đoạn A: For passengers, what matters most is the extraordinary rise in private car use : across the roads of the European Union (EU) , the fleet grew by close to four million vehicles a year between 1990 and 2010 , and a further sizeable rise is expected over the coming decade .",
+              "step4": "Câu hỏi nói: Trong mười năm tới, số ô tô trên đường EU được dự báo giảm (“is expected to drop ”). Bài đọc nói: Trong cùng khoảng thời gian đó (“ over the coming decade ”), số ô tô được dự báo tiếp tục tăng (“a further sizeable rise is expected”). ⇒ Cùng đối tượng và thời gian , nhưng chiều hướng tăng >< giảm : hai ý mâu thuẫn. Đáp án đúng: FALSE Đối chiếu paraphrasing: drop rise the next ten years the coming decade Đáp án TRUE Nếu chỉ đối chiếu ô tô, EU và thời gian, dễ chọn TRUE Nhưng chiều hướng tăng trong bài trái với giảm trong câu hỏi. Chỉ chọn TRUE nếu bài dự báo số ô tô trên đường EU sẽ giảm trong mười năm tới. NOT GIVEN nếu nghĩ thập kỷ tới (“the coming decade”) khác mười năm tới. Nhưng đây là cùng khoảng thời gian và bài đã nêu rõ dự báo tăng. Chỉ chọn NOT GIVEN nếu bài không cho biết số ô tô trên đường EU được dự báo tăng hay giảm trong thời gian đó."
+            }
+          },
+          {
+            "id": 23,
+            "prompt": "Some industries have relocated their factories far from the places where their products are finally put together or consumed.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "Some industries have relocated their factories far from the places where their products are finally put together or consumed . Ý câu hỏi: Một số ngành đã chuyển nhà máy ra xa nơi sản phẩm được lắp ráp hoàn chỉnh hoặc tiêu dùng .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý di dời cơ sở sản xuất . Đoạn B có cụm chuyển sản xuất sang nơi khác (“have moved production elsewhere ”) => bắt đầu đọc kĩ tại câu này. Đoạn B — have moved production elsewhere",
+              "step3": "Đoạn B: Reinforcing this, certain industries — labour-intensive ones above all — have moved production elsewhere in search of lower costs , often leaving the manufacturing site hundreds , sometimes thousands, of kilometres from where final assembly happens or from the people who will use the product .",
+              "step4": "Câu hỏi nói: Một số ngành di dời nhà máy ra xa nơi lắp ráp cuối cùng hoặc tiêu dùng . Bài đọc nói: Một số ngành chuyển sản xuất sang nơi khác , khiến cơ sở sản xuất thường cách nơi lắp ráp cuối cùng hoặc người sử dụng hàng trăm kilômét . => Hai bên cùng diễn đạt việc di dời và khoảng cách xa ; thông tin trong câu hỏi được xác nhận. Đáp án đúng: TRUE Đối chiếu paraphrasing: relocated their factories moved production elsewhere far from hundreds + of kilometres finally put together final assembly consumed use the product FALSE Sai vì câu (3) xác nhận cơ sở sản xuất ở xa, không đưa ra thông tin ngược lại. Chỉ chọn FALSE nếu bài nói cơ sở sản xuất vẫn ở gần nơi lắp ráp cuối cùng hoặc người sử dụng. NOT GIVEN Nếu chỉ tìm đúng chữ nhà máy (“factories”), sẽ dễ tưởng bài không đề cập Nhưng bài dùng cách gọi tương đương là cơ sở sản xuất (“the manufacturing site”) và nêu rõ khoảng cách. Chỉ chọn NOT GIVEN nếu bài chỉ nói các ngành chuyển sản xuất mà không cho biết khoảng cách tới nơi lắp ráp hoặc người sử dụng."
+            }
+          },
+          {
+            "id": 24,
+            "prompt": "Since the 1990s, freight transport in the countries seeking to join the EU has moved markedly towards roads.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "Since the 1990s , freight transport in the countries seeking to join the EU has moved markedly towards roads . Ý câu hỏi: Từ thập niên 1990 , vận tải hàng hóa tại các nước đang xin gia nhập EU đã chuyển dịch rõ rệt sang đường bộ .",
+              "step2": "Ta đọc nhanh để tìm thông tin về các nước đang xin gia nhập EU. Ở đoạn C, cụm các nước ứng viên (“applicant states”) cùng mốc từ đầu thập niên 1990 (“since the early 1990s”) cho biết nơi cần đọc kĩ. Đoạn C — applicant states",
+              "step3": "Đoạn C: Many applicant states inherited networks built around the railways , yet since the early 1990s the split between modes has swung heavily towards the road . Road haulage grew by 22.6 per cent between 1990 and 1996 , whereas rail freight fell by 39.8 per cent , though rail there still runs, on average, well above the levels seen in current member states . Gợi ý: Từ nối nhượng bộ (“though”) báo hiệu phần bổ sung không làm thay đổi xu hướng đường bộ tăng, đường sắt giảm vừa nêu. Câu (3): mạng lưới vốn dựa vào đường sắt >< từ đầu thập niên 1990 , tỷ trọng chuyển mạnh sang đường bộ . Câu (4): chứng minh xu hướng đó trong vận tải hàng hóa: đường bộ tăng >< đường sắt giảm .",
+              "step4": "Câu hỏi nói: Từ thập niên 1990, vận tải hàng hóa tại các nước xin gia nhập EU đã chuyển mạnh sang đường bộ . Bài đọc nói: Tại nhóm nước này, tỷ trọng đã chuyển mạnh sang đường bộ từ đầu thập niên 1990 ; cụ thể, vận tải hàng hóa đường bộ tăng trong khi đường sắt giảm. => Hai bên cùng nghĩa , đúng nhóm nước, thời gian và hướng chuyển dịch . Đáp án đúng: TRUE Đối chiếu paraphrasing: the countries seeking to join the EU applicant states has moved markedly towards roads has swung heavily towards the road FALSE Nếu chỉ thấy mạng lưới vốn lấy đường sắt làm trung tâm (“built around the railways”), dễ chọn FALSE Nhưng đó là nền tảng ban đầu, không phải hướng chuyển dịch từ thập niên 1990. Chỉ chọn FALSE nếu bài nói vận tải hàng hóa chuyển sang đường sắt hoặc rời xa đường bộ trong giai đoạn này. NOT GIVEN Nếu chỉ đọc câu (3), có thể chưa chắc bài nói riêng về vận tải hàng hóa Nhưng câu (4) đã nêu rõ hàng hóa đường bộ tăng, còn hàng hóa đường sắt giảm. Chỉ chọn NOT GIVEN nếu bài không cho biết hướng chuyển dịch của vận tải hàng hóa tại nhóm nước này trong giai đoạn được hỏi."
+            }
+          },
+          {
+            "id": 25,
+            "prompt": "Environmental concerns play only a minor part in the new transport strategy.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "Environmental concerns play only a minor part in the new transport strategy . Cần kiểm tra mức độ quan trọng của môi trường , không chỉ xem môi trường có được nhắc đến hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến ý về ưu tiên của chính sách giao thông mới. Đoạn D mở đầu bằng một ưu tiên mới (“ A fresh priority ”) => đây là điểm bắt đầu đọc kĩ. Đoạn D — A fresh priority",
+              "step3": "Đoạn D: A fresh priority — sustainable development — now opens the way to reshaping the EU's common transport policy . Endorsed at the Aveiro European Council, the aim is to be reached by weaving environmental thinking into Community policy , with altering the balance among transport modes at its centre . Câu (1): phát triển bền vững là ưu tiên mới định hướng việc thay đổi chính sách giao thông. Câu (2): nêu cách thực hiện mục tiêu đó — đưa tư duy môi trường vào chính sách.",
+              "step4": "Câu hỏi nói: môi trường chỉ đóng vai trò nhỏ (“ only a minor part ”) trong chiến lược giao thông mới. Bài đọc nói: phát triển bền vững là một ưu tiên mới (“ A fresh priority ”), và mục tiêu này được thực hiện bằng cách đưa tư duy môi trường vào chính sách. => Hai ý mâu thuẫn về mức độ quan trọng của môi trường. Đáp án đúng: FALSE Đối chiếu paraphrasing: Environmental concerns environmental thinking only a minor part A fresh priority Đáp án TRUE Sai vì câu hỏi nói môi trường chỉ là yếu tố phụ, trong khi bài xác định phát triển bền vững là một ưu tiên. Chỉ chọn TRUE nếu bài nói môi trường chỉ đóng vai trò thứ yếu trong chiến lược mới. NOT GIVEN Nếu scan không thấy cụm vai trò nhỏ (“minor part”) trong bài, dễ chọn NOT GIVEN Nhưng từ ưu tiên (“priority”) đã cho biết mức độ quan trọng. Chỉ chọn NOT GIVEN nếu bài nhắc tới môi trường mà không cho biết nó giữ vai trò quan trọng hay thứ yếu."
+            }
+          },
+          {
+            "id": 26,
+            "prompt": "Switching to greener fuels would be too costly for most transport operators.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Switching to greener fuels would be too costly for most transport operators . Ý câu hỏi: Cần kiểm tra liệu việc chuyển sang nhiên liệu xanh có quá tốn kém với phần lớn đơn vị vận tải hay không.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý chuyển sang nhiên liệu thân thiện hơn với môi trường. Đoạn E có cụm chuyển sang nhiên liệu thay thế (“Turning to alternative fuels”) => đây là điểm bắt đầu đọc kĩ. Đoạn E — Turning to alternative fuels",
+              "step3": "Đoạn E: Turning to alternative fuels and raising energy efficiency is therefore at once an environmental obligation and a technological challenge .",
+              "step4": "Câu hỏi nói: Việc chuyển nhiên liệu sẽ quá tốn kém đối với phần lớn đơn vị vận tải (“too costly for most transport operators”). Bài đọc nói: Việc này là nghĩa vụ môi trường và một thách thức công nghệ (“ a technological challenge ”), nhưng không đánh giá mức chi phí hay khả năng chi trả của các đơn vị vận tải. => Thách thức công nghệ chưa đủ để kết luận là quá tốn kém. Bài không xác nhận cũng không phủ định nhận định trong câu hỏi. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: Switching to greener fuels Turning to alternative fuels too costly for most transport operators không có trong bài. Đáp án TRUE Nếu thấy thách thức công nghệ (“a technological challenge”), sẽ dễ suy ra cần công nghệ đắt tiền Nhưng khó về công nghệ không đồng nghĩa với quá tốn kém. Chỉ chọn TRUE nếu bài xác nhận chi phí chuyển nhiên liệu quá cao đối với phần lớn đơn vị vận tải. FALSE Sai vì bài không nói chi phí chuyển nhiên liệu nằm trong khả năng chi trả; thiếu thông tin không phải là phủ định. Chỉ chọn FALSE nếu bài cho biết phần lớn đơn vị vận tải có thể chuyển nhiên liệu mà không chịu chi phí quá cao."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-10-reading-1-p3",
+        "passageNumber": 3,
+        "title": "The psychology of innovation",
+        "subtitle": "Why are so few companies truly innovative?",
+        "content": [
+          "If a business is to survive, it must keep innovating, and firms pour money into coaxing fresh ideas from their staff. Yet plenty of employees sit in lavish, purpose-built facilities meant to spark invention and feel no more creative for it, while others, given neither funding nor much space, still manage to produce genuinely new things.",
+          "Ivo Marnix, who teaches social psychology at Rijnstad University, traces one source of that failure to hiring. When a recruit's values line up with the organisation's, he notes, it shapes both how much they contribute and whether they remain on the payroll two years on — a link the research bears out. Work at the Fenwick Business School points the same way: creativity comes more readily to some than to others, but in the right conditions almost anyone can produce it.",
+          "A celebrated image from the early days of soul music captures exactly what Marnix means. Taken in 1961, it shows four singers — Eddie Colefax, Ray Sutton, Hank Delano and Junior Pace — around a piano at Tidewater Sound in Baltimore, and behind it lies a story easy to miss. What became the studio's \"golden four\" might just as well have been five. The singer absent from the frame, Otis Rand, had a finer natural voice than any of them. But Merle Vance, who ran Tidewater, was set on remaking popular music by welding gospel to country blues — an aim Colefax, Sutton, Delano and Pace grasped at once and embraced. Rand felt no such pull, and managed only one hit while signed to the label.",
+          "Why does that alignment of values matter so much? Because innovating always involves change, Marnix explains, and change is something our species handles warily: \"The moment things start to shift, our instinct is to keep safe.\" His advice to managers therefore runs against the grain: Rather than dangling a reward, they should spell out exactly what the firm will forfeit by letting an opportunity slip. People, the evidence suggests, gamble far more readily to avoid a loss than to chase a gain.",
+          "Steering innovation calls for a delicate touch. Because the marketing, product-development and finance teams each hear from different constituencies, a company can easily find itself tugged three ways at once. Small \"pockets of innovation\", too, tend to vanish unless some mechanism keeps the different parts of the firm talking to one another. This is a hands-on business: it will not do to announce, \"Here is where we are heading, and you are all coming with me.\"",
+          "To Marnix, this \"follow-the-leader\" habit is hazardous, above all because it tempts those in charge to strike out alone. \"We have solid evidence that three heads beat one at solving problems — even when that one head belongs to the ablest person in the field.\" By way of illustration he recalls a conversation with the biochemist Lars Ostrem, who, with his colleague Fenella Wray, had worked out the molecular structure of photerin, a protein that lets certain deep-sea creatures glow. \"I asked how the two of them had reached the answer before a field of formidable competitors, and his reply floored me. They had got there, he said, precisely because they knew they were not the cleverest researchers chasing it. The cleverest was a woman named Corinne Adler, who — in Ostrem's words — 'was so brilliant she almost never asked anyone's opinion'.\"",
+          "Working in teams draws on one of the deepest springs of human conduct. \"So much of what we do rests on peer validation that its pull usually escapes our notice,\" Marnix observes. \"Suppose long-serving staff are digging in against your project — the answer is to get another veteran to argue its case.\" He is far from the tactic's only advocate. When influence travels sideways rather than down from above, studies find, it carries far more weight than any speech from the boss.",
+          "Jotting things down, sketching them out and building rough prototypes can all get ideas flowing. Marnix points to many studies and past episodes showing that an act as ordinary as writing pulls each person more deeply into a project. That, he argues, is why the competitions once printed on cereal boxes invited shoppers to finish, in ten words at most, a line such as \"I like Harvest Gold flakes because…\". Committing the words to paper is itself what nudges us toward believing them.",
+          "Authority need not stifle innovation, though it often does. Leadership of the wrong sort produces what Marnix calls \"the co-pilot reflex — the unfortunate way team members back away from duties that ought to be theirs\". The name comes, he explains, from how \"on aircraft flown by more than one pilot the rest of the crew can lapse into a passivity that occasionally proves fatal when the captain settles on a plainly mistaken course\". Nothing about this is peculiar to flying, he adds; it can surface in any workplace ruled by a domineering figure.",
+          "At the opposite extreme stands the Anvil design collective of the 1980s, a band of young designers who held that \"the sole rule was that no rules applied\". In such an atmosphere ideas passed freely between people, and the result was a burst of inventiveness with shape, purpose, colour and material that transformed how furniture was viewed.",
+          "Many theorists hold that the finest managers lead from the rear, taking their satisfaction in what the group achieves and handing credit wherever it is owed. As Marnix puts it: \"A leader's task is to draw a contribution from everyone, while making plain to all that every suggestion counts toward getting the decision right and will be weighed carefully.\" What makes innovation so maddening is that the routes to it are many and the formula non-existent. Even so, any manager bent on building a genuinely inventive culture will find the work far easier once these facts of human psychology are taken on board."
+        ],
+        "questions": [
+          {
+            "id": 27,
+            "prompt": "The example of the \"golden four\" is used to underline the importance of",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "recognising individual talent.",
+              "belief in a common goal.",
+              "the strength of working as a group.",
+              "providing clear leadership."
+            ],
+            "correct": "belief in a common goal.",
+            "explanation": {
+              "step1": "The example of the \" golden four \" is used to underline the importance of Câu hỏi hỏi: Ví dụ về “golden four” nhấn mạnh tầm quan trọng của điều gì?",
+              "step2": "Dựa vào tên gọi “golden four” => ta định vị được câu (3) ở đoạn 3 và bắt đầu đọc ví dụ tại đây. Đoạn 3",
+              "step3": "Đoạn 3: What became the studio's \"golden four\" might just as well have been five . The singer absent from the frame, Otis Rand , had a finer natural voice than any of them . But Merle Vance , who ran Tidewater, was set on remaking popular music by welding gospel to country blues — an aim Colefax, Sutton, Delano and Pace grasped at once and embraced . Rand felt no such pull , and managed only one hit while signed to the label . Câu (3)–(4): Nhóm bốn người lẽ ra có thể gồm cả Otis Rand; ông có giọng hát hay hơn họ. Câu (5)–(6): Nhưng bốn người cùng đón nhận mục tiêu của Merle Vance, còn Rand thì không.",
+              "step4": "Đáp án đúng: B. belief in a common goal . ( Tin vào một mục tiêu chung .) Đối chiếu paraphrasing: belief in a common goal an aim + embraced. Bốn người cùng đón nhận mục tiêu ấy. Đáp án A “ Nhận ra tài năng của từng cá nhân ”: Otis Rand có giọng hát hay hơn (“finer natural voice”), nên dễ chọn ý này Nhưng người được nêu là tài năng hơn lại không cùng đón nhận mục tiêu với bốn người. Đáp án C “ Sức mạnh của việc làm việc nhóm ”: Con số bốn dễ gợi ý làm việc nhóm Nhưng ví dụ này nhấn mạnh mục tiêu chung; ý nhiều người cùng giải quyết vấn đề nằm ở đoạn 6 (“three heads beat one”). Đáp án D “ Đưa ra sự lãnh đạo rõ ràng ”: Merle Vance có một mục tiêu, nhưng điểm phân biệt trong ví dụ là bốn người đón nhận mục tiêu đó, còn Rand thì không."
+            }
+          },
+          {
+            "id": 28,
+            "prompt": "Lars Ostrem suggests that he and Fenella Wray beat their rivals to the answer because they",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "urged each other on toward a shared ambition.",
+              "combined different areas of expertise.",
+              "recognised the limits of their own ability.",
+              "were set on outdoing cleverer competitors."
+            ],
+            "correct": "recognised the limits of their own ability.",
+            "explanation": {
+              "step1": "Lars Ostrem suggests that he and Fenella Wray beat their rivals to the answer because they Câu hỏi hỏi: Theo Lars Ostrem, vì sao ông và Fenella Wray tìm ra lời giải trước các đối thủ?",
+              "step2": "Dựa vào tên riêng Lars Ostrem => ta định vị được đoạn 6, nơi ông kể về việc cùng Fenella Wray tìm ra lời giải. Đoạn 6",
+              "step3": "Đoạn 6: By way of illustration he recalls a conversation with the biochemist Lars Ostrem , who, with his colleague Fenella Wray, had worked out the molecular structure of photerin , a protein that lets certain deep-sea creatures glow . They had got there , he said , precisely because they knew they were not the cleverest researchers chasing it . Câu (3): xác định Lars Ostrem và Fenella Wray là hai người đã tìm ra lời giải. Câu (5): nêu lý do họ thành công: họ biết mình không phải người giỏi nhất .",
+              "step4": "Đáp án đúng: C. recognised the limits of their own ability . ( Họ nhận ra giới hạn năng lực của bản thân. ) Đối chiếu paraphrasing: recognised the limits of their own ability knew they were not the cleverest researchers Đáp án A “ Họ động viên nhau theo đuổi một mục tiêu chung ”: Nếu skim thấy hai người là đồng nghiệp (“his colleague Fenella Wray”), ta dễ suy ra họ động viên nhau Nhưng Ostrem không đưa ra lý do đó. Đáp án B “ Họ kết hợp chuyên môn ở các lĩnh vực khác nhau ”: Nếu skim thấy “the biochemist” và “his colleague”, ta dễ đoán hai người có chuyên môn khác nhau Nhưng bài không nêu chuyên môn của Fenella Wray; lý do được nói rõ ở câu (5) là họ biết mình không giỏi nhất. Đáp án D “ Họ quyết tâm vượt qua những đối thủ thông minh hơn ”: Cụm “field of formidable competitors” ở câu 4 đoạn 6 dễ gây nhầm lẫn. Đó là bối cảnh cạnh tranh, không phải động cơ Ostrem đưa ra."
+            }
+          },
+          {
+            "id": 29,
+            "prompt": "The writer refers to the cereal-box competitions as an illustration of how to",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "deepen people's attachment to an idea.",
+              "encourage brief, economical writing.",
+              "foster loyalty to a group.",
+              "prompt imaginative thinking."
+            ],
+            "correct": "deepen people's attachment to an idea.",
+            "explanation": {
+              "step1": "The writer refers to the cereal-box competitions as an illustration of how to Câu hỏi hỏi: Các cuộc thi trên hộp ngũ cốc minh họa cho *tác dụng nào*?",
+              "step2": "Dựa vào từ khoá đặc biệt “cereal-box competitions” => ta bắt đầu đọc ở câu (3) đoạn 8, chỗ nhắc đến các cuộc thi trên hộp ngũ cốc (“competitions once printed on cereal boxes”). Đoạn 8 — competitions once printed on cereal boxes",
+              "step3": "Đoạn 8: Marnix points to many studies and past episodes showing that an act as ordinary as writing pulls each person more deeply into a project . That , he argues, is why the competitions once printed on cereal boxes invited shoppers to finish , in ten words at most, a line such as \"I like Harvest Gold flakes because…\" . Committing the words to paper is itself what nudges us toward believing them . Câu (2): việc viết khiến mỗi người tham gia sâu hơn vào một dự án. Câu (3): cuộc thi là ví dụ về việc người mua tự hoàn thành một dòng chữ . Câu (4): viết những lời ấy ra giấy khiến họ tin vào điều mình viết . Cuộc thi minh họa cách việc tự viết khiến người ta gắn bó hơn với một ý tưởng .",
+              "step4": "Đáp án đúng: A. deepen people's attachment to an idea . (Khiến mọi người gắn bó hơn với một ý tưởng.) Đối chiếu paraphrasing: deepen people's attachment to an idea more deeply into a project + believing them Đáp án B “ Khuyến khích viết ngắn gọn, súc tích ”: Nếu skim thấy giới hạn mười từ (“in ten words at most”) ở câu (3), ta dễ chọn B Nhưng đó chỉ là thể lệ cuộc thi, không phải tác dụng mà tác giả dùng ví dụ để minh họa. Đáp án C “ Nuôi dưỡng lòng trung thành với một nhóm ”: Sai vì câu (2)–(4) nói về tác động của việc viết lên mỗi người, không nói đến lòng trung thành với nhóm. Đáp án D “ Khơi gợi tư duy sáng tạo ”: Nếu skim câu 1 đoạn 8 thấy ý khơi thông ý tưởng (“get ideas flowing”), ta dễ chọn D Nhưng phần giải thích gắn với cuộc thi nói rằng viết ra khiến người ta tin vào điều đã viết, không phải nghĩ ra ý tưởng mới."
+            }
+          },
+          {
+            "id": 30,
+            "prompt": "In the final paragraph, the writer implies that employees find it important to",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "know what their organisation is aiming for.",
+              "admire what their colleagues have achieved.",
+              "understand the thinking behind decisions.",
+              "feel that what they offer is valued."
+            ],
+            "correct": "feel that what they offer is valued.",
+            "explanation": {
+              "step1": "In the final paragraph , the writer implies that employees find it important to Câu hỏi hỏi: Từ đoạn cuối, có thể suy ra nhân viên thấy điều gì là quan trọng?",
+              "step2": "Chỉ dẫn vị trí “final paragraph” đưa ta đến đoạn 11. Bắt đầu đọc từ lời Marnix nói về nhiệm vụ của người lãnh đạo (“A leader's task”). Đoạn 11 — final paragraph",
+              "step3": "Đoạn 11: As Marnix puts it : \" A leader's task is to draw a contribution from everyone , while making plain to all that every suggestion counts toward getting the decision right and will be weighed carefully .\" Nhân viên cần thấy đóng góp của mình được coi trọng : mỗi đề xuất đều có giá trị và sẽ được xem xét kỹ.",
+              "step4": "Đáp án đúng: D. feel that what they offer is valued . ( Cảm thấy những gì mình đóng góp được coi trọng. ) Đối chiếu paraphrasing: what they offer a contribution from everyone is valued every suggestion counts + will be weighed carefully Đáp án A “ Biết tổ chức đang hướng tới điều gì ”: Đoạn 5 có lời thông báo về hướng đi (“Here is where we are heading”), dễ gây nhầm Nhưng đoạn cuối nhấn mạnh cách người lãnh đạo coi trọng đóng góp, không phải việc nhân viên biết mục tiêu. Đáp án B “ Ngưỡng mộ thành tựu của đồng nghiệp ”: Câu đầu đoạn 11 nhắc đến việc ghi nhận công lao (“handing credit”), nhưng đó là việc người quản lý làm, không phải điều nhân viên cần làm với đồng nghiệp. Đáp án C “ Hiểu suy nghĩ đằng sau các quyết định ”: Cụm “getting the decision right” dễ khiến ta chú ý đến quyết định Nhưng câu (2) nói các đề xuất sẽ được cân nhắc kỹ, không nói nhân viên cần được giải thích quá trình ra quyết định."
+            }
+          },
+          {
+            "id": 31,
+            "prompt": "Complete the sentence: \"Staff whose personal outlook matches their employer's tend to _____\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "neglect the duties expected of them.",
+              "stay on with the organisation.",
+              "take risks.",
+              "become more competitive with one another.",
+              "put forward their own ideas.",
+              "win promotion.",
+              "steer clear of risk."
+            ],
+            "correct": "stay on with the organisation.",
+            "explanation": {
+              "step1": "Staff whose personal outlook matches their employer's tend to Sau “tend to” cần một cụm động từ. Ta cần tìm trong bài kết quả của việc quan điểm cá nhân phù hợp với tổ chức ; chỉ nhìn câu dẫn thì chưa thể biết đó là kết quả gì.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý giá trị cá nhân phù hợp với tổ chức (“values line up with the organisation's”). Cụm này xuất hiện ở đoạn 2 => bắt đầu đọc từ câu (2). Đoạn 2",
+              "step3": "Đoạn 2: When a recruit's values line up with the organisation's , he notes, it shapes both how much they contribute and whether they remain on the payroll two years on — a link the research bears out . Bài đọc nối sự phù hợp về giá trị với việc nhân viên có tiếp tục làm việc tại tổ chức hay không . Từ “whether” không có nghĩa là tất cả họ chắc chắn sẽ ở lại.",
+              "step4": "Đáp án phù hợp nhất: stay on with the organisation . Câu hoàn chỉnh: Staff whose personal outlook matches their employer's tend to stay on with the organisation . (Nhân viên có quan điểm cá nhân phù hợp với tổ chức có xu hướng tiếp tục làm việc tại đó.) => Khớp với dự đoán về kết quả của sự phù hợp giá trị. Trong các ending, đây là lựa chọn nói đúng về việc tiếp tục làm việc tại tổ chức . Đối chiếu paraphrasing: personal outlook matches their employer's a recruit's values line up with the organisation's stay on with the organisation remain on the payroll put forward their own ideas. “ Đưa ra ý tưởng của riêng mình ”: Câu (2) có nhắc đến mức độ đóng góp (“how much they contribute”), nhưng không nói cụ thể việc đưa ra ý tưởng. Bằng chứng khớp trực tiếp với ending về ở lại tổ chức. win promotion. “ Được thăng chức ”: Sai vì tiếp tục làm việc (“remain on the payroll”) không đồng nghĩa với được thăng chức. steer clear of risk. “ Tránh rủi ro ”: Đoạn 4 nói đến phản ứng thận trọng trước thay đổi (“handles warily”), nhưng đó không phải kết quả được nêu cho nhóm nhân viên có giá trị phù hợp với tổ chức."
+            }
+          },
+          {
+            "id": 32,
+            "prompt": "Complete the sentence: \"Faced with a period of upheaval, workers generally _____\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "neglect the duties expected of them.",
+              "stay on with the organisation.",
+              "take risks.",
+              "become more competitive with one another.",
+              "put forward their own ideas.",
+              "win promotion.",
+              "steer clear of risk."
+            ],
+            "correct": "steer clear of risk.",
+            "explanation": {
+              "step1": "Faced with a period of upheaval , workers generally Sau “workers generally” cần một cụm động từ. Ta cần tìm phản ứng thông thường của người lao động trước biến động; riêng câu hỏi chưa cho biết họ sẽ chấp nhận hay tránh rủi ro.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý tương đương với giai đoạn biến động (“ period of upheaval ”). Đoạn 4 nhắc đến sự thay đổi (“change”) => đây là vùng cần đọc. Đoạn 4 — change",
+              "step3": "Đoạn 4: Because innovating always involves change, Marnix explains, and change is something our species handles warily: \" The moment things start to shift , our instinct is to keep safe .\" Trước biến động, phản ứng thông thường là giữ an toàn, tránh rủi ro .",
+              "step4": "Đáp án phù hợp nhất: steer clear of risk . Câu hoàn chỉnh: Faced with a period of upheaval , workers generally steer clear of risk . (Khi đối mặt với một giai đoạn biến động, người lao động thường tránh rủi ro .) => Khớp với dự đoán về phản ứng thông thường và với bản năng giữ an toàn được nêu trong bài. Đối chiếu paraphrasing: The moment things start to shift Faced with a period of upheaval keep safe steer clear of risk take risks. “ chấp nhận rủi ro ”: Đoạn 4 cũng nói con người sẵn lòng liều lĩnh hơn (“gamble far more readily”), nhưng đó là khi muốn tránh mất mát, không phải phản ứng bản năng trước thay đổi. neglect the duties expected of them. “ lơ là nhiệm vụ được giao ”: Đoạn 9 có ý thoái thác nhiệm vụ (“back away from duties”), nhưng nguyên nhân ở đó là kiểu lãnh đạo áp đảo, không phải biến động. stay on with the organisation. “ tiếp tục làm việc cho tổ chức ”: Đoạn 2 nói đến việc ở lại làm việc (“remain on the payroll”), nhưng ý này gắn với sự phù hợp về giá trị giữa nhân viên và tổ chức."
+            }
+          },
+          {
+            "id": 33,
+            "prompt": "Complete the sentence: \"Once people grasp what they stand to lose, they often _____\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "neglect the duties expected of them.",
+              "stay on with the organisation.",
+              "take risks.",
+              "become more competitive with one another.",
+              "put forward their own ideas.",
+              "win promotion.",
+              "steer clear of risk."
+            ],
+            "correct": "take risks.",
+            "explanation": {
+              "step1": "Once people grasp what they stand to lose , they often Cần chọn một cụm động từ nói về phản ứng của con người khi nhận ra nguy cơ mất mát . Chưa thể đoán họ sẽ chấp nhận hay tránh rủi ro; phải đọc bằng chứng.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý tương đương với điều có thể mất (“what they stand to lose”). Ở đoạn 4, cụm tránh mất mát (“to avoid a loss”) cho biết đây là vùng cần đọc. Đoạn 4 — to avoid a loss",
+              "step3": "Đoạn 4: People , the evidence suggests, gamble far more readily to avoid a loss than to chase a gain .",
+              "step4": "Đáp án phù hợp nhất: take risks . Câu hoàn chỉnh: Once people grasp what they stand to lose , they often take risks . (Khi nhận ra điều mình có thể mất , con người thường chấp nhận rủi ro .) => Khớp với dự đoán về phản ứng trước nguy cơ mất mát: bài đọc nói họ sẵn sàng chấp nhận rủi ro để tránh mất mát . Đối chiếu paraphrasing: what they stand to lose to avoid a loss gamble take risks steer clear of risk. “ Tránh rủi ro ”: Đoạn 4 có nói đến bản năng giữ an toàn (“keep safe”), nên dễ chọn nhầm Nhưng câu (4) nói con người chấp nhận rủi ro để tránh mất mát; tránh mất mát không đồng nghĩa với tránh rủi ro. stay on with the organisation. “ Tiếp tục làm việc cho tổ chức ”: Đoạn 2 có ý tiếp tục ở lại (“remain on the payroll”), nhưng đó là kết quả của việc nhân viên có giá trị phù hợp với tổ chức, không phải phản ứng trước nguy cơ mất mát. neglect the duties expected of them. “ Xao nhãng trách nhiệm của mình ”: Đoạn 9 có cụm lùi khỏi trách nhiệm (“back away from duties”), nhưng đó là tác động của kiểu lãnh đạo áp đặt, không phải hành động được nêu ở câu (4)."
+            }
+          },
+          {
+            "id": 34,
+            "prompt": "Complete the sentence: \"Those working under an overbearing manager are apt to _____\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "neglect the duties expected of them.",
+              "stay on with the organisation.",
+              "take risks.",
+              "become more competitive with one another.",
+              "put forward their own ideas.",
+              "win promotion.",
+              "steer clear of risk."
+            ],
+            "correct": "neglect the duties expected of them.",
+            "explanation": {
+              "step1": "Those working under an overbearing manager are apt to Sau “are apt to”, ta cần một cụm động từ chỉ hành vi của nhóm người này. Chưa thể chọn hành vi cụ thể chỉ từ phần đầu câu hỏi.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp cách diễn đạt tương đương với người quản lý áp đặt (“overbearing manager”). Ở đoạn 9, cụm “domineering figure” là dấu hiệu để bắt đầu đọc. Đoạn 9 — domineering figure",
+              "step3": "Đoạn 9: Leadership of the wrong sort produces what Marnix calls \"the co-pilot reflex — the unfortunate way team members back away from duties that ought to be theirs \". Nothing about this is peculiar to flying , he adds ; it can surface in any workplace ruled by a domineering figure . Câu (2): kiểu lãnh đạo không phù hợp khiến thành viên nhóm né tránh trách nhiệm của mình . Câu (4): hiện tượng ấy cũng xuất hiện ở nơi làm việc do người áp đặt chi phối .",
+              "step4": "Đáp án phù hợp nhất: neglect the duties expected of them . Câu hoàn chỉnh: Those working under an overbearing manager are apt to neglect the duties expected of them. (Những người làm việc dưới quyền người quản lý áp đặt có xu hướng lơ là những trách nhiệm họ phải đảm nhận.) => Khớp với dự đoán về hành vi của nhân viên: họ né tránh trách nhiệm vốn thuộc về mình . Đối chiếu paraphrasing: working under an overbearing manager ruled by a domineering figure neglect the duties expected of them back away from duties that ought to be theirs steer clear of risk. Tránh rủi ro: Nếu chỉ thấy hành động né tránh (“back away”), ta dễ nghĩ đến việc tránh rủi ro Nhưng câu (2) nói rõ đối tượng bị né tránh là trách nhiệm. put forward their own ideas. Đưa ra ý tưởng của mình: Đoạn 10 có ý tưởng được trao đổi tự do (“ideas passed freely”), nhưng đó là môi trường hầu như không có quy tắc, không phải nơi do người áp đặt chi phối. stay on with the organisation. Tiếp tục làm việc ở tổ chức: Đoạn 2 có nhắc đến việc tiếp tục làm việc (“remain on the payroll”), nhưng ý đó gắn với sự tương hợp về giá trị, không phải kiểu quản lý ở đoạn 9."
+            }
+          },
+          {
+            "id": 35,
+            "prompt": "Complete the sentence: \"Employees in organisations with hardly any rules are more likely to _____\"",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "neglect the duties expected of them.",
+              "stay on with the organisation.",
+              "take risks.",
+              "become more competitive with one another.",
+              "put forward their own ideas.",
+              "win promotion.",
+              "steer clear of risk."
+            ],
+            "correct": "put forward their own ideas.",
+            "explanation": {
+              "step1": "Employees in organisations with hardly any rules are more likely to Sau “are more likely to”, ta cần một cụm động từ chỉ điều nhân viên có xu hướng làm. Khi đọc bài, hãy tìm cả môi trường hầu như không có quy tắc lẫn hành động của những người trong môi trường ấy.",
+              "step2": "Câu hỏi không có tên riêng hay con số để định vị. Ta tìm ý tương đương với việc hầu như không có quy tắc (“ hardly any rules ”). Đến đoạn 10, cụm không có quy tắc nào được áp dụng (“ no rules applied ”) cho thấy đây là nơi cần bắt đầu đọc. Đoạn 10 — no rules applied",
+              "step3": "Đoạn 10: At the opposite extreme stands the Anvil design collective of the 1980s , a band of young designers who held that \" the sole rule was that no rules applied \". In such an atmosphere ideas passed freely between people , and the result was a burst of inventiveness with shape, purpose, colour and material that transformed how furniture was viewed . Câu (1): nhóm thiết kế Anvil chủ trương không áp dụng quy tắc . Câu (2): trong môi trường ấy, ý tưởng được chia sẻ tự do giữa mọi người.",
+              "step4": "Đáp án phù hợp nhất: put forward their own ideas . Câu hoàn chỉnh: Employees in organisations with hardly any rules are more likely to put forward their own ideas . (Nhân viên trong tổ chức hầu như không có quy tắc có xu hướng đưa ra ý tưởng của mình .) => Khớp với dự đoán về hành động của nhân viên: trong môi trường không áp dụng quy tắc, ý tưởng được chia sẻ tự do. Đối chiếu paraphrasing: hardly any rules no rules applied put forward their own ideas ideas passed freely between people neglect the duties expected of them. “ Bỏ bê nhiệm vụ được giao ”: Đoạn 9 có ý lùi lại khỏi trách nhiệm (“back away from duties”), nhưng đó là phản ứng dưới kiểu lãnh đạo áp đảo, không phải trong môi trường ở đoạn 10. stay on with the organisation. “ Tiếp tục làm việc cho tổ chức ”: Đoạn 2 có ý tiếp tục làm việc (“remain on the payroll”), nhưng gắn với sự phù hợp về giá trị, không phải việc thiếu quy tắc. take risks. “ Chấp nhận rủi ro ”: Đoạn 4 nói người ta dễ chấp nhận rủi ro để tránh mất mát (“avoid a loss”); câu (2) đoạn 10 lại nói về chia sẻ ý tưởng."
+            }
+          },
+          {
+            "id": 36,
+            "prompt": "Even without much funding or space, some people still innovate successfully.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "YES",
+            "explanation": {
+              "step1": "Even without much funding or space , some people still innovate successfully . Ý câu hỏi: Tác giả có cho rằng một số người vẫn tạo ra điều mới dù thiếu kinh phí hoặc không gian không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý thiếu nguồn lực. Ở đoạn 1, câu (2), cụm “given neither funding nor much space” là dấu hiệu để bắt đầu đọc. Đoạn 1 — given neither funding nor much space",
+              "step3": "Đoạn 1: Yet plenty of employees sit in lavish , purpose-built facilities meant to spark invention and feel no more creative for it , while others , given neither funding nor much space , still manage to produce genuinely new things .",
+              "step4": "Câu hỏi nói: một số người vẫn đổi mới thành công (“still innovate successfully”) dù thiếu kinh phí hoặc không gian . Bài đọc nói: những nhân viên khác không có kinh phí và cũng không có nhiều không gian (“neither funding nor much space”), nhưng vẫn tạo ra những thứ thực sự mới (“ still manage to produce genuinely new things ”). Đây là điều tác giả khẳng định. Đối chiếu paraphrasing: some people others without much funding or space neither funding nor much space still innovate successfully still manage to produce genuinely new things Đáp án đúng: YES — nhận định phù hợp với quan điểm tác giả. Đáp án NO Nếu skim/scan thấy nhóm nhân viên không sáng tạo hơn (“feel no more creative for it”), sẽ dễ chọn NO Nhưng đó là nhóm có cơ sở vật chất tốt, không phải nhóm thiếu nguồn lực. Chỉ chọn NO nếu tác giả nói nhóm thiếu nguồn lực không thể tạo ra điều mới. NOT GIVEN Sai vì tác giả nói trực tiếp cả việc thiếu nguồn lực lẫn kết quả vẫn tạo ra điều mới. Chỉ chọn NOT GIVEN nếu bài không cho biết nhóm thiếu nguồn lực có tạo ra điều mới hay không."
+            }
+          },
+          {
+            "id": 37,
+            "prompt": "A manager can drive innovation successfully simply by telling staff the direction and expecting them to follow.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NO",
+            "explanation": {
+              "step1": "A manager can drive innovation successfully simply by telling staff the direction and expecting them to follow . Ý câu hỏi: Tác giả có cho rằng người quản lý chỉ cần nói hướng đi và mong nhân viên làm theo là có thể thúc đẩy đổi mới thành công không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý dẫn dắt đổi mới (“Steering innovation”) ở đoạn 5 => bắt đầu đọc từ câu: `Steering innovation calls for a delicate touch.` Đoạn 5 — Steering innovation",
+              "step3": "Đoạn 5: Steering innovation calls for a delicate touch . This is a hands-on business : it will not do to announce , \" Here is where we are heading , and you are all coming with me .\" Câu (1): dẫn dắt đổi mới đòi hỏi sự khéo léo. Câu (4): đây là việc cần trực tiếp tham gia; chỉ tuyên bố hướng đi và yêu cầu mọi người đi theo là không đủ .",
+              "step4": "Câu hỏi nói: người quản lý chỉ cần nói hướng đi và mong nhân viên làm theo là có thể thành công (“ simply by telling staff the direction”). Bài đọc nói: tác giả bác bỏ cách chỉ đưa ra lời tuyên bố ấy (“it will not do to announce”). Đối chiếu paraphrasing: telling staff the direction Here is where we are heading expecting them to follow you are all coming with me simply will not do Đáp án đúng: NO Đáp án YES Nếu chỉ thấy lời nói về hướng đi (“Here is where we are heading”), ta dễ tưởng tác giả tán thành cách này Nhưng tác giả nói làm vậy không đủ (“will not do”). Chỉ chọn YES nếu tác giả cho rằng chỉ cần nói hướng đi và chờ nhân viên làm theo là đủ. NOT GIVEN Sai vì tác giả đã đánh giá trực tiếp cách lãnh đạo này, chứ không bỏ ngỏ hiệu quả của nó. Chỉ chọn NOT GIVEN nếu bài đọc không cho biết tác giả có tán thành cách đó hay không."
+            }
+          },
+          {
+            "id": 38,
+            "prompt": "A team of three will outperform a lone individual only when that individual is not the ablest in the field.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NO",
+            "explanation": {
+              "step1": "A team of three will outperform a lone individual only when that individual is not the ablest in the field . Ý câu hỏi: Tác giả có cho rằng nhóm ba người vượt một cá nhân chỉ khi cá nhân đó không phải người giỏi nhất hay không?",
+              "step2": "Dựa vào từ khoá đặc biệt `ablest` => ta định vị được câu quan trọng ở đoạn 6: `\"We have solid evidence that three heads beat one at solving problems — even when that one head belongs to the ablest person in the field.\"` Đoạn 6 — We have solid evidence that three heads beat one at solving problems — even when that one head belongs to the ablest person in the field",
+              "step3": "Đoạn 6: \" We have solid evidence that three heads beat one at solving problems — even when that one head belongs to the ablest person in the field .\"",
+              "step4": "Câu hỏi nói: nhóm ba người vượt một cá nhân chỉ khi (“only when”) cá nhân ấy không phải người giỏi nhất (“is not the ablest in the field”). Bài đọc nói: nhóm ba người vẫn thắng ngay cả khi (“even when”) cá nhân ấy là người giỏi nhất (“the ablest person in the field”). Đây là quan điểm trái với giới hạn mà câu hỏi đặt ra. Đối chiếu paraphrasing: A team of three three heads only when that individual is not the ablest in the field even when that one head belongs to the ablest person in the field Đáp án đúng: NO Đáp án YES Nếu skim/scan thấy “not the cleverest researchers” ở câu 5 đoạn 6, sẽ dễ chọn YES Nhưng đó là chi tiết của một ví dụ; câu (2) khẳng định nhóm ba người thắng ngay cả khi người còn lại giỏi nhất. Chỉ chọn YES nếu tác giả khẳng định nhóm ba người chỉ thắng khi cá nhân ấy không phải người giỏi nhất. NOT GIVEN Sai vì câu (2) đã nêu rõ kết quả khi cá nhân là người giỏi nhất. Chỉ chọn NOT GIVEN nếu tác giả không cho biết nhóm ba người có vượt cá nhân giỏi nhất hay không."
+            }
+          },
+          {
+            "id": 39,
+            "prompt": "Support voiced by a colleague of equal standing carries more influence than a talk given by the boss.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "YES",
+            "explanation": {
+              "step1": "Support voiced by a colleague of equal standing carries more influence than a talk given by the boss . Ý câu hỏi: tác giả có đồng ý rằng lời ủng hộ từ người ngang hàng có sức ảnh hưởng lớn hơn bài nói của sếp không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý tương đương với ảnh hưởng từ người ngang hàng. Ở đoạn 7, cụm ảnh hưởng truyền ngang (“influence travels sideways”) => đây là vùng liên quan. Đoạn 7 — influence travels sideways",
+              "step3": "Đoạn 7: When influence travels sideways rather than down from above , studies find, it carries far more weight than any speech from the boss .",
+              "step4": "Câu hỏi nói: lời ủng hộ từ đồng nghiệp ngang hàng có sức ảnh hưởng lớn hơn (“more influence”) bài nói của sếp. Bài đọc nói: ảnh hưởng truyền ngang (“ influence travels sideways ”) có sức nặng lớn hơn (“more weight”) bất kỳ bài nói nào của sếp. Đối chiếu paraphrasing: Support voiced by a colleague of equal standing influence travels sideways carries more influence carries far more weight a talk given by the boss any speech from the boss Đáp án đúng: YES — so sánh trong statement đúng với quan điểm tác giả nêu ở câu (5). Đáp án NO Sai vì tác giả nói ảnh hưởng truyền ngang mạnh hơn, không phải yếu hơn lời sếp. Chỉ chọn NO nếu tác giả cho rằng lời sếp có sức ảnh hưởng lớn hơn. NOT GIVEN Nếu không nhận ra ảnh hưởng truyền ngang (“sideways”) và sức nặng lớn hơn (“more weight”) là các cách diễn đạt tương ứng, sẽ dễ tưởng bài đọc không so sánh hai bên Nhưng câu (5) so sánh trực tiếp với lời sếp. Chỉ chọn NOT GIVEN nếu bài đọc không cho biết bên nào có sức ảnh hưởng lớn hơn."
+            }
+          },
+          {
+            "id": 40,
+            "prompt": "Producing a physical prototype does more to deepen someone's involvement in a project than writing does.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Producing a physical prototype does more to deepen someone's involvement in a project than writing does . Ý câu hỏi: tác giả có cho rằng làm nguyên mẫu khiến một người tham gia dự án sâu hơn so với việc viết không?",
+              "step2": "Dựa vào từ khoá đặc biệt `prototype` => ta bắt đầu ở đoạn 8, tại cụm làm nguyên mẫu (“building rough prototypes”). Đoạn 8 — building rough prototypes",
+              "step3": "Đoạn 8: Jotting things down , sketching them out and building rough prototypes can all get ideas flowing . Marnix points to many studies and past episodes showing that an act as ordinary as writing pulls each person more deeply into a project . Câu (1): ghi chép và làm nguyên mẫu đều giúp khơi gợi ý tưởng . Câu (2): việc viết giúp người ta tham gia dự án sâu hơn ; tác giả không so sánh tác dụng này với việc làm nguyên mẫu .",
+              "step4": "Câu hỏi nói: làm nguyên mẫu giúp tăng mức độ tham gia dự án nhiều hơn (“does more”) so với việc viết (“than writing does”). Bài đọc nói: hai hoạt động đều giúp khơi gợi ý tưởng (“get ideas flowing”); còn tác dụng tham gia dự án sâu hơn (“more deeply into a project”) chỉ được nêu đối với việc viết. Tác giả không đưa ra phép so sánh mà câu hỏi yêu cầu. Đối chiếu paraphrasing: Producing a physical prototype building rough prototypes deepen someone's involvement in a project pulls each person more deeply into a project does more + than writing does không có trong bài Đáp án đúng: NOT GIVEN Đáp án YES Nếu skim/scan thấy việc làm nguyên mẫu (“building rough prototypes”) rồi thấy “more deeply”, sẽ dễ ghép hai ý thành một phép so sánh Nhưng “more deeply” chỉ nói về việc viết. Chỉ chọn YES nếu tác giả nói làm nguyên mẫu giúp người ta tham gia dự án sâu hơn việc viết. Đáp án NO Sai vì tác giả cũng không khẳng định điều ngược lại. Chỉ chọn NO nếu tác giả nói việc viết giúp người ta tham gia dự án sâu hơn làm nguyên mẫu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cam-09-reading-1": {
+    "id": "cam-09-reading-1",
+    "title": "IELTS CAM Inspired 09 - Reading Test 1",
+    "series": "Cambridge 09",
+    "testNumber": 1,
+    "type": "Reading",
+    "durationMinutes": 60,
+    "passages": [
+      {
+        "id": "cam-09-reading-1-p1",
+        "passageNumber": 1,
+        "title": "William Henry Perkin",
+        "subtitle": "The chemist who created the first artificial dye",
+        "content": [
+          "Born in the northern port of Hull on 27 September 1836, William Henry Perkin was a boy whose restless curiosity drew him early toward drawing, mechanics, photography and the natural sciences. What finally fixed his passion on chemistry, though, was an accident: while exploring the attic of a late uncle's house, he came across a shabby but still-usable laboratory, and it captivated him.",
+          "It was at Calverton School that chemistry took full hold of him. Frederick Nunn, one of his teachers, noticed how gifted and dedicated the boy was and arranged for him to hear a course of lectures delivered by the celebrated chemist Aldous Renshaw at the Institute of Natural Philosophy. Renshaw's talks stirred his ambition still more, and in 1851, when he was just sixteen, Perkin won a place at the Metropolitan College of Chemistry.",
+          "When Perkin arrived, the college was under the direction of a distinguished German chemist, Gustav Hellwig. It did not take long for Perkin's abilities to impress him, and within a single year the student had been promoted to become the youngest assistant Hellwig had. The great discovery that would make Perkin both famous and wealthy followed soon afterwards.",
+          "In those years the sole effective remedy for malaria was quinine, a substance taken from the bark of the cinchona tree, which grows in South America. Supplies of it, by the mid-1850s, could no longer keep pace with what physicians wanted. So when Hellwig remarked in passing how useful an artificial version of quinine would be, it surprised no one that his most promising student rose to the task.",
+          "Over the college holidays of 1854, working in a laboratory he had set up on the top floor of the family home, Perkin set out to build quinine from aniline, a cheap and plentiful waste product of coal tar. The quinine never came. What he got instead was a strange, dark, tarry residue. Rather than throw it away, his instincts and his training led him to look closer. By adding potassium dichromate and alcohol to the aniline at different points in the procedure, he eventually arrived at a solution of intense purple. The words of the chemist Anton Vahl, that fortune \"smiles only on minds that are ready for it\", were borne out, for Perkin grasped at once what his accidental product might be worth.",
+          "For most of history, the dyes used on cloth had come from natural materials: plants, and substances secreted by animals. A number of these were both hard to gather and enormously dear; the purple drawn from the glands of certain sea molluscs was one such, so expensive in its day that only royalty could dress in it. Natural colours had other drawbacks too, for they often looked dull and lost their brightness rapidly. This was the world into which Perkin's discovery arrived.",
+          "That his purple liquid could dye cloth, and would therefore be the first synthetic dye anywhere, Perkin understood almost immediately, and he patented it without delay. Most striking of all, perhaps, was how quickly he sensed that the colour could be turned into a profitable business.",
+          "At first Perkin called the colour Tyrian Lilac, though before long everyone knew it simply as violine, a name borrowed from the French word for violet. When he sought the opinion of Andrew Whitlock, who ran a dye works in Yorkshire, Whitlock told him the venture would certainly pay provided the dye held its colour without fading and could be made cheaply enough. And so, ignoring the furious protests of his teacher Hellwig, Perkin abandoned his studies and set about founding what became the modern chemical industry.",
+          "Backed by his father and his brother, Perkin built a factory a short way outside London. The plant drew on the coal tar that London's gas street-lamps threw off in almost limitless quantities, cheap and abundant, and by 1858 it was turning out the first synthetically dyed fabric in the world. A boost came from the Austrian court: when the Empress Adelheid of Austria concluded that the shade suited her, violine rapidly became the colour every fashionable woman in Vienna had to have. Britain soon followed, after the Duchess of Ellsmere was seen in public in a violine gown, and demand there grew just as feverish. Bold and fade-resistant, the dye left the public wanting more, and Perkin returned to his experiments.",
+          "Fame and wealth were already his from that first success, yet Perkin kept up his research. Further dyes followed from his laboratory: aniline crimson in 1861, aniline black in 1865, and, as the decade closed, the shade known as Perkin's blue. His synthetic dyes, it should be stressed, mattered for far more than appearance. They proved indispensable to medicine as well, for by staining microbes and bacteria that had previously been impossible to see, they enabled scientists to pick out the organisms responsible for diseases such as cholera, leprosy and plague. Synthetic colours remain essential in laboratories today and, in a turn Perkin himself would surely have welcomed, they are now being enlisted in the effort to develop a vaccine against typhoid."
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "One of Perkin's schoolteachers was the first to spot his talent for chemistry.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "One of Perkin's schoolteachers was the first to spot his talent for chemistry . Cần kiểm tra hai ý: một giáo viên nhận ra năng khiếu của Perkin, và người đó có phải người đầu tiên hay không .",
+              "step2": "Tìm thông tin về giáo viên của Perkin (“schoolteachers”) trong phần kể về việc ông học hóa. Ở đoạn 2, cụm “at Calverton School” cho ta điểm bắt đầu đọc kỹ. Đoạn 2 — at Calverton School",
+              "step3": "Đoạn 2: It was at Calverton School that chemistry took full hold of him . Frederick Nunn, one of his teachers , noticed how gifted and dedicated the boy was and arranged for him to hear a course of lectures delivered by the celebrated chemist Aldous Renshaw at the Institute of Natural Philosophy . Câu (1): đặt Perkin trong bối cảnh học hóa ở trường. Câu (2): giáo viên Frederick Nunn nhận ra năng khiếu của ông.",
+              "step4": "Câu hỏi nói: Một giáo viên của Perkin là người đầu tiên nhận ra năng khiếu hóa học của ông (“the first to spot his talent for chemistry”). Bài đọc nói: Frederick Nunn là một giáo viên (“one of his teachers”) và đã nhận thấy Perkin có năng khiếu (“ noticed how gifted ”). Ông là người đầu tiên được bài kể đến với hành động này. ⇒ Theo cách hiểu dựa trên trình tự bài kể , thông tin khớp với câu hỏi. Đáp án đúng: TRUE Đối chiếu paraphrasing: One of Perkin's schoolteachers one of his teachers spot his talent noticed how gifted the first bài không xác nhận rõ ai là người đầu tiên nhận ra năng khiếu trong thực tế. Lưu ý Đáp án TRUE được cấp chỉ đứng vững nếu hiểu “the first” là người đầu tiên được bài kể đến. Nếu hiểu là người đầu tiên trong thực tế, bằng chứng chưa đủ để xác nhận ý này; khi đó NOT GIVEN có cơ sở hơn. FALSE Sai vì bài nói rõ Nunn đã nhận ra Perkin có năng khiếu (“noticed how gifted”). Chỉ chọn FALSE nếu bài phủ nhận điều đó hoặc nói một người khác đã nhận ra trước Nunn. NOT GIVEN bài không khẳng định rõ Nunn là người đầu tiên trong Nhưng . Nhưng đáp án được cấp dựa trên trình tự bài kể. Chỉ chọn NOT GIVEN nếu phải xác minh “the first” theo nghĩa tuyệt đối; bài không cung cấp thông tin ấy."
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "At the college, Hellwig worked as an assistant to Perkin.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "At the college, Hellwig worked as an assistant to Perkin . Ý câu hỏi: Cần kiểm tra ai làm trợ lý cho ai : nhận định nói Hellwig là trợ lý của Perkin.",
+              "step2": "Dựa vào hai tên riêng Hellwig và Perkin => ta bắt đầu đọc từ câu (1) đoạn 3, nơi xuất hiện tên “Gustav Hellwig”. Đoạn 3 — Gustav Hellwig",
+              "step3": "Đoạn 3: When Perkin arrived, the college was under the direction of a distinguished German chemist, Gustav Hellwig . It did not take long for Perkin's abilities to impress him , and within a single year the student had been promoted to become the youngest assistant Hellwig had . Câu (1): Hellwig là người điều hành trường. Câu (2): học viên Perkin trở thành trợ lý của Hellwig .",
+              "step4": "Câu hỏi nói: Hellwig làm trợ lý cho Perkin (“Hellwig worked as an assistant to Perkin”). Bài đọc nói: học viên Perkin (“the student”) trở thành trợ lý của Hellwig (“ the youngest assistant Hellwig had ”). ⇒ Quan hệ trợ lý bị đảo ngược , nên nhận định mâu thuẫn với bài đọc. Đáp án đúng: FALSE Đối chiếu paraphrasing: an assistant to Perkin the youngest assistant Hellwig had Đáp án TRUE Nếu skim/scan thấy cả hai tên và từ “assistant”, sẽ dễ chọn TRUE Nhưng bài nói Perkin là trợ lý của Hellwig, không phải ngược lại. Chỉ chọn TRUE nếu bài nói Hellwig làm trợ lý cho Perkin. NOT GIVEN Nếu không tìm thấy đúng cụm “assistant to Perkin”, sẽ dễ chọn NOT GIVEN Nhưng bài đã nêu rõ quan hệ trợ lý theo chiều ngược lại. Chỉ chọn NOT GIVEN nếu bài không cho biết ai làm trợ lý cho ai."
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Cinchona bark was more expensive than any other medicine available at the time.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Cinchona bark was more expensive than any other medicine available at the time . Nhận định cần kiểm tra là phép so sánh giá giữa vỏ cây cinchona và *mọi* loại thuốc khác thời đó.",
+              "step2": "Dựa vào tên cây cinchona trong câu hỏi, ta tìm đến đoạn 4, nơi có cụm chỉ vỏ cây (“the bark of the cinchona tree”). Đoạn 4 — the bark of the cinchona tree",
+              "step3": "Đoạn 4: In those years the sole effective remedy for malaria was quinine , a substance taken from the bark of the cinchona tree , which grows in South America . Supplies of it , by the mid-1850s, could no longer keep pace with what physicians wanted . Câu (1): quinine được lấy từ vỏ cây cinchona. Câu (2): nguồn cung quinine không theo kịp nhu cầu ; đây không phải thông tin so sánh giá.",
+              "step4": "Câu hỏi nói: Vỏ cây cinchona đắt hơn mọi loại thuốc khác (“more expensive than any other medicine”). Bài đọc nói: Quinine được lấy từ vỏ cây cinchona (“taken from the bark of the cinchona tree”), và nguồn cung không theo kịp nhu cầu (“could no longer keep pace with what physicians wanted”). Bài không cho biết giá của vỏ cây so với thuốc khác. ⇒ Không đủ thông tin để xác nhận hay bác bỏ phép so sánh giá. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: Cinchona bark the bark of the cinchona tree more expensive than any other medicine không có trong bài. Đáp án TRUE Nếu skim/scan thấy “so expensive” ở đoạn 6, sẽ dễ chọn TRUE Nhưng cụm này nói về thuốc nhuộm màu tím, không phải vỏ cây cinchona; nguồn cung thiếu cũng không chứng minh giá đắt hơn mọi thuốc khác. Chỉ chọn TRUE nếu bài nêu rõ phép so sánh giá đó. FALSE Sai vì việc quinine là phương thuốc hiệu quả duy nhất chữa sốt rét (“sole effective remedy for malaria”) không cho biết giá của các thuốc khác. Chỉ chọn FALSE nếu bài nói ít nhất một thuốc khác có giá bằng hoặc cao hơn vỏ cây cinchona."
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "In his experiments of 1854, Perkin managed to obtain quinine from aniline.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "In his experiments of 1854 , Perkin managed to obtain quinine from aniline . Cần kiểm tra Perkin đã thu được quinine, chứ không chỉ *định tạo ra* nó.",
+              "step2": "Dựa vào mốc 1854 và tên Perkin, ta tìm đến đoạn 5, bắt đầu ở cụm chỉ kỳ nghỉ năm ấy (“Over the college holidays of 1854”). Đoạn 5 — Over the college holidays of 1854",
+              "step3": "Đoạn 5: Over the college holidays of 1854 , working in a laboratory he had set up on the top floor of the family home, Perkin set out to build quinine from aniline , a cheap and plentiful waste product of coal tar . The quinine never came . Câu (1): Perkin định tạo quinine từ aniline. Câu (2): Nhưng quinine không xuất hiện .",
+              "step4": "Câu hỏi nói: Perkin đã thu được quinine từ aniline (“managed to obtain”). Bài đọc nói: Ông chỉ định tạo nó (“set out to build”); quinine không xuất hiện (“never came”). ⇒ Câu hỏi khẳng định một kết quả mà bài đọc phủ định . Đáp án đúng: FALSE Đối chiếu paraphrasing: set out to build managed to obtain never came managed to obtain Đáp án TRUE ý định tạo ra (“set out to build”) với thành công. Nhưng bài nói quinine không xuất hiện. Chỉ chọn TRUE nếu bài nói Perkin thực sự thu được quinine từ aniline. NOT GIVEN Nếu chỉ đọc câu (1), ta mới biết mục tiêu chứ chưa biết kết quả Nhưng câu (2) đã nêu rõ kết quả. Chỉ chọn NOT GIVEN nếu bài không cho biết Perkin có thu được quinine hay không."
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "The dyes drawn from nature, used in earlier times, did not hold their colour for long.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "The dyes drawn from nature , used in earlier times , did not hold their colour for long . Cần kiểm tra cả nguồn gốc tự nhiên và việc thuốc nhuộm nhanh phai màu .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý thuốc nhuộm có nguồn gốc tự nhiên (“ natural materials ”). Cụm này xuất hiện ở câu (1), đoạn 6 => bắt đầu đọc từ đây. Đoạn 6 — natural materials",
+              "step3": "Đoạn 6: For most of history, the dyes used on cloth had come from natural materials : plants, and substances secreted by animals . Natural colours had other drawbacks too , for they often looked dull and lost their brightness rapidly . Câu (1): thuốc nhuộm trong quá khứ có nguồn gốc tự nhiên . Câu (3): màu tự nhiên thường mất độ tươi sáng nhanh .",
+              "step4": "Câu hỏi nói: thuốc nhuộm từ tự nhiên được dùng trước đây và không giữ màu lâu (“ did not hold their colour for long ”). Bài đọc nói: trong phần lớn lịch sử, thuốc nhuộm có nguồn gốc tự nhiên (“ natural materials ”); màu tự nhiên thường mất độ tươi sáng nhanh (“ lost their brightness rapidly ”). ⇒ Hai ý khớp nhau. Đáp án đúng: TRUE Đối chiếu paraphrasing: used in earlier times For most of history drawn from nature natural materials did not hold their colour for long lost their brightness rapidly FALSE Sai vì bài nói màu tự nhiên mất độ tươi sáng nhanh, không phải giữ màu lâu. Chỉ chọn FALSE nếu bài nói thuốc nhuộm tự nhiên giữ màu được lâu. NOT GIVEN Nếu chỉ tìm đúng cụm “hold their colour”, em có thể tưởng bài không đề cập độ bền màu Nhưng “lost their brightness rapidly” đã nói rõ màu phai nhanh. Chỉ chọn NOT GIVEN nếu bài không cho biết màu phai nhanh hay chậm."
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "The disagreement over Perkin leaving college ended his friendship with Hellwig for good.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "Câu cần kiểm tra: The disagreement over Perkin leaving college ended his friendship with Hellwig for good . Cần kiểm tra hệ quả đối với tình bạn , chứ không chỉ kiểm tra việc hai người bất đồng.",
+              "step2": "Dựa vào tên riêng Hellwig và ý Perkin rời trường => ta tìm đến đoạn 8, bắt đầu đọc ở chi tiết Hellwig phản đối (“furious protests”). Đoạn 8 — furious protests",
+              "step3": "Đoạn 8: And so, ignoring the furious protests of his teacher Hellwig, Perkin abandoned his studies and set about founding what became the modern chemical industry .",
+              "step4": "Câu hỏi nói: Sự bất đồng khiến tình bạn của Perkin với Hellwig chấm dứt vĩnh viễn (“for good”). Bài đọc nói: Hellwig phản đối dữ dội (“furious protests”), nhưng Perkin vẫn bỏ dở việc học (“abandoned his studies”). Bài không cho biết tình bạn của họ sau đó ra sao. ⇒ Không thể xác nhận hay bác bỏ hệ quả mà câu hỏi nêu. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: The disagreement ignoring the furious protests Perkin leaving college Perkin abandoned his studies ended his friendship with Hellwig for good không có trong bài. Đáp án TRUE Nếu skim/scan thấy sự phản đối dữ dội (“furious protests”), sẽ dễ suy ra hai người tuyệt giao Nhưng bài không nói tình bạn chấm dứt. Chỉ chọn TRUE nếu bài nói họ không còn là bạn sau bất đồng. FALSE Nếu thấy ở đoạn 3 Hellwig từng ấn tượng với Perkin (“abilities to impress him”), sẽ dễ chọn FALSE Nhưng đó là chuyện trước bất đồng. Chỉ chọn FALSE nếu bài nói họ vẫn là bạn sau khi Perkin rời trường."
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Certain tiny organisms only became visible to scientists once dyes were applied to them.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "Certain tiny organisms only became visible to scientists once dyes were applied to them . Cần kiểm tra trước khi nhuộm các sinh vật ấy có nhìn thấy được không, và sau khi nhuộm các nhà khoa học có nhận ra chúng không .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý thuốc nhuộm có công dụng ngoài tạo màu (“far more than appearance”) ở đoạn 10 => bắt đầu đọc kĩ từ câu (3). Đoạn 10 — far more than appearance",
+              "step3": "Đoạn 10: His synthetic dyes , it should be stressed, mattered for far more than appearance . They proved indispensable to medicine as well , for by staining microbes and bacteria that had previously been impossible to see , they enabled scientists to pick out the organisms responsible for diseases such as cholera, leprosy and plague . Câu (3): nêu công dụng ngoài tạo màu của thuốc nhuộm và cho biết “They” ở câu sau chỉ thuốc nhuộm. Câu (4): nhuộm vi khuẩn trước đó không thể nhìn thấy => các nhà khoa học nhận diện được chúng .",
+              "step4": "Câu hỏi nói: một số sinh vật rất nhỏ chỉ trở nên nhìn thấy được sau khi dùng thuốc nhuộm . Bài đọc nói: vi khuẩn trước đó không thể nhìn thấy (“previously been impossible to see”); việc nhuộm giúp các nhà khoa học nhận diện sinh vật (“enabled scientists to pick out the organisms”). Hai ý phù hợp nhau. Đáp án đúng: TRUE Đối chiếu paraphrasing: dyes were applied to them by staining + bacteria only became visible previously been impossible to see + enabled scientists to pick out the organisms FALSE Sai vì bài nói vi khuẩn trước đó không thể nhìn thấy và việc nhuộm giúp các nhà khoa học nhận diện chúng. Chỉ chọn FALSE nếu bài nói chúng đã nhìn thấy được trước khi nhuộm, hoặc việc nhuộm không giúp nhận diện chúng. NOT GIVEN Nếu chỉ đọc câu (3), sẽ dễ tưởng bài không nói đến khả năng nhìn thấy sinh vật Nhưng câu (4) nêu rõ cả tình trạng trước đó lẫn tác dụng của việc nhuộm. Chỉ chọn NOT GIVEN nếu bài không cho biết sinh vật có nhìn thấy được trước khi nhuộm hay không và việc nhuộm có giúp nhận diện chúng hay không."
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "In the past, which section of society was the only one able to wear purple cloth?",
+            "type": "FILL_IN_BLANK",
+            "correct": "royalty",
+            "explanation": {
+              "step1": "In the past, which section of society was the only one able to wear purple cloth ? Cần tìm một tầng lớp xã hội , không phải người tạo ra màu nhuộm hay nguyên liệu dùng để nhuộm. Dự đoán đáp án là danh từ chỉ một nhóm người.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp thông tin về thuốc nhuộm dùng trên vải (“the dyes used on cloth”) ở đoạn 6 => đây là điểm bắt đầu đọc. Đoạn 6 — the dyes used on cloth",
+              "step3": "Đoạn 6: For most of history, the dyes used on cloth had come from natural materials : plants, and substances secreted by animals . A number of these were both hard to gather and enormously dear ; the purple drawn from the glands of certain sea molluscs was one such , so expensive in its day that only royalty could dress in it . Câu (1): đặt bối cảnh thuốc nhuộm vải trong lịch sử. Câu (2): màu tím rất đắt => chỉ giới hoàng tộc được mặc .",
+              "step4": "Đáp án phù hợp nhất: royalty Câu hoàn chỉnh: In the past, royalty was the only section of society able to wear purple cloth. (Trong quá khứ, giới hoàng tộc là tầng lớp xã hội duy nhất có thể mặc vải màu tím.) => Khớp với dự đoán về một tầng lớp xã hội và bằng chứng “only royalty”; đáp án gồm 1 từ, đề không nêu giới hạn số từ. Đối chiếu paraphrasing: In the past For most of history section of society royalty only one able to wear purple cloth only royalty could dress in it sea molluscs nguồn tạo ra màu tím: Nếu skim/scan thấy “glands of certain sea molluscs” sẽ dễ chọn nhầm Nhưng câu hỏi hỏi tầng lớp được mặc, không hỏi nguyên liệu tạo màu. Duchess of Ellsmere một cá nhân gắn với trang phục màu mới: Đoạn 9 nhắc đến “a violine gown”, nhưng đó là câu chuyện màu nhuộm của Perkin trở nên thịnh hành về sau, không phải tên tầng lớp được hỏi ở đây."
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "What did Perkin swiftly realise his new colour could become?",
+            "type": "FILL_IN_BLANK",
+            "correct": "profitable business/business",
+            "explanation": {
+              "step1": "What did Perkin swiftly realise his new colour could become ? Câu hỏi yêu cầu tìm điều màu mới có thể trở thành , theo nhận định của Perkin. Sau *could become*, ta dự đoán một danh từ hoặc cụm danh từ, không phải tên của màu.",
+              "step2": "Dựa vào tên riêng Perkin và ý màu mới của ông (“his new colour”) => bắt đầu đọc ở đoạn 7, nơi nhắc đến chất lỏng màu tím của Perkin (“his purple liquid”). Đoạn 7 — his purple liquid",
+              "step3": "Đoạn 7: That his purple liquid could dye cloth , and would therefore be the first synthetic dye anywhere , Perkin understood almost immediately , and he patented it without delay . Most striking of all , perhaps, was how quickly he sensed that the colour could be turned into a profitable business . Câu (1): xác định Perkin và chất lỏng màu tím ông nhận ra có thể nhuộm vải. Câu (2): nêu điều ông nhanh chóng nhận thấy về màu ấy: nó có thể trở thành việc kinh doanh sinh lời .",
+              "step4": "Đáp án phù hợp nhất: profitable business (cũng có thể trả lời: business) Câu hoàn chỉnh: Perkin swiftly realised his new colour could become a profitable business. (Perkin nhanh chóng nhận ra màu mới của mình có thể trở thành một việc kinh doanh sinh lời .) => Khớp với dự đoán về một cụm danh từ chỉ điều màu ấy có thể trở thành; đề không nêu giới hạn số từ. Đối chiếu paraphrasing: swiftly realise how quickly he sensed his new colour the colour could become could be turned into the first synthetic dye “ loại thuốc nhuộm tổng hợp đầu tiên ”: Câu (1) nhắc đến đặc điểm này của màu tím, nhưng câu (2) mới nói Perkin nhận ra nó có thể trở thành việc kinh doanh sinh lời. violine “ tên gọi của màu ”: Đoạn 8 dùng tên này cho màu nhuộm; câu hỏi hiện tại không hỏi tên màu."
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "What term did the public eventually use for Perkin's first dye?",
+            "type": "FILL_IN_BLANK",
+            "correct": "violine",
+            "explanation": {
+              "step1": "What term did the public eventually use for Perkin's first dye ? Cần tìm tên gọi về sau của công chúng , không phải tên Perkin đặt lúc đầu. Dự đoán đáp án là một tên gọi.",
+              "step2": "Dựa vào tên riêng Perkin và ý hỏi về tên gọi của thuốc nhuộm, ta tìm đến đoạn 8, nơi xuất hiện cách Perkin gọi màu này và cách mọi người biết đến nó. Đoạn 8",
+              "step3": "Đoạn 8: At first Perkin called the colour Tyrian Lilac , though before long everyone knew it simply as violine , a name borrowed from the French word for violet .",
+              "step4": "Đáp án phù hợp nhất: violine Câu hoàn chỉnh: The public eventually used the term violine for Perkin's first dye. (Về sau, công chúng dùng tên violine cho thuốc nhuộm đầu tiên của Perkin.) => Khớp với dự đoán về một tên gọi: “everyone” là mọi người, còn “before long” cho biết đó là tên được biết đến về sau. Đáp án gồm 1 từ; đề không nêu giới hạn từ. Đối chiếu paraphrasing: the public everyone eventually before long Tyrian Lilac “ — tên Perkin đặt ban đầu ”: tên này đứng ngay trước violine. Nhưng “At first” cho biết đó là tên ban đầu, không phải tên công chúng dùng về sau. violet “ — từ chỉ màu tím ”: Từ này xuất hiện trong phần giải thích nguồn gốc tên gọi, không phải tên mà mọi người biết đến."
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Who did Perkin turn to for advice on whether the dye was worth producing?",
+            "type": "FILL_IN_BLANK",
+            "correct": "Whitlock/Andrew Whitlock",
+            "explanation": {
+              "step1": "Who did Perkin turn to for advice on whether the dye was worth producing ? Câu hỏi nói: Perkin đã hỏi ý kiến ai về việc liệu thuốc nhuộm có đáng sản xuất không? Dự đoán đáp án: Tên một người; chưa thể xác định tên cụ thể trước khi đọc bài.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt. Ta tìm cách diễn đạt tương đương với *hỏi ý kiến* (“sought the opinion”) ở đoạn 8 => bắt đầu đọc tại câu (2). Đoạn 8 — sought the opinion",
+              "step3": "Đoạn 8: When he sought the opinion of Andrew Whitlock , who ran a dye works in Yorkshire , Whitlock told him the venture would certainly pay provided the dye held its colour without fading and could be made cheaply enough .",
+              "step4": "Đáp án phù hợp nhất: Andrew Whitlock Câu hoàn chỉnh: Perkin turned to Andrew Whitlock for advice on whether the dye was worth producing. (Perkin tìm đến Andrew Whitlock để hỏi ý kiến về việc liệu thuốc nhuộm có đáng sản xuất không.) => Đúng dự đoán: đây là tên người được Perkin hỏi ý kiến ; đáp án gồm 2 từ, và đề không nêu giới hạn số từ. Đối chiếu paraphrasing: turn to for advice sought the opinion of worth producing would certainly pay, với điều kiện nêu tiếp trong câu. Hellwig “ — thầy của Perkin ”: Đoạn 8 nhắc đến sự phản đối của ông (“furious protests”), nhưng người Perkin hỏi ý kiến về khả năng sinh lợi là Andrew Whitlock. Frederick Nunn “ — giáo viên của Perkin ”: Đoạn 2 nói ông giúp Perkin đi nghe giảng (“a course of lectures”), không phải tư vấn về việc sản xuất thuốc nhuộm."
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "Fashion for the new colour took hold first in which country?",
+            "type": "FILL_IN_BLANK",
+            "correct": "Austria",
+            "explanation": {
+              "step1": "Fashion for the new colour took hold first in which country ? Câu hỏi yêu cầu tên quốc gia nơi màu mới thành mốt đầu tiên. Ta cần phân biệt quốc gia với thành phố được nhắc trong bài.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý màu mới thành mốt, thể hiện qua “every fashionable woman” => đây là vùng liên quan. Đoạn 9 — every fashionable woman",
+              "step3": "Đoạn 9: A boost came from the Austria n court : when the Empress Adelheid of Austria concluded that the shade suited her , violine rapidly became the colour every fashionable woman in Vienna had to have . Britain soon followed , after the Duchess of Ellsmere was seen in public in a violine gown, and demand there grew just as feverish . Câu (3)–(4): violine thành mốt ở Austria trước , rồi Britain mới theo sau.",
+              "step4": "Đáp án phù hợp nhất: Austria Câu hoàn chỉnh: Fashion for the new colour took hold first in Austria. (Màu mới trở thành mốt đầu tiên ở Austria.) => Khớp với dự đoán là tên quốc gia và với thứ tự trong bài; đáp án gồm một từ, đề không nêu giới hạn từ. Đối chiếu paraphrasing: Fashion for the new colour every fashionable woman + had to have first Britain soon followed which country of Austria Britain Nếu skim/scan thấy tên quốc gia này ở câu (4), em dễ chọn nhầm Nhưng “soon followed” cho biết Britain đến sau. Vienna Nếu thấy “in Vienna”, em có thể lấy ngay địa danh đó Nhưng Vienna là thành phố; câu hỏi yêu cầu quốc gia, được nêu là “of Austria”."
+            }
+          },
+          {
+            "id": 13,
+            "prompt": "Which illness are scientists now working to prevent with these artificial dyes?",
+            "type": "FILL_IN_BLANK",
+            "correct": "typhoid",
+            "explanation": {
+              "step1": "Which illness are scientists now working to prevent with these artificial dyes ? Câu hỏi yêu cầu tên một căn bệnh mà các nhà khoa học hiện tìm cách phòng ngừa. Ta dự đoán đáp án là một danh từ chỉ bệnh; cần chú ý mốc hiện nay để không nhầm với các bệnh được nhắc trong ứng dụng trước đó của thuốc nhuộm.",
+              "step2": "Câu hỏi không có từ khóa đặc biệt; ta đọc nhanh đến khi gặp ý tương đương với thuốc nhuộm nhân tạo (“these artificial dyes”). Ở đoạn 10, bài nhắc đến màu tổng hợp (“Synthetic colours”) => đây là vùng liên quan. Đoạn 10 — Synthetic colours",
+              "step3": "Đoạn 10: Synthetic colours remain essential in laboratories today and , in a turn Perkin himself would surely have welcomed, they are now being enlisted in the effort to develop a vaccine against typhoid . Ở đây, vaccine được phát triển để chống lại bệnh (“a vaccine against typhoid ”). Vì vậy, tên bệnh cần tìm là typhoid .",
+              "step4": "Đáp án phù hợp nhất: typhoid Câu hoàn chỉnh: The illness scientists are now working to prevent with these artificial dyes is typhoid . (Căn bệnh mà các nhà khoa học hiện tìm cách phòng ngừa với sự hỗ trợ của các thuốc nhuộm nhân tạo này là typhoid.) => Khớp với dự đoán về tên bệnh và thông tin phát triển vaccine trong bài; đáp án gồm 1 từ, đề không nêu giới hạn số từ. Đối chiếu paraphrasing: these artificial dyes Synthetic colours now working to prevent now being enlisted in the effort to develop a vaccine against Which illness typhoid cholera, leprosy, plague — các tên bệnh khác: Câu 4 đoạn 10 nhắc đến chúng trong việc nhận diện sinh vật gây bệnh, không phải nỗ lực phát triển vaccine hiện nay ở câu (5)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-09-reading-1-p2",
+        "passageNumber": 2,
+        "title": "IS THERE ANYBODY OUT THERE?",
+        "subtitle": "The Search for Extra-terrestrial Intelligence",
+        "content": [
+          "[A]  For centuries people have wondered whether life exists beyond our own world, and today, by listening for radio transmissions sent out by other intelligent beings, we may finally be close to settling the matter. Known widely by its acronym SETI - short for the search for extra-terrestrial intelligence - this undertaking is far from straightforward. Teams in various countries have hunted on and off for close to forty years, yet only recently has our technology advanced far enough to let us mount a serious, systematic sweep of every nearby star in the hope of finding some trace of life.",
+          "[B]  Curiosity lies at the heart of the search - the very same curiosity about the natural world that motivates every branch of pure science. Are we alone? Does life spring up of its own accord wherever conditions allow, or is there something exceptional about the Earth that has given rise to the abundance of living things around us? To resolve this most fundamental of questions, merely picking up a single radio signal would be enough. Viewed this way, SETI is simply one more part of the pure-science enterprise that keeps extending the boundaries of what we know. There are, however, further motives for wanting to know whether life exists elsewhere. Human civilisation, after all, has lasted perhaps no more than a couple of thousand years, and the dangers of nuclear war and pollution that have loomed over recent decades remind us how fragile our continued existence might be. Are we destined to survive a further three thousand years, or to destroy ourselves? Because a world such as ours can persist for roughly ten billion years, any civilisations that endure elsewhere in our galaxy could be anything from newly formed to billions of years old. It follows that whichever civilisation we do pick up will, on average, almost certainly be much older than we are. Simply knowing that such a civilisation exists would prove that long-term survival is achievable, which gives grounds for optimism; and it is even conceivable that a more ancient people might share what they have learned about surviving hazards like nuclear war, global pollution and dangers we have yet to imagine.",
+          "[C]  Two working rules guide most researchers as they weigh up the question of our solitude. The first is that unidentified flying objects are set aside, because the evidence for them strikes most scientists as too flimsy to warrant serious attention - though a genuinely persuasive case, should one ever surface, would of course deserve an open mind. The second is a deliberately cautious premise: the beings sought are assumed to be broadly similar to ourselves, for anything wildly unlike us might not register as life at all, quite aside from the problem of communicating with it. Such a creature might, admittedly, sport two green heads and seven fingers, and yet in the essentials it would still echo us - talking to its own kind, curious about the cosmos, dwelling on a planet that circles a Sun-like star, and, most constraining of all, built on a chemistry of carbon and water just as we are - the only chemical basis we currently know of that is capable of sustaining living systems.",
+          "[D]  Even granting these premises, how much we can say about other living things remains very slight. We have no firm idea, for instance, of how many stars possess planets at all, still less of the odds that life will emerge naturally once the right conditions are in place. And yet, faced with the several hundred billion stars of our own galaxy, the Milky Way, and the hundreds of billions of galaxies that fill the observable Universe, the notion that not one of these worlds bears life seems scarcely credible; indeed, the best estimate we can venture - drawing on the little we understand about what carbon-based life requires - puts the figure at something like one star in every 80,000 hosting a life-bearing planet. If so, our closest neighbours may lie about 120 light years off, which, on the scale of the cosmos, is practically next door.",
+          "[E]  To scatter information across the galaxy an alien society might use any number of methods, but most either demand enormous power or fade badly over the immense stretches between the stars. As it happens, radio waves in the band from 1200 to 3400 MHz carry furthest for a given transmitting power, which is why every search so far has focused on that part of the spectrum. A range of programmes worldwide has already made the attempt, among them a New Zealand effort using the dish at Rangimoana, on the country's South Island. From the couple of hundred stars examined to date, nothing has yet been picked up. Since 1995, however, the effort has been scaled up sharply: that year the Canadian federal legislature approved an eight-year grant of $12 million a year to fund a thorough hunt for life beyond the Earth. A large share of that money is going into the specialised equipment required to monitor many frequencies simultaneously. The work is split in two. One half is a targeted survey carried out on some of the largest dishes in existence - the Canadian-run instrument at Fenwick Bay in Newfoundland and the German telescope at Osterholt - which sweeps the nearest 1,500 promising stars at high sensitivity across the 1200-to-3400 MHz band. The other half, a broader and less sensitive watch over the whole sky, relies on the smaller antennas of the Orbital Tracking Network.",
+          "[F]  How we ought to respond, should a signal from another civilisation actually be detected, is a matter of real dispute. On one point there is unanimity: an immediate reply is out of the question. Setting aside the sheer impracticality of despatching an answer across such distances on short notice, the act would throw up a whole range of ethical problems that the world as a whole would need to work through before any message went out. Could humanity withstand the shock of confronting a civilisation far older and more advanced than itself? Fortunately, none of this is pressing. Because the stars under examination sit hundreds of light years away, their signals take centuries to reach us, and our reply would take centuries more to arrive; a pause of a few years, or even decades, while humanity argues over whether to answer and painstakingly composes a response, would therefore make little practical difference to how events eventually unfold."
+        ],
+        "questions": [
+          {
+            "id": 14,
+            "prompt": "Choose the correct heading for Section A:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Deciding how to answer a message",
+              "What we currently understand about alien biology",
+              "Estimating the chances of life elsewhere",
+              "The great gulf separating us from our nearest neighbours",
+              "Listening for broadcasts from the stars",
+              "The starting premises behind the hunt"
+            ],
+            "correct": "The starting premises behind the hunt",
+            "explanation": {
+              "step1": "Đoạn C: Two working rules guide most researchers as they weigh up the question of our solitude . The first is that unidentified flying objects are set aside , because the evidence for them strikes most scientists as too flimsy to warrant serious attention - though a genuinely persuasive case , should one ever surface, would of course deserve an open mind . The second is a deliberately cautious premise: the beings sought are assumed to be broadly similar to ourselves , for anything wildly unlike us might not register as life at all , quite aside from the problem of communicating with it . Such a creature might , admittedly, sport two green heads and seven fingers , and yet in the essentials it would still echo us - talking to its own kind, curious about the cosmos, dwelling on a planet that circles a Sun-like star, and, most constraining of all, built on a chemistry of carbon and water just as we are - the only chemical basis we currently know of that is capable of sustaining living systems . Câu (1): mở khung hai nguyên tắc định hướng các nhà nghiên cứu. Câu (2)–(3): triển khai hai nguyên tắc : gạt vật thể bay chưa xác định sang một bên vì bằng chứng yếu + giả định sinh vật được tìm kiếm khá giống con người. Câu (4): làm rõ giả định thứ hai: ngoại hình có thể khác >< những điểm căn bản vẫn tương đồng. Đoạn C — rules",
+              "step2": "Đoạn nêu các tiền đề định hướng cuộc tìm kiếm sự sống ngoài hành tinh. Đáp án đúng: The starting premises behind the hunt ( Những tiền đề làm nền cho cuộc tìm kiếm ). Đối chiếu paraphrasing: The starting premises Two working rules + are assumed the hunt the beings sought What we currently understand about alien biology “ (Những hiểu biết hiện có về sinh học của sinh vật ngoài hành tinh) ”: Nếu skim/scan thấy chi tiết về thành phần hóa học (“carbon and water”) ở câu (4), ta dễ chọn heading này Nhưng câu (3) nói đây là điều được giả định (“are assumed”), không phải hiểu biết đã được xác nhận; heading này cũng bỏ sót nguyên tắc thứ nhất. Deciding how to answer a message “ (Quyết định cách trả lời một thông điệp) ”: Cụm nói về việc giao tiếp (“communicating with it”) ở câu (3) có thể gây nhầm Nhưng đó là khó khăn khi giao tiếp với sinh vật quá khác con người, không phải quyết định cách phản hồi một thông điệp đã nhận.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: The starting premises behind the hunt"
+            }
+          },
+          {
+            "id": 15,
+            "prompt": "Choose the correct heading for Section B:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Deciding how to answer a message",
+              "What we currently understand about alien biology",
+              "Estimating the chances of life elsewhere",
+              "The great gulf separating us from our nearest neighbours",
+              "Listening for broadcasts from the stars",
+              "The starting premises behind the hunt"
+            ],
+            "correct": "Estimating the chances of life elsewhere",
+            "explanation": {
+              "step1": "Đoạn D: Even granting these premises, how much we can say about other living things remains very slight . We have no firm idea, for instance, of how many stars possess planets at all, still less of the odds that life will emerge naturally once the right conditions are in place. Gợi ý: dấu hiệu nêu ví dụ (“for instance”) cho biết câu này chỉ minh họa cho việc hiểu biết còn hạn chế ở câu (1), nên có thể bỏ qua phần triển khai. And yet, faced with the several hundred billion stars of our own galaxy, the Milky Way, and the hundreds of billions of galaxies that fill the observable Universe , the notion that not one of these worlds bears life seems scarcely credible ; indeed, the best estimate we can venture - drawing on the little we understand about what carbon-based life requires - puts the figure at something like one star in every 80,000 hosting a life-bearing planet . If so, our closest neighbours may lie about 120 light years off , which, on the scale of the cosmos, is practically next door . Câu (1)–(2): nêu giới hạn hiểu biết; câu (2) đưa ví dụ minh họa. Câu (3): tuy vậy, số lượng ngôi sao rất lớn khiến việc hoàn toàn không có sự sống trở nên khó tin => đưa ra ước tính tỉ lệ có sự sống . Câu (4): từ ước tính đó, suy ra khoảng cách có thể có tới những hàng xóm gần nhất. Đoạn D — for instance",
+              "step2": "dù hiểu biết còn hạn chế, đoạn vẫn đưa ra ước tính khả năng có sự sống ngoài Earth ; khoảng cách chỉ là hệ quả suy ra sau đó. Đáp án đúng: Estimating the chances of life elsewhere (Ước tính khả năng có sự sống ở nơi khác ). Đối chiếu paraphrasing: the best estimate Estimating the chances of life elsewhere one star in every 80,000 + a life bearing planet The great gulf separating us from our nearest neighbours “ (Khoảng cách mênh mông tới những hàng xóm gần nhất) ”: khi scan thấy khoảng cách 120 năm ánh sáng (“120 light years”). Nhưng câu (4) chỉ nêu hệ quả của phép ước tính; tác giả còn xem khoảng cách ấy là gần như ngay bên cạnh (“practically next door”), không nhấn mạnh sự xa cách. What we currently understand about alien biology “ (Những hiểu biết hiện tại về sinh học của sinh vật ngoài Earth) ”: Dễ bị hút bởi sự sống dựa trên carbon (“carbon-based life”) ở câu (3) Nhưng đây chỉ là cơ sở phụ cho phép ước tính, không phải nội dung mô tả sinh học được triển khai trong đoạn. The starting premises behind the hunt “ (Những tiền đề ban đầu của cuộc tìm kiếm) ”: câu (1) nhắc tới các tiền đề này (“these premises”). Nhưng đó là dẫn chiếu về đoạn C; đoạn D dùng các tiền đề ấy để chuyển sang ước tính khả năng có sự sống.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Estimating the chances of life elsewhere"
+            }
+          },
+          {
+            "id": 16,
+            "prompt": "Choose the correct heading for Section C:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Deciding how to answer a message",
+              "What we currently understand about alien biology",
+              "Estimating the chances of life elsewhere",
+              "The great gulf separating us from our nearest neighbours",
+              "Listening for broadcasts from the stars",
+              "The starting premises behind the hunt"
+            ],
+            "correct": "The starting premises behind the hunt",
+            "explanation": {
+              "step1": "Đoạn E: To scatter information across the galaxy an alien society might use any number of methods , but most either demand enormous power or fade badly over the immense stretches between the stars . As it happens, radio waves in the band from 1200 to 3400 MHz carry furthest for a given transmitting power , which is why every search so far has focused on that part of the spectrum . A range of programmes worldwide has already made the attempt , among them a New Zealand effort using the dish at Rangimoana, on the country's South Island . From the couple of hundred stars examined to date , nothing has yet been picked up . Since 1995, however , the effort has been scaled up sharply : that year the Canadian federal legislature approved an eight-year grant of $12 million a year to fund a thorough hunt for life beyond the Earth . A large share of that money is going into the specialised equipment required to monitor many frequencies simultaneously . The work is split in two . One half is a targeted survey carried out on some of the largest dishes in existence - the Canadian-run instrument at Fenwick Bay in Newfoundland and the German telescope at Osterholt - which sweeps the nearest 1,500 promising stars at high sensitivity across the 1200-to-3400 MHz band . The other half , a broader and less sensitive watch over the whole sky , relies on the smaller antennas of the Orbital Tracking Network . Câu (1)–(2): nêu hạn chế của các cách truyền thông tin => giải thích vì sao việc tìm kiếm tập trung vào sóng vô tuyến . Câu (3)–(4): nhiều chương trình đã thử tìm kiếm nhưng chưa thu được tín hiệu. Câu (5)–(6): tuy vậy, việc tìm kiếm vẫn được mở rộng, với tiền đầu tư cho thiết bị theo dõi nhiều tần số. Câu (7)–(9): giới thiệu hai hướng dò tìm — khảo sát các sao gần với độ nhạy cao + quan sát toàn bầu trời với độ nhạy thấp hơn. Đoạn E — radio waves",
+              "step2": "Đoạn E trình bày cách tổ chức và thực hiện việc dò tìm tín hiệu vô tuyến từ các ngôi sao . Đáp án đúng: Listening for broadcasts from the stars (Dò tìm tín hiệu phát ra từ các ngôi sao). Đối chiếu paraphrasing: Listening for broadcasts radio waves + monitor many frequencies simultaneously from the stars stars examined The great gulf separating us from our nearest neighbours với heading về khoảng cách tới những láng giềng gần nhất nếu chỉ chú ý khoảng cách mênh mông giữa các sao (“immense stretches between the stars”) ở câu (1). Nhưng khoảng cách chỉ dẫn vào vấn đề truyền tin; trọng tâm toàn đoạn là cách dò tín hiệu. The starting premises behind the hunt Heading này nói về các giả định khởi đầu, nên phần giải thích vì sao chọn sóng vô tuyến ở câu (1)–(2) có thể gây nhầm Nhưng đây là cơ sở chọn phương thức dò tìm; phần lớn đoạn trình bày các chương trình, thiết bị và cách khảo sát thực tế. Estimating the chances of life elsewhere Việc chưa thu được tín hiệu (“nothing has yet been picked up”) ở câu (4) dễ bị hiểu thành đánh giá khả năng có sự sống nơi khác Nhưng đây chỉ là kết quả dò tìm, không phải phép ước tính xác suất tồn tại sự sống.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: The starting premises behind the hunt"
+            }
+          },
+          {
+            "id": 17,
+            "prompt": "Choose the correct heading for Section D:",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "Deciding how to answer a message",
+              "What we currently understand about alien biology",
+              "Estimating the chances of life elsewhere",
+              "The great gulf separating us from our nearest neighbours",
+              "Listening for broadcasts from the stars",
+              "The starting premises behind the hunt"
+            ],
+            "correct": "Estimating the chances of life elsewhere",
+            "explanation": {
+              "step1": "Đoạn F: How we ought to respond , should a signal from another civilisation actually be detected , is a matter of real dispute . On one point there is unanimity : an immediate reply is out of the question . Setting aside the sheer impracticality of despatching an answer across such distances on short notice, the act would throw up a whole range of ethical problems that the world as a whole would need to work through before any message went out . Could humanity withstand the shock of confronting a civilisation far older and more advanced than itself ? Fortunately, none of this is pressing . Because the stars under examination sit hundreds of light years away , their signals take centuries to reach us , and our reply would take centuries more to arrive ; a pause of a few years , or even decades , while humanity argues over whether to answer and painstakingly composes a response , would therefore make little practical difference to how events eventually unfold . Câu (1)–(2): cách phản hồi còn gây tranh luận , nhưng thống nhất rằng không trả lời ngay . Câu (3)–(4): nêu những vấn đề cần cân nhắc trước khi phản hồi : đạo đức và cú sốc đối với nhân loại. Câu (5)–(6): không cần vội quyết định vì liên lạc mất hàng thế kỷ; chờ vài năm hầu như không tạo khác biệt. Đoạn F — How we ought to respond",
+              "step2": "Những cân nhắc khi quyết định cách phản hồi một thông điệp từ nền văn minh khác. Đáp án đúng: Deciding how to answer a message ( Quyết định cách trả lời một thông điệp ). Đối chiếu paraphrasing: Deciding how to answer How we ought to respond a message a signal from another civilisation The great gulf separating us from our nearest neighbours “ (Khoảng cách mênh mông giữa chúng ta và những láng giềng gần nhất) ”: Nếu skim/scan thấy khoảng cách hàng trăm năm ánh sáng (“hundreds of light years away”) ở câu (6), em dễ chọn heading này Nhưng khoảng cách chỉ giải thích vì sao có thời gian cân nhắc phản hồi, không bao quát trọng tâm toàn đoạn. Listening for broadcasts from the stars “ (Lắng nghe tín hiệu phát từ các ngôi sao) ”: Nếu chỉ thấy tín hiệu từ nền văn minh khác (“a signal from another civilisation”) ở câu (1), em dễ nghĩ đoạn nói về tìm kiếm tín hiệu Nhưng việc phát hiện tín hiệu chỉ là điều kiện đặt ra; đoạn tập trung vào phản hồi sau khi nhận được, không phải cách tìm tín hiệu.",
+              "step3": "Bóc tách cấu trúc câu (S-V-O) và đối chiếu nghĩa.",
+              "step4": "Đáp án chính xác: Estimating the chances of life elsewhere"
+            }
+          },
+          {
+            "id": 18,
+            "prompt": "What does the writer regard as the fundamental motive lying behind the search?",
+            "type": "FILL_IN_BLANK",
+            "correct": "curiosity",
+            "explanation": {
+              "step1": "What does the writer regard as the fundamental motive lying behind the search ? Ý câu hỏi: Tác giả coi điều gì là động cơ nền tảng đằng sau cuộc tìm kiếm ? Dự đoán: - Loại từ: danh từ hoặc cụm danh từ. - Nghĩa: một động cơ cốt lõi , không phải phương pháp hay kết quả tìm kiếm.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý tương đương với động cơ nền tảng (“ fundamental motive ”). Đầu đoạn B có cụm mang nghĩa nằm ở trung tâm của cuộc tìm kiếm (“ at the heart of the search ”) => bắt đầu đọc tại đây. Đoạn B — at the heart of the search",
+              "step3": "Đoạn B: Curiosity lies at the heart of the search - the very same curiosity about the natural world that motivates every branch of pure science .",
+              "step4": "Đáp án phù hợp nhất: curiosity Câu hoàn chỉnh: The writer regards curiosity as the fundamental motive lying behind the search . (Tác giả coi sự tò mò là động cơ nền tảng đằng sau cuộc tìm kiếm .) => Khớp với dự đoán danh từ chỉ động cơ cốt lõi và thông tin trong bài; đáp án gồm 1 từ, đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: the fundamental motive lying behind the search lies at the heart of the search pure science “ khoa học thuần túy ”: Nếu chỉ lấy từ gần đó trong câu (1), dễ chọn nhầm cụm này Nhưng đây là lĩnh vực cũng được sự tò mò thúc đẩy, không phải động cơ của cuộc tìm kiếm. optimism “ sự lạc quan ”: Phần sau đoạn B có nhắc đến sự lạc quan, nhưng thuộc nhóm lý do bổ sung (“further motives”). Câu hỏi cần động cơ nền tảng, được nêu ngay ở câu (1)."
+            }
+          },
+          {
+            "id": 19,
+            "prompt": "What does the writer say the majority of researchers disregard on the grounds that the case for it is unconvincing?",
+            "type": "FILL_IN_BLANK",
+            "correct": "unidentified flying objects / UFOs",
+            "explanation": {
+              "step1": "What does the writer say the majority of researchers disregard on the grounds that the case for it is unconvincing ? Ý câu hỏi: Phần lớn các nhà nghiên cứu bỏ qua đối tượng nào vì bằng chứng cho đối tượng đó không thuyết phục? Dự đoán: Cần một danh từ/cụm danh từ chỉ đối tượng bị bỏ qua , làm tân ngữ của động từ bỏ qua (“disregard”).",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý bỏ qua vì bằng chứng không thuyết phục . Ở đoạn C, cụm bị bỏ qua (“are set aside”) tương ứng với hành động trong câu hỏi => bắt đầu đọc tại đây. Đoạn C — are set aside",
+              "step3": "Đoạn C: The first is that unidentified flying objects are set aside , because the evidence for them strikes most scientists as too flimsy to warrant serious attention - though a genuinely persuasive case , should one ever surface, would of course deserve an open mind .",
+              "step4": "Đáp án phù hợp nhất: unidentified flying objects Câu hoàn chỉnh: The majority of researchers disregard unidentified flying objects on the grounds that the case for them is unconvincing. (Phần lớn các nhà nghiên cứu bỏ qua unidentified flying objects vì bằng chứng cho chúng không thuyết phục.) => Khớp với dự đoán về cụm danh từ chỉ đối tượng bị bỏ qua và lý do trong bài; đáp án gồm 3 từ , nhưng đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: disregard are set aside the majority of researchers most scientists unconvincing too flimsy evidence “ bằng chứng ”: Nếu chỉ tìm từ gần ý không thuyết phục, em dễ lấy từ này Nhưng đây là thứ bị đánh giá là yếu, không phải đối tượng bị bỏ qua. scientists “ các nhà khoa học ”: Sai vì đây là những người đưa ra đánh giá, không phải đối tượng họ bỏ qua. a genuinely persuasive case “ một trường hợp thực sự thuyết phục ”: Cụm này nằm sau từ nhượng bộ (“though”), nói về trường hợp sẽ đáng được xem xét, không phải đối tượng bị bỏ qua vì thiếu bằng chứng."
+            }
+          },
+          {
+            "id": 20,
+            "prompt": "How many nearby candidate stars are covered by the more sensitive, targeted part of the search?",
+            "type": "FILL_IN_BLANK",
+            "correct": "1,500 / 1,500 stars / 1500 stars / 1500 / 1.500 stars / 1.500",
+            "explanation": {
+              "step1": "How many nearby candidate stars are covered by the more sensitive, targeted part of the search? Ý câu hỏi: Phần tìm kiếm có mục tiêu và độ nhạy cao hơn khảo sát bao nhiêu ngôi sao tiềm năng ở gần ? Dự đoán ô trống: Cần một số lượng , có thể đứng riêng hoặc đi cùng danh từ số nhiều chỉ các ngôi sao (“stars”). Phải tìm số sao thuộc đúng phần khảo sát này, không phải số sao của toàn bộ chương trình.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý phần tìm kiếm có mục tiêu và độ nhạy cao. Đoạn E nhắc đến một khảo sát có mục tiêu (“a targeted survey”) => đây là điểm bắt đầu đọc. Đoạn E — a targeted survey",
+              "step3": "Đoạn E: One half is a targeted survey carried out on some of the largest dishes in existence - the Canadian-run instrument at Fenwick Bay in Newfoundland and the German telescope at Osterholt - which sweeps the nearest 1,500 promising stars at high sensitivity across the 1200-to-3400 MHz band .",
+              "step4": "Đáp án phù hợp nhất: 1,500 Câu hoàn chỉnh: The more sensitive, targeted part of the search covers 1,500 nearby candidate stars . (Phần tìm kiếm có mục tiêu và độ nhạy cao hơn khảo sát 1,500 ngôi sao tiềm năng ở gần .) => Khớp với dự đoán là một số lượng sao và thông tin trong bài; đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: nearby candidate stars the nearest 1,500 promising stars more sensitive at high sensitivity targeted giữ nguyên. couple of hundred “ khoảng hai trăm ”: Nếu chỉ tìm số lượng sao, ta dễ chọn cụm này ở câu 4 đoạn E Nhưng đó là số sao đã được kiểm tra trước đó, không phải số sao thuộc khảo sát có mục tiêu đang được hỏi. 1200-to-3400 MHz “ dải tần 1200–3400 MHz ”: Con số này nằm ngay trong câu (8), nhưng đơn vị MHz cho biết đây là dải tần, không phải số lượng sao."
+            }
+          },
+          {
+            "id": 21,
+            "prompt": "The writer expects that any civilisation we detect is likely to be at a similar stage of development to our own.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NO",
+            "explanation": {
+              "step1": "The writer expects that any civilisation we detect is likely to be at a similar stage of development to our own . Ý câu hỏi: tác giả có dự đoán nền văn minh được phát hiện sẽ ở giai đoạn phát triển tương tự chúng ta hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý so sánh nền văn minh được phát hiện với chúng ta. Đoạn B nhắc đến bất kỳ nền văn minh nào ta phát hiện (“whichever civilisation we do pick up”) => đây là vùng liên quan. Đoạn B — whichever civilisation we do pick up",
+              "step3": "Đoạn B: It follows that whichever civilisation we do pick up will, on average, almost certainly be much older than we are .",
+              "step4": "Câu hỏi nói: tác giả dự đoán nền văn minh được phát hiện có khả năng ở giai đoạn tương tự chúng ta (“ a similar stage of development to our own ”). Bài đọc nói: tác giả kết luận rằng, xét trung bình, nền văn minh được phát hiện gần như chắc chắn sẽ lâu đời hơn chúng ta rất nhiều (“ much older than we are ”). Quan điểm của tác giả trái với nhận định trong câu hỏi => chọn NO , không phải NOT GIVEN. Đối chiếu paraphrasing: any civilisation we detect whichever civilisation we do pick up a similar stage of development much older than we are Đáp án đúng: NO Đáp án YES Đoạn C nói đến sự tương đồng với chúng ta (“broadly similar to ourselves”), nên dễ chọn theo từ giống nhau Nhưng đó là giả định về các sinh vật được tìm kiếm, không phải dự đoán về giai đoạn phát triển của nền văn minh. Chỉ chọn YES nếu tác giả dự đoán nền văn minh được phát hiện có khả năng ở giai đoạn tương tự chúng ta. NOT GIVEN nếu chờ bài lặp đúng cụm giai đoạn phát triển (“stage of development”). Nhưng câu (10) đã nêu rõ dự đoán so sánh: lâu đời hơn chúng ta rất nhiều (“much older than we are”). Chỉ chọn NOT GIVEN nếu tác giả không cho biết kỳ vọng về sự tương đồng hay khác biệt giữa nền văn minh được phát hiện và chúng ta ở khía cạnh này."
+            }
+          },
+          {
+            "id": 22,
+            "prompt": "The writer considers it improbable that living things could be based on any chemistry other than carbon and water.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The writer considers it improbable that living things could be based on any chemistry other than carbon and water . Ý câu hỏi: tác giả có cho rằng sự sống dựa trên nền tảng hóa học khác carbon và nước là khó có khả năng xảy ra hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý về nền tảng hóa học của sự sống. Cụm nền tảng hóa học carbon và nước (“a chemistry of carbon and water”) xuất hiện ở đoạn C => bắt đầu đọc từ câu 3 để hiểu tác giả đang nói về đối tượng nào. Đoạn C",
+              "step3": "Đoạn C: The second is a deliberately cautious premise: the beings sought are assumed to be broadly similar to ourselves , for anything wildly unlike us might not register as life at all , quite aside from the problem of communicating with it . Such a creature might , admittedly, sport two green heads and seven fingers , and yet in the essentials it would still echo us - talking to its own kind, curious about the cosmos, dwelling on a planet that circles a Sun-like star, and, most constraining of all, built on a chemistry of carbon and water just as we are - the only chemical basis we currently know of that is capable of sustaining living systems . Câu (3): đặt giả định tìm kiếm những sinh vật tương tự con người. Câu (4): cụ thể hóa sự tương đồng bằng nền tảng carbon và nước, nhưng chỉ nói đây là nền tảng duy trì sự sống duy nhất hiện biết , không đánh giá khả năng tồn tại của những nền tảng khác .",
+              "step4": "Câu hỏi nói: tác giả cho rằng sự sống dựa trên nền tảng hóa học khác carbon và nước khó có khả năng xảy ra (“improbable”). Bài đọc nói: carbon và nước là nền tảng hóa học duy trì sự sống duy nhất hiện chúng ta biết (“ the only chemical basis we currently know of ”). Tác giả không khẳng định cũng không phủ nhận rằng những nền tảng khác khó có khả năng tồn tại . Giới hạn hiểu biết hiện tại không phải là quan điểm về xác suất => chọn NOT GIVEN . Đối chiếu paraphrasing: be based on built on carbon and water giữ nguyên we currently know of improbable bài không đưa ra đánh giá xác suất tương ứng. Đáp án đúng: NOT GIVEN Đáp án YES Nếu chỉ thấy nền tảng hóa học duy nhất (“the only chemical basis”), sẽ dễ chọn YES Nhưng phần giới hạn ở điều hiện biết (“we currently know of”) không có nghĩa là những nền tảng khác khó tồn tại. Chỉ chọn YES nếu tác giả nói rõ sự sống dựa trên hóa học khác carbon và nước là khó có khả năng xảy ra. Đáp án NO Sai vì tác giả cũng không đưa ra quan điểm đối lập rằng sự sống dựa trên hóa học khác có khả năng tồn tại cao. Thiếu thông tin không đồng nghĩa với mâu thuẫn. Chỉ chọn NO nếu tác giả bác bỏ đánh giá khó xảy ra, chẳng hạn khẳng định sự sống dựa trên nền tảng hóa học khác có khả năng tồn tại cao."
+            }
+          },
+          {
+            "id": 23,
+            "prompt": "The sheer number of stars and galaxies leads the writer to treat it as virtually certain that at least one other world somewhere is inhabited.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "YES",
+            "explanation": {
+              "step1": "The sheer number of stars and galaxies leads the writer to treat it as virtually certain that at least one other world somewhere is inhabited . Ý câu hỏi: số lượng sao và thiên hà rất lớn khiến tác giả xem việc có ít nhất một thế giới khác có sự sống là gần như chắc chắn hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý số lượng sao và thiên hà rất lớn. Câu 3 đoạn D nhắc đến hàng trăm tỷ sao (“ the several hundred billion stars ”) và hàng trăm tỷ thiên hà (“ the hundreds of billions of galaxies ”) => đây là vùng liên quan. Đoạn D — the several hundred billion stars",
+              "step3": "Đoạn D: And yet, faced with the several hundred billion stars of our own galaxy, the Milky Way, and the hundreds of billions of galaxies that fill the observable Universe , the notion that not one of these worlds bears life seems scarcely credible ; indeed, the best estimate we can venture - drawing on the little we understand about what carbon-based life requires - puts the figure at something like one star in every 80,000 hosting a life-bearing planet. Gợi ý: dấu hiệu củng cố (“indeed”) cho biết phần sau bổ sung một ước tính cho nhận định trước; không cần đọc con số này để trả lời.",
+              "step4": "Câu hỏi nói: tác giả xem việc có ít nhất một thế giới khác có sự sống là gần như chắc chắn (“virtually certain”), dựa trên số lượng sao và thiên hà rất lớn . Bài đọc nói: trước quy mô ấy, tác giả xem ý tưởng không thế giới nào có sự sống (“ not one of these worlds bears life ”) là rất khó tin (“ scarcely credible ”). Tức là tác giả gần như chắc chắn rằng phải có ít nhất một thế giới khác có sự sống. Đối chiếu paraphrasing: sheer number of stars and galaxies several hundred billion stars + hundreds of billions of galaxies virtually certain that at least one other world somewhere is inhabited not one of these worlds bears life + scarcely credible Đáp án đúng: YES — statement phù hợp với quan điểm của tác giả. Đáp án NO Dễ đọc lướt thấy không thế giới nào có sự sống (“not one of these worlds bears life”) rồi tưởng tác giả khẳng định điều đó Nhưng tác giả đánh giá chính ý tưởng ấy là rất khó tin. Chỉ chọn NO nếu tác giả cho rằng giả thuyết không có sự sống ở bất kỳ thế giới nào khác là đáng tin. NOT GIVEN Câu 2 đoạn D nói chưa biết chắc (“no firm idea”), nhưng câu (3) đã trực tiếp nêu quan điểm về khả năng có sự sống ở nơi khác. Chỉ chọn NOT GIVEN nếu tác giả chỉ nêu số lượng sao và thiên hà mà không đánh giá khả năng có thế giới khác có sự sống."
+            }
+          },
+          {
+            "id": 24,
+            "prompt": "For the same amount of broadcasting energy, signals within one particular radio band reach further than the alternatives.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "YES",
+            "explanation": {
+              "step1": "For the same amount of broadcasting energy , signals within one particular radio band reach further than the alternatives . Ý câu hỏi: với cùng mức năng lượng phát , tín hiệu trong một dải sóng vô tuyến cụ thể có truyền xa hơn các phương án khác hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý so sánh tầm truyền khi giữ nguyên mức phát. Ở đoạn E, cụm truyền xa nhất (“ carry furthest ”) cho biết đây là vùng liên quan. Đoạn E — carry furthest",
+              "step3": "Đoạn E: As it happens, radio waves in the band from 1200 to 3400 MHz carry furthest for a given transmitting power , which is why every search so far has focused on that part of the spectrum .",
+              "step4": "Câu hỏi nói: với cùng mức năng lượng phát , tín hiệu trong một dải sóng cụ thể truyền xa hơn các phương án khác . Bài đọc nói: với một mức công suất phát nhất định (“ for a given transmitting power ”), sóng trong dải tần này truyền xa nhất (“ carry furthest ”). Tác giả khẳng định cùng chiều với nhận định: xa nhất đồng nghĩa với xa hơn các lựa chọn còn lại trong điều kiện so sánh đã nêu . Đối chiếu paraphrasing: For the same amount of broadcasting energy for a given transmitting power signals within one particular radio band radio waves in the band reach further than the alternatives carry furthest Đáp án đúng: YES Đáp án NO Sai vì tác giả khẳng định dải sóng này truyền xa nhất, không đưa ra ý trái ngược với nhận định. Chỉ chọn NO nếu tác giả nói với cùng công suất phát, dải sóng này không truyền xa hơn các phương án khác. NOT GIVEN đề dùng năng lượng phát (“broadcasting energy”), còn bài dùng công suất phát (“transmitting power”) Nhưng bài đã nêu đủ điều kiện so sánh và kết quả; không cần khoảng cách truyền cụ thể. Chỉ chọn NOT GIVEN nếu bài thiếu điều kiện công suất hoặc kết luận so sánh tầm truyền."
+            }
+          },
+          {
+            "id": 25,
+            "prompt": "The survey that monitors the entire sky is carried out at a higher sensitivity than the one directed at selected stars.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NO",
+            "explanation": {
+              "step1": "The survey that monitors the entire sky is carried out at a higher sensitivity than the one directed at selected stars . Ý câu hỏi: tác giả có cho rằng khảo sát toàn bộ bầu trời có độ nhạy cao hơn khảo sát các ngôi sao được chọn không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm phần mô tả hai cách khảo sát. Ở đoạn E, cụm khảo sát có mục tiêu (“a targeted survey”) là dấu hiệu để bắt đầu đọc. Đoạn E — a targeted survey",
+              "step3": "Đoạn E: One half is a targeted survey carried out on some of the largest dishes in existence - the Canadian-run instrument at Fenwick Bay in Newfoundland and the German telescope at Osterholt - which sweeps the nearest 1,500 promising stars at high sensitivity across the 1200-to-3400 MHz band . The other half , a broader and less sensitive watch over the whole sky , relies on the smaller antennas of the Orbital Tracking Network . Câu (8): khảo sát các ngôi sao được chọn với độ nhạy cao . Câu (9): nhánh còn lại khảo sát toàn bộ bầu trời nhưng ít nhạy hơn => ngược chiều so sánh trong câu hỏi.",
+              "step4": "Câu hỏi nói: khảo sát toàn bộ bầu trời có độ nhạy cao hơn (“higher sensitivity”) khảo sát các ngôi sao được chọn. Bài đọc nói: tác giả mô tả khảo sát toàn bộ bầu trời là ít nhạy hơn (“ less sensitive ”), còn khảo sát có mục tiêu được thực hiện với độ nhạy cao (“ at high sensitivity ”). Đối chiếu paraphrasing: the entire sky the whole sky higher sensitivity less sensitive Đáp án đúng: NO — nhận định trái với quan điểm được tác giả nêu trực tiếp . Đáp án YES nếu gán nhầm độ nhạy cao (“at high sensitivity”) ở câu (8) cho khảo sát toàn bộ bầu trời. Nhưng cụm này thuộc khảo sát các ngôi sao được chọn. Chỉ chọn YES nếu tác giả nói khảo sát toàn bộ bầu trời nhạy hơn khảo sát có mục tiêu. NOT GIVEN bài không đưa số đo độ nhạy cụ thể. Nhưng tác giả đã nói rõ chiều so sánh bằng cụm ít nhạy hơn (“less sensitive”); không cần số đo. Chỉ chọn NOT GIVEN nếu bài không cung cấp đủ thông tin để xác định cuộc khảo sát nào nhạy hơn."
+            }
+          },
+          {
+            "id": 26,
+            "prompt": "The writer believes most national governments would prefer to keep the detection of an alien signal secret.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The writer believes most national governments would prefer to keep the detection of an alien signal secret . Ý câu hỏi: tác giả có cho rằng đa số chính phủ muốn giữ bí mật việc phát hiện tín hiệu ngoài hành tinh hay không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh để tìm ý về cách xử lý khi phát hiện tín hiệu ngoài hành tinh. Đầu đoạn F bàn về cách chúng ta nên phản hồi (“How we ought to respond”) => đây là điểm bắt đầu đọc. Đoạn F — How we ought to respond",
+              "step3": "Đoạn F: How we ought to respond , should a signal from another civilisation actually be detected , is a matter of real dispute .",
+              "step4": "Câu hỏi nói: tác giả tin rằng đa số chính phủ muốn giữ bí mật việc phát hiện tín hiệu. Bài đọc nói: tác giả nêu rằng cách phản hồi khi phát hiện tín hiệu là vấn đề gây tranh luận . Toàn bài không nêu quan điểm về việc đa số chính phủ muốn giữ bí mật hay công bố phát hiện . Như vậy, quan điểm trong câu hỏi chưa được xác nhận cũng chưa bị phủ nhận . Đối chiếu paraphrasing: the detection of an alien signal a signal from another civilisation + be detected keep the detection of an alien signal secret không có trong bài Đáp án đúng: NOT GIVEN Đáp án YES việc chưa trả lời ngay (“an immediate reply”, câu 2 đoạn F) với việc giữ bí mật phát hiện. Nhưng tác giả không nói đa số chính phủ muốn giữ bí mật. Chỉ chọn YES nếu tác giả cho rằng đa số chính phủ muốn giữ bí mật việc phát hiện tín hiệu. Đáp án NO Cụm cả thế giới (“the world as a whole”, câu 3 đoạn F) dễ khiến ta suy ra phát hiện sẽ được công khai Nhưng điều này không thể hiện mong muốn của đa số chính phủ. Chỉ chọn NO nếu tác giả cho rằng đa số chính phủ không muốn giữ bí mật việc phát hiện tín hiệu."
+            }
+          }
+        ]
+      },
+      {
+        "id": "cam-09-reading-1-p3",
+        "passageNumber": 3,
+        "title": "The history of the tortoise",
+        "subtitle": "",
+        "content": [
+          "Trace life back far enough and all of it once belonged to the sea. Time and again through evolution, bold pioneers from one animal group after another hauled themselves ashore — some reaching the driest of deserts — carrying a supply of their own private seawater with them, locked inside their blood and cellular fluids. The reptiles, birds, mammals and insects around us are only part of the story: scorpions, snails, spiders, worms, millipedes and centipedes, and crustaceans such as woodlice and land crabs have all made a go of it beyond the water too. Nor should the plants be forgotten, for until they had colonised the land, none of these animal journeys could have happened.",
+          "The shift from sea to land forced a thoroughgoing overhaul of the body, and two systems above all had to be rebuilt: respiration and water balance. And yet plenty of committed land animals later reversed course, gave up the terrestrial machinery they had acquired, and headed back into the water. The seals are only halfway through such a journey, hinting at what the in-between stages looked like on the road to extreme cases like whales and dugongs. Whales — dolphins among them, since dolphins are simply small whales — together with dugongs and the manatees, abandoned terrestrial life entirely and slipped back into a wholly marine existence. Not even breeding brings them ashore. Air, though, is still what they breathe: they never re-evolved anything like the gills their sea-dwelling ancestors once had. Turtles, too, returned to the sea in the remote past, and, like every backboned animal that went back to the water, they breathe air. In one respect, though, they have held back more than whales or dugongs have, since the beaches are still where they come to lay their eggs.",
+          "Turtles alive today, the evidence shows, all descend from an ancestor that lived on land in an era earlier than most of the dinosaurs. Close to the root of the present-day turtle and tortoise line sit two notable fossils, Archelochersis vendhali and Prototestudo brannei, laid down early in the dinosaurs' reign. But when only scraps of a fossil survive, how is its owner's habitat — land or sea — to be decided? Now and then the answer is plain enough. The ichthyosaurs illustrate this: reptiles that lived alongside the dinosaurs, fin-bearing and sleek of body, they left fossils so dolphin-like that they can only have lived, as dolphins do, in the water. With turtles the task is harder, and one route to an answer lies in the bones of the forelimb.",
+          "This is the route that Marta Öberg and Rurik Solheim, at Vendhal University, chose to follow. From the forelimb bones of 63 living species of turtles and tortoises they recorded three measurements, and for each species they plotted those three figures against one another on triangular graph paper, an arrangement that made the whole set of species readily comparable. On the resulting chart the land tortoises bunched into a dense cluster high near the top of the triangle, while the sea turtles gathered lower down, with no overlap between them. That gap closed only once species dividing their lives between land and water were added: these semi-aquatic forms came to rest at roughly the midpoint of the triangle, between the 'wet' assembly below and the 'dry' assembly above. The last step was to see where the fossils belonged. On this the bones of A. vendhali and P. brannei were unambiguous — their points sat squarely within the dry assembly, which meant that both long-extinct creatures had been land animals, from an age before the turtles ever went back to the sea.",
+          "You might therefore conclude that today's land tortoises have stayed ashore ever since those distant terrestrial beginnings — as most mammals did after a few of their number returned to the sea. Not so. Sketch out the family tree of modern turtles and tortoises, and nearly every branch proves to be aquatic; the land tortoises form just a single twig buried deep among otherwise water-dwelling lineages. This implies that they did not occupy dry ground unbroken from the days of A. vendhali and P. brannei onwards. Their forebears, instead, were among the creatures that slipped back into the water, only for the line to climb ashore again in comparatively recent times.",
+          "What tortoises embody, then, is a striking double homecoming. Like every mammal, reptile and bird, they count marine fish among their distant ancestors, and behind those fish stretched a line of worm-like beings reaching back, still within the sea, to the earliest bacteria. A later set of ancestors took up life on land for many generations; later ancestors again abandoned it for the water and became sea turtles. And then, at the last, the line hauled itself ashore a second time to become the tortoises — a few of which now live in the most arid deserts on Earth."
+        ],
+        "questions": [
+          {
+            "id": 27,
+            "prompt": "According to the writer, what did migrating animals keep inside their bodies as a legacy of the sea?",
+            "type": "FILL_IN_BLANK",
+            "correct": "seawater / private seawater",
+            "explanation": {
+              "step1": "According to the writer, what did migrating animals keep inside their bodies as a legacy of the sea ? Câu hỏi cần tìm thứ các động vật vẫn giữ trong cơ thể khi rời biển. Ta dự đoán đáp án là một danh từ chỉ vật chất có liên quan đến biển.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý động vật lên bờ (“hauled themselves ashore”) mà vẫn mang theo một thứ (“carrying”) => đây là vùng liên quan ở đoạn 1. Đoạn 1 — hauled themselves ashore",
+              "step3": "Đoạn 1: Time and again through evolution, bold pioneers from one animal group after another hauled themselves ashore — some reaching the driest of deserts — a supply of carrying their own private seawater with them , locked inside their blood and cellular fluids .",
+              "step4": "Đáp án phù hợp nhất: seawater (cũng chấp nhận private seawater) Câu hoàn chỉnh: Migrating animals kept seawater inside their bodies as a legacy of the sea. (Những động vật di chuyển lên đất liền vẫn giữ nước biển trong cơ thể như một dấu tích từ biển.) => Khớp với dự đoán về một chất liên quan đến biển: thứ được mang theo là seawater ; đáp án một từ, đề không nêu giới hạn số từ. Đối chiếu paraphrasing: keep carrying inside their bodies locked inside their blood blood máu: Nếu skim/scan thấy từ này sát đáp án sẽ dễ chọn nhầm Nhưng đây là nơi chứa seawater, không phải thứ được mang theo. cellular fluids dịch tế bào: Cũng chỉ một nơi chứa seawater, không phải đáp án cho câu hỏi “what”."
+            }
+          },
+          {
+            "id": 28,
+            "prompt": "Besides respiration, which function does the writer single out as most needing to be redesigned for life on land?",
+            "type": "FILL_IN_BLANK",
+            "correct": "water balance",
+            "explanation": {
+              "step1": "Which TWO functions does the writer single out as most needing to be redesigned for life on land ? Cần tìm hai tên chức năng của cơ thể, không phải tên động vật hay nơi sinh sống. Dự đoán câu trả lời sẽ gồm hai cụm danh từ nối bằng *and*.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến khi gặp ý chuyển từ biển lên cạn (“The shift from sea to land”) => đây là vùng liên quan. Đoạn 2 — The shift from sea to land",
+              "step3": "Đoạn 2: The shift from sea to land forced a thoroughgoing overhaul of the body , and two systems above all had to be rebuilt : respiration and water balance .",
+              "step4": "Đáp án phù hợp nhất: respiration and water balance (hoặc water balance and respiration) Câu hoàn chỉnh: The two functions are respiration and water balance. (Hai chức năng đó là hô hấp và cân bằng nước .) => Khớp với dự đoán về hai chức năng và được bài đọc nêu đích danh; đáp án gồm 4 từ, đề không nêu giới hạn từ. Đối chiếu paraphrasing: TWO functions two systems most needing to be redesigned above all had to be rebuilt seawater — nước biển: Đoạn 1 nhắc đến nước biển động vật mang theo (“private seawater”), nhưng câu này hỏi hai chức năng cần được thiết kế lại. respiration — hô hấp: Đây chỉ là một trong hai chức năng; còn thiếu water balance."
+            }
+          },
+          {
+            "id": 29,
+            "prompt": "Unlike whales, turtles have not fully returned to the water; in what location do they still reproduce?",
+            "type": "FILL_IN_BLANK",
+            "correct": "beaches",
+            "explanation": {
+              "step1": "Unlike whales, turtles have not fully returned to the water; in what location do they still reproduce ? Câu hỏi yêu cầu một địa điểm . Trước khi đọc bài, ta dự đoán đáp án là danh từ hoặc cụm danh từ chỉ nơi chốn; chưa thể biết đó là dạng số ít hay số nhiều.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý rùa trở lại biển. Đoạn 2 nhắc rùa trở lại biển (“Turtles, too, returned to the sea”) => đây là vùng liên quan. Đoạn 2 — Turtles, too, returned to the sea",
+              "step3": "Đoạn 2: Turtles , too, returned to the sea in the remote past , and , like every backboned animal that went back to the water, they breathe air . In one respect, though, they have held back more than whales or dugongs have , since the beaches are still where they come to lay their eggs . Câu (7): xác định rùa là loài đã trở lại biển. Câu (8): khác cá voi, rùa vẫn đến bãi biển để đẻ trứng .",
+              "step4": "Đáp án phù hợp nhất: beaches Câu hoàn chỉnh: Unlike whales, turtles have not fully returned to the water; they still reproduce on the beaches . (Khác với cá voi, rùa chưa hoàn toàn trở lại môi trường nước; chúng vẫn sinh sản trên các bãi biển .) => Khớp với dự đoán về địa điểm và bằng chứng rùa đến đó đẻ trứng; đáp án gồm 1 từ, còn đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: in what location the beaches reproduce lay their eggs the sea “ biển ”: câu (7) nói rùa trở lại biển (“returned to the sea”). Nhưng câu (8) xác định nơi chúng đẻ trứng là bãi biển (“the beaches”). Đáp án eggs “ trứng ”: Từ này xuất hiện ngay trong bằng chứng (“lay their eggs”), nhưng chỉ vật được đẻ ra, không phải địa điểm được hỏi."
+            }
+          },
+          {
+            "id": 30,
+            "prompt": "Ichthyosaurs shared their era with which other group of creatures?",
+            "type": "FILL_IN_BLANK",
+            "correct": "dinosaurs",
+            "explanation": {
+              "step1": "Ichthyosaurs shared their era with which other group of creatures ? Câu hỏi cần tên một nhóm sinh vật sống cùng thời với Ichthyosaurs. Dự đoán đáp án là tên nhóm sinh vật được nêu trong bài, có thể ở dạng số nhiều.",
+              "step2": "Dựa vào tên Ichthyosaurs => tìm đến đoạn 3, câu (5) và đọc từ đó. Đoạn 3",
+              "step3": "Đoạn 3: The ichthyosaurs illustrate this : reptiles that lived alongside the dinosaurs , fin-bearing and sleek of body , they left fossils so dolphin-like that they can only have lived , as dolphins do, in the water .",
+              "step4": "Đáp án phù hợp nhất: dinosaurs Câu hoàn chỉnh: Ichthyosaurs shared their era with dinosaurs. (Ichthyosaurs sống cùng thời với dinosaurs.) => Khớp với dự đoán về một nhóm sinh vật sống cùng thời; đáp án lấy nguyên văn 1 từ trong bài. Đề không nêu giới hạn số từ. Đối chiếu paraphrasing: shared their era with lived alongside reptiles loài bò sát: Từ này cho biết Ichthyosaurs thuộc nhóm nào, không phải nhóm sinh vật sống cùng thời với chúng. dolphins thấy từ chỉ sự giống nhau về hình dạng (“dolphin-like”), Nhưng đó không phải nhóm được nêu sau “lived alongside”. turtles Đây là chủ đề chính của bài, nhưng câu (5) nêu dinosaurs là nhóm sống cùng thời với Ichthyosaurs."
+            }
+          },
+          {
+            "id": 31,
+            "prompt": "Seals have made a full return to a life in the water.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "FALSE",
+            "explanation": {
+              "step1": "Seals have made a full return to a life in the water . Ý câu hỏi: seals đã hoàn tất việc trở lại sống dưới nước hay chưa?",
+              "step2": "Dựa vào tên loài “Seals” trong câu hỏi => ta tìm đến đoạn 2, nơi bài đọc nhắc đến “The seals”. Đoạn 2 — The seals",
+              "step3": "Đoạn 2: And yet plenty of committed land animals later reversed course, gave up the terrestrial machinery they had acquired, and headed back into the water . The seals are only halfway through such a journey , hinting at what the in-between stages looked like on the road to extreme cases like whales and dugongs . Câu (2): Động vật trên cạn bắt đầu hành trình trở lại nước. Câu (3): seals mới đi được nửa hành trình ấy .",
+              "step4": "Câu hỏi nói: seals đã hoàn toàn trở lại sống dưới nước (“a full return”). Bài đọc nói: seals mới đi được nửa hành trình (“only halfway”). ⇒ Hai ý mâu thuẫn nhau: mới đi được nửa đường không phải đã hoàn tất. Đáp án đúng: FALSE Đối chiếu paraphrasing: return to a life in the water headed back into the water a full return only halfway Đáp án TRUE Nếu skim/scan thấy động vật trở lại nước (“headed back into the water”), sẽ dễ chọn TRUE Nhưng câu (3) nói riêng seals mới đi được nửa hành trình. Chỉ chọn TRUE nếu bài nói seals đã hoàn tất hành trình trở lại nước. NOT GIVEN Sai vì câu (3) nêu rõ seals đã đi được bao xa. Chỉ chọn NOT GIVEN nếu bài không cho biết mức độ seals đã trở lại nước."
+            }
+          },
+          {
+            "id": 32,
+            "prompt": "In some cases the writer says it is straightforward to tell where an extinct creature once lived.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "TRUE",
+            "explanation": {
+              "step1": "In some cases the writer says it is straightforward to tell where an extinct creature once lived . Ý câu hỏi: Tác giả có nói rằng đôi khi việc xác định nơi một sinh vật đã tuyệt chủng từng sống là dễ dàng không?",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc nhanh đến khi gặp ý xác định môi trường sống của sinh vật từ hóa thạch. Ở đoạn 3, cụm chỉ môi trường sống của sinh vật để lại hóa thạch (“its owner's habitat”) => bắt đầu đọc từ câu (3). Đoạn 3",
+              "step3": "Đoạn 3: But when only scraps of a fossil survive , how is its owner's habitat — land or sea — to be decided ? Now and then the answer is plain enough . Câu (3): đặt câu hỏi về cách xác định môi trường sống từ hóa thạch. Câu (4): cho biết đôi khi câu trả lời khá rõ ràng .",
+              "step4": "Câu hỏi nói: Trong một số trường hợp (“ In some cases ”), việc xác định nơi sinh vật đã tuyệt chủng từng sống là dễ dàng (“straightforward to tell”). Bài đọc nói: Sau câu hỏi về môi trường sống (“its owner's habitat”), tác giả khẳng định đôi khi (“Now and then”) câu trả lời khá rõ ràng (“the answer is plain enough ”). Hai ý phù hợp với nhau. Đáp án đúng: TRUE Đối chiếu paraphrasing: In some cases Now and then straightforward to tell plain enough FALSE Nếu đọc tiếp đến trường hợp turtles và thấy việc này khó hơn (“the task is harder”), sẽ dễ chọn FALSE Nhưng một trường hợp khó hơn không phủ định việc đôi khi câu trả lời rõ ràng. Chỉ chọn FALSE nếu bài nói không có trường hợp nào dễ xác định. NOT GIVEN Nếu chỉ đọc câu (3), sẽ dễ nghĩ bài mới nêu câu hỏi mà chưa cho biết mức độ dễ hay khó Nhưng câu (4) đã nói câu trả lời đôi khi khá rõ ràng. Chỉ chọn NOT GIVEN nếu bài không cho biết có trường hợp nào dễ xác định hay không."
+            }
+          },
+          {
+            "id": 33,
+            "prompt": "The technique developed by Öberg and Solheim has since been used to study other kinds of reptile.",
+            "type": "TRUE_FALSE_NOT_GIVEN",
+            "options": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "correct": "NOT GIVEN",
+            "explanation": {
+              "step1": "The technique developed by Öberg and Solheim has since been used to study other kinds of reptile . Ý câu hỏi: Câu này khẳng định phương pháp của Öberg và Solheim đã được dùng về sau với các loại bò sát khác . Ta cần kiểm tra cả thời điểm lẫn đối tượng nghiên cứu.",
+              "step2": "Dựa vào hai tên riêng Öberg và Solheim => ta bắt đầu đọc ở câu (1), đoạn 4, nơi xuất hiện “Marta Öberg and Rurik Solheim”. Đoạn 4 — Marta Öberg and Rurik Solheim",
+              "step3": "Đoạn 4: This is the route that Marta Öberg and Rurik Solheim , at Vendhal University, chose to follow . From the forelimb bones of 63 living species of turtles and tortoises they recorded three measurements , and for each species they plotted those three figures against one another on triangular graph paper , an arrangement that made the whole set of species readily comparable . Câu (1): xác định Öberg và Solheim chọn cách nghiên cứu này. Câu (2): mô tả cách họ áp dụng nó với turtles và tortoises ; không nêu lần áp dụng về sau .",
+              "step4": "Câu hỏi nói: Phương pháp đã được dùng về sau (“ has since been used ”) để nghiên cứu các loại bò sát khác (“ other kinds of reptile ”). Bài đọc nói: Öberg và Solheim ghi số đo (“recorded three measurements”) từ xương của turtles và tortoises rồi vẽ biểu đồ. Bài không cho biết phương pháp có được dùng về sau với các loại bò sát khác hay không. ⇒ Mô tả nghiên cứu ban đầu không xác nhận, cũng không phủ định, lần sử dụng về sau. Đáp án đúng: NOT GIVEN Đối chiếu paraphrasing: The technique recorded three measurements + plotted those three figures has since been used + other kinds of reptile không có trong bài. Đáp án TRUE bài mô tả rõ phương pháp, Nhưng đó là nghiên cứu với turtles và tortoises, không phải lần dùng về sau với loại khác. Chỉ chọn TRUE nếu bài nói phương pháp sau đó được dùng để nghiên cứu các loại bò sát khác. FALSE bài chỉ nhắc đến turtles và tortoises. Nhưng không nhắc đến không có nghĩa là chưa từng được dùng cho loại khác. Chỉ chọn FALSE nếu bài phủ định việc dùng phương pháp về sau với các loại bò sát khác."
+            }
+          },
+          {
+            "id": 34,
+            "prompt": "[STEP 1] From the  _____  bones of each of 63 species alive today, three separate readings were recorded.",
+            "type": "FILL_IN_BLANK",
+            "correct": "forelimb",
+            "explanation": {
+              "step1": "From the 8. ___ bones of each of 63 species alive today , three separate readings were recorded . Ô trống đứng trước *bones*, nên cần một từ chỉ bộ phận cơ thể mà những chiếc xương này thuộc về. Con số 63 và việc ghi lại ba số đo sẽ giúp tìm đúng bước trong bài.",
+              "step2": "Dựa vào con số 63 trong đề => tìm đến đoạn 4, tại câu có cụm chỉ 63 loài còn sống (“63 living species”). Đoạn 4 — 63 living species",
+              "step3": "Đoạn 4: From the forelimb bones of 63 living species of turtles and tortoises they recorded three measurements , and for each species they plotted those three figures against one another on triangular graph paper , an arrangement that made the whole set of species readily comparable .",
+              "step4": "Đáp án phù hợp nhất: forelimb Câu hoàn chỉnh: From the forelimb bones of each of 63 species alive today, three separate readings were recorded. (Ba số đo riêng được ghi lại từ xương chi trước của từng loài trong số 63 loài còn sống.) => Khớp dự đoán về bộ phận có xương được đo và bằng chứng ở câu (2); đáp án gồm 1 từ . Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: ___ bones forelimb bones 63 species alive today 63 living species three separate readings three measurements living “ đang sống ”: Từ này mô tả các loài (“living species”), không chỉ bộ phận có xương. measurements “ các số đo ”: Đây là thứ được ghi lại (“recorded three measurements”), không phải bộ phận cần điền trước bones."
+            }
+          },
+          {
+            "id": 35,
+            "prompt": "[STEP 2] Each species' three readings were then set out on a triangular grid, so that the species could be directly  _____ .",
+            "type": "FILL_IN_BLANK",
+            "correct": "comparable",
+            "explanation": {
+              "step1": "Each species' three readings were then set out on a triangular grid , so that the species could be directly 9. ___ . Cụm chỉ mục đích “so that” cho biết ô trống nói về điều việc đưa số liệu lên biểu đồ giúp thực hiện. Sau “could be directly”, dự đoán cần một tính từ hoặc phân từ quá khứ diễn tả khả năng so sánh các loài .",
+              "step2": "Dựa vào cụm chỉ loại biểu đồ “triangular grid”, ta tìm đến cách diễn đạt tương ứng “triangular graph paper” ở câu (2), đoạn 4. Đoạn 4 — triangular grid",
+              "step3": "Đoạn 4: From the forelimb bones of 63 living species of turtles and tortoises they recorded three measurements , and for each species they plotted those three figures against one another on triangular graph paper , an arrangement that made the whole set of species readily comparable . Cách bố trí số liệu giúp các loài có thể so sánh được (“comparable”). Đây là tính từ cần điền.",
+              "step4": "Đáp án phù hợp nhất: comparable Câu hoàn chỉnh: Each species' three readings were then set out on a triangular grid, so that the species could be directly comparable. (Ba số liệu của mỗi loài được đưa lên lưới hình tam giác, nhờ đó các loài có thể được so sánh trực tiếp .) => Khớp với dự đoán về một tính từ chỉ khả năng so sánh và với từ dùng trong bài; đáp án gồm 1 từ . Đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: three readings three measurements a triangular grid triangular graph paper so that an arrangement that made figures — các số liệu: Đây là thứ được biểu diễn trên biểu đồ, không phải đặc tính của các loài; danh từ số nhiều cũng không phù hợp sau “could be directly”. readily — một cách dễ dàng: Từ này bổ nghĩa cho “comparable” trong bài; điền riêng nó sẽ không nêu được điều các loài có thể làm. triangular — có hình tam giác: Từ này mô tả giấy đồ thị, không mô tả khả năng so sánh các loài."
+            }
+          },
+          {
+            "id": 36,
+            "prompt": "[OUTCOME] The land tortoises were packed tightly together near the  _____  of the triangle, while the sea turtles collected in the lower region.",
+            "type": "FILL_IN_BLANK",
+            "correct": "top",
+            "explanation": {
+              "step1": "The land tortoises were packed tightly together near the 10. ___ of the triangle , while the sea turtles collected in the lower region . Ô trống đứng sau “the” và trước “of the triangle”, nên cần một danh từ chỉ vị trí . Vì nhóm rùa biển ở vùng thấp hơn, dự đoán vị trí của nhóm rùa cạn nằm phía trên hình tam giác.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm nhóm rùa cạn (“land tortoises”) trên hình tam giác (“triangle”). Hai cụm này đưa ta đến câu (3), đoạn 4. Đoạn 4 — land tortoises",
+              "step3": "Đoạn 4: On the resulting chart the land tortoises bunched into a dense cluster high near the top of the triangle , while the sea turtles gathered lower down , with no overlap between them .",
+              "step4": "Đáp án phù hợp nhất: top Câu hoàn chỉnh: The land tortoises were packed tightly together near the top of the triangle , while the sea turtles collected in the lower region. (Nhóm rùa cạn tập trung sát nhau gần đỉnh hình tam giác, trong khi nhóm rùa biển tập trung ở vùng thấp hơn.) => Khớp với dự đoán về vị trí phía trên : bài đọc ghi rõ “near the top of the triangle”. Đáp án gồm 1 từ; đề không nêu giới hạn số từ. Đối chiếu paraphrasing: bunched into a dense cluster were packed tightly together near the top of the triangle giữ nguyên sau khi điền. lower down phía thấp hơn: Đây là vị trí của nhóm rùa biển, không phải nhóm rùa cạn. midpoint điểm giữa: Câu (4) đoạn 4 dùng từ này cho các loài sống cả trên cạn lẫn dưới nước được thêm vào sau. cluster cụm: Từ này nói các điểm tụ lại với nhau, không chỉ vị trí cần điền trên hình tam giác."
+            }
+          },
+          {
+            "id": 37,
+            "prompt": "[STEP 3] A number of living  _____  species then underwent the same procedure and were added to the chart.",
+            "type": "FILL_IN_BLANK",
+            "correct": "semi-aquatic",
+            "explanation": {
+              "step1": "A number of living 11. ___ species then underwent the same procedure and were added to the chart . Ô trống đứng trước *species*, nên cần một từ bổ nghĩa chỉ loại loài còn sống được thêm vào biểu đồ. Chưa cần đoán cụ thể đó là loại nào.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý được thêm vào biểu đồ (“were added to the chart”). Ở đoạn 4, bài đọc có cụm “were added” => đây là vùng cần đọc. Đoạn 4 — were added",
+              "step3": "Đoạn 4: That gap closed only once species dividing their lives between land and water were added : these semi-aquatic forms came to rest at roughly the midpoint of the triangle , between the 'wet' assembly below and the 'dry' assembly above . Hai vế nối bằng dấu hai chấm: nhóm loài sống ở cả cạn lẫn nước vừa được thêm vào chính là nhóm được gọi là semi-aquatic .",
+              "step4": "Đáp án phù hợp nhất: semi-aquatic Câu hoàn chỉnh: A number of living semi-aquatic species then underwent the same procedure and were added to the chart. (Một số loài bán thủy sinh còn sống sau đó trải qua cùng quy trình và được thêm vào biểu đồ.) => Khớp dự đoán về từ bổ nghĩa cho *species* và đúng nhóm loài được thêm vào; *semi-aquatic* là một từ ghép có dấu gạch nối. Đề không nêu giới hạn số từ. Đối chiếu paraphrasing: dividing their lives between land and water these semi aquatic forms midpoint “ điểm giữa ”: Từ này nằm ngay sau semi-aquatic, nhưng chỉ vị trí trên biểu đồ, không phải loại loài cần điền trước species. Đáp án land “ trên cạn ”: khi thấy “between land and water”, Nhưng nhóm được thêm vào sống ở cả hai môi trường, không chỉ trên cạn."
+            }
+          },
+          {
+            "id": 38,
+            "prompt": "[OUTCOME] The points for these species settled near the  _____  of the triangle, between the two earlier groups.",
+            "type": "FILL_IN_BLANK",
+            "correct": "midpoint",
+            "explanation": {
+              "step1": "The points for these species settled near the 12. ___ of the triangle , between the two earlier groups . Ô trống đứng sau *the* và trước *of the triangle*, nên cần một danh từ chỉ vị trí . Cụm “between the two earlier groups” cho biết vị trí ấy nằm giữa hai nhóm .",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta tìm ý các loài được bổ sung vào biểu đồ. Ở đoạn 4, cụm “were added” => bắt đầu đọc tại đây. Đoạn 4 — were added",
+              "step3": "Đoạn 4: That gap closed only once species dividing their lives between land and water were added: these semi-aquatic forms came to rest at roughly the midpoint of the triangle , between the 'wet' assembly below and the 'dry' assembly above .",
+              "step4": "Đáp án phù hợp nhất: midpoint Câu hoàn chỉnh: The points for these species settled near the midpoint of the triangle, between the two earlier groups. (Các điểm của những loài này nằm gần trung điểm của tam giác, giữa hai nhóm trước đó .) => Khớp với dự đoán về vị trí giữa hai nhóm và thông tin ở câu (4); đáp án gồm một từ. Phần đề được cung cấp không nêu giới hạn số từ. Đối chiếu paraphrasing: settled near came to rest at roughly between the two earlier groups between the 'wet' assembly below and the 'dry' assembly above below — ở dưới: Từ này chỉ vị trí của nhóm sống dưới nước, không phải vị trí của các loài đang được hỏi. above — ở trên: Từ này chỉ vị trí của nhóm sống trên cạn, không phải vị trí giữa hai nhóm."
+            }
+          },
+          {
+            "id": 39,
+            "prompt": "[OUTCOME] The position of their points revealed that the two ancient species had once been  _____ .",
+            "type": "FILL_IN_BLANK",
+            "correct": "land animals",
+            "explanation": {
+              "step1": "The position of their points revealed that the two ancient species had once been 13. ___ . Dự đoán: Sau “had once been”, chỗ trống cần một cụm danh từ cho biết hai loài cổ xưa từng là loại động vật nào . Chưa thể xác định câu trả lời chỉ từ câu hỏi.",
+              "step2": "Dựa vào hai tên riêng A. vendhali và P. brannei ở STEP 4 => bắt đầu đọc tại câu (6), đoạn 4. Đoạn 4",
+              "step3": "Đoạn 4: On this the bones of A. vendhali and P. brannei were unambiguous — their points sat squarely within the dry assembly , which meant that both long-extinct creatures had been land animals , from an age before the turtles ever went back to the sea .",
+              "step4": "Đáp án phù hợp nhất: land animals Câu hoàn chỉnh: The position of their points revealed that the two ancient species had once been land animals. (Vị trí các điểm cho thấy hai loài cổ xưa từng là động vật sống trên cạn .) => Khớp với dự đoán về một cụm danh từ chỉ loại động vật và kết luận trực tiếp ở câu (6). Đáp án gồm hai từ; đề không nêu giới hạn số từ. Đối chiếu paraphrasing: the two ancient species both long extinct creatures The position of their points their points sat squarely within the dry assembly sea turtles “ nhóm sống ở biển ”: Đoạn 4 có nhắc đến nhóm này, nhưng điểm của hai loài được hỏi lại nằm trong nhóm trên cạn (“the dry assembly”). dry assembly “ nhóm trên cạn ”: Đây là vị trí các điểm trên biểu đồ, không phải cụm từ chỉ hai loài từng là gì. Bài đọc rút ra kết luận “land animals”. midpoint “ điểm giữa ”: Đây là vị trí của nhóm sống ở cả cạn lẫn nước, không phải kết luận về A. vendhali và P. brannei."
+            }
+          },
+          {
+            "id": 40,
+            "prompt": "According to the writer, the single most important thing about tortoises is that",
+            "type": "MULTIPLE_CHOICE",
+            "options": [
+              "they can survive in some of the driest regions anywhere on the planet.",
+              "they have crossed between the sea and the land on more than one occasion.",
+              "their earliest ancestors were simple bacteria that lived in the sea.",
+              "they are very closely related to the sea turtles of today."
+            ],
+            "correct": "they have crossed between the sea and the land on more than one occasion.",
+            "explanation": {
+              "step1": "According to the writer, the single most important thing about tortoises is that Câu hỏi hỏi: Theo tác giả, điều quan trọng nhất về tortoises là gì? Ta cần tìm ý tác giả muốn nhấn mạnh, không chỉ một chi tiết đúng trong bài.",
+              "step2": "Câu hỏi không có từ khoá đặc biệt; ta đọc đến đoạn 6, nơi tác giả tổng kết điều tortoises thể hiện (“What tortoises embody, then”) => bắt đầu từ câu (1) của đoạn này. Đoạn 6 — What tortoises embody, then",
+              "step3": "Đoạn 6: What tortoises embody , then , is a striking double homecoming . A later set of ancestors took up life on land for many generations ; later ancestors again abandoned it for the water and became sea turtles . And then , at the last, the line hauled itself ashore a second time to become the tortoises — a few of which now live in the most arid deserts on Earth . Câu (1): tác giả nêu nét nổi bật là cuộc trở về hai lần . Câu (3)–(4): dòng dõi này lên đất liền => trở lại nước => lên bờ lần thứ hai để trở thành tortoises. Điều tác giả nhấn mạnh là dòng dõi tortoises di chuyển qua lại giữa nước và đất liền nhiều lần .",
+              "step4": "Đáp án đúng: B. they have crossed between the sea and the land on more than one occasion . (Chúng đã di chuyển giữa biển và đất liền hơn một lần .) Đối chiếu paraphrasing: crossed between the sea and the land took up life on land + abandoned it for the water + ashore a second time more than one occasion double homecoming Đáp án A “ Chúng có thể sống ở một số vùng khô hạn nhất hành tinh ”: Nếu skim thấy “most arid deserts” ở câu (4), bạn dễ chọn A Nhưng đó chỉ là chi tiết về một số tortoises (“a few”), không phải ý tác giả nhấn mạnh. Đáp án C “ Tổ tiên xa nhất của chúng là vi khuẩn đơn giản sống dưới biển ”: Nếu skim thấy “earliest bacteria” ở câu 2 đoạn 6, bạn dễ chọn C Nhưng đó là chi tiết truy nguyên tổ tiên xa, không phải nét nổi bật được tác giả tổng kết. Đáp án D “ Chúng có quan hệ họ hàng rất gần với sea turtles ngày nay ”: Nếu skim thấy “became sea turtles” ở câu (3), bạn dễ chọn D Nhưng câu đó nói về một chặng trong lịch sử dòng dõi, không khẳng định mức độ gần gũi với sea turtles ngày nay."
+            }
+          }
+        ]
+      }
+    ]
+  },
   "real-test-2026-q1": {
     "id": "real-test-2026-q1",
     "title": "IELTS Real Test 2026 - Q1 (Reading)",
@@ -6439,13 +9282,13 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
             "explanation": {
               "step1": "Phân tích nhận định: Hệ thống AI cần kết nối internet tốc độ cao liên tục.",
               "step2": "Đoạn 2: \"operates locally on low-cost tablet computers without requiring high-speed cloud connectivity.\"",
-              "step3": "Hệ thống chạy nội bộ không cần mạng tốc độ cao.",
-              "step4": "Đáp án: FALSE"
+              "step3": "Đối chiếu: \"without requiring high-speed connectivity\" trái ngược hoàn toàn với \"requires continuous high-speed internet\".",
+              "step4": "Đáp án là FALSE."
             }
           },
           {
             "id": 2,
-            "prompt": "The AI matches or exceeds specialist human doctors in detecting conditions like diabetic retinopathy.",
+            "prompt": "The multimodal AI algorithm has demonstrated clinical accuracy comparable to human radiologists in spotting early diabetic retinopathy.",
             "type": "TRUE_FALSE_NOT_GIVEN",
             "options": [
               "TRUE",
@@ -6454,39 +9297,28 @@ export const IELTS_TESTS: Record<string, IELTSTestItem> = {
             ],
             "correct": "TRUE",
             "explanation": {
-              "step1": "Phân tích: AI đạt hoặc vượt bác sĩ chuyên khoa.",
-              "step2": "Đoạn 2: \"matches or exceeds certified radiologists in identifying early-stage diabetic retinopathy.\"",
-              "step3": "Khớp ý nghĩa hoàn toàn.",
-              "step4": "Đáp án: TRUE"
+              "step1": "Phân tích: Thuật toán AI đạt độ chính xác tương đương bác sĩ chẩn đoán hình ảnh đối với bệnh võng mạc tiểu đường giai đoạn đầu.",
+              "step2": "Đoạn 2: \"matches or exceeds certified radiologists in identifying early-stage diabetic retinopathy\".",
+              "step3": "Đối chiếu: \"matches or exceeds\" = tương đương hoặc vượt trội hơn.",
+              "step4": "Đáp án là TRUE."
             }
           },
           {
             "id": 3,
-            "prompt": "Wearable biosensors monitor cardiac biomarkers like _____ to anticipate heart attacks.",
-            "type": "FILL_IN_BLANK",
-            "correct": "troponin",
-            "explanation": {
-              "step1": "Cần danh từ chỉ chỉ dấu sinh học tim mạch.",
-              "step2": "Đoạn 3: \"biomarkers including interstitial glucose, cardiac troponin, and cortisol\"",
-              "step3": "Đối chiếu với bệnh tim (cardiac infarction).",
-              "step4": "Đáp án: troponin"
-            }
-          },
-          {
-            "id": 4,
-            "prompt": "Algorithmic bias occurs when training datasets lack adequate demographic representation.",
-            "type": "TRUE_FALSE_NOT_GIVEN",
+            "prompt": "Choose the correct biomarker continuously monitored by biosensors to detect early acute cardiac infarction:",
+            "type": "MULTIPLE_CHOICE",
             "options": [
-              "TRUE",
-              "FALSE",
-              "NOT GIVEN"
+              "Interstitial glucose",
+              "Cardiac troponin",
+              "Melanoma",
+              "Cortisol"
             ],
-            "correct": "TRUE",
+            "correct": "Cardiac troponin",
             "explanation": {
-              "step1": "Thiên vị thuật toán xảy ra do thiếu tính đại diện.",
-              "step2": "Đoạn cuối: \"Algorithmic bias resulting from unrepresentative training datasets\"",
-              "step3": "Khớp nghĩa 100%.",
-              "step4": "Đáp án: TRUE"
+              "step1": "Tìm biomarker giúp phát hiện sớm nhồi máu cơ tim (cardiac infarction).",
+              "step2": "Đoạn 3: \"biomarkers including interstitial glucose, cardiac troponin, and cortisol, detecting acute cardiac infarction...\".",
+              "step3": "Troponin là chỉ dấu sinh học đặc hiệu cho tim.",
+              "step4": "Đáp án là Cardiac troponin."
             }
           }
         ]

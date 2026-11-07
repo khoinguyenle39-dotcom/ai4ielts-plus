@@ -20,11 +20,11 @@ function parseSlateToLines(slateJsonStr) {
     const lines = [];
     function walk(node) {
       if (!node) return;
-      if (node.type === 'li' || node.type === 'p') {
+      if (node.type === 'li' || node.type === 'p' || node.type === 'td') {
         let text = '';
         if (Array.isArray(node.children)) {
           node.children.forEach(c => {
-            if (c.type === 'blank') text += ' [ _____ ] ';
+            if (c.type === 'blank' || c.type === 'editable-blank-void') text += ' [ _____ ] ';
             else if (c.text) text += c.text;
             else if (c.children) text += extractText(c);
           });
@@ -41,18 +41,81 @@ function parseSlateToLines(slateJsonStr) {
   }
 }
 
+function extractBlockPromptForBlank(parsedSlate, targetBlankId, globalQNum, blankIdToQNum) {
+  let foundPrompt = '';
+
+  function walk(node) {
+    if (!node || foundPrompt) return;
+
+    const isBlock = node.type === 'p' || node.type === 'li' || node.type === 'td';
+    if (isBlock) {
+      let hasTarget = false;
+      function check(n) {
+        if (!n) return;
+        if ((n.type === 'blank' && n.id === targetBlankId) ||
+            (n.type === 'editable-blank-void' && n.children?.[0]?.blankId === targetBlankId) ||
+            n.id === targetBlankId ||
+            (n.children?.[0]?.blankId === targetBlankId)) {
+          hasTarget = true;
+        }
+        if (Array.isArray(n.children)) n.children.forEach(check);
+      }
+      check(node);
+
+      if (hasTarget) {
+        let text = '';
+        function buildText(n) {
+          if (!n) return;
+          if (n.type === 'blank') {
+            if (n.id === targetBlankId) {
+              text += ' [ _____ ] ';
+            } else {
+              const otherQ = blankIdToQNum[n.id];
+              text += otherQ ? ` [(${otherQ}) _____] ` : ' _____ ';
+            }
+          } else if (n.type === 'editable-blank-void') {
+            const bId = n.children?.[0]?.blankId || n.id;
+            if (bId === targetBlankId) {
+              text += ' [ _____ ] ';
+            } else {
+              const otherQ = blankIdToQNum[bId];
+              text += otherQ ? ` [(${otherQ}) _____] ` : ' _____ ';
+            }
+          } else if (n.text) {
+            text += n.text;
+          } else if (Array.isArray(n.children)) {
+            n.children.forEach(buildText);
+          }
+        }
+        buildText(node);
+        foundPrompt = text.replace(/\s+/g, ' ').trim();
+        return;
+      }
+    }
+
+    if (Array.isArray(node.children)) {
+      node.children.forEach(walk);
+    }
+  }
+
+  if (Array.isArray(parsedSlate)) parsedSlate.forEach(walk);
+  return foundPrompt;
+}
+
 async function fetchTest(url) {
   const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
   const html = await res.text();
-  const match = html.match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
-  if (!match) throw new Error('__NEXT_DATA__ not found');
-  const data = JSON.parse(match[1]);
-  const parsed = JSON.parse(decodeURIComponent(data.props.pageProps.encryptedData));
+  const marker = '<script id="__NEXT_DATA__" type="application/json">';
+  const start = html.indexOf(marker);
+  if (start === -1) throw new Error('__NEXT_DATA__ not found in page');
+  const end = html.indexOf('</script>', start);
+  const json = JSON.parse(html.slice(start + marker.length, end));
+  const parsed = JSON.parse(decodeURIComponent(json.props.pageProps.encryptedData));
   return parsed.data?.data;
 }
 
 async function build() {
-  console.log('🚀 Building authentic 40-question IELTS tests...');
+  console.log('🚀 Building authentic 40-question IELTS tests (Cam 09 - 21)...');
   const testUrls = [
     { id: 'cam-21-reading-1', series: 'Cambridge 21', title: 'IELTS CAM Inspired 21 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/de-va-dap-an-mt-reading-test-1' },
     { id: 'cam-20-reading-1', series: 'Cambridge 20', title: 'IELTS CAM Inspired 20 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-cam-inpired-20-test-1-reading' },
@@ -62,7 +125,11 @@ async function build() {
     { id: 'cam-16-reading-1', series: 'Cambridge 16', title: 'IELTS CAM Inspired 16 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-16-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
     { id: 'cam-15-reading-1', series: 'Cambridge 15', title: 'IELTS CAM Inspired 15 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-15-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
     { id: 'cam-14-reading-1', series: 'Cambridge 14', title: 'IELTS CAM Inspired 14 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-14-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
-    { id: 'cam-13-reading-1', series: 'Cambridge 13', title: 'IELTS CAM Inspired 13 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-13-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' }
+    { id: 'cam-13-reading-1', series: 'Cambridge 13', title: 'IELTS CAM Inspired 13 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-13-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
+    { id: 'cam-12-reading-1', series: 'Cambridge 12', title: 'IELTS CAM Inspired 12 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-12-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
+    { id: 'cam-11-reading-1', series: 'Cambridge 11', title: 'IELTS CAM Inspired 11 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-11-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
+    { id: 'cam-10-reading-1', series: 'Cambridge 10', title: 'IELTS CAM Inspired 10 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-10-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' },
+    { id: 'cam-09-reading-1', series: 'Cambridge 09', title: 'IELTS CAM Inspired 09 - Reading Test 1', url: 'https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-9-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download' }
   ];
 
   const fullTests = {};
@@ -79,16 +146,45 @@ async function build() {
       for (let sIdx = 0; sIdx < testSections.length; sIdx++) {
         const sec = testSections[sIdx];
         let pObj = sec.passage;
-        if (typeof pObj === 'string') pObj = JSON.parse(pObj);
+        if (typeof pObj === 'string') {
+          try { pObj = JSON.parse(pObj); } catch (e) {}
+        }
 
-        let pText = pObj?.paragraph?.content || '';
+        // Complete robust passage paragraph extraction (REGULAR + ANNOTATE)
         let paragraphs = [];
-        if (typeof pText === 'string') {
-          paragraphs = pText.split(/\n\n+/).filter(Boolean);
+        if (pObj?.paragraphs && Array.isArray(pObj.paragraphs) && pObj.paragraphs.length > 0) {
+          // ANNOTATE type: array of paragraphs, markedBy ALPHABET (A, B, C, D...)
+          paragraphs = pObj.paragraphs.map((item, idx) => {
+            const rawContent = typeof item === 'string' ? item : item?.content || '';
+            const trimmed = rawContent.trim();
+            if (pObj.markedBy === 'ALPHABET') {
+              const letter = String.fromCharCode(65 + idx);
+              return `[${letter}]  ${trimmed}`;
+            }
+            return trimmed;
+          }).filter(Boolean);
+        } else if (pObj?.paragraph?.content) {
+          // REGULAR type: string content with \n\n or \n
+          const pText = pObj.paragraph.content;
+          if (typeof pText === 'string') {
+            paragraphs = pText.split(/\n\n+/).map(s => s.trim()).filter(Boolean);
+            if (paragraphs.length <= 1 && pText.includes('\n')) {
+              paragraphs = pText.split(/\n+/).map(s => s.trim()).filter(Boolean);
+            }
+          }
+        } else if (pObj?.paragraph?.editorValue) {
+          const lines = parseSlateToLines(pObj.paragraph.editorValue);
+          if (lines.length) paragraphs = lines;
+        }
+
+        if (paragraphs.length === 0) {
+          paragraphs = [sec.name];
         }
 
         let expDoc = sec.readingExplanationEditorDoc;
-        if (typeof expDoc === 'string') expDoc = JSON.parse(expDoc);
+        if (typeof expDoc === 'string') {
+          try { expDoc = JSON.parse(expDoc); } catch (e) {}
+        }
         const expChildren = expDoc?.children || [];
         let expIdx = 0;
 
@@ -114,20 +210,46 @@ async function build() {
         for (const g of (sec.questionGroups || [])) {
           const type = g.questionType || '';
 
-          // 1. Completion / Fill in blanks
-          if (type.includes('COMPLETION') || type.includes('COMPLETE') || type.includes('NOTE') || type.includes('TABLE') || type.includes('FLOW_CHART')) {
+          // 1. Completion / Fill in blanks (Summary, Note Form, Table, Sentence completion)
+          if (type.includes('COMPLETION') || type.includes('COMPLETE') || type.includes('NOTE') || type.includes('TABLE')) {
             for (const q of (g.questions || [])) {
-              const lines = parseSlateToLines(q.paragraph?.editorValue);
+              let parsedSlate = null;
+              const rawSlate = q.paragraph?.editorValue || q.editorValue;
+              if (rawSlate) {
+                try {
+                  parsedSlate = typeof rawSlate === 'string' ? JSON.parse(rawSlate) : rawSlate;
+                } catch (e) {}
+              }
+
+              const lines = parseSlateToLines(rawSlate);
               const blankLines = lines.filter(l => l.includes('[ _____ ]'));
               const correctAnswers = q.correctAnswers || [];
 
+              // Map blank IDs to future global question numbers
+              const blankIdToQNum = {};
               correctAnswers.forEach((ans, aIdx) => {
-                const prompt = blankLines[aIdx] || lines[aIdx] || `Complete blank for question ${globalQNum}:`;
+                const bId = ans.blankId || ans.id;
+                if (bId) blankIdToQNum[bId] = globalQNum + aIdx;
+              });
+
+              correctAnswers.forEach((ans, aIdx) => {
+                const qNum = globalQNum++;
+                const bId = ans.blankId || ans.id;
+                let prompt = '';
+
+                if (parsedSlate && bId) {
+                  prompt = extractBlockPromptForBlank(parsedSlate, bId, qNum, blankIdToQNum);
+                }
+
+                if (!prompt) {
+                  prompt = blankLines[aIdx] || lines[aIdx] || `Complete blank for Question ${qNum}:`;
+                }
+
                 const correctVal = ans.value || '';
                 const explanation = getNextExplanation(correctVal);
 
                 questions.push({
-                  id: globalQNum++,
+                  id: qNum,
                   prompt: prompt.replace(/\[\s*_____\s*\]/g, '_____'),
                   type: 'FILL_IN_BLANK',
                   correct: correctVal,
@@ -136,7 +258,56 @@ async function build() {
               });
             }
           }
-          // 2. Matching Paragraph Information
+          // 2. Short Answer Questions (e.g. In Cam 09 & Cam 10)
+          else if (type.includes('SHORT_ANSWER')) {
+            for (const q of (g.questions || [])) {
+              const sentences = q.sentences || [];
+              const correctAnswers = q.correctAnswers || [];
+
+              sentences.forEach((s, sIdx) => {
+                const prompt = s.text || `Question ${globalQNum}:`;
+                const correctVal = correctAnswers[sIdx]?.value || '';
+                const explanation = getNextExplanation(correctVal);
+
+                questions.push({
+                  id: globalQNum++,
+                  prompt,
+                  type: 'FILL_IN_BLANK',
+                  correct: correctVal,
+                  explanation
+                });
+              });
+            }
+          }
+          // 3. Flowchart Questions (e.g. In Cam 09)
+          else if (type.includes('FLOWCHART') || type.includes('FLOW_CHART')) {
+            for (const q of (g.questions || [])) {
+              const steps = q.sentences || [];
+              const correctAnswers = q.correctAnswers || [];
+              let ansIdx = 0;
+
+              steps.forEach((step) => {
+                if (step.blanks && step.blanks.length > 0) {
+                  const lines = parseSlateToLines(step.editorValue);
+                  step.blanks.forEach(() => {
+                    const ans = correctAnswers[ansIdx++];
+                    const prompt = `[${step.title || 'Flowchart'}] ${lines[0] || 'Complete flowchart blank:'}`.replace(/\[\s*_____\s*\]/g, '_____');
+                    const correctVal = ans?.value || '';
+                    const explanation = getNextExplanation(correctVal);
+
+                    questions.push({
+                      id: globalQNum++,
+                      prompt,
+                      type: 'FILL_IN_BLANK',
+                      correct: correctVal,
+                      explanation
+                    });
+                  });
+                }
+              });
+            }
+          }
+          // 4. Matching Paragraph Information
           else if (type.includes('MATCHING_PARAGRAPH')) {
             for (const q of (g.questions || [])) {
               const options = (q.options || []);
@@ -160,7 +331,7 @@ async function build() {
               });
             }
           }
-          // 3. Matching Feature / Name
+          // 5. Matching Feature / Name
           else if (type.includes('MATCHING_FEATURE')) {
             for (const q of (g.questions || [])) {
               const features = q.featureNames || [];
@@ -183,7 +354,7 @@ async function build() {
               });
             }
           }
-          // 4. Matching Headings
+          // 6. Matching Headings
           else if (type.includes('MATCHING_HEADING')) {
             for (const q of (g.questions || [])) {
               const headings = (q.options || []).map(o => o.value);
@@ -207,7 +378,7 @@ async function build() {
               });
             }
           }
-          // 5. Matching Sentence Endings
+          // 7. Matching Sentence Endings
           else if (type.includes('MATCHING_ENDING')) {
             for (const q of (g.questions || [])) {
               const beginnings = q.endingOptions || [];
@@ -230,7 +401,7 @@ async function build() {
               });
             }
           }
-          // 6. Multiple Answer (e.g. Choose TWO letters)
+          // 8. Multiple Answer (e.g. Choose TWO letters)
           else if (type.includes('MULTIPLE_ANSWER')) {
             for (const q of (g.questions || [])) {
               const prompt = q.question || 'Choose TWO letters:';
@@ -254,7 +425,7 @@ async function build() {
               }
             }
           }
-          // 7. True/False/Not Given or Yes/No/Not Given
+          // 9. True/False/Not Given or Yes/No/Not Given
           else if (type.includes('TFN') || type.includes('YN')) {
             const isYN = type.includes('YN');
             const choices = isYN ? ['YES', 'NO', 'NOT GIVEN'] : ['TRUE', 'FALSE', 'NOT GIVEN'];
@@ -275,7 +446,7 @@ async function build() {
               });
             }
           }
-          // 8. Multiple Choice / Single Answer
+          // 10. Multiple Choice / Single Answer
           else if (type.includes('SINGLE_ANSWER') || type.includes('MULTIPLE') || type.includes('CHOICE')) {
             for (const q of (g.questions || [])) {
               const prompt = q.question || 'Choose the correct letter, A, B, C or D:';
@@ -317,7 +488,7 @@ async function build() {
           passageNumber: sIdx + 1,
           title: pObj?.title || sec.name,
           subtitle: pObj?.subTitle || '',
-          content: paragraphs.length ? paragraphs : [pText || sec.name],
+          content: paragraphs,
           questions
         });
       }
@@ -332,7 +503,7 @@ async function build() {
         passages
       };
 
-      console.log(`✅ ${t.id}: Generated ${passages.length} passages with ${globalQNum - 1} TOTAL QUESTIONS!`);
+      console.log(`✅ ${t.id}: Generated ${passages.length} passages (${passages.map(p => p.content.length + ' paras').join(', ')}) with ${globalQNum - 1} TOTAL QUESTIONS!`);
     } catch (err) {
       console.error(`❌ Failed ${t.id}:`, err.message);
     }
@@ -368,46 +539,34 @@ async function build() {
             explanation: {
               step1: 'Phân tích nhận định: Hệ thống AI cần kết nối internet tốc độ cao liên tục.',
               step2: 'Đoạn 2: "operates locally on low-cost tablet computers without requiring high-speed cloud connectivity."',
-              step3: 'Hệ thống chạy nội bộ không cần mạng tốc độ cao.',
-              step4: 'Đáp án: FALSE'
+              step3: 'Đối chiếu: "without requiring high-speed connectivity" trái ngược hoàn toàn với "requires continuous high-speed internet".',
+              step4: 'Đáp án là FALSE.'
             }
           },
           {
             id: 2,
-            prompt: 'The AI matches or exceeds specialist human doctors in detecting conditions like diabetic retinopathy.',
+            prompt: 'The multimodal AI algorithm has demonstrated clinical accuracy comparable to human radiologists in spotting early diabetic retinopathy.',
             type: 'TRUE_FALSE_NOT_GIVEN',
             options: ['TRUE', 'FALSE', 'NOT GIVEN'],
             correct: 'TRUE',
             explanation: {
-              step1: 'Phân tích: AI đạt hoặc vượt bác sĩ chuyên khoa.',
-              step2: 'Đoạn 2: "matches or exceeds certified radiologists in identifying early-stage diabetic retinopathy."',
-              step3: 'Khớp ý nghĩa hoàn toàn.',
-              step4: 'Đáp án: TRUE'
+              step1: 'Phân tích: Thuật toán AI đạt độ chính xác tương đương bác sĩ chẩn đoán hình ảnh đối với bệnh võng mạc tiểu đường giai đoạn đầu.',
+              step2: 'Đoạn 2: "matches or exceeds certified radiologists in identifying early-stage diabetic retinopathy".',
+              step3: 'Đối chiếu: "matches or exceeds" = tương đương hoặc vượt trội hơn.',
+              step4: 'Đáp án là TRUE.'
             }
           },
           {
             id: 3,
-            prompt: 'Wearable biosensors monitor cardiac biomarkers like _____ to anticipate heart attacks.',
-            type: 'FILL_IN_BLANK',
-            correct: 'troponin',
+            prompt: 'Choose the correct biomarker continuously monitored by biosensors to detect early acute cardiac infarction:',
+            type: 'MULTIPLE_CHOICE',
+            options: ['Interstitial glucose', 'Cardiac troponin', 'Melanoma', 'Cortisol'],
+            correct: 'Cardiac troponin',
             explanation: {
-              step1: 'Cần danh từ chỉ chỉ dấu sinh học tim mạch.',
-              step2: 'Đoạn 3: "biomarkers including interstitial glucose, cardiac troponin, and cortisol"',
-              step3: 'Đối chiếu với bệnh tim (cardiac infarction).',
-              step4: 'Đáp án: troponin'
-            }
-          },
-          {
-            id: 4,
-            prompt: 'Algorithmic bias occurs when training datasets lack adequate demographic representation.',
-            type: 'TRUE_FALSE_NOT_GIVEN',
-            options: ['TRUE', 'FALSE', 'NOT GIVEN'],
-            correct: 'TRUE',
-            explanation: {
-              step1: 'Thiên vị thuật toán xảy ra do thiếu tính đại diện.',
-              step2: 'Đoạn cuối: "Algorithmic bias resulting from unrepresentative training datasets"',
-              step3: 'Khớp nghĩa 100%.',
-              step4: 'Đáp án: TRUE'
+              step1: 'Tìm biomarker giúp phát hiện sớm nhồi máu cơ tim (cardiac infarction).',
+              step2: 'Đoạn 3: "biomarkers including interstitial glucose, cardiac troponin, and cortisol, detecting acute cardiac infarction...".',
+              step3: 'Troponin là chỉ dấu sinh học đặc hiệu cho tim.',
+              step4: 'Đáp án là Cardiac troponin.'
             }
           }
         ]
@@ -415,14 +574,15 @@ async function build() {
     ]
   };
 
-  // Generate TypeScript file
-  const tsContent = `// AUTO-GENERATED AUTHENTIC IELTS TESTS (FULL PASSAGES 1, 2, 3 - 40 QUESTIONS EACH)
+  const tsContent = `// Auto-generated Authentic 40-Question IELTS Tests Library with Linearthinking
+// Source: Cambridge IELTS Authentic Practice Tests via DOL Tự Học System
+// Generated for AI4IELTS+ Platform
+
 export interface QuestionExplanation {
   step1: string;
   step2: string;
   step3: string;
   step4?: string;
-  paraphrase?: { q: string; p: string }[];
   distractor?: string;
 }
 

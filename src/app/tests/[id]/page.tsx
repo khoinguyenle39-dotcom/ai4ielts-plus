@@ -292,11 +292,24 @@ export default function TestRunnerPage() {
           </div>
 
           <div className="flex-1 overflow-y-auto pr-3 text-slate-800 leading-relaxed text-sm space-y-4 font-serif">
-            {currentPassage.content.map((para, i) => (
-              <p key={i} className="text-justify leading-7">
-                {para}
-              </p>
-            ))}
+            {currentPassage.content.map((para, i) => {
+              const match = para.match(/^\[([A-Z])\]\s*(.*)$/);
+              if (match) {
+                return (
+                  <p key={i} className="text-justify leading-7">
+                    <span className="inline-flex items-center justify-center w-6 h-6 mr-2 rounded-lg bg-red-100 text-[#e11b22] font-sans font-black text-xs shrink-0 select-none">
+                      {match[1]}
+                    </span>
+                    <span>{match[2]}</span>
+                  </p>
+                );
+              }
+              return (
+                <p key={i} className="text-justify leading-7">
+                  {para}
+                </p>
+              );
+            })}
           </div>
         </div>
 

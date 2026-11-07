@@ -1,0 +1,756 @@
+{
+  "cam-21": {
+    "seriesId": "cam-21",
+    "bookNum": 21,
+    "title": "IELTS CAM Inspired 21",
+    "views": 33840,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-reading-test-1"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-reading-test-2"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-reading-test-3"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-reading-test-4"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-listening-test-1"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-listening-test-2"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-listening-test-3"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/dap-an-va-giai-thich-mt-listening-test-4"
+      }
+    ]
+  },
+  "cam-20": {
+    "seriesId": "cam-20",
+    "bookNum": 20,
+    "title": "IELTS CAM Inspired 20",
+    "views": 199517,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/answer-key-mock-test-ielts-20-test-1-reading"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/mt-ielts-20-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/luyen-tap-mt-ielts-20-reading-test-3"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/answer-key-mock-test-ielts-20-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/luyen-tap-mock-test-ielts-20-listening-test-1"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/mt-ielts-20-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/answer-key-mock-test-ielts-20-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/answer-key-mock-test-ielts-20-test-4-listening"
+      }
+    ]
+  },
+  "cam-19": {
+    "seriesId": "cam-19",
+    "bookNum": 19,
+    "title": "IELTS CAM Inspired 19",
+    "views": 130635,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-19-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-19-test-2-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-luyen-tap-mock-test-ielts-19-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-19-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-19-test-1-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-19-test-2-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-19-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-luyen-tap-mock-test-ielts-19-test-4-listening"
+      }
+    ]
+  },
+  "cam-18": {
+    "seriesId": "cam-18",
+    "bookNum": 18,
+    "title": "IELTS CAM Inspired 18",
+    "views": 113967,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-18-test-1-reading"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-luyen-tap-mock-test-ielts-18-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-18-test-3-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-luyen-tap-mock-test-ielts-18-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-luyen-tap-mock-test-ielts-18-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mt-ielts-18-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-18-test-3-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-luyen-tap-mock-test-ielts-18-test-4-listening"
+      }
+    ]
+  },
+  "cam-17": {
+    "seriesId": "cam-17",
+    "bookNum": 17,
+    "title": "IELTS CAM Inspired 17",
+    "views": 148014,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-1-reading"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-17-test-4-listening"
+      }
+    ]
+  },
+  "cam-16": {
+    "seriesId": "cam-16",
+    "bookNum": 16,
+    "title": "IELTS CAM Inspired 16",
+    "views": 173880,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-1-reading"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-16-test-4-listening"
+      }
+    ]
+  },
+  "cam-15": {
+    "seriesId": "cam-15",
+    "bookNum": 15,
+    "title": "IELTS CAM Inspired 15",
+    "views": 113054,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-15-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-15-test-2-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-15-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-15-test-4-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-15-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-15-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-15-test-3-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-15-test-4-listening"
+      }
+    ]
+  },
+  "cam-14": {
+    "seriesId": "cam-14",
+    "bookNum": 14,
+    "title": "IELTS CAM Inspired 14",
+    "views": 93563,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-14-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-14-test-2-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-14-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-14-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-14-test-1-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-14-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-14-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-14-test-4-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      }
+    ]
+  },
+  "cam-13": {
+    "seriesId": "cam-13",
+    "bookNum": 13,
+    "title": "IELTS CAM Inspired 13",
+    "views": 63574,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-1-reading"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-13-test-4-listening"
+      }
+    ]
+  },
+  "cam-12": {
+    "seriesId": "cam-12",
+    "bookNum": 12,
+    "title": "IELTS CAM Inspired 12",
+    "views": 56061,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-12-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-12-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-12-test-3-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-12-test-4-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-12-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-12-test-2-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-12-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-12-test-4-listening"
+      }
+    ]
+  },
+  "cam-11": {
+    "seriesId": "cam-11",
+    "bookNum": 11,
+    "title": "IELTS CAM Inspired 11",
+    "views": 51712,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-11-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-11-test-4-listening"
+      }
+    ]
+  },
+  "cam-10": {
+    "seriesId": "cam-10",
+    "bookNum": 10,
+    "title": "IELTS CAM Inspired 10",
+    "views": 74986,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-1-reading"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-3-reading"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-4-reading"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-3-listening"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-10-test-4-listening"
+      }
+    ]
+  },
+  "cam-09": {
+    "seriesId": "cam-09",
+    "bookNum": 9,
+    "title": "IELTS CAM Inspired 09",
+    "views": 108697,
+    "reading": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-9-test-1-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-9-test-2-reading"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-9-test-3-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "READING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-9-test-4-reading-questions-answer-key-de-bai-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      }
+    ],
+    "listening": [
+      {
+        "testNumber": 1,
+        "name": "Test 1",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-9-test-1-listening"
+      },
+      {
+        "testNumber": 2,
+        "name": "Test 2",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-9-test-2-listening"
+      },
+      {
+        "testNumber": 3,
+        "name": "Test 3",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-mt-ielts-9-test-3-listening-questions-answer-key-audio-transcript-dap-an-giai-thich-chi-tiet-free-pdf-download"
+      },
+      {
+        "testNumber": 4,
+        "name": "Test 4",
+        "skill": "LISTENING",
+        "url": "https://tuhoc.dolenglish.vn/luyen-thi-ielts/ielts-online-test-answer-key-mock-test-ielts-9-test-4-listening"
+      }
+    ]
+  }
+}

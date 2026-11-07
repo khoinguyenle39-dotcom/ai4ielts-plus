@@ -3,19 +3,19 @@ import { BookOpen, Clock, Play, Flame, Layers, Search, Filter } from "lucide-rea
 import SyncStatusHub from "@/components/SyncStatusHub";
 
 const CAM_SERIES = [
-  { id: "cam-21", title: "IELTS CAM Inspired 21", testsCount: 8, plays: "154K", badge: "Mới nhất 2026", link: "/tests/cam-21-reading-1", desc: "Passage: The Davies sisters, Why we need silence, The World of Sugar. Chuẩn đề thi 2026." },
-  { id: "cam-20", title: "IELTS CAM Inspired 20", testsCount: 8, plays: "421K", badge: "Phổ biến nhất", link: "/tests/cam-20-reading-1", desc: "Passage: The Kākāpō parrot conservation, To Britain greybeam, How stress affects judgement." },
-  { id: "cam-19", title: "IELTS CAM Inspired 19", testsCount: 8, plays: "217K", badge: "Chuẩn Cambridge", link: "/tests/cam-19-reading-1", desc: "Passage: How tennis rackets have changed, Pirates of the Mediterranean, Misinformation." },
-  { id: "cam-18", title: "IELTS CAM Inspired 18", testsCount: 8, plays: "233K", badge: "Chuẩn Cambridge", link: "/tests/cam-18-reading-1", desc: "Passage: Urban farming aeroponics in Rotterdam, Forest management, Space junk problem." },
-  { id: "cam-17", title: "IELTS CAM Inspired 17", testsCount: 8, plays: "271K", badge: "Chuẩn Cambridge", link: "/tests/cam-17-reading-1", desc: "Passage: London underground railway, Stadiums: past, present and future, To catch a king." },
-  { id: "cam-16", title: "IELTS CAM Inspired 16", testsCount: 8, plays: "330K", badge: "Chuẩn Cambridge", link: "/tests/cam-16-reading-1", desc: "Passage: Why we need to protect polar bears, The Step Pyramid of Djoser, The future of work." },
-  { id: "cam-15", title: "IELTS CAM Inspired 15", testsCount: 8, plays: "204K", badge: "Chuẩn Cambridge", link: "/tests/cam-15-reading-1", desc: "Passage: Nutmeg - a valuable spice, Driverless cars, What is exploration." },
-  { id: "cam-14", title: "IELTS CAM Inspired 14", testsCount: 8, plays: "163K", badge: "Chuẩn Cambridge", link: "/tests/cam-14-reading-1", desc: "Passage: Importance Of Children's Play, Bike-Sharing Schemes, Motivational Factors." },
-  { id: "cam-13", title: "IELTS CAM Inspired 13", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-13-reading-1", desc: "Passage: Tourism New Zealand Website, Why Being Bored Is Stimulating, Artificial Artists." },
-  { id: "cam-12", title: "IELTS CAM Inspired 12", testsCount: 8, plays: "85K", badge: "Chuẩn Cambridge", link: "/tests/cam-12-reading-1", desc: "Passage: Cork, Collecting as a hobby, Purpose of gaining knowledge." },
-  { id: "cam-11", title: "IELTS CAM Inspired 11", testsCount: 8, plays: "81K", badge: "Chuẩn Cambridge", link: "/tests/cam-11-reading-1", desc: "Passage: Crop-growing skyscrapers, The Falkirk Wheel, Reducing climate change." },
-  { id: "cam-10", title: "IELTS CAM Inspired 10", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/cam-10-reading-1", desc: "Passage: Stepwells of India, European transport systems, Psychology of innovation." },
-  { id: "cam-09", title: "IELTS CAM Inspired 09", testsCount: 8, plays: "127K", badge: "Chuẩn Cambridge", link: "/tests/cam-09-reading-1", desc: "Passage: William Henry Perkin, Search for Extra-Terrestrial Intelligence, History of Tortoise." }
+  { id: "cam-21", title: "IELTS CAM Inspired 21", testsCount: 8, plays: "154K", badge: "Mới nhất 2026", link: "/tests/series/cam-21", desc: "Passage: The Davies sisters, Why we need silence, The World of Sugar. Chuẩn đề thi 2026." },
+  { id: "cam-20", title: "IELTS CAM Inspired 20", testsCount: 8, plays: "421K", badge: "Phổ biến nhất", link: "/tests/series/cam-20", desc: "Passage: The Kākāpō parrot conservation, To Britain greybeam, How stress affects judgement." },
+  { id: "cam-19", title: "IELTS CAM Inspired 19", testsCount: 8, plays: "217K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-19", desc: "Passage: How tennis rackets have changed, Pirates of the Mediterranean, Misinformation." },
+  { id: "cam-18", title: "IELTS CAM Inspired 18", testsCount: 8, plays: "233K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-18", desc: "Passage: Urban farming aeroponics in Rotterdam, Forest management, Space junk problem." },
+  { id: "cam-17", title: "IELTS CAM Inspired 17", testsCount: 8, plays: "271K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-17", desc: "Passage: London underground railway, Stadiums: past, present and future, To catch a king." },
+  { id: "cam-16", title: "IELTS CAM Inspired 16", testsCount: 8, plays: "330K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-16", desc: "Passage: Why we need to protect polar bears, The Step Pyramid of Djoser, The future of work." },
+  { id: "cam-15", title: "IELTS CAM Inspired 15", testsCount: 8, plays: "204K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-15", desc: "Passage: Nutmeg - a valuable spice, Driverless cars, What is exploration." },
+  { id: "cam-14", title: "IELTS CAM Inspired 14", testsCount: 8, plays: "163K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-14", desc: "Passage: Importance Of Children's Play, Bike-Sharing Schemes, Motivational Factors." },
+  { id: "cam-13", title: "IELTS CAM Inspired 13", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-13", desc: "Passage: Tourism New Zealand Website, Why Being Bored Is Stimulating, Artificial Artists." },
+  { id: "cam-12", title: "IELTS CAM Inspired 12", testsCount: 8, plays: "85K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-12", desc: "Passage: Cork, Collecting as a hobby, Purpose of gaining knowledge." },
+  { id: "cam-11", title: "IELTS CAM Inspired 11", testsCount: 8, plays: "81K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-11", desc: "Passage: Crop-growing skyscrapers, The Falkirk Wheel, Reducing climate change." },
+  { id: "cam-10", title: "IELTS CAM Inspired 10", testsCount: 8, plays: "101K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-10", desc: "Passage: Stepwells of India, European transport systems, Psychology of innovation." },
+  { id: "cam-09", title: "IELTS CAM Inspired 09", testsCount: 8, plays: "127K", badge: "Chuẩn Cambridge", link: "/tests/series/cam-09", desc: "Passage: William Henry Perkin, Search for Extra-Terrestrial Intelligence, History of Tortoise." }
 ];
 
 const REAL_TESTS = [
@@ -159,14 +159,40 @@ export default function TestsPage() {
                 </div>
               </div>
 
-              <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between">
-                <span className="text-xs font-bold text-slate-500">4 Reading • 4 Listening</span>
+              <div className="mt-4 pt-3 border-t border-slate-100 space-y-2.5">
+                <div className="flex items-center justify-between text-xs font-bold text-slate-600">
+                  <span className="text-slate-500 font-semibold">4 Reading • 4 Listening</span>
+                  <div className="flex items-center gap-1 text-[11px]">
+                    <span className="text-slate-400">Chọn đề:</span>
+                    {[1, 2, 3, 4].map(n => (
+                      <Link
+                        key={n}
+                        href={`/tests/${cam.id}-reading-${n}`}
+                        className="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-red-50 hover:text-[#e11b22] text-slate-700 font-black transition"
+                        title={`Làm Reading Test ${n}`}
+                      >
+                        R{n}
+                      </Link>
+                    ))}
+                    {[1, 2, 3, 4].map(n => (
+                      <Link
+                        key={n}
+                        href={`/tests/series/${cam.id}`}
+                        className="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-red-50 hover:text-[#e11b22] text-slate-700 font-black transition"
+                        title={`Xem Listening Test ${n}`}
+                      >
+                        L{n}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
                 <Link
                   href={cam.link}
-                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#e11b22] text-white font-black text-xs hover:bg-[#b91c1c] transition shadow-sm active:scale-95"
+                  className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-[#e11b22] text-white font-black text-xs hover:bg-[#b91c1c] transition shadow-sm active:scale-95"
                 >
                   <Play className="w-3.5 h-3.5 fill-white" />
-                  Xem bài test
+                  Xem trọn bộ 8 đề thi (Reading & Listening)
                 </Link>
               </div>
             </div>

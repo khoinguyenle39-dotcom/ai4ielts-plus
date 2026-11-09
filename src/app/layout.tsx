@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BookOpen, Headphones, Flame, Map, Gamepad2, RefreshCw, Mic } from "lucide-react";
 import ThreeIeltsLogo from "@/components/ThreeIeltsLogo";
 import FloatingIeltsBackground from "@/components/FloatingIeltsBackground";
+import CambridgeDictionaryDrawer from "@/components/CambridgeDictionaryDrawer";
 
 export const metadata: Metadata = {
   title: "AI4IELTS+ - Hệ thống Tự học IELTS 4 Kỹ Năng Tư Duy Linearthinking",
@@ -106,6 +107,9 @@ export default function RootLayout({
         <main className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {children}
         </main>
+
+        {/* Floating Cambridge Dictionary Book Button & Drawer (Always on Right Side) */}
+        <CambridgeDictionaryDrawer />
 
         {/* Mobile Bottom Navigation Bar */}
         <nav className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-slate-200 shadow-lg px-2 py-1.5 flex items-center justify-around">

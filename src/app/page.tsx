@@ -44,10 +44,10 @@ const TODAY_TIMETABLE: Record<BandLevel, { period: string; time: string; title: 
 };
 
 const FEATURED_CAM_TESTS = [
-  { id: "cam-21", title: "IELTS CAM Inspired 21", badge: "Mới nhất 2026", tests: 8, plays: "154K", link: "/tests/cam-20-reading-1" },
-  { id: "cam-20", title: "IELTS CAM Inspired 20", badge: "Hot nhất", tests: 8, plays: "421K", link: "/tests/cam-20-reading-1" },
-  { id: "cam-19", title: "IELTS CAM Inspired 19", badge: "Chuẩn Cambridge", tests: 8, plays: "217K", link: "/tests/cam-20-reading-1" },
-  { id: "rt-2026", title: "IELTS Real Test 2026 Q2", badge: "Đề thi thật", tests: 10, plays: "14K", link: "/tests/cam-20-reading-1" }
+  { id: "real-test-2026-q2", title: "IELTS Real Test 2026 Q2", badge: "Đề thi thật Q2", tests: 10, plays: "118K", link: "/tests/series/real-test-2026-q2" },
+  { id: "forecast-test-2026-q2", title: "IELTS Forecast 2026 Q2", badge: "Dự đoán Q2/2026", tests: 10, plays: "96K", link: "/tests/series/forecast-test-2026-q2" },
+  { id: "cam-21", title: "IELTS CAM Inspired 21", badge: "Mới nhất 2026", tests: 8, plays: "154K", link: "/tests/series/cam-21" },
+  { id: "plus-3", title: "IELTS Practice Test Plus 3", badge: "Hot Plus 3", tests: 14, plays: "390K", link: "/tests/series/plus-3" }
 ];
 
 export default function HomePage() {

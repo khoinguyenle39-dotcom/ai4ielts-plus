@@ -14,7 +14,7 @@ import {
   Award,
   Volume2
 } from "lucide-react";
-import { getSeriesById, CAMBRIDGE_SERIES_CATALOG } from "@/data/cambridgeCatalog";
+import { getSeriesById, CAMBRIDGE_SERIES_CATALOG, ALL_SERIES_CATALOG } from "@/data/cambridgeCatalog";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -178,13 +178,13 @@ export default function SeriesDetailPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Switch between Cambridge Series */}
+      {/* Switch between All 28 Series */}
       <div className="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-3">
         <h3 className="text-sm font-black text-slate-900 uppercase tracking-wider">
-          Khám Phá Các Bộ Sách Cambridge Khác
+          Khám Phá Tất Cả 28 Bộ Sách Đề Thi Khác (271 Đề)
         </h3>
         <div className="flex flex-wrap gap-2">
-          {CAMBRIDGE_SERIES_CATALOG.map((s) => (
+          {ALL_SERIES_CATALOG.map((s) => (
             <Link
               key={s.seriesId}
               href={`/tests/series/${s.seriesId}`}
@@ -194,7 +194,10 @@ export default function SeriesDetailPage({ params }: PageProps) {
                   : "bg-slate-50 text-slate-700 border-slate-200 hover:border-slate-300 hover:bg-slate-100"
               }`}
             >
-              {s.title.replace("IELTS CAM Inspired ", "Cam ")}
+              {s.title
+                .replace("IELTS CAM Inspired ", "Cam ")
+                .replace("IELTS Recent Actual Test ", "Actual ")
+                .replace("IELTS Practice Test ", "")}
             </Link>
           ))}
         </div>

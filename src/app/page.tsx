@@ -22,6 +22,7 @@ import {
   Mic
 } from "lucide-react";
 import ThreeIeltsLogo from "@/components/ThreeIeltsLogo";
+import CollocationQuizReminder from "@/components/CollocationQuizReminder";
 
 type BandLevel = "4.0-5.0" | "5.5-6.5" | "7.0-8.0+";
 
@@ -69,6 +70,8 @@ export default function HomePage() {
 
   return (
     <div className="space-y-8 pb-16">
+      <CollocationQuizReminder />
+
       {/* Hero Banner: 100% Pure Red Background with Crisp Pure White Text */}
       <div className="rounded-3xl bg-[#e11b22] text-white p-6 sm:p-10 shadow-xl border border-red-600">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">

@@ -38,5 +38,10 @@ CREATE TABLE IF NOT EXISTS public.collocations (
     right_word TEXT NOT NULL,
     vietnamese TEXT NOT NULL,
     example TEXT,
-    band_level NUMERIC(2,1) DEFAULT 7.0
+    band_level NUMERIC(2,1) DEFAULT 7.5,
+    topic TEXT,
+    usage_note TEXT,
+    context_note TEXT,
+    examples JSONB DEFAULT '[]'::jsonb,
+    alternatives JSONB DEFAULT '[]'::jsonb
 );

@@ -27,8 +27,14 @@ import { recordDailyStudyVisit } from "@/lib/streakManager";
 
 function cleanWord(w: string): string {
   return String(w || "")
+    .normalize("NFKC")
     .toLowerCase()
-    .replace(/[^a-z0-9']/g, "");
+    .replace(/['’‘`´ʼʻ״″,]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function isPunctOnlyToken(w: string): boolean {
+  return cleanWord(w).length === 0;
 }
 
 function formatSecToMmSs(sec: number): string {
@@ -71,7 +77,8 @@ export default function DictationStudioPage() {
   const currentSentence =
     lessonData.sentences[currentIndex] || lessonData.sentences[0];
 
-  const targetWords = currentSentence.text.trim().split(/\s+/).filter(Boolean);
+  const rawTargetTokens = currentSentence.text.trim().split(/\s+/).filter(Boolean);
+  const targetWords = rawTargetTokens.filter((t) => !isPunctOnlyToken(t));
   const wordCount = targetWords.length;
 
   const sentenceDurationSec = Math.max(
@@ -161,7 +168,8 @@ export default function DictationStudioPage() {
   };
 
   // Kiểm tra xem câu người dùng gõ đã đúng 100% với câu chuẩn chưa
-  const userWords = userInput.trim().split(/\s+/).filter(Boolean);
+  const rawUserTokens = userInput.trim().split(/\s+/).filter(Boolean);
+  const userWords = rawUserTokens.filter((t) => !isPunctOnlyToken(t));
   const isAllWordsCorrect =
     userWords.length === targetWords.length &&
     targetWords.every((tw, i) => cleanWord(tw) === cleanWord(userWords[i] || ""));
@@ -613,18 +621,29 @@ export default function DictationStudioPage() {
         >
           {isChecked && !isEditingBox ? (
             <div className="flex flex-wrap gap-x-1.5 gap-y-1 text-base sm:text-lg font-normal leading-relaxed pr-8">
-              {userWords.map((uw, idx) => {
-                const tw = targetWords[idx];
-                const isWordRight = tw && cleanWord(uw) === cleanWord(tw);
-                return (
-                  <span
-                    key={idx}
-                    className={isWordRight ? "text-[#16a34a]" : "text-[#dc2626]"}
-                  >
-                    {uw}
-                  </span>
-                );
-              })}
+              {(() => {
+                let wordIdx = 0;
+                return rawUserTokens.map((uw, idx) => {
+                  if (isPunctOnlyToken(uw)) {
+                    return (
+                      <span key={idx} className="text-[#16a34a]">
+                        {uw}
+                      </span>
+                    );
+                  }
+                  const tw = targetWords[wordIdx];
+                  wordIdx += 1;
+                  const isWordRight = tw && cleanWord(uw) === cleanWord(tw);
+                  return (
+                    <span
+                      key={idx}
+                      className={isWordRight ? "text-[#16a34a]" : "text-[#dc2626]"}
+                    >
+                      {uw}
+                    </span>
+                  );
+                });
+              })()}
             </div>
           ) : (
             <textarea

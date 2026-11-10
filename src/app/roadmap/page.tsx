@@ -37,6 +37,7 @@ import {
   ChecklistTask,
 } from "@/data/roadmapData";
 import { supabase } from "@/lib/supabase";
+import ForumFlashVocabSystem from "@/components/ForumFlashVocabSystem";
 
 const CHECKLIST_STORAGE_KEY = "ai4ielts_roadmap_checklist_v2";
 const WEEKLY_CHECK_STORAGE_KEY = "ai4ielts_roadmap_weekly_v2";
@@ -85,8 +86,8 @@ const DEFAULT_KEYWORDS: KeywordPair[] = [
 
 export default function RoadmapPage() {
   const [activeTab, setActiveTab] = useState<
-    "phases" | "skills" | "schedule" | "resources"
-  >("phases");
+    "vocab" | "phases" | "skills" | "schedule" | "resources"
+  >("vocab");
   const [selectedSkillFilter, setSelectedSkillFilter] = useState<string>("ALL");
   const [activeSkillTab, setActiveSkillTab] = useState<
     "listening" | "reading" | "writing" | "speaking"
@@ -354,27 +355,32 @@ export default function RoadmapPage() {
         </div>
       </div>
 
-      {/* 4 Main Navigation Tabs */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 p-2 rounded-2xl bg-white border border-slate-200 shadow-sm">
+      {/* 5 Main Navigation Tabs */}
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 p-2 rounded-2xl bg-white border border-slate-200 shadow-sm">
         {[
           {
+            id: "vocab",
+            label: "1. Học Từ Vựng (9.922 Từ · IELTS & A1–C2)",
+            icon: Sparkles,
+          },
+          {
             id: "phases",
-            label: "1. Lộ Trình 3 Giai Đoạn & Checklist",
+            label: "2. Lộ Trình 3 Giai Đoạn & Checklist",
             icon: ListChecks,
           },
           {
             id: "skills",
-            label: "2. Chiến Lược 4 Kỹ Năng & Keyword Table",
+            label: "3. Chiến Lược 4 Kỹ Năng & Keyword Table",
             icon: Layers,
           },
           {
             id: "schedule",
-            label: "3. Khung 90–120p & Lịch 7 Ngày",
+            label: "4. Khung 90–120p & Lịch 7 Ngày",
             icon: Calendar,
           },
           {
             id: "resources",
-            label: "4. Sách, Kênh YouTube & Công Cụ",
+            label: "5. Sách, Kênh YouTube & Công Cụ",
             icon: BookOpen,
           },
         ].map((tab) => {
@@ -396,6 +402,11 @@ export default function RoadmapPage() {
           );
         })}
       </div>
+
+      {/* ===================================================================== */}
+      {/* TAB 0: HỆ THỐNG HỌC TỪ VỰNG FORUMFLASH (9.922 TỪ · 25 CHỦ ĐỀ & A1-C2) */}
+      {/* ===================================================================== */}
+      {activeTab === "vocab" && <ForumFlashVocabSystem />}
 
       {/* ===================================================================== */}
       {/* TAB 1: LỘ TRÌNH 3 GIAI ĐOẠN & BẢNG CHECKLIST KIỂM SOÁT TIẾN ĐỘ        */}

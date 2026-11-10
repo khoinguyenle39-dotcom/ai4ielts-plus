@@ -5,6 +5,7 @@ import { BookOpen, Headphones, Flame, Map, Gamepad2, RefreshCw, Mic } from "luci
 import ThreeIeltsLogo from "@/components/ThreeIeltsLogo";
 import FloatingIeltsBackground from "@/components/FloatingIeltsBackground";
 import CambridgeDictionaryDrawer from "@/components/CambridgeDictionaryDrawer";
+import { StudyStreakNavbarBadge } from "@/components/StudyStreakTracker";
 
 export const metadata: Metadata = {
   title: "AI4IELTS+ - Hệ thống Tự học IELTS 4 Kỹ Năng Tư Duy Linearthinking",
@@ -91,10 +92,7 @@ export default function RootLayout({
 
             {/* Right User Bar */}
             <div className="flex items-center gap-3">
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-red-50 border border-red-200 text-[#e11b22] font-bold text-xs sm:text-sm">
-                <Flame className="w-4 h-4 fill-[#e11b22] animate-bounce" />
-                <span>3 Ngày Streak</span>
-              </div>
+              <StudyStreakNavbarBadge />
 
               <div className="w-9 h-9 rounded-full bg-slate-100 border border-slate-200 flex items-center justify-center font-bold text-slate-700 text-sm">
                 KL

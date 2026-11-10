@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import ThreeIeltsLogo from "@/components/ThreeIeltsLogo";
 import CollocationQuizReminder from "@/components/CollocationQuizReminder";
+import { StudyStreakHomeCard } from "@/components/StudyStreakTracker";
 
 type BandLevel = "4.0-5.0" | "5.5-6.5" | "7.0-8.0+";
 
@@ -136,15 +137,7 @@ export default function HomePage() {
 
       {/* Target & Learning Metrics Overview */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center gap-3.5 hover:border-[#e11b22] transition">
-          <div className="w-12 h-12 rounded-xl bg-red-50 text-[#e11b22] flex items-center justify-center font-bold">
-            <Flame className="w-6 h-6 fill-[#e11b22]" />
-          </div>
-          <div>
-            <div className="text-2xl font-black text-slate-900">3 Ngày</div>
-            <div className="text-xs text-slate-500 font-bold">Chuỗi học liên tục</div>
-          </div>
-        </div>
+        <StudyStreakHomeCard />
 
         <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center gap-3.5 hover:border-[#e11b22] transition">
           <div className="w-12 h-12 rounded-xl bg-red-50 text-[#e11b22] flex items-center justify-center font-bold">

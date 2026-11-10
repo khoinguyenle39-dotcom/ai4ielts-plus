@@ -1085,17 +1085,22 @@ export async function GET(req: NextRequest) {
       textsToTranslate.push(query);
     }
 
-    const defTargetIndices: { group: RawGroupBuilder; defIdx: number }[] = [];
-    const exTargetIndices: { group: RawGroupBuilder; defIdx: number }[] = [];
+    const translationTargets: {
+      group: RawGroupBuilder;
+      defIdx: number;
+      field: "vi" | "exampleVi";
+    }[] = [];
+    let exTransCount = 0;
 
     for (const group of byPos.values()) {
       group.defs.forEach((d, idx) => {
         if (!d.vi) {
-          defTargetIndices.push({ group, defIdx: idx });
+          translationTargets.push({ group, defIdx: idx, field: "vi" });
           textsToTranslate.push(d.en);
         }
-        if (d.example && !d.exampleVi && exTargetIndices.length < 6) {
-          exTargetIndices.push({ group, defIdx: idx });
+        if (d.example && !d.exampleVi && exTransCount < 8) {
+          exTransCount++;
+          translationTargets.push({ group, defIdx: idx, field: "exampleVi" });
           textsToTranslate.push(d.example);
         }
       });
@@ -1107,11 +1112,8 @@ export async function GET(req: NextRequest) {
     if (needPrimaryVi) {
       primaryVi = translatedList[tCursor++] || "";
     }
-    for (const item of defTargetIndices) {
-      item.group.defs[item.defIdx].vi = translatedList[tCursor++] || "";
-    }
-    for (const item of exTargetIndices) {
-      item.group.defs[item.defIdx].exampleVi = translatedList[tCursor++] || "";
+    for (const item of translationTargets) {
+      item.group.defs[item.defIdx][item.field] = translatedList[tCursor++] || "";
     }
 
     if (!primaryVi) {

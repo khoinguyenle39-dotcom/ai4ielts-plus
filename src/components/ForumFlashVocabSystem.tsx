@@ -2964,7 +2964,18 @@ export default function ForumFlashVocabSystem() {
                                 >
                                   <div className="flex items-center justify-between">
                                     {m.id === "nghe" ? (
-                                      <Headphones className="w-4 h-4 text-[#e11b22]" />
+                                      <div className="relative inline-flex items-center">
+                                        <Headphones className="w-4 h-4 text-[#e11b22]" />
+                                        {earned === 0 && (
+                                          <span
+                                            className="absolute -top-1 -right-1.5 flex h-2.5 w-2.5"
+                                            title="Chưa hoàn thành bài Nghe viết của bài học này"
+                                          >
+                                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#e11b22] opacity-80" />
+                                            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#e11b22] border border-white" />
+                                          </span>
+                                        )}
+                                      </div>
                                     ) : (
                                       <Mic className="w-4 h-4 text-[#e11b22]" />
                                     )}
@@ -2981,8 +2992,13 @@ export default function ForumFlashVocabSystem() {
                                       )}
                                     </span>
                                   </div>
-                                  <div className="mt-2 font-black text-xs sm:text-sm">
-                                    {m.title}
+                                  <div className="mt-2 font-black text-xs sm:text-sm flex items-center gap-1.5">
+                                    <span>{m.title}</span>
+                                    {m.id === "nghe" && earned === 0 && (
+                                      <span className="px-1.5 py-0.2 rounded-full bg-red-50 text-[#e11b22] text-[9px] font-black border border-red-200">
+                                        Chưa xong
+                                      </span>
+                                    )}
                                   </div>
                                 </button>
                               );

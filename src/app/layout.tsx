@@ -6,6 +6,11 @@ import ThreeIeltsLogo from "@/components/ThreeIeltsLogo";
 import FloatingIeltsBackground from "@/components/FloatingIeltsBackground";
 import CambridgeDictionaryDrawer from "@/components/CambridgeDictionaryDrawer";
 import { StudyStreakNavbarBadge } from "@/components/StudyStreakTracker";
+import {
+  DictationDesktopNavLink,
+  DictationMobileNavLink,
+  DictationUnfinishedToast,
+} from "@/components/DictationNavNotification";
 
 export const metadata: Metadata = {
   title: "AI4IELTS+ - Hệ thống Tự học IELTS 4 Kỹ Năng Tư Duy Linearthinking",
@@ -67,13 +72,7 @@ export default function RootLayout({
                 <Mic className="w-4 h-4 text-[#e11b22]" />
                 Luyện Nói Shadowing
               </Link>
-              <Link
-                href="/dictation"
-                className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-slate-700 hover:text-[#e11b22] hover:bg-red-50 transition"
-              >
-                <Headphones className="w-4 h-4 text-[#e11b22]" />
-                Chép chính tả
-              </Link>
+              <DictationDesktopNavLink />
               <Link
                 href="/vocab"
                 className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-slate-700 hover:text-[#e11b22] hover:bg-red-50 transition"
@@ -110,6 +109,7 @@ export default function RootLayout({
 
         {/* Main Content Area */}
         <main className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <DictationUnfinishedToast />
           {children}
         </main>
 
@@ -130,10 +130,7 @@ export default function RootLayout({
             <BookOpen className="w-5 h-5 text-[#e11b22]" />
             <span className="text-[11px] font-semibold mt-0.5">Kho đề</span>
           </Link>
-          <Link href="/dictation" className="flex flex-col items-center py-1 px-3 text-slate-600 hover:text-[#e11b22]">
-            <Headphones className="w-5 h-5 text-[#e11b22]" />
-            <span className="text-[11px] font-semibold mt-0.5">Chép bài</span>
-          </Link>
+          <DictationMobileNavLink />
           <Link href="/roadmap" className="flex flex-col items-center py-1 px-3 text-slate-600 hover:text-[#e11b22]">
             <Map className="w-5 h-5 text-[#e11b22]" />
             <span className="text-[11px] font-semibold mt-0.5">Lộ trình</span>

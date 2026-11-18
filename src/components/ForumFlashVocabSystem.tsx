@@ -475,28 +475,7 @@ function buildQuestionsForSession(
   });
 }
 
-export default function ForumFlashVocabSystem() {
-  const [progress, setProgress] = useState<ForumFlashProgressState>(INITIAL_PROGRESS);
-  const [trackFilter, setTrackFilter] = useState<"ielts" | "cefr" | "srs">("ielts");
-  const [selectedTopicId, setSelectedTopicId] = useState<string>("education");
-  const [topicDataMap, setTopicDataMap] = useState<Record<string, VocabTopicData>>({});
-  const [loadingTopic, setLoadingTopic] = useState<boolean>(false);
-
-  // Chế độ Thư viện toàn bộ thẻ của chủ đề
-  const [libraryOpen, setLibraryOpen] = useState<boolean>(false);
-  const [libraryIdx, setLibraryIdx] = useState<number>(0);
-  const [libraryFlipped, setLibraryFlipped] = useState<boolean>(false);
-  const [libraryJumpInput, setLibraryJumpInput] = useState<string>("");
-
-  // Modal chọn mức độ trước khi vào Bài học
-  const [previewLesson, setPreviewLesson] = useState<{
-    lessonIdx: number;
-    modeId: LessonModeId;
-  } | null>(null);
-  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel>("medium");
-
-  // Phiên học trực tiếp (Lesson / Flashcard / Quiz / Skip Test)
-  const [activeSession, setActiveSession] = useState<{
+interface VocabSession {
     topicId: string;
     lessonIdx: number; // -1 nếu là Thi vượt cấp 30 câu
     modeId: LessonModeId;
@@ -521,7 +500,40 @@ export default function ForumFlashVocabSystem() {
     // Cho dạng Phát âm (speaking)
     speechTranscript: string;
     isListeningSpeech: boolean;
+}
+
+interface SavedVocabProgress extends ForumFlashProgressState {
+  checkpoint?: {
+    session: VocabSession | null;
+    topicId: string;
+    track: "ielts" | "cefr" | "srs";
+    libraryOpen: boolean;
+    libraryIdx: number;
+  };
+}
+
+export default function ForumFlashVocabSystem() {
+  const [progress, setProgress] = useState<ForumFlashProgressState>(INITIAL_PROGRESS);
+  const [trackFilter, setTrackFilter] = useState<"ielts" | "cefr" | "srs">("ielts");
+  const [selectedTopicId, setSelectedTopicId] = useState<string>("education");
+  const [topicDataMap, setTopicDataMap] = useState<Record<string, VocabTopicData>>({});
+  const [loadingTopic, setLoadingTopic] = useState<boolean>(false);
+
+  // Chế độ Thư viện toàn bộ thẻ của chủ đề
+  const [libraryOpen, setLibraryOpen] = useState<boolean>(false);
+  const [libraryIdx, setLibraryIdx] = useState<number>(0);
+  const [libraryFlipped, setLibraryFlipped] = useState<boolean>(false);
+  const [libraryJumpInput, setLibraryJumpInput] = useState<string>("");
+
+  // Modal chọn mức độ trước khi vào Bài học
+  const [previewLesson, setPreviewLesson] = useState<{
+    lessonIdx: number;
+    modeId: LessonModeId;
   } | null>(null);
+  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel>("medium");
+
+  // Phiên học trực tiếp (Lesson / Flashcard / Quiz / Skip Test)
+  const [activeSession, setActiveSession] = useState<VocabSession | null>(null);
 
   // Quản lý Bộ thẻ SRS cá nhân
   const [srsSearch, setSrsSearch] = useState("");
@@ -535,81 +547,110 @@ export default function ForumFlashVocabSystem() {
 
   const topicCacheRef = useRef<Record<string, VocabTopicData>>({});
 
+  const [progressLoaded, setProgressLoaded] = useState(false);
+  const [saveMessage, setSaveMessage] = useState("");
+  const [savedSnapshot, setSavedSnapshot] = useState("");
+
+  const snapshot: SavedVocabProgress = {
+    ...progress,
+    checkpoint: {
+      session: activeSession ? { ...activeSession, isListeningSpeech: false } : null,
+      topicId: selectedTopicId,
+      track: trackFilter,
+      libraryOpen,
+      libraryIdx,
+    },
+  };
+  const serializedSnapshot = JSON.stringify(snapshot);
+  const hasUnsavedChanges = progressLoaded && serializedSnapshot !== savedSnapshot;
+
   // Load & Sync Progress từ localStorage + Supabase
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        setProgress({ ...INITIAL_PROGRESS, ...parsed });
+    let cancelled = false;
+    const restore = (saved: SavedVocabProgress) => {
+      if (cancelled) return;
+      const { checkpoint, ...storedProgress } = saved;
+      setProgress({ ...INITIAL_PROGRESS, ...storedProgress });
+      if (checkpoint && VOCAB_TOPICS.some((topic) => topic.id === checkpoint.topicId)) {
+        setSelectedTopicId(checkpoint.topicId);
+        setTrackFilter(checkpoint.track);
+        setLibraryOpen(checkpoint.libraryOpen);
+        setLibraryIdx(Math.max(0, checkpoint.libraryIdx));
+        const session = checkpoint.session;
+        if (session && Array.isArray(session.cards) && session.cards.length > 0 &&
+            Array.isArray(session.questions) && session.step >= 0 &&
+            session.step < (session.modeId === "hoc" ? session.cards.length : session.questions.length)) {
+          setActiveSession({ ...session, isListeningSpeech: false });
+        }
       }
-    } catch {
-      // ignore
-    }
-
+      setSavedSnapshot(JSON.stringify(saved));
+    };
     (async () => {
       try {
-        const { data } = await supabase
-          .from("user_progress")
-          .select("completed_tasks")
-          .eq("user_id", SUPABASE_USER_ID)
-          .order("last_active", { ascending: false })
-          .limit(1)
-          .maybeSingle();
-
-        const remote = Array.isArray(data?.completed_tasks) ? data.completed_tasks[0] : null;
-        if (remote && typeof remote === "object") {
-          setProgress((prev) => {
-            if ((remote.xp || 0) > prev.xp || Object.keys(remote.stars || {}).length > Object.keys(prev.stars).length) {
-              const merged = { ...INITIAL_PROGRESS, ...remote };
-              localStorage.setItem(STORAGE_KEY, JSON.stringify(merged));
-              return merged;
-            }
-            return prev;
-          });
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+            restore(parsed);
+            return;
+          }
         }
+        // Chỉ đọc tiến độ cũ; bản Submit riêng được lưu trên trình duyệt này.
+        const { data, error } = await supabase.from("user_progress")
+          .select("completed_tasks").eq("user_id", SUPABASE_USER_ID)
+          .order("last_active", { ascending: false }).limit(1)
+          .abortSignal(AbortSignal.timeout(5000)).maybeSingle();
+        if (error) throw error;
+        const remote = Array.isArray(data?.completed_tasks) ? data.completed_tasks[0] : null;
+        if (remote && typeof remote === "object") restore(remote);
       } catch {
-        // Offline safe
+        if (!cancelled) setSaveMessage("Không đọc được tiến độ cũ. Bạn vẫn có thể học và bấm Submit để lưu.");
+      } finally {
+        if (!cancelled) setProgressLoaded(true);
       }
     })();
+    return () => { cancelled = true; };
   }, []);
 
+  // Thay đổi trong phiên chỉ là bản nháp, không ghi vào bộ nhớ bền vững.
   const saveProgress = useCallback((updater: (prev: ForumFlashProgressState) => ForumFlashProgressState) => {
-    setProgress((prev) => {
-      const next = updater(prev);
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-      } catch {
-        // ignore
-      }
-      // Đồng bộ lên Supabase
-      (async () => {
-        try {
-          const { data: existing } = await supabase
-            .from("user_progress")
-            .select("id")
-            .eq("user_id", SUPABASE_USER_ID)
-            .limit(1)
-            .maybeSingle();
-
-          const payload = {
-            user_id: SUPABASE_USER_ID,
-            completed_tasks: [next],
-            test_results: [],
-            last_active: new Date().toISOString(),
-          };
-          if (existing?.id) {
-            await supabase.from("user_progress").update(payload).eq("id", existing.id);
-          } else {
-            await supabase.from("user_progress").insert(payload);
-          }
-        } catch {
-          // ignore
-        }
-      })();
-      return next;
-    });
+    setProgress(updater);
   }, []);
+
+  const submitProgress = () => {
+    try {
+      localStorage.setItem(STORAGE_KEY, serializedSnapshot);
+      setSavedSnapshot(serializedSnapshot);
+      setSaveMessage("Đã lưu tiến độ trên trình duyệt này. Lần sau bạn có thể học tiếp từ đây.");
+      recordDailyStudyVisit(new Date());
+    } catch {
+      setSaveMessage("Chưa lưu được tiến độ. Bộ nhớ trình duyệt có thể đã đầy hoặc bị chặn. Hãy thử Submit lại.");
+    }
+  };
+
+  useEffect(() => {
+    if (!hasUnsavedChanges) return;
+    const warnBeforeLeaving = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    window.addEventListener("beforeunload", warnBeforeLeaving);
+    return () => window.removeEventListener("beforeunload", warnBeforeLeaving);
+  }, [hasUnsavedChanges]);
+
+  const submitControl = (
+    <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-left">
+      <div className="text-xs text-slate-700">
+        <p className="font-bold">{hasUnsavedChanges ? "Có thay đổi chưa lưu" : "Tiến độ đã lưu"}</p>
+        <p>Chỉ lưu khi bấm Submit. Thoát mà chưa Submit sẽ quay về lần lưu gần nhất.</p>
+        <p role="status" aria-live="polite">{hasUnsavedChanges && saveMessage.startsWith("Đã lưu") ? "Các thay đổi mới cần bấm Submit lại." : saveMessage}</p>
+      </div>
+      <button type="button" onClick={submitProgress}
+        className="rounded-xl bg-[#e11b22] px-5 py-3 text-sm font-black text-white hover:bg-[#b91c1c] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600">
+        Submit
+      </button>
+    </div>
+  );
 
   // Tải file JSON của chủ đề đang chọn
   const loadTopicData = useCallback(async (topicId: string): Promise<VocabTopicData | null> => {
@@ -844,7 +885,6 @@ export default function ForumFlashVocabSystem() {
   const finishActiveSession = useCallback(
     (finalCorrect: number, totalQ: number, wrongList: WrongAnswerRecord[]) => {
       if (!activeSession) return;
-      recordDailyStudyVisit(new Date());
 
       const { topicId, lessonIdx, modeId } = activeSession;
 
@@ -1021,6 +1061,8 @@ export default function ForumFlashVocabSystem() {
       .sort((a, b) => a.due - b.due);
   }, [progress.srsDeck]);
 
+  if (!progressLoaded) return <p role="status">Đang tải tiến độ từ vựng...</p>;
+
   // ============================================================================
   // 1. GIAO DIỆN THƯ VIỆN CHỦ ĐỀ (XEM TOÀN BỘ 200 THẺ + TẢI TSV/CSV)
   // ============================================================================
@@ -1031,6 +1073,7 @@ export default function ForumFlashVocabSystem() {
 
     return (
       <div className="bg-white rounded-3xl border border-slate-200 shadow-lg p-6 sm:p-8 space-y-6">
+        {submitControl}
         {/* Thanh tiêu đề Thư viện */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-slate-200">
           <div>
@@ -1297,6 +1340,7 @@ export default function ForumFlashVocabSystem() {
 
       return (
         <div className="bg-white rounded-3xl border border-slate-200 shadow-lg p-6 sm:p-10 max-w-3xl mx-auto space-y-6 text-center">
+          {submitControl}
           <div className="w-20 h-20 rounded-3xl bg-red-50 border-2 border-red-200 text-[#e11b22] flex items-center justify-center mx-auto shadow-inner">
             {passed ? <Trophy className="w-10 h-10" /> : <RotateCcw className="w-10 h-10" />}
           </div>
@@ -1442,6 +1486,7 @@ export default function ForumFlashVocabSystem() {
 
       return (
         <div className="bg-white rounded-3xl border border-slate-200 shadow-lg p-6 sm:p-8 max-w-3xl mx-auto space-y-6">
+          {submitControl}
           {/* Thanh Tiến độ trên cùng */}
           <div className="flex items-center justify-between gap-4">
             <button
@@ -1764,6 +1809,7 @@ export default function ForumFlashVocabSystem() {
 
     return (
       <div className="bg-white rounded-3xl border border-slate-200 shadow-lg p-6 sm:p-8 max-w-3xl mx-auto space-y-6">
+        {submitControl}
         {/* Header câu hỏi */}
         <div className="flex items-center justify-between gap-4">
           <button
@@ -2196,6 +2242,7 @@ export default function ForumFlashVocabSystem() {
   // ============================================================================
   return (
     <div className="space-y-6">
+      {submitControl}
       {/* Banner Cây Trưởng Thành XP & Thống kê tổng quan giống ForumFlash */}
       <div className="rounded-3xl bg-gradient-to-r from-[#1d2a57] via-[#1e293b] to-[#0f172a] text-white p-6 sm:p-8 shadow-xl border border-slate-800">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
@@ -3102,3 +3149,4 @@ export default function ForumFlashVocabSystem() {
     </div>
   );
 }
+

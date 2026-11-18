@@ -82,6 +82,3 @@ function mount() {
   assert.equal(JSON.parse(stored).checkpoint.session.completed, true);
   console.log('PASS: draft discard, quiz resume, local precedence, idempotence, quota failure, completed lesson restore');
 })().catch(error => { console.error(error); process.exitCode = 1; });
-
-
-

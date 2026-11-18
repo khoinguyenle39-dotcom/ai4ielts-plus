@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BookOpen, Headphones, Flame, Map, Gamepad2, RefreshCw, Mic } from "lucide-react";
 import ThreeIeltsLogo from "@/components/ThreeIeltsLogo";
 import FloatingIeltsBackground from "@/components/FloatingIeltsBackground";
+import IglooIntroExperience from "@/components/IglooIntroExperience";
 import CambridgeDictionaryDrawer from "@/components/CambridgeDictionaryDrawer";
 import { StudyStreakNavbarBadge } from "@/components/StudyStreakTracker";
 import {
@@ -25,6 +26,9 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <body className="min-h-screen bg-slate-50 flex flex-col font-sans antialiased text-slate-800 relative">
+        {/* Interactive 3D Scroll Intro (Igloo.inc Style) */}
+        <IglooIntroExperience />
+
         {/* Subtle Interactive Floating Scattered Letters Background (I, E, L, T, S) */}
         <FloatingIeltsBackground />
 

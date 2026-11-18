@@ -3149,4 +3149,3 @@ export default function ForumFlashVocabSystem() {
     </div>
   );
 }
-
